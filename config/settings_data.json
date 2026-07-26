@@ -1,8 +1,19 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
+    "logo": "{{ shop.brand.logo }}",
+    "logo_inverse": "shopify://shop_images/NeuroSolution_Green_and_Platinum.png",
     "logo_height": 36,
     "logo_height_mobile": 28,
-    "page_background_color": "{{ settings.color_palette.background }}",
+    "favicon": "{{ shop.brand.square_logo }}",
     "page_text_color": "{{ settings.color_palette.foreground }}",
     "type_body_font": "instrument_sans_n4",
     "type_subheading_font": "instrument_sans_n4",
@@ -16,6 +27,7 @@
     "type_size_h4": "24",
     "type_size_h5": "18",
     "type_case_h6": "none",
+    "page_background_color": "{{ settings.color_palette.background }}",
     "badge_sale_background_color": "{{ settings.color_palette.foreground }}",
     "badge_sale_text_color": "{{ settings.color_palette.foreground }}",
     "badge_sold_out_background_color": "{{ settings.color_palette.foreground }}",
@@ -31,18 +43,19 @@
     "cart_price_font": "subheading",
     "show_cart_note": false,
     "show_add_discount_code": true,
-    "icon_stroke": "default",
-    "input_border_width": 1,
-    "inputs_border_radius": 4,
-    "popover_border_radius": 14,
     "drawer_background_color": "{{ settings.color_palette.background }}",
     "drawer_text_color": "{{ settings.color_palette.foreground }}",
     "drawer_border_color": "{{ settings.color_palette.orange25 }}",
+    "icon_stroke": "default",
     "palette_input_background": "{{ settings.color_palette.background }}",
     "palette_input_text": "{{ settings.color_palette.foreground }}",
     "palette_input_border": "{{ settings.color_palette.orange25 }}",
+    "input_border_width": 1,
+    "inputs_border_radius": 4,
     "popover_background_color": "{{ settings.color_palette.background }}",
     "popover_text_color": "{{ settings.color_palette.foreground }}",
+    "popover_border_radius": 14,
+    "popover_border_color": "{{ settings.color_palette.green700 }}",
     "currency_code_enabled_product_pages": false,
     "currency_code_enabled_product_cards": false,
     "quick_add_background": "{{ settings.color_palette.background }}",
@@ -57,7 +70,7 @@
     "palette_selected_variant_border": "{{ settings.color_palette.foreground }}",
     "variant_button_radius": 100,
     "variant_button_width": "default-width-buttons",
-    "popover_border_color": "{{ settings.color_palette.green700 }}",
+    "content_for_index": [],
     "color_palette": {
       "background": "#ffffff",
       "foreground": "#0e2415",
