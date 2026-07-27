@@ -509,7 +509,7 @@
                             "label": "Shop Collections",
                             "link": "shopify://collections/all",
                             "open_in_new_tab": false,
-                            "style_class": "button-custom",
+                            "style_class": "button-unstyled",
                             "custom_button_background": "rgba(0,0,0,0)",
                             "custom_button_text": "{{ settings.color_palette.foreground }}",
                             "custom_button_border": "#0e241566",
@@ -946,12 +946,12 @@
       "name": "t:names.collections_carousel",
       "settings": {
         "collection_list": [
-          "body-systems",
-          "brain-health",
-          "gut-health",
-          "hormone-support",
-          "immune-defense",
-          "metabolic-health"
+          "brain-mood",
+          "energy-metabolism",
+          "gut-detox",
+          "hormones-vitality",
+          "immune-repair",
+          "strength-mobility"
         ],
         "layout_type": "carousel",
         "carousel_on_mobile": false,
