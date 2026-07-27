@@ -836,7 +836,7 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
+                "gap": 10,
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
@@ -865,7 +865,7 @@
                 "padding-inline-end": 12
               },
               "blocks": {
-                "collection_title_CYycqc": {
+                "collection_title_rfCWfb": {
                   "type": "collection-title",
                   "name": "t:names.collection_title",
                   "settings": {
@@ -874,14 +874,14 @@
                     "alignment": "left",
                     "type_preset": "custom",
                     "font": "var(--font-body--family)",
-                    "font_size": "1rem",
+                    "font_size": "1.125rem",
                     "line_height": "normal",
                     "letter_spacing": "normal",
                     "case": "none",
                     "wrap": "pretty",
                     "background": false,
                     "background_color": "{{ settings.color_palette.background }}",
-                    "text_color": "{{ settings.color_palette.neutral800 }}",
+                    "text_color": "{{ settings.color_palette.foreground }}",
                     "corner_radius": 0,
                     "padding-block-start": 0,
                     "padding-block-end": 0,
@@ -890,13 +890,12 @@
                   },
                   "blocks": {}
                 },
-                "button_VpFr9F": {
+                "button_zGn9zd": {
                   "type": "button",
                   "name": "t:names.button",
-                  "disabled": true,
                   "settings": {
-                    "label": "Shop now",
-                    "link": "shopify://collections/all",
+                    "label": "Shop",
+                    "link": "{{ closest.collection.url }}",
                     "open_in_new_tab": false,
                     "style_class": "button-unstyled",
                     "custom_button_background": "{{ settings.color_palette.foreground }}",
@@ -912,8 +911,8 @@
                 }
               },
               "block_order": [
-                "collection_title_CYycqc",
-                "button_VpFr9F"
+                "collection_title_rfCWfb",
+                "button_zGn9zd"
               ]
             },
             "collection-card-image": {
