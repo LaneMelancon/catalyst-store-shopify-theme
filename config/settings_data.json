@@ -14,7 +14,7 @@
     "logo_height": 36,
     "logo_height_mobile": 28,
     "favicon": "{{ shop.brand.square_logo }}",
-    "page_text_color": "{{ settings.color_palette.foreground }}",
+    "page_text_color": "{{ settings.color_palette.green100 }}",
     "type_body_font": "instrument_sans_n4",
     "type_subheading_font": "instrument_sans_n4",
     "type_heading_font": "instrument_serif_n4",
