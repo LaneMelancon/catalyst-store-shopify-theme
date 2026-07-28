@@ -1348,7 +1348,7 @@
           "name": "button-group",
           "settings": {
             "content_direction": "row",
-            "vertical_on_mobile": true,
+            "vertical_on_mobile": false,
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
@@ -1420,7 +1420,7 @@
               "name": "button_link",
               "settings": {
                 "content_direction": "row",
-                "vertical_on_mobile": true,
+                "vertical_on_mobile": false,
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
@@ -1587,8 +1587,9 @@
         "image_1": "shopify://shop_images/products-arrangement-01-desktop-02.jpg",
         "media_type_2": "image",
         "stack_media_on_mobile": false,
-        "custom_mobile_media": false,
+        "custom_mobile_media": true,
         "media_type_1_mobile": "image",
+        "image_1_mobile": "shopify://shop_images/products-arrangement-02-portrait.jpg",
         "media_type_2_mobile": "image",
         "link": "",
         "open_in_new_tab": false,
@@ -1761,7 +1762,7 @@
               "settings": {
                 "thickness": 1,
                 "corner_radius": "square",
-                "divider_color": "#EEE9D7",
+                "divider_color": "#eee9d7",
                 "width_percent": 100,
                 "padding-block-start": 0,
                 "padding-block-end": 0
@@ -1880,11 +1881,11 @@
                         "behavior": "default",
                         "heading": "",
                         "type_preset": "custom",
-                        "background_color": "#0E2415E8",
+                        "background_color": "#0e2415e8",
                         "border_style": "solid",
                         "border_width": 1,
                         "border_opacity": 60,
-                        "border_color": "#4C5C51",
+                        "border_color": "#4c5c51",
                         "corner_radius": 100,
                         "font": "var(--font-subheading--family)",
                         "font_size": "0.875rem",
@@ -2064,7 +2065,7 @@
                               "settings": {
                                 "thickness": 1,
                                 "corner_radius": "square",
-                                "divider_color": "#EBEBEB",
+                                "divider_color": "#ebebeb",
                                 "width_percent": 100,
                                 "padding-block-start": 0,
                                 "padding-block-end": 0
@@ -2289,7 +2290,7 @@
                     "background_image": "{{ closest.collection.metafields.custom.secondary_image.value }}",
                     "background_image_position": "cover",
                     "toggle_overlay": false,
-                    "overlay_color": "#0D371BCF",
+                    "overlay_color": "#0d371bcf",
                     "overlay_style": "solid",
                     "gradient_direction": "to top",
                     "border": "solid",
@@ -2540,7 +2541,7 @@
         "group_8KXhRC"
       ],
       "custom_css": [
-        ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.30);}"
+        ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.3);}"
       ],
       "name": "Health Goals",
       "settings": {
