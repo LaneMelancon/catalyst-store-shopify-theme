@@ -2539,7 +2539,9 @@
       "block_order": [
         "group_8KXhRC"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.30);}"
+      ],
       "name": "Health Goals",
       "settings": {
         "collection_list": [
