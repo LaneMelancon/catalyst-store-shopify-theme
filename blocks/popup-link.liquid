@@ -1,6 +1,51 @@
 
 
-{% assign block_settings = block.settings %}
+{% liquid
+  assign block_settings = block.settings
+
+  # The trigger is a `.button-unstyled`, whose own font/color/background/radius rules live in
+  # base.css. Every custom style below is therefore applied through a modifier class so the
+  # block stylesheet can reach the specificity needed to override them.
+  capture trigger_classes
+    if block_settings.type_preset == 'custom'
+      echo ' custom-typography custom-font-size'
+    endif
+    if block_settings.text_color != blank
+      echo ' popup-link__button--custom-color'
+    endif
+    if block_settings.background_color != blank
+      echo ' popup-link__button--background'
+    endif
+    if block_settings.border_style == 'solid'
+      echo ' popup-link__button--border'
+    endif
+    if block_settings.corner_radius > 0
+      echo ' popup-link__button--radius'
+    endif
+  endcapture
+
+  # The label is a bare text node, not a wrapped paragraph, so `--font-style` has to be set
+  # explicitly — otherwise `.button-unstyled`'s `font-style: var(--font-subheading--style)`
+  # keeps applying to whichever family was picked. The Size setting deliberately has no
+  # "Default" option for the same reason: with a blank size, 'typography-style' emits the
+  # per-element line-height variables instead of `--line-height`, and neither the line height
+  # nor the letter spacing setting would resolve on an unwrapped label.
+  if block_settings.type_preset == 'custom'
+    assign trigger_font_style = block_settings.font | replace: 'family', 'style'
+  endif
+
+  # Falls back to the theme's border color when the merchant leaves the picker empty,
+  # matching how 'border-override' resolves the same pair of settings.
+  if block_settings.border_style == 'solid'
+    assign border_alpha = block_settings.border_opacity | divided_by: 100.0
+    if block_settings.border_color != blank
+      assign trigger_border_color = block_settings.border_color.rgb | prepend: 'rgb(' | append: ' / '
+    else
+      assign trigger_border_color = 'rgb(var(--color-border-rgb) / '
+    endif
+    assign trigger_border_color = trigger_border_color | append: border_alpha | append: ')'
+  endif
+%}
 
 <script
   src="{{ 'dialog.js' | asset_url }}"
@@ -13,8 +58,28 @@
 >
   <button
     on:click="/showDialog"
-    class="button button-unstyled popup-link__button text-left spacing-style {{ block_settings.type_preset }}"
-    style="{% render 'spacing-style', settings: block_settings %}"
+    class="button button-unstyled popup-link__button text-left spacing-style {{ block_settings.type_preset }}{{ trigger_classes }}"
+    style="
+      {% render 'spacing-style', settings: block_settings %}
+      {% render 'typography-style', settings: block_settings %}
+      {%- if trigger_font_style != blank -%}
+        --font-style: {{ trigger_font_style }};
+      {%- endif -%}
+      {%- if block_settings.text_color != blank -%}
+        --color: {{ block_settings.text_color }};
+        --color-rgb: {{ block_settings.text_color.rgb }};
+      {%- endif -%}
+      {%- if block_settings.background_color != blank -%}
+        --popup-link-background-color: {{ block_settings.background_color }};
+      {%- endif -%}
+      {%- if block_settings.border_style == 'solid' -%}
+        --popup-link-border-width: {{ block_settings.border_width }}px;
+        --popup-link-border-color: {{ trigger_border_color }};
+      {%- endif -%}
+      {%- if block_settings.corner_radius > 0 -%}
+        --popup-link-corner-radius: {{ block_settings.corner_radius }}px;
+      {%- endif -%}
+    "
   >
     {{- block_settings.heading }}
     {{- 'icon-plus.svg' | inline_asset_content -}}
@@ -51,6 +116,32 @@
     display: inline-block;
     position: relative;
     top: var(--margin-2xs);
+  }
+
+  /* Each class is repeated to reach specificity 0,2,0 — enough to beat the
+     `.button-unstyled` defaults in base.css that these settings replace. */
+  .popup-link__button.custom-typography {
+    font-style: var(--font-style);
+  }
+
+  .popup-link__button.popup-link__button--custom-color {
+    color: var(--color);
+  }
+
+  .popup-link__button.popup-link__button--custom-color:hover {
+    color: rgb(var(--color-rgb) / var(--opacity-70));
+  }
+
+  .popup-link__button.popup-link__button--background {
+    background-color: var(--popup-link-background-color);
+  }
+
+  .popup-link__button.popup-link__button--border {
+    box-shadow: inset 0 0 0 var(--popup-link-border-width) var(--popup-link-border-color);
+  }
+
+  .popup-link__button.popup-link__button--radius {
+    border-radius: var(--popup-link-corner-radius);
   }
 
   .popup-link__content {
@@ -176,6 +267,10 @@
         {
           "value": "h6",
           "label": "t:options.h6"
+        },
+        {
+          "value": "custom",
+          "label": "t:options.custom"
         }
       ],
       "default": "",
@@ -183,7 +278,244 @@
     },
     {
       "type": "header",
-      "content": "t:content.link_padding"
+      "content": "t:content.appearance"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "t:settings.background",
+      "placeholder": "t:settings.default",
+      "alpha": true
+    },
+    {
+      "type": "header",
+      "content": "t:content.borders"
+    },
+    {
+      "type": "select",
+      "id": "border_style",
+      "label": "t:settings.style",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:options.none"
+        },
+        {
+          "value": "solid",
+          "label": "t:options.solid"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "range",
+      "id": "border_width",
+      "label": "t:settings.thickness",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 1,
+      "visible_if": "{{ block.settings.border_style != 'none' }}"
+    },
+    {
+      "type": "range",
+      "id": "border_opacity",
+      "label": "t:settings.opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 100,
+      "visible_if": "{{ block.settings.border_style != 'none' }}"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "t:settings.color",
+      "placeholder": "t:settings.default",
+      "visible_if": "{{ block.settings.border_style != 'none' }}"
+    },
+    {
+      "type": "range",
+      "id": "corner_radius",
+      "label": "t:settings.corner_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "t:content.typography"
+    },
+    {
+      "type": "select",
+      "id": "font",
+      "label": "t:settings.font",
+      "options": [
+        {
+          "value": "var(--font-body--family)",
+          "label": "t:options.body"
+        },
+        {
+          "value": "var(--font-subheading--family)",
+          "label": "t:options.subheading"
+        },
+        {
+          "value": "var(--font-heading--family)",
+          "label": "t:options.heading"
+        },
+        {
+          "value": "var(--font-accent--family)",
+          "label": "t:options.accent"
+        }
+      ],
+      "default": "var(--font-body--family)",
+      "visible_if": "{{ block.settings.type_preset == 'custom' }}"
+    },
+    {
+      "type": "select",
+      "id": "font_size",
+      "label": "t:settings.size",
+      "options": [
+        {
+          "value": "0.625rem",
+          "label": "10px"
+        },
+        {
+          "value": "0.75rem",
+          "label": "12px"
+        },
+        {
+          "value": "0.875rem",
+          "label": "14px"
+        },
+        {
+          "value": "1rem",
+          "label": "16px"
+        },
+        {
+          "value": "1.125rem",
+          "label": "18px"
+        },
+        {
+          "value": "1.25rem",
+          "label": "20px"
+        },
+        {
+          "value": "1.5rem",
+          "label": "24px"
+        },
+        {
+          "value": "2rem",
+          "label": "32px"
+        },
+        {
+          "value": "2.5rem",
+          "label": "40px"
+        },
+        {
+          "value": "3rem",
+          "label": "48px"
+        },
+        {
+          "value": "3.5rem",
+          "label": "56px"
+        },
+        {
+          "value": "4.5rem",
+          "label": "72px"
+        },
+        {
+          "value": "5.5rem",
+          "label": "88px"
+        },
+        {
+          "value": "7.5rem",
+          "label": "120px"
+        },
+        {
+          "value": "9.5rem",
+          "label": "152px"
+        },
+        {
+          "value": "11.5rem",
+          "label": "184px"
+        }
+      ],
+      "default": "1rem",
+      "visible_if": "{{ block.settings.type_preset == 'custom' }}"
+    },
+    {
+      "type": "select",
+      "id": "line_height",
+      "label": "t:settings.line_height",
+      "options": [
+        {
+          "value": "tight",
+          "label": "t:options.tight"
+        },
+        {
+          "value": "normal",
+          "label": "t:options.normal"
+        },
+        {
+          "value": "loose",
+          "label": "t:options.loose"
+        }
+      ],
+      "default": "normal",
+      "visible_if": "{{ block.settings.type_preset == 'custom' }}"
+    },
+    {
+      "type": "select",
+      "id": "letter_spacing",
+      "label": "t:settings.letter_spacing",
+      "options": [
+        {
+          "value": "tight",
+          "label": "t:options.tight"
+        },
+        {
+          "value": "normal",
+          "label": "t:options.normal"
+        },
+        {
+          "value": "loose",
+          "label": "t:options.loose"
+        }
+      ],
+      "default": "normal",
+      "visible_if": "{{ block.settings.type_preset == 'custom' }}"
+    },
+    {
+      "type": "select",
+      "id": "case",
+      "label": "t:settings.case",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:options.default"
+        },
+        {
+          "value": "uppercase",
+          "label": "t:options.uppercase"
+        }
+      ],
+      "default": "none",
+      "visible_if": "{{ block.settings.type_preset == 'custom' }}"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "t:settings.text_color",
+      "placeholder": "t:settings.default"
+    },
+    {
+      "type": "header",
+      "content": "t:content.padding"
     },
     {
       "type": "range",
@@ -250,7 +582,10 @@
           }
         }
       },
-      "block_order": ["text_pexwUk", "text_g7mEh7"]
+      "block_order": [
+        "text_pexwUk",
+        "text_g7mEh7"
+      ]
     }
   ]
 }

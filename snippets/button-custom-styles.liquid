@@ -2,6 +2,10 @@
   Outputs scoped CSS custom properties for the button-custom style class and
   direct color overrides for the button-unstyled (link) style.
 
+  Beyond the three base colors, a block may also define borders, typography and
+  padding settings (all prefixed `custom_button_`). Each of those is emitted only
+  when the setting exists, so blocks that don't declare them render unchanged.
+
   @param {object} block_settings - The block's settings object
   @param {string} block_id - The block ID used to scope the CSS
 
@@ -49,6 +53,73 @@
   {%- assign effective_hover_bg = hover_parts[0] -%}
   {%- assign effective_hover_text = hover_parts[1] -%}
   {%- assign effective_hover_border = hover_parts[2] -%}
+
+  {%- comment -%}
+    Borders are drawn with the theme's inset ring (see the box-shadow on `.button` in
+    base.css), not a real border, so a thickness change never shifts layout. The border
+    opacity is folded into the resting color's alpha; on hover it has to be applied with
+    color-mix instead, because the hover color resolved above may be a `var()` reference
+    rather than a color object.
+  {%- endcomment -%}
+  {%- liquid
+    assign has_border_setting = false
+    if block_settings.custom_button_border_style != blank
+      assign has_border_setting = true
+      assign border_opacity = block_settings.custom_button_border_opacity | default: 100
+      assign border_opacity_fraction = border_opacity | divided_by: 100.0
+      assign border_alpha = effective_border_color.alpha | times: border_opacity_fraction
+    endif
+  -%}
+
+  {%- capture custom_button_overrides -%}
+    {%- if has_border_setting -%}
+      {%- if block_settings.custom_button_border_style == 'solid' -%}
+        --button-border-width: {{ block_settings.custom_button_border_width | default: 0 }}px;
+        --button-border-color: rgb({{ effective_border_color.rgb }} / {{ border_alpha }});
+      {%- else -%}
+        --button-border-width: 0px;
+      {%- endif -%}
+    {%- endif -%}
+    {%- if block_settings.custom_button_corner_radius != blank -%}
+      border-radius: {{ block_settings.custom_button_corner_radius }}px;
+    {%- endif -%}
+    {%- if block_settings.custom_button_font != blank -%}
+      font-family: {{ block_settings.custom_button_font }};
+      font-weight: {{ block_settings.custom_button_font | replace: 'family', 'weight' }};
+      {%- comment -%}
+        Buttons inherit `font-style: var(--font-subheading--style)` from base.css, so the
+        style has to move with the family or an italic subheading font leaks through.
+      {%- endcomment -%}
+      font-style: {{ block_settings.custom_button_font | replace: 'family', 'style' }};
+    {%- endif -%}
+    {%- if block_settings.custom_button_font_size != blank -%}
+      font-size: {% render 'fluid-font-size', font_size: block_settings.custom_button_font_size %};
+    {%- endif -%}
+    {%- if block_settings.custom_button_line_height != blank -%}
+      line-height: var(--line-height--body-{{ block_settings.custom_button_line_height }});
+    {%- endif -%}
+    {%- if block_settings.custom_button_letter_spacing != blank -%}
+      letter-spacing: var(--letter-spacing--body-{{ block_settings.custom_button_letter_spacing }});
+    {%- endif -%}
+    {%- if block_settings.custom_button_case != blank -%}
+      text-transform: {{ block_settings.custom_button_case }};
+    {%- endif -%}
+    {%- comment -%}
+      Padding is fed through the --button-padding-* variables that base.css already consumes
+      rather than set as physical properties. Host blocks that deliberately zero a button's
+      padding — the email signup arrow and integrated variants, for instance — use the
+      `padding` shorthand, which still wins, so their layouts stay intact.
+    {%- endcomment -%}
+    {%- if block_settings.custom_button_padding_block_start != blank -%}
+      --button-padding-block: {{ block_settings.custom_button_padding_block_start }}px
+      {{ block_settings.custom_button_padding_block_end | default: 0 }}px;
+    {%- endif -%}
+    {%- if block_settings.custom_button_padding_inline_start != blank -%}
+      --button-padding-inline: {{ block_settings.custom_button_padding_inline_start }}px
+      {{ block_settings.custom_button_padding_inline_end | default: 0 }}px;
+    {%- endif -%}
+  {%- endcapture -%}
+
   {% style %}
     .button-custom--{{ block_id }} {
       --button-background-color: rgb({{ effective_background_color.rgba }});
@@ -56,10 +127,22 @@
       --button-border-color: rgb({{ effective_border_color.rgba }});
       --button-focus-outline-color: rgb({{ effective_focus_outline_color.rgb }});
     }
+    {%- if custom_button_overrides != blank %}
+    /* The class is doubled to reach specificity 0,2,0, which is what it takes to beat
+       host-block rules such as `.email-signup__button:not(.button-unstyled)`. Declared
+       before the :hover rule so hover colors still win while hovered. */
+    .button-custom--{{ block_id }}.button-custom--{{ block_id }} {
+      {{ custom_button_overrides }}
+    }
+    {%- endif %}
     .button-custom--{{ block_id }}:hover {
       --button-background-color: {{ effective_hover_bg }};
       --button-color: {{ effective_hover_text }};
+      {%- if has_border_setting and border_opacity < 100 %}
+      --button-border-color: color-mix(in srgb, {{ effective_hover_border }} {{ border_opacity }}%, transparent);
+      {%- else %}
       --button-border-color: {{ effective_hover_border }};
+      {%- endif %}
     }
   {% endstyle %}
 {% endif %}
