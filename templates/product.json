@@ -214,10 +214,23 @@
                   "type": "add-to-cart",
                   "static": true,
                   "settings": {
-                    "style_class": "button",
+                    "style_class": "button-secondary",
                     "custom_button_background": "{{ settings.color_palette.foreground }}",
+                    "custom_button_border_style": "none",
+                    "custom_button_border_width": 1,
+                    "custom_button_border_opacity": 100,
+                    "custom_button_border": "{{ settings.color_palette.background }}",
+                    "custom_button_corner_radius": 100,
+                    "custom_button_font": "",
+                    "custom_button_font_size": "",
+                    "custom_button_line_height": "",
+                    "custom_button_letter_spacing": "",
+                    "custom_button_case": "",
                     "custom_button_text": "{{ settings.color_palette.background }}",
-                    "custom_button_border": "{{ settings.color_palette.background }}"
+                    "custom_button_padding_block_start": 16,
+                    "custom_button_padding_block_end": 16,
+                    "custom_button_padding_inline_start": 24,
+                    "custom_button_padding_inline_end": 24
                   },
                   "blocks": {}
                 },
@@ -858,7 +871,7 @@
         "limit_details_width": false,
         "gap": 32,
         "enable_sticky_add_to_cart": true,
-        "background_color": "{{ settings.color_palette.background }}",
+        "background_color": "",
         "padding-block-start": 0,
         "padding-block-end": 32
       }
