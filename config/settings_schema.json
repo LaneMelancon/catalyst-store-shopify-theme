@@ -248,6 +248,10 @@
             "label": "32px"
           },
           {
+            "value": "36",
+            "label": "36px"
+          },
+          {
             "value": "40",
             "label": "40px"
           },
@@ -256,8 +260,8 @@
             "label": "48px"
           },
           {
-            "value": "58",
-            "label": "58px"
+            "value": "56",
+            "label": "56px"
           },
           {
             "value": "72",
@@ -280,7 +284,7 @@
             "label": "184px"
           }
         ],
-        "default": "72"
+        "default": "56"
       },
       {
         "type": "select",
@@ -396,6 +400,10 @@
             "label": "32px"
           },
           {
+            "value": "36",
+            "label": "36px"
+          },
+          {
             "value": "40",
             "label": "40px"
           },
@@ -428,7 +436,7 @@
             "label": "184px"
           }
         ],
-        "default": "48"
+        "default": "36"
       },
       {
         "type": "select",
@@ -552,6 +560,10 @@
             "label": "32px"
           },
           {
+            "value": "36",
+            "label": "36px"
+          },
+          {
             "value": "40",
             "label": "40px"
           },
@@ -584,7 +596,7 @@
             "label": "184px"
           }
         ],
-        "default": "32"
+        "default": "24"
       },
       {
         "type": "select",
@@ -668,7 +680,7 @@
             "label": "t:options.body"
           }
         ],
-        "default": "subheading"
+        "default": "heading"
       },
       {
         "type": "select",
@@ -708,6 +720,10 @@
             "label": "32px"
           },
           {
+            "value": "36",
+            "label": "36px"
+          },
+          {
             "value": "40",
             "label": "40px"
           },
@@ -740,7 +756,7 @@
             "label": "184px"
           }
         ],
-        "default": "24"
+        "default": "18"
       },
       {
         "type": "select",
@@ -824,7 +840,7 @@
             "label": "t:options.body"
           }
         ],
-        "default": "subheading"
+        "default": "heading"
       },
       {
         "type": "select",
@@ -864,6 +880,10 @@
             "label": "32px"
           },
           {
+            "value": "36",
+            "label": "36px"
+          },
+          {
             "value": "40",
             "label": "40px"
           },
@@ -896,7 +916,7 @@
             "label": "184px"
           }
         ],
-        "default": "18"
+        "default": "16"
       },
       {
         "type": "select",
@@ -980,7 +1000,7 @@
             "label": "t:options.body"
           }
         ],
-        "default": "subheading"
+        "default": "heading"
       },
       {
         "type": "select",
@@ -1018,6 +1038,10 @@
           {
             "value": "32",
             "label": "32px"
+          },
+          {
+            "value": "36",
+            "label": "36px"
           },
           {
             "value": "40",
