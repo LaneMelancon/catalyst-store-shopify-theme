@@ -294,7 +294,8 @@ elevation values.
   /* ─────────────────────────────── */
   /* SPACING                         */
   /* ─────────────────────────────── */
-
+  /* Lane: Remapped spacing tokens on July 7, 2026 */
+  
   /* –– Base Spacing Increment (0.0625rem | 1px) –– */
   --space-base: 0.0625rem;
 
