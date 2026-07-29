@@ -4,12 +4,6 @@ Source of truth for all color, typography, spacing, and
 elevation values.
 ══════════════════════════════════════════════════════════════ */
 
-/* Spacing function */
-@function --space(--multiplyer type(<number> | <percentage>): 1) returns
-  <length> {
-  result: calc(var(--space-base) * var(--multiplyer));
-}
-
 :root {
   /* ──────────────────────────────────────────────────────────────────────── */
   /* FONT FAMILIES                                                            */
@@ -300,31 +294,43 @@ elevation values.
   /* ─────────────────────────────── */
   /* SPACING                         */
   /* ─────────────────────────────── */
+  /* Lane: Remapped spacing tokens on July 7, 2026 */
 
-  /* –– Base Spacing Increment (0.25rem | 4px) –– */
-  --space-base: 0.25rem;
+  /* –– Base Spacing Increment (0.0625rem | 1px) –– */
+  --space-base: 0.0625rem;
 
   /* –– Spacing Reset (0rem | 0px) –– */
   --space-none: 0rem;
 
   /* –– Micro Spacing ––– */
-  /* -- 0.0625rem, 0.125rem, 0.187rem, 0.25rem | 1px, 2px, 3px, 4px -- */
-  --space-4xs: calc(var(--space-base) * 0.25);
-  --space-3xs: calc(var(--space-base) * 0.5);
-  --space-2xs: calc(var(--space-base) * 0.75);
-  --space-xs: calc(var(--space-base) * 1);
+  /* 0.125rem, 0.25rem, 0.375rem, 0.5rem, 0.625rem */
+  --space-1: var(--space-base);
+  --space-2: calc(var(--space-base) * 2);
+  --space-4: calc(var(--space-base) * 4);
+  --space-6: calc(var(--space-base) * 6);
+  --space-8: calc(var(--space-base) * 8);
+  --space-10: calc(var(--space-base) * 10);
 
   /* ––– Standard Spacing ––– */
-  /* -- 0.5rem, 1rem, 1.5rem, 2rem | 8px, 16px, 24px, 32px -- */
-  --space-sm: calc(var(--space-base) * 2);
-  --space-reg: calc(var(--space-base) * 4);
-  --space-md: calc(var(--space-base) * 6);
-  --space-lg: calc(var(--space-base) * 8);
+  /* 0.75rem, 0.875rem, 1rem, 1.125rem, 1.25rem 1.5rem */
+  --space-12: calc(var(--space-base) * 12);
+  --space-14: calc(var(--space-base) * 14);
+  --space-16: calc(var(--space-base) * 16);
+  --space-18: calc(var(--space-base) * 18);
+  --space-20: calc(var(--space-base) * 20);
+  --space-24: calc(var(--space-base) * 24);
 
   /* ––– Layout Spacing ––– */
-  /* -- 3rem, 4rem, 5rem, 6.25rem | 48px, 64px, 80px, 100px -- */
-  --space-xl: calc(var(--space-base) * 12);
-  --space-2xl: calc(var(--space-base) * 16);
-  --space-3xl: calc(var(--space-base) * 20);
-  --space-4xl: calc(var(--space-base) * 25);
+  /* 1.75rem, 2rem, 2.5rem, 3rem, 3.5rem, 4rem, 4.5rem, 5rem, 6rem, 8rem, 10rem */
+  --space-28: calc(var(--space-base) * 28);
+  --space-32: calc(var(--space-base) * 32);
+  --space-40: calc(var(--space-base) * 40);
+  --space-48: calc(var(--space-base) * 48);
+  --space-56: calc(var(--space-base) * 56);
+  --space-64: calc(var(--space-base) * 64);
+  --space-72: calc(var(--space-base) * 72);
+  --space-80: calc(var(--space-base) * 80);
+  --space-96: calc(var(--space-base) * 96);
+  --space-128: calc(var(--space-base) * 128);
+  --space-160: calc(var(--space-base) * 160);
 }
