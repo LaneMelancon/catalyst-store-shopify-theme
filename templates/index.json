@@ -2657,7 +2657,7 @@
         "section_height_custom": 80,
         "background_color": "",
         "toggle_overlay": true,
-        "overlay_color": "#1A2F2152",
+        "overlay_color": "#1a2f2152",
         "overlay_style": "gradient",
         "gradient_direction": "to bottom",
         "blurred_reflection": false,
@@ -2813,7 +2813,7 @@
               "settings": {
                 "thickness": 1,
                 "corner_radius": "square",
-                "divider_color": "#F5EFDE",
+                "divider_color": "#f5efde",
                 "width_percent": 100,
                 "padding-block-start": 0,
                 "padding-block-end": 0
@@ -3116,7 +3116,7 @@
                               "settings": {
                                 "thickness": 1,
                                 "corner_radius": "square",
-                                "divider_color": "#B8C0BC",
+                                "divider_color": "#b8c0bc",
                                 "width_percent": 100,
                                 "padding-block-start": 0,
                                 "padding-block-end": 0
@@ -3617,7 +3617,7 @@
         "icons_shape": "circle",
         "section_width": "page-width",
         "gap": 60,
-        "background_color": "#FFFDF7",
+        "background_color": "#fffdf7",
         "padding-block-start": 100,
         "padding-block-end": 100
       }
@@ -3644,7 +3644,7 @@
         "background_image": "shopify://shop_images/supplements-arrangmeent-desktop.jpg",
         "background_image_position": "cover",
         "toggle_overlay": false,
-        "overlay_color": "#FFFDF7",
+        "overlay_color": "#fffdf7",
         "overlay_style": "gradient",
         "gradient_direction": "to bottom",
         "border": "none",
