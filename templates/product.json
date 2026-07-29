@@ -871,7 +871,7 @@
         "limit_details_width": false,
         "gap": 32,
         "enable_sticky_add_to_cart": true,
-        "background_color": "",
+        "background_color": "{{ settings.color_palette.green800 }}",
         "padding-block-start": 0,
         "padding-block-end": 32
       }
