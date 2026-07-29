@@ -381,7 +381,7 @@
                         "letter_spacing": "normal",
                         "case": "none",
                         "wrap": "pretty",
-                        "text_color": "{{ settings.color_palette.orange25 }}",
+                        "text_color": "{{ settings.color_palette.green50 }}",
                         "background": false,
                         "background_color": "#00000026",
                         "corner_radius": 0,
@@ -396,6 +396,32 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
+                        "text": "{{ closest.collection.description }}",
+                        "width": "fit-content",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "custom",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1.125rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "balance",
+                        "text_color": "{{ settings.color_palette.green100 }}",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
+                    "text_3wpxqf": {
+                      "type": "text",
+                      "name": "t:names.text",
+                      "settings": {
                         "text": "<p>Pathways: {{ closest.collection.metafields.custom.ref_pathways | metafield_text: field: 'name' }}</p>",
                         "width": "fit-content",
                         "max_width": "normal",
@@ -407,7 +433,7 @@
                         "letter_spacing": "normal",
                         "case": "none",
                         "wrap": "pretty",
-                        "text_color": "{{ settings.color_palette.green100 }}",
+                        "text_color": "{{ settings.color_palette.green200 }}",
                         "background": false,
                         "background_color": "#00000026",
                         "corner_radius": 0,
@@ -421,7 +447,8 @@
                   },
                   "block_order": [
                     "text_QHhgnH",
-                    "text_itNx7a"
+                    "text_itNx7a",
+                    "text_3wpxqf"
                   ]
                 }
               },
@@ -686,14 +713,7 @@
       ],
       "name": "t:names.collections_carousel",
       "settings": {
-        "collection_list": [
-          "body-systems",
-          "brain-health",
-          "gut-health",
-          "hormone-support",
-          "immune-defense",
-          "metabolic-health"
-        ],
+        "collection_list": [],
         "layout_type": "carousel",
         "carousel_on_mobile": false,
         "columns": 3,
