@@ -1851,7 +1851,7 @@
               "settings": {
                 "thickness": 1,
                 "corner_radius": "square",
-                "divider_color": "#f5efde",
+                "divider_color": "#EDE9E0",
                 "width_percent": 100,
                 "padding-block-start": 0,
                 "padding-block-end": 0
@@ -2106,7 +2106,7 @@
                                     "letter_spacing": "normal",
                                     "case": "none",
                                     "wrap": "pretty",
-                                    "text_color": "{{ settings.color_palette.orange25 }}",
+                                    "text_color": "{{ settings.color_palette.foreground }}",
                                     "background": false,
                                     "background_color": "#00000026",
                                     "corner_radius": 0,
@@ -2131,7 +2131,7 @@
                                     "letter_spacing": "normal",
                                     "case": "none",
                                     "wrap": "balance",
-                                    "text_color": "#fef5e6",
+                                    "text_color": "",
                                     "background": false,
                                     "background_color": "#00000026",
                                     "corner_radius": 0,
@@ -2154,7 +2154,7 @@
                               "settings": {
                                 "thickness": 1,
                                 "corner_radius": "square",
-                                "divider_color": "#b8c0bc",
+                                "divider_color": "",
                                 "width_percent": 100,
                                 "padding-block-start": 0,
                                 "padding-block-end": 0
@@ -2174,7 +2174,7 @@
                             "content_direction": "row",
                             "vertical_on_mobile": true,
                             "horizontal_alignment": "flex-start",
-                            "vertical_alignment": "center",
+                            "vertical_alignment": "flex-end",
                             "align_baseline": false,
                             "horizontal_alignment_flex_direction_column": "flex-start",
                             "vertical_alignment_flex_direction_column": "center",
@@ -2255,14 +2255,14 @@
                                     "width": "fit-content",
                                     "max_width": "normal",
                                     "alignment": "left",
-                                    "type_preset": "paragraph",
+                                    "type_preset": "custom",
                                     "font": "var(--font-body--family)",
                                     "font_size": "0.875rem",
                                     "line_height": "normal",
                                     "letter_spacing": "normal",
                                     "case": "none",
                                     "wrap": "pretty",
-                                    "text_color": "{{ settings.color_palette.foreground }}",
+                                    "text_color": "{{ settings.color_palette.neutral900 }}",
                                     "background": false,
                                     "background_color": "#00000026",
                                     "corner_radius": 0,
@@ -2287,7 +2287,7 @@
                                     "line_height": "normal",
                                     "letter_spacing": "normal",
                                     "case": "none",
-                                    "wrap": "balance",
+                                    "wrap": "pretty",
                                     "text_color": "{{ settings.color_palette.neutral800 }}",
                                     "background": false,
                                     "background_color": "{{ settings.color_palette.green800 }}",
@@ -2386,7 +2386,7 @@
                     "border_width": 1,
                     "border_opacity": 10,
                     "border_color": "",
-                    "border_radius": 8,
+                    "border_radius": 100,
                     "link": "",
                     "open_in_new_tab": false,
                     "placeholder": "",
@@ -2414,7 +2414,7 @@
                         "background_color": "{{ settings.color_palette.background }}",
                         "text_color": "{{ settings.color_palette.orange25 }}",
                         "corner_radius": 0,
-                        "padding-block-start": 1,
+                        "padding-block-start": 2,
                         "padding-block-end": 0,
                         "padding-inline-start": 0,
                         "padding-inline-end": 0
@@ -2630,7 +2630,7 @@
         "group_8KXhRC"
       ],
       "custom_css": [
-        ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.3);}"
+        ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.25);}"
       ],
       "name": "Health Goals",
       "settings": {
@@ -2690,8 +2690,8 @@
         "border_opacity": 100,
         "border_color": "",
         "border_radius": 0,
-        "padding-block-start": 1,
-        "padding-block-end": 1
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     }
   },
