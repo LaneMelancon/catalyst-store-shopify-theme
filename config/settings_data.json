@@ -9,8 +9,8 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/NeuroSolution_Green_and_Platinum.png",
-    "logo_inverse": "{{ shop.brand.logo }}",
+    "logo": "{{ shop.brand.logo }}",
+    "logo_inverse": "shopify://shop_images/NeuroSolution_Green_and_Platinum.png",
     "logo_height": 36,
     "logo_height_mobile": 28,
     "favicon": "{{ shop.brand.square_logo }}",
