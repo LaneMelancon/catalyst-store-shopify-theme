@@ -99,7 +99,8 @@
       "neutral950": "#1a2f21",
       "neutral900": "#273a2d",
       "neutral800": "#3e5044",
-      "color1": "#FFFDF7"
+      "color1": "#fffdf7",
+      "color2": "#FDECCE"
     }
   },
   "presets": {
