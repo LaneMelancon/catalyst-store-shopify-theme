@@ -1794,7 +1794,7 @@
         "extend_media": true,
         "background_color": "{{ settings.color_palette.foreground }}",
         "padding-block-start": 0,
-        "padding-block-end": 0,
+        "padding-block-end": 0
       }
     },
     "hero_iLBwPd": {
