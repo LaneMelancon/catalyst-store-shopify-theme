@@ -809,6 +809,11 @@
         "section_width": "page-width",
         "extend_media": true,
         "background_color": "{{ settings.color_palette.foreground }}",
+        "border_radius_individual": true,
+        "border_radius_top_left": 0,
+        "border_radius_top_right": 0,
+        "border_radius_bottom_right": 32,
+        "border_radius_bottom_left": 32,
         "padding-block-start": 0,
         "padding-block-end": 0
       }

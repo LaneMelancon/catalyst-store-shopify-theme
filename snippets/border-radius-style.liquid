@@ -1,0 +1,28 @@
+{%- doc -%}
+  Resolves a CSS border-radius value from a settings object, supporting either
+  a single all-corner radius or four independent corner radii.
+
+  @param {object} settings - The block or section settings object
+
+  @example
+  {% render 'border-radius-style', settings: section.settings %}
+{%- enddoc -%}
+{%- liquid
+  assign radius_individual = settings.border_radius_individual | default: false
+
+  if radius_individual
+    assign top_left = settings.border_radius_top_left | default: 0
+    assign top_right = settings.border_radius_top_right | default: 0
+    assign bottom_right = settings.border_radius_bottom_right | default: 0
+    assign bottom_left = settings.border_radius_bottom_left | default: 0
+
+    if top_left != 0 or top_right != 0 or bottom_right != 0 or bottom_left != 0
+      echo top_left | append: 'px ' | append: top_right | append: 'px ' | append: bottom_right | append: 'px ' | append: bottom_left | append: 'px'
+    endif
+  else
+    assign radius = settings.border_radius | default: 0
+    if radius != 0
+      echo radius | append: 'px'
+    endif
+  endif
+-%}

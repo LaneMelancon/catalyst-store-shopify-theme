@@ -223,6 +223,7 @@
     "image_opacity": "ความทึบของรูปภาพ",
     "image_position": "ตำแหน่งรูปภาพ",
     "image_ratio": "อัตราส่วนรูปภาพ",
+    "individual_corners": "มุมแต่ละมุม",
     "label": "ป้ายกำกับ",
     "line_height": "ความสูงของบรรทัด",
     "link": "ลิงก์",

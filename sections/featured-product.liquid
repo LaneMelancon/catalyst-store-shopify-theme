@@ -18,6 +18,7 @@
 {% render 'buy-buttons-styles' %}
 {% render 'product-badges-styles' %}
 
+{% render 'section-corner-radius', settings: section.settings, section_id: section.id %}
 <div
   class="section-background{% if section.settings.background_color != blank %} color-custom-{{ section.id }}{% endif %}"
 ></div>
@@ -140,6 +141,71 @@
       "id": "background_color",
       "label": "t:settings.background_color",
       "placeholder": "t:settings.default"
+    },
+    {
+      "type": "header",
+      "content": "t:content.borders"
+    },
+    {
+      "type": "checkbox",
+      "id": "border_radius_individual",
+      "label": "t:settings.individual_corners",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "t:settings.border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.border_radius_individual == false }}"
+    },
+    {
+      "type": "range",
+      "id": "border_radius_top_left",
+      "label": "t:options.top_left",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.border_radius_individual }}"
+    },
+    {
+      "type": "range",
+      "id": "border_radius_top_right",
+      "label": "t:options.top_right",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.border_radius_individual }}"
+    },
+    {
+      "type": "range",
+      "id": "border_radius_bottom_right",
+      "label": "t:options.bottom_right",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.border_radius_individual }}"
+    },
+    {
+      "type": "range",
+      "id": "border_radius_bottom_left",
+      "label": "t:options.bottom_left",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.border_radius_individual }}"
     },
     {
       "type": "header",
