@@ -983,7 +983,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/products-arrangement-02-landscape.jpg",
+            "image": "shopify://shop_images/products-arrangement-01-portrait.jpg",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
@@ -997,7 +997,7 @@
           "static": true,
           "settings": {
             "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
             "gap": 0
           },
           "blocks": {
@@ -1036,7 +1036,7 @@
                 "link": "",
                 "open_in_new_tab": false,
                 "placeholder": "",
-                "padding-block-start": 0,
+                "padding-block-start": 12,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -1323,7 +1323,7 @@
               "name": "t:names.spacer",
               "settings": {
                 "size": "percent",
-                "percent_size": 75,
+                "percent_size": 100,
                 "pixel_size": 120,
                 "custom_mobile_size": false,
                 "size_mobile": "percent",
@@ -1348,7 +1348,7 @@
                 "custom_width": 50,
                 "width_mobile": "fit-content",
                 "custom_width_mobile": 100,
-                "height": "fit",
+                "height": "fill",
                 "custom_height": 100,
                 "background_media": "none",
                 "background_color": "",
@@ -1367,7 +1367,7 @@
                 "open_in_new_tab": false,
                 "placeholder": "",
                 "padding-block-start": 0,
-                "padding-block-end": 16,
+                "padding-block-end": 32,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -1468,68 +1468,22 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
-                }
-              },
-              "block_order": [
-                "group_6A9QTY",
-                "text_dMqEiP"
-              ]
-            },
-            "spacer_FiGni4": {
-              "type": "spacer",
-              "name": "t:names.spacer",
-              "settings": {
-                "size": "percent",
-                "percent_size": 50,
-                "pixel_size": 120,
-                "custom_mobile_size": false,
-                "size_mobile": "percent",
-                "percent_size_mobile": 100,
-                "pixel_size_mobile": 120
-              },
-              "blocks": {}
-            },
-            "group_D9CGWG": {
-              "type": "group",
-              "name": "hero_2col-text",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "flex-end",
-                "gap": 12,
-                "width": "fit-content",
-                "custom_width": 50,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100,
-                "height": "fill",
-                "custom_height": 100,
-                "background_media": "none",
-                "background_color": "",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_color": "",
-                "border_radius": 0,
-                "link": "",
-                "open_in_new_tab": false,
-                "placeholder": "",
-                "padding-block-start": 16,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "group_3Xjnig": {
+                },
+                "spacer_e9pjDr": {
+                  "type": "spacer",
+                  "name": "t:names.spacer",
+                  "settings": {
+                    "size": "percent",
+                    "percent_size": 100,
+                    "pixel_size": 120,
+                    "custom_mobile_size": false,
+                    "size_mobile": "percent",
+                    "percent_size_mobile": 100,
+                    "pixel_size_mobile": 120
+                  },
+                  "blocks": {}
+                },
+                "group_Gt7MXH": {
                   "type": "group",
                   "name": "Paragraphs",
                   "settings": {
@@ -1569,7 +1523,7 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_YRzHCp": {
+                    "text_w8aV7t": {
                       "type": "text",
                       "name": "Description",
                       "settings": {
@@ -1595,7 +1549,7 @@
                       },
                       "blocks": {}
                     },
-                    "text_g8LMn4": {
+                    "text_aCWP7J": {
                       "type": "text",
                       "name": "Pathways",
                       "disabled": true,
@@ -1624,25 +1578,11 @@
                     }
                   },
                   "block_order": [
-                    "text_YRzHCp",
-                    "text_g8LMn4"
+                    "text_w8aV7t",
+                    "text_aCWP7J"
                   ]
                 },
-                "spacer_qb3JFi": {
-                  "type": "spacer",
-                  "name": "t:names.spacer",
-                  "settings": {
-                    "size": "percent",
-                    "percent_size": 75,
-                    "pixel_size": 120,
-                    "custom_mobile_size": false,
-                    "size_mobile": "percent",
-                    "percent_size_mobile": 100,
-                    "pixel_size_mobile": 120
-                  },
-                  "blocks": {}
-                },
-                "group_qLdVUM": {
+                "group_JPGX7Y": {
                   "type": "group",
                   "name": "button-group",
                   "settings": {
@@ -1682,7 +1622,7 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "button_VadKE6": {
+                    "button_8N4PPr": {
                       "type": "button",
                       "name": "t:names.button",
                       "settings": {
@@ -1714,7 +1654,7 @@
                       },
                       "blocks": {}
                     },
-                    "button_BG9egL": {
+                    "button_DmXMPn": {
                       "type": "button",
                       "name": "t:names.button",
                       "settings": {
@@ -1748,28 +1688,72 @@
                     }
                   },
                   "block_order": [
-                    "button_VadKE6",
-                    "button_BG9egL"
+                    "button_8N4PPr",
+                    "button_DmXMPn"
                   ]
                 }
               },
               "block_order": [
-                "group_3Xjnig",
-                "spacer_qb3JFi",
-                "group_qLdVUM"
+                "group_6A9QTY",
+                "text_dMqEiP",
+                "spacer_e9pjDr",
+                "group_Gt7MXH",
+                "group_JPGX7Y"
               ]
             },
-            "spacer_3H63J8": {
+            "spacer_FiGni4": {
               "type": "spacer",
               "name": "t:names.spacer",
               "settings": {
                 "size": "percent",
-                "percent_size": 25,
+                "percent_size": 60,
                 "pixel_size": 120,
                 "custom_mobile_size": false,
                 "size_mobile": "percent",
                 "percent_size_mobile": 100,
                 "pixel_size_mobile": 120
+              },
+              "blocks": {}
+            },
+            "group_V7bBB3": {
+              "type": "group",
+              "name": "hero_2col-text-wrap",
+              "disabled": true,
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 0,
+                "width": "fill",
+                "custom_width": 70,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fill",
+                "custom_height": 100,
+                "background_media": "none",
+                "background_color": "",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               },
               "blocks": {}
             }
@@ -1779,13 +1763,11 @@
             "spacer_LFCH3V",
             "group_n9Y7hY",
             "spacer_FiGni4",
-            "group_D9CGWG",
-            "spacer_3H63J8"
+            "group_V7bBB3"
           ]
         }
       },
-      "custom_css": [],
-      "name": "Hero (Secondary)",
+      "name": "t:names.editorial",
       "settings": {
         "media_position": "right",
         "media_width": "narrow",
