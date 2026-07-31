@@ -150,5 +150,8 @@
         "neutral800": "#3e5044"
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": []
   }
 }

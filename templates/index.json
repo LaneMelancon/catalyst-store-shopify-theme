@@ -1784,9 +1784,7 @@
           ]
         }
       },
-      "custom_css": [
-        ".section-background{border-radius: 0px 0px 32px 32px; overflow: hidden;}"
-      ],
+      "custom_css": [],
       "name": "Hero (Secondary)",
       "settings": {
         "media_position": "right",
