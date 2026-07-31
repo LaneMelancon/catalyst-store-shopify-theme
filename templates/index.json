@@ -940,7 +940,8 @@
         "group_NzndTT"
       ],
       "custom_css": [
-        ".section-content-wrapper {border-radius: 0px 0px 32px 32px; overflow: hidden;}"
+        ".section-content-wrapper {border-radius: 0px 0px 32px 32px; overflow: hidden;}",
+        "/* Hide native media overlay */.overlay--solid {display: none;}"
       ],
       "name": "Hero (2 Col)",
       "settings": {
