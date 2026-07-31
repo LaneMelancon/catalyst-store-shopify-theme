@@ -58,7 +58,7 @@
               "settings": {
                 "content_direction": "row",
                 "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-end",
+                "horizontal_alignment": "flex-start",
                 "vertical_alignment": "flex-start",
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-end",
@@ -71,7 +71,7 @@
                 "height": "fill",
                 "custom_height": 100,
                 "background_media": "none",
-                "background_color": "{{ settings.color_palette.foreground }}",
+                "background_color": "",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "toggle_overlay": false,
@@ -89,7 +89,7 @@
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
-                "padding-inline-end": 16
+                "padding-inline-end": 0
               },
               "blocks": {
                 "group_4kyETt": {
@@ -104,7 +104,7 @@
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "flex-start",
                     "gap": 0,
-                    "width": "fit-content",
+                    "width": "custom",
                     "custom_width": 70,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
@@ -580,9 +580,9 @@
                           "settings": {
                             "text": "<h1>Clinician recommended supplements, ready to order</h1>",
                             "width": "fit-content",
-                            "max_width": "none",
+                            "max_width": "normal",
                             "alignment": "left",
-                            "type_preset": "custom",
+                            "type_preset": "h1",
                             "font": "var(--font-heading--family)",
                             "font_size": "3.5rem",
                             "line_height": "tight",
@@ -626,7 +626,7 @@
                             "horizontal_alignment_flex_direction_column": "flex-start",
                             "vertical_alignment_flex_direction_column": "center",
                             "gap": 16,
-                            "width": "fill",
+                            "width": "fit-content",
                             "custom_width": 100,
                             "width_mobile": "fill",
                             "custom_width_mobile": 100,
@@ -862,7 +862,6 @@
             "group_gAYe4X": {
               "type": "group",
               "name": "hero_2col-img-wrap",
-              "disabled": true,
               "settings": {
                 "content_direction": "column",
                 "vertical_on_mobile": true,
