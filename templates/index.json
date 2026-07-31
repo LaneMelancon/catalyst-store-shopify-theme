@@ -966,7 +966,7 @@
         "section_height": "large",
         "section_height_custom": 80,
         "background_color": "{{ settings.color_palette.color1 }}",
-        "toggle_overlay": false,
+        "toggle_overlay": true,
         "overlay_color": "{{ settings.color_palette.background }}",
         "overlay_style": "solid",
         "gradient_direction": "to top",
