@@ -443,7 +443,7 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "group_8yjeVG": {
+                    "group_yRnPAB": {
                       "type": "group",
                       "name": "Eyebrow",
                       "settings": {
@@ -457,18 +457,19 @@
                         "gap": 12,
                         "width": "fit-content",
                         "custom_width": 100,
-                        "width_mobile": "fit-content",
+                        "width_mobile": "fill",
                         "custom_width_mobile": 100,
                         "height": "fit",
                         "custom_height": 100,
                         "background_media": "none",
                         "background_color": "{{ settings.color_palette.neutral950 }}",
                         "video_position": "cover",
+                        "background_image": "{{ closest.collection.metafields.custom.secondary_image.value }}",
                         "background_image_position": "cover",
                         "toggle_overlay": false,
-                        "overlay_color": "#00000026",
+                        "overlay_color": "#0e24159e",
                         "overlay_style": "solid",
-                        "gradient_direction": "to top",
+                        "gradient_direction": "to bottom",
                         "border": "solid",
                         "border_width": 1,
                         "border_opacity": 5,
@@ -483,11 +484,11 @@
                         "padding-inline-end": 14
                       },
                       "blocks": {
-                        "text_4LCVbH": {
+                        "text_DcVeJT": {
                           "type": "text",
                           "name": "t:names.text",
                           "settings": {
-                            "text": "<p>Shop All Supplements</p>",
+                            "text": "<p>Health Goal</p>",
                             "width": "fit-content",
                             "max_width": "none",
                             "alignment": "left",
@@ -511,7 +512,7 @@
                         }
                       },
                       "block_order": [
-                        "text_4LCVbH"
+                        "text_DcVeJT"
                       ]
                     },
                     "text_J6EK7f": {
@@ -542,7 +543,7 @@
                     }
                   },
                   "block_order": [
-                    "group_8yjeVG",
+                    "group_yRnPAB",
                     "text_J6EK7f"
                   ]
                 },
