@@ -1048,7 +1048,7 @@
           "type": "custom-liquid",
           "name": "sectionStyles.liquid",
           "settings": {
-            "custom_liquid": "{% style %}\n{% # Filter List Wrapper %}\n#shopify-section-template--27609231524152__section_xTDUQV:has(> .group-block.group-block--height-fit.group-block--width-fill.border-style.spacing-style.size-style) {\n  /* Your styles here */\n}\n\n{% # Filter List %}\ndiv:has(\n  > .color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E,\n  > .color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF,\n  > .color-custom-AbkFnM2IreFlaaklXV__group_YmxMMB,\n  > .color-custom-AUmxmaHVFZGc1S1g1V__group_eBNYF9,\n  > .color-custom-AYUN2U0tmeWhFcDIzQ__group_dA4aiL\n) {\n  display: flex;\n  gap: 0.5rem;\n  overflow-x: auto;\noverflow-x: auto;\n}\n\n\n{% # Filter Items %}\n.color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E, .color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF, .color-custom-AbkFnM2IreFlaaklXV__group_YmxMMB, .color-custom-AUmxmaHVFZGc1S1g1V__group_eBNYF9, .color-custom-AYUN2U0tmeWhFcDIzQ__group_dA4aiL {\nmin-width: 10rem;\nwhite-space: nowrap;\n}\n\n#shopify-section-template--27609231524152__section_xTDUQV:has(.text-block--AaVhzNmxudmQwbk4yL__text_PJErWn) {\ncolor: red;\n}\n\n{% endstyle %}"
+            "custom_liquid": "{% style %}\n{% # Filter List Wrapper %}\n#shopify-section-template--27609231524152__section_xTDUQV:has(> .group-block.group-block--height-fit.group-block--width-fill.border-style.spacing-style.size-style) {\n\n}\n\n{% # Filter List %}\ndiv:has(\n  > .color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E,\n  > .color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF,\n  > .color-custom-AbkFnM2IreFlaaklXV__group_YmxMMB,\n  > .color-custom-AUmxmaHVFZGc1S1g1V__group_eBNYF9,\n  > .color-custom-AYUN2U0tmeWhFcDIzQ__group_dA4aiL\n) {\n  display: flex;\n  gap: 0.5rem;\n  overflow-x: auto;\noverflow-x: auto;\n}\n\n{% # Filter Items %}\n.color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E, .color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF, .color-custom-AbkFnM2IreFlaaklXV__group_YmxMMB, .color-custom-AUmxmaHVFZGc1S1g1V__group_eBNYF9, .color-custom-AYUN2U0tmeWhFcDIzQ__group_dA4aiL {\nmin-width: 10rem;\nwhite-space: nowrap;\n}\n\n#shopify-section-template--27609231524152__section_xTDUQV:has(.text-block--AaVhzNmxudmQwbk4yL__text_PJErWn) {\ncolor: red;\n}\n\n{% # Sort Button %}\n.facets__summary {\n  padding: 0 0.5rem 0 0;\n  font-size: 14px;\n  line-height: 1.1;\n  border-right: 1px solid #b6bdb8;\n  color: #e6e9e7;\n}\n\n{% endstyle %}"
           },
           "blocks": {}
         },
@@ -1713,9 +1713,7 @@
         "group_8DcKHb",
         "group_9mMEi9"
       ],
-      "custom_css": [
-        ".facets__summary {padding: 0 0.5rem 0 0; font-size: 14px; line-height: 1.1; border-right: 1px solid #b6bdb8; color: #e6e9e7;}"
-      ],
+      "custom_css": [],
       "name": "Pathway Filters (Desktop)",
       "settings": {
         "content_direction": "column",
