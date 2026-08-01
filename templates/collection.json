@@ -1084,7 +1084,7 @@
           "static": true,
           "settings": {
             "product_card_gap": 0,
-            "background_color": "{{ settings.color_palette.color4 }}",
+            "background_color": "#F3F4F3",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
@@ -1238,8 +1238,8 @@
         "padding-inline-start": 0,
         "padding-inline-end": 0,
         "background_color": "{{ settings.color_palette.background }}",
-        "padding-block-start": 32,
-        "padding-block-end": 32
+        "padding-block-start": 60,
+        "padding-block-end": 60
       }
     }
   },
