@@ -2217,7 +2217,7 @@
               "type": "text",
               "name": "t:names.header",
               "settings": {
-                "text": "<h3>Filter by Supplement Pathways</h3>",
+                "text": "<h3>Filter Supplement by Pathway</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2298,7 +2298,7 @@
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
-                "wrap": "pretty",
+                "wrap": "balance",
                 "text_color": "{{ settings.color_palette.neutral900 }}",
                 "background": false,
                 "background_color": "#00000026",
@@ -2834,6 +2834,7 @@
         "group_9mMEi9"
       ],
       "custom_css": [
+        "@media screen and (min-width: 750px) {.group-block.group-block--height-fit.group-block--width-fill.border-style.spacing-style.size-style {margin-inline: auto; max-width: 1250px; }}",
         ".facets__summary {padding: 0 0.5rem 0 0; font-size: 14px; line-height: 1.1; border-right: 1px solid #b6bdb8; color: #e6e9e7;}"
       ],
       "name": "Pathway Filters (Desktop)",
