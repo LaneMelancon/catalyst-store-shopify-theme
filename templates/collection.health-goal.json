@@ -1706,7 +1706,8 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 750px) {.group-block.group-block--height-fit.group-block--width-fill.border-style.spacing-style.size-style {margin-inline: auto; max-width: 1250px; flex-wrap: wrap; }}",
-        ".facets__summary {padding: 0 0.5rem 0 0; font-size: 14px; line-height: 1.1; border-right: 1px solid #b6bdb8; color: #e6e9e7;}"
+        ".facets__summary {padding: 0 0.5rem 0 0; font-size: 14px; line-height: 1.1; border-right: 1px solid #b6bdb8; color: #e6e9e7;}",
+        ".group-block.group-block--height-fit.group-block--width-fill.border-style.spacing-style.size-style.color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E {min-width: 10rem; white-space: nowrap;}"
       ],
       "name": "Pathway Filters (Desktop)",
       "settings": {
