@@ -1194,7 +1194,7 @@
                 "type_preset": "custom",
                 "font": "var(--font-body--family)",
                 "font_size": "1.5rem",
-                "line_height": "normal",
+                "line_height": "tight",
                 "letter_spacing": "normal",
                 "case": "none",
                 "wrap": "pretty",
@@ -1269,7 +1269,7 @@
                 "letter_spacing": "normal",
                 "case": "none",
                 "wrap": "pretty",
-                "text_color": "{{ settings.color_palette.neutral800 }}",
+                "text_color": "{{ settings.color_palette.neutral900 }}",
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
@@ -1343,13 +1343,13 @@
                     "video_position": "cover",
                     "background_image_position": "cover",
                     "toggle_overlay": true,
-                    "overlay_color": "#EDF2EE",
+                    "overlay_color": "#F3F4F3",
                     "overlay_style": "solid",
                     "gradient_direction": "to top",
                     "border": "solid",
                     "border_width": 1,
                     "border_opacity": 100,
-                    "border_color": "#DBE2DD",
+                    "border_color": "#E6E9E7",
                     "border_radius": 12,
                     "link": "",
                     "open_in_new_tab": false,
@@ -1804,7 +1804,7 @@
         "group_9mMEi9"
       ],
       "custom_css": [
-        ".facets__summary {padding: 0 0.5rem 0 0; font-size: 14px; line-height: 1.1; border-right: 1px solid #b6bdb8;}"
+        ".facets__summary {padding: 0 0.5rem 0 0; font-size: 14px; line-height: 1.1; border-right: 1px solid #b6bdb8; color: #e6e9e7;}"
       ],
       "name": "Pathway Filters (Desktop)",
       "settings": {
@@ -2492,6 +2492,7 @@
     },
     "divider_BB4J9g": {
       "type": "divider",
+      "disabled": true,
       "name": "t:names.divider_section",
       "settings": {
         "background_color": "{{ settings.color_palette.green25 }}",
@@ -2537,11 +2538,11 @@
           "settings": {
             "product_card_gap": 0,
             "background_color": "#F3F4F3",
-            "border": "none",
+            "border": "solid",
             "border_width": 1,
             "border_opacity": 100,
-            "border_color": "",
-            "border_radius": 10,
+            "border_color": "#E6E9E7",
+            "border_radius": 12,
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
@@ -2693,7 +2694,7 @@
         "padding-inline-start": 0,
         "padding-inline-end": 0,
         "background_color": "{{ settings.color_palette.green25 }}",
-        "padding-block-start": 16,
+        "padding-block-start": 32,
         "padding-block-end": 24
       }
     }
