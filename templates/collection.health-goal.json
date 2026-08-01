@@ -1048,7 +1048,7 @@
           "type": "custom-liquid",
           "name": "sectionStyles.liquid",
           "settings": {
-            "custom_liquid": "{% style %}\n.group-block.group-block--height-fit.group-block--width-fit-content.border-style.spacing-style.size-style.color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF {\nmin-width: 10rem;\nwhite-space: nowrap;\n}\n{% endstyle %}"
+            "custom_liquid": "{% style %}\n.group-block.group-block--height-fit.group-block--width-fit-content.border-style.spacing-style.size-style.color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF, .group-block.group-block--height-fit.group-block--width-fill.border-style.spacing-style.size-style.color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E {\nmin-width: 10rem;\nwhite-space: nowrap;\n}\n{% endstyle %}"
           },
           "blocks": {}
         },
