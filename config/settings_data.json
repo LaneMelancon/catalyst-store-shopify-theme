@@ -28,7 +28,7 @@
     "type_size_h5": "16",
     "type_case_h6": "none",
     "page_background_color": "{{ shop.brand.colors.primary[0].foreground }}",
-    "page_width": "narrow",
+    "page_width": "normal",
     "card_hover_effect": "subtle-zoom",
     "badge_sale_background_color": "{{ settings.color_palette.green200 }}",
     "badge_sale_text_color": "{{ settings.color_palette.green700 }}",
