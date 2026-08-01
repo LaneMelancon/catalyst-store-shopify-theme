@@ -1804,7 +1804,7 @@
         "group_9mMEi9"
       ],
       "custom_css": [
-        ".facets__summary {padding: 0 0.5rem 0 0; font-size: 14px; border-right: 1px solid #DBE2DD;}"
+        ".facets__summary {padding: 0 0.5rem 0 0; font-size: 14px; border-right: 1px solid #B6BDB8;}"
       ],
       "name": "Pathway Filters (Desktop)",
       "settings": {
