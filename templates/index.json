@@ -32,7 +32,7 @@
           "settings": {
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "space-between",
-            "gap": 12
+            "gap": 0
           },
           "blocks": {
             "group_XEWtXj": {
@@ -357,7 +357,7 @@
               "name": "t:names.spacer",
               "settings": {
                 "size": "percent",
-                "percent_size": 30,
+                "percent_size": 20,
                 "pixel_size": 120,
                 "custom_mobile_size": false,
                 "size_mobile": "percent",
@@ -376,8 +376,8 @@
                 "vertical_alignment": "center",
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "flex-end",
-                "gap": 16,
+                "vertical_alignment_flex_direction_column": "space-between",
+                "gap": 14,
                 "width": "fill",
                 "custom_width": 70,
                 "width_mobile": "fill",
@@ -554,7 +554,7 @@
                   "name": "t:names.spacer",
                   "settings": {
                     "size": "percent",
-                    "percent_size": 80,
+                    "percent_size": 70,
                     "pixel_size": 152,
                     "custom_mobile_size": true,
                     "size_mobile": "percent",
@@ -573,8 +573,8 @@
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "space-between",
-                    "gap": 14,
+                    "vertical_alignment_flex_direction_column": "flex-end",
+                    "gap": 12,
                     "width": "fit-content",
                     "custom_width": 50,
                     "width_mobile": "fit-content",
@@ -707,7 +707,7 @@
                       "name": "t:names.spacer",
                       "settings": {
                         "size": "percent",
-                        "percent_size": 100,
+                        "percent_size": 80,
                         "pixel_size": 120,
                         "custom_mobile_size": false,
                         "size_mobile": "percent",
@@ -845,7 +845,7 @@
               "name": "t:names.spacer",
               "settings": {
                 "size": "percent",
-                "percent_size": 30,
+                "percent_size": 20,
                 "pixel_size": 120,
                 "custom_mobile_size": false,
                 "size_mobile": "percent",
@@ -863,12 +863,13 @@
           ]
         }
       },
+      "disabled": true,
       "custom_css": [],
       "name": "Hero (Secondary)",
       "settings": {
         "media_position": "right",
         "media_width": "narrow",
-        "media_height": "80svh",
+        "media_height": "60svh",
         "section_width": "page-width",
         "extend_media": true,
         "background_color": "{{ settings.color_palette.foreground }}",
@@ -2650,8 +2651,8 @@
     }
   },
   "order": [
-    "media_with_content_fEagpA",
     "hero_iLBwPd",
+    "media_with_content_fEagpA",
     "collection_list_WeXUrL",
     "section_GqypD8"
   ]
