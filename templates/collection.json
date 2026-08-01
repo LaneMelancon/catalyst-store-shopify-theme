@@ -488,7 +488,7 @@
                           "type": "text",
                           "name": "t:names.text",
                           "settings": {
-                            "text": "<p>Health Goal</p>",
+                            "text": "<p>Shop All Supplements</p>",
                             "width": "fit-content",
                             "max_width": "none",
                             "alignment": "left",
@@ -656,7 +656,7 @@
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "balance",
-                            "text_color": "{{ settings.color_palette.orange25 }}",
+                            "text_color": "{{ settings.color_palette.green50 }}",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
