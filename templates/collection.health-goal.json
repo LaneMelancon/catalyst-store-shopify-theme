@@ -1046,7 +1046,7 @@
       "blocks": {
         "custom_liquid_KJBdmn": {
           "type": "custom-liquid",
-          "name": "t:names.custom_liquid",
+          "name": "sectionStyles.liquid",
           "settings": {
             "custom_liquid": "{% style %}\n.group-block.group-block--height-fit.group-block--width-fit-content.border-style.spacing-style.size-style.color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF {\nmin-width: 10rem;\nwhite-space: nowrap;\n}\n{% endstyle %}"
           },
