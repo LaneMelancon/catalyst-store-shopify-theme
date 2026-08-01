@@ -1048,7 +1048,7 @@
           "type": "custom-liquid",
           "name": "sectionStyles.liquid",
           "settings": {
-            "custom_liquid": "{% style %}\n.group-block.group-block--height-fit.group-block--width-fit-content.border-style.spacing-style.size-style.color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF, .group-block.group-block--height-fit.group-block--width-fill.border-style.spacing-style.size-style.color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E {\nmin-width: 10rem;\nwhite-space: nowrap;\n}\n{% endstyle %}"
+            "custom_liquid": "{% style %}\n{%- doc -%}\n.group-block.group-block--height-fit.group-block--width-fit-content.border-style.spacing-style.size-style.color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF, .group-block.group-block--height-fit.group-block--width-fill.border-style.spacing-style.size-style.color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E {\nmin-width: 10rem;\nwhite-space: nowrap;\n}\n{%- enddoc -%}\n\n.color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E, .color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF, .color-custom-AbkFnM2IreFlaaklXV__group_YmxMMB, .color-custom-AUmxmaHVFZGc1S1g1V__group_eBNYF9, .color-custom-AYUN2U0tmeWhFcDIzQ__group_dA4aiL {\nmin-width: 10rem;\nwhite-space: nowrap;\n}\n{% endstyle %}"
           },
           "blocks": {}
         },
