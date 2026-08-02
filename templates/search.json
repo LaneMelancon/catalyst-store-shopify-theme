@@ -44,7 +44,7 @@
             "input_style": "custom",
             "input_background_color": "#fafafa",
             "input_text_color": "{{ settings.color_palette.foreground }}",
-            "input_border_color": "#CFD3D0",
+            "input_border_color": "#cfd3d0",
             "border_width": 1,
             "border_radius": 50
           },
@@ -52,11 +52,11 @@
         }
       },
       "custom_css": [
-        ".search-page-input {box-shadow: 0px 8px 24px 0px rgba(14, 36, 21, 0.04); outline-offset: 0; outline-color: var(--color-brand-default);}"
+        ".search-page-input {box-shadow: 0px 8px 24px 0px rgba(14, 36, 21, 0.04); outline-offset: 0; outline-color: #0e2415;}"
       ],
       "settings": {
         "alignment": "center",
-        "background_color": "#F3F4F3",
+        "background_color": "#f3f4f3",
         "padding-block-start": 100,
         "padding-block-end": 40
       }
@@ -401,7 +401,7 @@
         "columns_gap_vertical": 16,
         "padding-inline-start": 0,
         "padding-inline-end": 0,
-        "background_color": "#F9FAF9",
+        "background_color": "#f9faf9",
         "padding-block-start": 40,
         "padding-block-end": 40
       }
