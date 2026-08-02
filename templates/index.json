@@ -2777,20 +2777,6 @@
     "hero_q7ncy6": {
       "type": "hero",
       "blocks": {
-        "spacer_QWwrKb": {
-          "type": "spacer",
-          "name": "t:names.spacer",
-          "settings": {
-            "size": "pixel",
-            "percent_size": 100,
-            "pixel_size": 400,
-            "custom_mobile_size": false,
-            "size_mobile": "percent",
-            "percent_size_mobile": 100,
-            "pixel_size_mobile": 120
-          },
-          "blocks": {}
-        },
         "spacer_rCACcd": {
           "type": "spacer",
           "name": "t:names.spacer",
@@ -3082,32 +3068,16 @@
             "pixel_size_mobile": 120
           },
           "blocks": {}
-        },
-        "spacer_WxnwFN": {
-          "type": "spacer",
-          "name": "t:names.spacer",
-          "settings": {
-            "size": "pixel",
-            "percent_size": 100,
-            "pixel_size": 400,
-            "custom_mobile_size": false,
-            "size_mobile": "percent",
-            "percent_size_mobile": 100,
-            "pixel_size_mobile": 120
-          },
-          "blocks": {}
         }
       },
       "block_order": [
-        "spacer_QWwrKb",
         "spacer_rCACcd",
         "group_tAtUVQ",
         "spacer_HxCxmW",
         "image_fbEiCT",
         "spacer_7BW8Hi",
         "group_Q4tBGC",
-        "spacer_zH79zx",
-        "spacer_WxnwFN"
+        "spacer_zH79zx"
       ],
       "name": "Middle (Reveal)",
       "settings": {
