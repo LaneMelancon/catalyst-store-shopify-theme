@@ -1041,29 +1041,12 @@
         "padding-block-end": 0
       }
     },
-    "custom_liquid_yjhDUt": {
-      "type": "custom-liquid",
-      "name": "pathway-filter-styles",
-      "settings": {
-        "custom_liquid": "",
-        "background_color": "",
-        "section_width": "page-width",
-        "border_radius_individual": false,
-        "border_radius": 0,
-        "border_radius_top_left": 0,
-        "border_radius_top_right": 0,
-        "border_radius_bottom_right": 0,
-        "border_radius_bottom_left": 0,
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
     "section_xTDUQV": {
       "type": "section",
       "blocks": {
         "custom_liquid_KJBdmn": {
           "type": "custom-liquid",
-          "name": "sectionStyles.liquid",
+          "name": "pathway-filters-styles",
           "settings": {
             "custom_liquid": "{% style %}\n{% # Results Count %}\ndiv:has( > .color-custom-AVGhpZndqd05PL1Joc__group_8W6pky) > div:first-child {\noutline-offset: 2px;\noutline: 1px solid black;\n}\n\n{% # Collection Filter %}\n.color-custom-AVGhpZndqd05PL1Joc__group_8W6pky:has( > div.group-block-content) {\noutline-offset: 2px;\noutline: 1px dashed red;\n}\n\n{% # Filter List %}\ndiv:has( > [class*=\"color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E\"]) {\n\n}\n\n{% # Filter Pill (Global) %}\n.color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E, .color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF, .color-custom-AbkFnM2IreFlaaklXV__group_YmxMMB, .color-custom-AUmxmaHVFZGc1S1g1V__group_eBNYF9, .color-custom-AYUN2U0tmeWhFcDIzQ__group_dA4aiL {\nmin-width: 8rem;\nwhite-space: nowrap;\n}\n\n{% # Filter Pill | Active %}\n.color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E {\nmin-width: 12rem;\n}\n\n{% # Filter Pill | Index 2 %}\n.color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF {\noutline: 1px solid purple;\n}\n\n{% # Filter Pill | Index 3 %}\n.color-custom-AbkFnM2IreFlaaklXV__group_YmxMMB {\noutline: 1px solid orange;\n}\n\n{% # Filter Pill | Index -2 %}\n.color-custom-AUmxmaHVFZGc1S1g1V__group_eBNYF9 {\noutline: 1px solid green;\n}\n\n{% # Filter Pill | Index -1 %}\n.color-custom-AYUN2U0tmeWhFcDIzQ__group_dA4aiL {\noutline: 1px solid blue;\n}\n\n{% # Sort Label %}\n.facets__summary {\n  padding: 0 0.5rem 0 0;\n  font-size: 14px;\n  line-height: 1.1;\n  border-right: 1px solid #b6bdb8;\n  color: #e6e9e7;\n}\n\n{% endstyle %}"
           },
@@ -2678,7 +2661,6 @@
   },
   "order": [
     "media_with_content_KCFXqk",
-    "custom_liquid_yjhDUt",
     "section_xTDUQV",
     "carousel_EjwKmj",
     "divider_BB4J9g",
