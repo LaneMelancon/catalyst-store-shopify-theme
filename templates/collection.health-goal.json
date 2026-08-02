@@ -1093,7 +1093,7 @@
           "type": "custom-liquid",
           "name": "pathway-filters-styles",
           "settings": {
-            "custom_liquid": "{% style %}\n/* Results Count */\n.text-block--AaVhzNmxudmQwbk4yL__text_PJErWn {\n\n}\n\n/* Collection Filter */\n.color-custom-AVGhpZndqd05PL1Joc__group_8W6pky:has( > div.group-block-content) {\noutline: 1px solid red;\n}\n\n/* Filter List */\ndiv:has( > [class*=\"color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E\"]) {\n}\n\n/* Filter Pill (Global) */\n.color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF, .color-custom-AbkFnM2IreFlaaklXV__group_YmxMMB, .color-custom-AUmxmaHVFZGc1S1g1V__group_eBNYF9, .color-custom-AYUN2U0tmeWhFcDIzQ__group_dA4aiL {\nwhite-space: nowrap;\n}\n\n/* Filter Pill | Active */\n.color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E {\n\n}\n\n/* Sort & Layout component styles are in the settings custom CSS area */\n\n{% endstyle %}"
+            "custom_liquid": "{% style %}\n/* Results Count */\n.text-block--AaVhzNmxudmQwbk4yL__text_PJErWn {\n\n}\n\n/* Collection Filter */\n.color-custom-color-custom-AVzZycTM5bFd3YllsT__group_i99WcV:has( > div.group-block-content) {\noutline: 1px solid red;\n}\n\n/* Filter List */\ndiv:has( > [class*=\"color-custom-AVzZycTM5bFd3YllsT__group_i99WcV\"]) {\n}\n\n/* Filter Pill (Global) */\n.color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF, .color-custom-AbkFnM2IreFlaaklXV__group_YmxMMB, .color-custom-AUmxmaHVFZGc1S1g1V__group_eBNYF9, .color-custom-AYUN2U0tmeWhFcDIzQ__group_dA4aiL {\nwhite-space: nowrap;\n}\n\n/* Filter Pill | Active */\n.color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E {\n}\n\n/* Sort & Layout component styles are in the settings custom CSS area */\n\n{% endstyle %}"
           },
           "blocks": {}
         },
