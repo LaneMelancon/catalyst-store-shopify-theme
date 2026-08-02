@@ -672,7 +672,7 @@
                           "name": "Pathways",
                           "settings": {
                             "content_direction": "row",
-                            "vertical_on_mobile": false,
+                            "vertical_on_mobile": true,
                             "horizontal_alignment": "flex-start",
                             "vertical_alignment": "center",
                             "align_baseline": false,
@@ -717,14 +717,14 @@
                                 "vertical_alignment": "center",
                                 "align_baseline": false,
                                 "horizontal_alignment_flex_direction_column": "flex-start",
-                                "vertical_alignment_flex_direction_column": "center",
+                                "vertical_alignment_flex_direction_column": "flex-start",
                                 "gap": 0,
-                                "width": "fill",
+                                "width": "fit-content",
                                 "custom_width": 33,
-                                "width_mobile": "custom",
-                                "custom_width_mobile": 36,
-                                "height": "custom",
-                                "custom_height": 50,
+                                "width_mobile": "fit-content",
+                                "custom_width_mobile": 27,
+                                "height": "fit",
+                                "custom_height": 100,
                                 "background_media": "image",
                                 "background_color": "",
                                 "video_position": "cover",
@@ -738,7 +738,7 @@
                                 "border_width": 1,
                                 "border_opacity": 8,
                                 "border_color": "",
-                                "border_radius": 100,
+                                "border_radius": 5,
                                 "link": "",
                                 "open_in_new_tab": false,
                                 "placeholder": "",
@@ -748,17 +748,17 @@
                                 "padding-inline-end": 0
                               },
                               "blocks": {
-                                "image_wLGxh7": {
+                                "image_Qr8kMt": {
                                   "type": "image",
                                   "name": "t:names.image",
                                   "settings": {
-                                    "image": "shopify://shop_images/placeholder_613fe5dc-052e-4bb5-979c-e11ed7983580.png",
+                                    "image": "shopify://shop_images/placeholder_f47e4320-e30d-4b38-9560-95fa5ae19a5c.png",
                                     "link": "",
-                                    "image_ratio": "landscape",
-                                    "width": "custom",
+                                    "image_ratio": "adapt",
+                                    "width": "fill",
                                     "custom_width": 100,
-                                    "width_mobile": "fill",
-                                    "custom_width_mobile": 14,
+                                    "width_mobile": "fit-content",
+                                    "custom_width_mobile": 100,
                                     "height": "fit",
                                     "border": "none",
                                     "border_width": 1,
@@ -771,13 +771,29 @@
                                     "padding-inline-end": 0
                                   },
                                   "blocks": {}
+                                },
+                                "spacer_PFCghT": {
+                                  "type": "spacer",
+                                  "name": "t:names.spacer",
+                                  "disabled": true,
+                                  "settings": {
+                                    "size": "percent",
+                                    "percent_size": 100,
+                                    "pixel_size": 60,
+                                    "custom_mobile_size": true,
+                                    "size_mobile": "pixel",
+                                    "percent_size_mobile": 100,
+                                    "pixel_size_mobile": 100
+                                  },
+                                  "blocks": {}
                                 }
                               },
                               "block_order": [
-                                "image_wLGxh7"
+                                "image_Qr8kMt",
+                                "spacer_PFCghT"
                               ]
                             },
-                            "group_dhUdjJ": {
+                            "group_376yHT": {
                               "type": "group",
                               "name": "t:names.group",
                               "settings": {
@@ -791,7 +807,7 @@
                                 "gap": 2,
                                 "width": "fit-content",
                                 "custom_width": 100,
-                                "width_mobile": "fill",
+                                "width_mobile": "fit-content",
                                 "custom_width_mobile": 100,
                                 "height": "fit",
                                 "custom_height": 100,
@@ -811,13 +827,13 @@
                                 "link": "",
                                 "open_in_new_tab": false,
                                 "placeholder": "",
-                                "padding-block-start": 4,
-                                "padding-block-end": 4,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
                                 "padding-inline-start": 0,
                                 "padding-inline-end": 0
                               },
                               "blocks": {
-                                "text_X8gztL": {
+                                "text_JhJpRw": {
                                   "type": "text",
                                   "name": "Pathways",
                                   "settings": {
@@ -843,7 +859,7 @@
                                   },
                                   "blocks": {}
                                 },
-                                "text_eYK6RF": {
+                                "text_UL9wyi": {
                                   "type": "text",
                                   "name": "Pathways",
                                   "settings": {
@@ -871,14 +887,14 @@
                                 }
                               },
                               "block_order": [
-                                "text_X8gztL",
-                                "text_eYK6RF"
+                                "text_JhJpRw",
+                                "text_UL9wyi"
                               ]
                             }
                           },
                           "block_order": [
                             "group_LVTW6w",
-                            "group_dhUdjJ"
+                            "group_376yHT"
                           ]
                         }
                       },
@@ -1772,7 +1788,7 @@
       ],
       "custom_css": [
         "/* Sort Label */.facets__summary {padding: 0 0.5rem 0 0; font-size: 14px; line-height: 1.1; border-right: 1px solid rgba(14, 36, 21, 0.25); color: #e6e9e7;}",
-        "/* Layout Options */fieldset.column-options {flex-wrap: nowrap;}"
+        " /* Layout Options */fieldset.column-options {flex-wrap: nowrap;}"
       ],
       "name": "Pathway Filters (Desktop)",
       "settings": {
