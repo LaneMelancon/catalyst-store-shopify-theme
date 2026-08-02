@@ -1041,6 +1041,23 @@
         "padding-block-end": 0
       }
     },
+    "custom_liquid_yjhDUt": {
+      "type": "custom-liquid",
+      "name": "pathway-filter-styles",
+      "settings": {
+        "custom_liquid": "",
+        "background_color": "",
+        "section_width": "page-width",
+        "border_radius_individual": false,
+        "border_radius": 0,
+        "border_radius_top_left": 0,
+        "border_radius_top_right": 0,
+        "border_radius_bottom_right": 0,
+        "border_radius_bottom_left": 0,
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "section_xTDUQV": {
       "type": "section",
       "blocks": {
@@ -1123,14 +1140,6 @@
             "text_D4LMfG"
           ]
         },
-        "custom_liquid_3fWT9t": {
-          "type": "custom-liquid",
-          "name": "t:names.custom_liquid",
-          "settings": {
-            "custom_liquid": "<div\n    class=\"facets facets--horizontal facets-controls-wrapper spacing-style\"\n    style=\"{% render 'spacing-style', settings: block_settings %}{% if block_settings.text_label_case == 'uppercase' %} --facet-label-transform: uppercase;{% endif %}\"\n  >\n    <div\n      class=\"products-count-wrapper\"\n      data-testid=\"products-count\"\n    >\n      <span role=\"status\">\n        {% if products_count > 25000 %}\n          {{- 'content.item_count_cutoff' | t: count: 25000 -}}\n        {% else %}\n          {{- 'content.item_count' | t: count: products_count -}}\n        {% endif %}\n      </span>\n    </div>\n\n    {% render 'sorting',\n      results: results,\n      sort_by: sort_by,\n      filter_style: block_settings.filter_style,\n      suffix: 'desktop',\n      sort_position: 'desktop',\n      should_use_select_on_mobile: false,\n      section_id: section.id\n    %}\n\n    {% render 'grid-density-controls', viewport: 'desktop' %}\n  </div>"
-          },
-          "blocks": {}
-        },
         "group_9mMEi9": {
           "type": "group",
           "name": "Collection Actions",
@@ -1171,11 +1180,21 @@
             "padding-inline-end": 12
           },
           "blocks": {
+            "custom_liquid_TFKDCY": {
+              "type": "custom-liquid",
+              "name": "t:names.custom_liquid",
+              "disabled": true,
+              "settings": {
+                "custom_liquid": "{{ products_count }}"
+              },
+              "blocks": {}
+            },
             "text_PJErWn": {
               "type": "text",
               "name": "Results Count",
+              "disabled": true,
               "settings": {
-                "text": "<p>Results: 63</p>",
+                "text": "<p>Results: </p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1194,6 +1213,14 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "custom_liquid_WpHacD": {
+              "type": "custom-liquid",
+              "name": "t:names.custom_liquid",
+              "settings": {
+                "custom_liquid": "<div\n  class=\"spacing-style text-block text-block--AaVhzNmxudmQwbk4yL__text_PJErWn custom custom-typography custom-font-size custom-color\"\n  style=\"--padding-block-start: 0px; --padding-block-end: 0px; --padding-inline-start: 0px; --padding-inline-end: 0px; --font-size: 0.875rem; --font-weight: var(--font-body--weight); --font-family: var(--font-body--family); --text-transform: none; --text-wrap: balance; --line-height: var(--line-height--body-normal); --letter-spacing: var(--letter-spacing--body-normal); --color: #273a2d; --color-rgb: 39 58 45; --width: fit-content; --max-width: var(--max-width--body-normal);\"\n>\n  <p>Results:  {{ products_count }}</p>\n</div>"
               },
               "blocks": {}
             },
@@ -1740,7 +1767,9 @@
             }
           },
           "block_order": [
+            "custom_liquid_TFKDCY",
             "text_PJErWn",
+            "custom_liquid_WpHacD",
             "spacer_TUT3DV",
             "group_8W6pky",
             "spacer_4RcxKe",
@@ -1751,7 +1780,6 @@
       "block_order": [
         "custom_liquid_KJBdmn",
         "group_8DcKHb",
-        "custom_liquid_3fWT9t",
         "group_9mMEi9"
       ],
       "custom_css": [],
@@ -2650,6 +2678,7 @@
   },
   "order": [
     "media_with_content_KCFXqk",
+    "custom_liquid_yjhDUt",
     "section_xTDUQV",
     "carousel_EjwKmj",
     "divider_BB4J9g",
