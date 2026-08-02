@@ -1093,7 +1093,7 @@
           "type": "custom-liquid",
           "name": "pathway-filters-styles",
           "settings": {
-            "custom_liquid": "{% style %}\n/* Results Count */\n.text-block--AaVhzNmxudmQwbk4yL__text_PJErWn {\n\n}\n\n/* Collection Filter */\n.color-custom-color-custom-AVzZycTM5bFd3YllsT__group_i99WcV:has( > div.group-block-content) {\noutline: 1px solid red;\n}\n\n/* Filter List */\ndiv:has( > [class*=\"color-custom-AVzZycTM5bFd3YllsT__group_i99WcV\"]) {\n}\n\n/* Filter Pill (Global) */\n.color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF, .color-custom-AbkFnM2IreFlaaklXV__group_YmxMMB, .color-custom-AUmxmaHVFZGc1S1g1V__group_eBNYF9, .color-custom-AYUN2U0tmeWhFcDIzQ__group_dA4aiL {\nwhite-space: nowrap;\n}\n\n/* Filter Pill | Active */\n.color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E {\n}\n\n/* Sort & Layout component styles are in the settings custom CSS area */\n\n{% endstyle %}"
+            "custom_liquid": "{% style %}\n/* Results Count */\n.text-block--AaVhzNmxudmQwbk4yL__text_PJErWn {\n\n}\n\n/* Collection Filter */\n.color-custom-color-custom-AVzZycTM5bFd3YllsT__group_i99WcV:has( > div.group-block-content) {\noutline: 1px solid red;\n}\n\n/* Filter List */\ndiv:has( > [class*=\"color-custom-AVzZycTM5bFd3YllsT__group_i99WcV\"]) {\n}\n\n/* Filter Pill (Global) */\n.color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF, .color-custom-AbkFnM2IreFlaaklXV__group_YmxMMB, .color-custom-AUmxmaHVFZGc1S1g1V__group_eBNYF9, .color-custom-AYUN2U0tmeWhFcDIzQ__group_dA4aiL {\nwhite-space: nowrap;\n}\n\n/* Filter Pill | Active */\n.color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E {\n}\n\n/* Sort & Layout component styles are in the settings custom CSS area */\n\n/* Sort Label */\n.facets__summary {\n  padding: 0 0.5rem 0 0;\n  font-size: 14px;\n  line-height: 1.1;\n  border-right: 1px solid rgba(14, 36, 21, 0.25);\n  color: #e6e9e7;\n} \n\n/* Layout Options */\nfieldset.column-options {\n  flex-wrap: nowrap;\n}\n\n{% endstyle %}"
           },
           "blocks": {}
         },
@@ -1785,10 +1785,7 @@
         "group_8DcKHb",
         "group_9mMEi9"
       ],
-      "custom_css": [
-        "/* Sort Label */.facets__summary {padding: 0 0.5rem 0 0; font-size: 14px; line-height: 1.1; border-right: 1px solid rgba(14, 36, 21, 0.25); color: #e6e9e7;}",
-        " /* Layout Options */fieldset.column-options {flex-wrap: nowrap;}"
-      ],
+      "custom_css": [],
       "name": "Pathway Filters (Desktop)",
       "settings": {
         "content_direction": "column",
