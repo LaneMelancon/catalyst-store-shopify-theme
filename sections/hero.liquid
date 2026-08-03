@@ -635,7 +635,7 @@
     object-position: center center;
     overflow: hidden;
     position: relative;
-    z-index: var(--layer-base);
+    z-index: var(--layer-lowest); /* Lane: Attempting to descrease default media z-index to help with potential bleed into transparent sibling sections */
   }
 
   /* Mobile/Desktop media visibility */

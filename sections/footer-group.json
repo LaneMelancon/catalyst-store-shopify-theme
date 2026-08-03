@@ -23,7 +23,7 @@
             "show_as_accordion": false,
             "accordion_icon": "caret",
             "accordion_dividers": false,
-            "background_color": "",
+            "background_color": "{{ settings.color_palette.foreground }}",
             "text_color": "",
             "heading_preset": "h3",
             "link_preset": "paragraph",
