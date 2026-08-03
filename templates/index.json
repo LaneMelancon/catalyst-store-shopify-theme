@@ -2599,7 +2599,7 @@
         "icons_shape": "circle",
         "section_width": "page-width",
         "gap": 60,
-        "background_color": "",
+        "background_color": "{{ settings.color_palette.color1 }}",
         "border_radius_individual": false,
         "border_radius": 0,
         "border_radius_top_left": 0,
@@ -2961,9 +2961,9 @@
         "spacer_zH79zx"
       ],
       "custom_css": [
-        ".hero__container {overflow: visible; height: 100%;}",
+        ".hero__container {overflow: visible; height: 100%; position: relative}",
         ".hero__media-grid {grid-template-columns: 1fr; grid-template-rows: 100svh 100svh; width: 100%; top: 50%; right: auto; bottom: auto; left: 0; transform: translateY(-50%); z-index: -2;}",
-        ".hero__media-wrapper {width: 100%; height: 100%; background-size: 100% 100%; background-repeat: no-repeat; overflow: visible;}"
+        ".hero__media-wrapper {width: 100%; height: 100%; background-size: 100% 100%; background-repeat: no-repeat; }"
       ],
       "name": "Middle (Reveal)",
       "settings": {
