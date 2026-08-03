@@ -2573,9 +2573,7 @@
         "group_8KXhRC"
       ],
       "custom_css": [
-        ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.25);}",
-        ".section-background {background-color: transparent;}",
-        ".resource-list{z-index: 1;}"
+        ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.25);}"
       ],
       "name": "Health Goals",
       "settings": {
@@ -2963,7 +2961,7 @@
       ],
       "custom_css": [
         ".hero__container {overflow: visible; height: 100%; position: relative;}",
-        ".hero__media-grid {grid-template-columns: 1fr; grid-template-rows: 100svh 100svh; width: 100%; top: 50%; right: auto; bottom: auto; left: 0; transform: translateY(-50%); z-index: -20;}",
+        ".hero__media-grid {grid-template-columns: 1fr; grid-template-rows: 100svh 100svh; width: 100%; top: 50%; right: auto; bottom: auto; left: 0; transform: translateY(-50%); z-index: -20; transform: translate3d(0, -50%, 0); backface-visibility: hidden;}",
         ".hero__media-wrapper {width: 100%; height: 100%; background-size: 100% 100%; background-repeat: no-repeat;}"
       ],
       "name": "Middle (Reveal)",
