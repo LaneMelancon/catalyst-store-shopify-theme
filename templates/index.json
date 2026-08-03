@@ -2573,7 +2573,9 @@
         "group_8KXhRC"
       ],
       "custom_css": [
-        ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.25);}"
+        ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.25);}",
+        ".resource-list__carousel > [ref=\"slideshowContainer\"] {background-color: transparent;}",
+        ".resource-list__slide {z-index: 2;}"
       ],
       "name": "Health Goals",
       "settings": {
@@ -3199,7 +3201,7 @@
         "video_position": "cover",
         "background_image_position": "cover",
         "toggle_overlay": false,
-        "overlay_color": "#00000000",
+        "overlay_color": "rgba(0,0,0,0)",
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "border": "none",
