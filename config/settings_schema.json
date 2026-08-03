@@ -72,10 +72,11 @@
           "green100": "#cef8dc",
           "green50": "#e7fbee",
           "green25": "#f8fcf9",
-          "orange25": "#fffcf0",
           "neutral950": "#1a2f21",
           "neutral900": "#273a2d",
-          "neutral800": "#3e5044"
+          "neutral800": "#3e5044",
+          "orange25": "#fffcf0",
+          "orange15": "#fffdf7",
         }
       }
     ]
