@@ -27,7 +27,7 @@
     "type_size_h4": "18",
     "type_size_h5": "16",
     "type_case_h6": "none",
-    "page_background_color": "{{ settings.color_palette.color1 }}",
+    "page_background_color": "{{ settings.color_palette.orange15 }}",
     "page_width": "normal",
     "card_hover_effect": "subtle-zoom",
     "badge_sale_background_color": "{{ settings.color_palette.green200 }}",
@@ -47,7 +47,7 @@
     "auto_open_cart_drawer": true,
     "show_cart_note": false,
     "show_add_discount_code": true,
-    "drawer_background_color": "{{ settings.color_palette.color1 }}",
+    "drawer_background_color": "{{ settings.color_palette.orange15 }}",
     "drawer_text_color": "{{ settings.color_palette.foreground }}",
     "drawer_border_color": "#EDE9E0",
     "icon_stroke": "default",
@@ -99,8 +99,7 @@
       "neutral950": "#1a2f21",
       "neutral900": "#273a2d",
       "neutral800": "#3e5044",
-      "color1": "#fffdf7",
-      "color2": "#FEF5E6"
+      "orange15": "#fffdf7"
     }
   },
   "presets": {

@@ -2598,7 +2598,7 @@
         "icons_shape": "circle",
         "section_width": "page-width",
         "gap": 60,
-        "background_color": "",
+        "background_color": "{{ settings.color_palette.color1 }}",
         "border_radius_individual": false,
         "border_radius": 0,
         "border_radius_top_left": 0,
