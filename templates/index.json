@@ -2599,7 +2599,7 @@
         "icons_shape": "circle",
         "section_width": "page-width",
         "gap": 60,
-        "background_color": "{{ settings.color_palette.color1 }}",
+        "background_color": "",
         "border_radius_individual": false,
         "border_radius": 0,
         "border_radius_top_left": 0,
@@ -2617,7 +2617,7 @@
           "type": "spacer",
           "name": "t:names.spacer",
           "settings": {
-            "size": "percent",
+            "size": "pixel",
             "percent_size": 50,
             "pixel_size": 400,
             "custom_mobile_size": false,
@@ -2718,7 +2718,7 @@
                     "letter_spacing": "-0.03em",
                     "case": "none",
                     "text_effect": "reveal",
-                    "animation_repeat": true,
+                    "animation_repeat": false,
                     "text_color": "{{ settings.color_palette.green800 }}"
                   },
                   "blocks": {}
@@ -2737,9 +2737,9 @@
           "type": "spacer",
           "name": "t:names.spacer",
           "settings": {
-            "size": "percent",
+            "size": "pixel",
             "percent_size": 25,
-            "pixel_size": 204,
+            "pixel_size": 92,
             "custom_mobile_size": false,
             "size_mobile": "percent",
             "percent_size_mobile": 100,
@@ -2760,7 +2760,7 @@
             "vertical_alignment_flex_direction_column": "center",
             "gap": 12,
             "width": "fill",
-            "custom_width": 55,
+            "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
             "height": "fill",
@@ -2921,7 +2921,7 @@
                     "letter_spacing": "-0.03em",
                     "case": "none",
                     "text_effect": "reveal",
-                    "animation_repeat": true,
+                    "animation_repeat": false,
                     "text_color": "{{ settings.color_palette.green800 }}"
                   },
                   "blocks": {}
@@ -2940,9 +2940,9 @@
           "type": "spacer",
           "name": "t:names.spacer",
           "settings": {
-            "size": "percent",
+            "size": "pixel",
             "percent_size": 50,
-            "pixel_size": 400,
+            "pixel_size": 80,
             "custom_mobile_size": false,
             "size_mobile": "percent",
             "percent_size_mobile": 100,
