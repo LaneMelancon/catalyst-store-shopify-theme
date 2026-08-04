@@ -490,7 +490,7 @@
                           "type": "text",
                           "name": "t:names.text",
                           "settings": {
-                            "text": "<p>Supplement Health Goal</p>",
+                            "text": "<p>Shop by Health Goal</p>",
                             "width": "fit-content",
                             "max_width": "none",
                             "alignment": "left",
@@ -1141,7 +1141,7 @@
               "type": "text",
               "name": "t:names.header",
               "settings": {
-                "text": "<h2>Filter Supplements by Pathway</h2>",
+                "text": "<h2>Filter supplements by pathway</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
