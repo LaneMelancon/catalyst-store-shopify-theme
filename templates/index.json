@@ -1640,7 +1640,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Support your health goals through targeted pathways</h2>",
+                "text": "<h2>Supplements that support your health goals through targeted pathways</h2>",
                 "width": "100%",
                 "max_width": "narrow",
                 "alignment": "left",
@@ -2266,7 +2266,7 @@
                                 "link": "",
                                 "image_ratio": "adapt",
                                 "width": "custom",
-                                "custom_width": 33,
+                                "custom_width": 40,
                                 "width_mobile": "fill",
                                 "custom_width_mobile": 100,
                                 "height": "fit",
@@ -2289,9 +2289,9 @@
                                 "width": "100%",
                                 "max_width": "narrow",
                                 "alignment": "left",
-                                "type_preset": "rte",
+                                "type_preset": "custom",
                                 "font": "var(--font-body--family)",
-                                "font_size": "1rem",
+                                "font_size": "0.875rem",
                                 "line_height": "normal",
                                 "letter_spacing": "normal",
                                 "case": "none",
@@ -2344,7 +2344,7 @@
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
-                            "text": "<p>Supplement  Pathways:</p>",
+                            "text": "<p>Pathways:</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -3019,7 +3019,7 @@
                   "type": "_accordion-row",
                   "settings": {
                     "heading": "{{ metaobjects.supplement_health_goal[\"brain-mood\"].name.value }}",
-                    "open_by_default": false,
+                    "open_by_default": true,
                     "icon": "none",
                     "width": 12
                   },
@@ -4246,7 +4246,7 @@
                     "letter_spacing": "-0.03em",
                     "case": "none",
                     "text_effect": "reveal",
-                    "animation_repeat": false,
+                    "animation_repeat": true,
                     "text_color": "{{ settings.color_palette.green800 }}"
                   },
                   "blocks": {}
