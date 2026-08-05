@@ -281,8 +281,8 @@
             "percent_size": 100,
             "pixel_size": 120,
             "custom_mobile_size": true,
-            "size_mobile": "pixel",
-            "percent_size_mobile": 0,
+            "size_mobile": "percent",
+            "percent_size_mobile": 4,
             "pixel_size_mobile": 0
           },
           "blocks": {}
@@ -446,9 +446,9 @@
                 "size": "pixel",
                 "percent_size": 100,
                 "pixel_size": 40,
-                "custom_mobile_size": false,
-                "size_mobile": "pixel",
-                "percent_size_mobile": 100,
+                "custom_mobile_size": true,
+                "size_mobile": "percent",
+                "percent_size_mobile": 9,
                 "pixel_size_mobile": 40
               },
               "blocks": {}
@@ -559,7 +559,7 @@
                 "size": "pixel",
                 "percent_size": 100,
                 "pixel_size": 16,
-                "custom_mobile_size": true,
+                "custom_mobile_size": false,
                 "size_mobile": "pixel",
                 "percent_size_mobile": 29,
                 "pixel_size_mobile": 16
@@ -696,7 +696,7 @@
             "pixel_size": 120,
             "custom_mobile_size": true,
             "size_mobile": "percent",
-            "percent_size_mobile": 20,
+            "percent_size_mobile": 100,
             "pixel_size_mobile": 0
           },
           "blocks": {}
@@ -1711,7 +1711,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>Support your health goals through targeted supplement pathways</h2>",
+                    "text": "<h2>Support your health goals with targeted supplement pathways</h2>",
                     "width": "100%",
                     "max_width": "narrow",
                     "alignment": "left",
@@ -2077,7 +2077,7 @@
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
                         "vertical_alignment_flex_direction_column": "flex-start",
-                        "gap": 16,
+                        "gap": 0,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
@@ -2202,7 +2202,7 @@
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
                         "vertical_alignment_flex_direction_column": "flex-start",
-                        "gap": 16,
+                        "gap": 0,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
@@ -2308,7 +2308,7 @@
                       "name": "button_link",
                       "settings": {
                         "content_direction": "row",
-                        "vertical_on_mobile": true,
+                        "vertical_on_mobile": false,
                         "horizontal_alignment": "flex-start",
                         "vertical_alignment": "center",
                         "align_baseline": false,
@@ -2727,7 +2727,7 @@
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
                         "vertical_alignment_flex_direction_column": "flex-start",
-                        "gap": 16,
+                        "gap": 0,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
@@ -2852,7 +2852,7 @@
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
                         "vertical_alignment_flex_direction_column": "flex-start",
-                        "gap": 16,
+                        "gap": 0,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
@@ -2958,7 +2958,7 @@
                       "name": "button_link",
                       "settings": {
                         "content_direction": "row",
-                        "vertical_on_mobile": true,
+                        "vertical_on_mobile": false,
                         "horizontal_alignment": "flex-start",
                         "vertical_alignment": "center",
                         "align_baseline": false,
@@ -3377,7 +3377,7 @@
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
                         "vertical_alignment_flex_direction_column": "flex-start",
-                        "gap": 16,
+                        "gap": 0,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
@@ -3955,7 +3955,7 @@
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
                         "vertical_alignment_flex_direction_column": "flex-start",
-                        "gap": 16,
+                        "gap": 0,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
@@ -4005,8 +4005,8 @@
                             "corner_radius": 0,
                             "padding-block-start": 8,
                             "padding-block-end": 8,
-                            "padding-inline-start": 0,
-                            "padding-inline-end": 0
+                            "padding-inline-start": 8,
+                            "padding-inline-end": 8
                           },
                           "blocks": {}
                         },
@@ -4044,8 +4044,8 @@
                             "corner_radius": 0,
                             "padding-block-start": 8,
                             "padding-block-end": 8,
-                            "padding-inline-start": 0,
-                            "padding-inline-end": 0
+                            "padding-inline-start": 8,
+                            "padding-inline-end": 8
                           },
                           "blocks": {}
                         }
