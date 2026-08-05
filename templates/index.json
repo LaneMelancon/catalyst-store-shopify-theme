@@ -409,7 +409,7 @@
                 "alignment": "left",
                 "type_preset": "h1",
                 "font": "var(--font-heading--family)",
-                "font_size": "4.5rem",
+                "font_size": "3.5rem",
                 "line_height": "tight",
                 "letter_spacing": "normal",
                 "case": "none",
@@ -2154,7 +2154,7 @@
               "settings": {
                 "thickness": 1,
                 "corner_radius": "square",
-                "divider_color": "#EDE9E0",
+                "divider_color": "#ede9e0",
                 "width_percent": 100,
                 "padding-block-start": 0,
                 "padding-block-end": 0
@@ -2207,7 +2207,7 @@
                   "settings": {
                     "icon": "caret",
                     "dividers": true,
-                    "divider_color": "#EDE9E0",
+                    "divider_color": "#ede9e0",
                     "type_preset": "h4",
                     "background_color": "",
                     "text_color": "",
@@ -2509,7 +2509,7 @@
                                   "settings": {
                                     "thickness": 1,
                                     "corner_radius": "square",
-                                    "divider_color": "#F3F4F3",
+                                    "divider_color": "#f3f4f3",
                                     "width_percent": 100,
                                     "padding-block-start": 0,
                                     "padding-block-end": 0
@@ -2600,7 +2600,7 @@
                               "settings": {
                                 "thickness": 1,
                                 "corner_radius": "square",
-                                "divider_color": "#F3F4F3",
+                                "divider_color": "#f3f4f3",
                                 "width_percent": 100,
                                 "padding-block-start": 0,
                                 "padding-block-end": 0
@@ -2724,7 +2724,7 @@
                                   "settings": {
                                     "thickness": 1,
                                     "corner_radius": "square",
-                                    "divider_color": "#F3F4F3",
+                                    "divider_color": "#f3f4f3",
                                     "width_percent": 100,
                                     "padding-block-start": 0,
                                     "padding-block-end": 0
@@ -3110,7 +3110,7 @@
                                   "settings": {
                                     "thickness": 1,
                                     "corner_radius": "square",
-                                    "divider_color": "#F3F4F3",
+                                    "divider_color": "#f3f4f3",
                                     "width_percent": 100,
                                     "padding-block-start": 0,
                                     "padding-block-end": 0
@@ -3201,7 +3201,7 @@
                               "settings": {
                                 "thickness": 1,
                                 "corner_radius": "square",
-                                "divider_color": "#F3F4F3",
+                                "divider_color": "#f3f4f3",
                                 "width_percent": 100,
                                 "padding-block-start": 0,
                                 "padding-block-end": 0
@@ -3325,7 +3325,7 @@
                                   "settings": {
                                     "thickness": 1,
                                     "corner_radius": "square",
-                                    "divider_color": "#F3F4F3",
+                                    "divider_color": "#f3f4f3",
                                     "width_percent": 100,
                                     "padding-block-start": 0,
                                     "padding-block-end": 0
@@ -3711,7 +3711,7 @@
                                   "settings": {
                                     "thickness": 1,
                                     "corner_radius": "square",
-                                    "divider_color": "#F3F4F3",
+                                    "divider_color": "#f3f4f3",
                                     "width_percent": 100,
                                     "padding-block-start": 0,
                                     "padding-block-end": 0
@@ -3802,7 +3802,7 @@
                               "settings": {
                                 "thickness": 1,
                                 "corner_radius": "square",
-                                "divider_color": "#F3F4F3",
+                                "divider_color": "#f3f4f3",
                                 "width_percent": 100,
                                 "padding-block-start": 0,
                                 "padding-block-end": 0
@@ -3926,7 +3926,7 @@
                                   "settings": {
                                     "thickness": 1,
                                     "corner_radius": "square",
-                                    "divider_color": "#F3F4F3",
+                                    "divider_color": "#f3f4f3",
                                     "width_percent": 100,
                                     "padding-block-start": 0,
                                     "padding-block-end": 0
@@ -4038,7 +4038,7 @@
                   "settings": {
                     "icon": "caret",
                     "dividers": true,
-                    "divider_color": "#EDE9E0",
+                    "divider_color": "#ede9e0",
                     "type_preset": "h4",
                     "background_color": "",
                     "text_color": "",
@@ -4340,7 +4340,7 @@
                                   "settings": {
                                     "thickness": 1,
                                     "corner_radius": "square",
-                                    "divider_color": "#F3F4F3",
+                                    "divider_color": "#f3f4f3",
                                     "width_percent": 100,
                                     "padding-block-start": 0,
                                     "padding-block-end": 0
@@ -4431,7 +4431,7 @@
                               "settings": {
                                 "thickness": 1,
                                 "corner_radius": "square",
-                                "divider_color": "#F3F4F3",
+                                "divider_color": "#f3f4f3",
                                 "width_percent": 100,
                                 "padding-block-start": 0,
                                 "padding-block-end": 0
@@ -4555,7 +4555,7 @@
                                   "settings": {
                                     "thickness": 1,
                                     "corner_radius": "square",
-                                    "divider_color": "#F3F4F3",
+                                    "divider_color": "#f3f4f3",
                                     "width_percent": 100,
                                     "padding-block-start": 0,
                                     "padding-block-end": 0
@@ -4941,7 +4941,7 @@
                                   "settings": {
                                     "thickness": 1,
                                     "corner_radius": "square",
-                                    "divider_color": "#F3F4F3",
+                                    "divider_color": "#f3f4f3",
                                     "width_percent": 100,
                                     "padding-block-start": 0,
                                     "padding-block-end": 0
@@ -5032,7 +5032,7 @@
                               "settings": {
                                 "thickness": 1,
                                 "corner_radius": "square",
-                                "divider_color": "#F3F4F3",
+                                "divider_color": "#f3f4f3",
                                 "width_percent": 100,
                                 "padding-block-start": 0,
                                 "padding-block-end": 0
@@ -5156,7 +5156,7 @@
                                   "settings": {
                                     "thickness": 1,
                                     "corner_radius": "square",
-                                    "divider_color": "#F3F4F3",
+                                    "divider_color": "#f3f4f3",
                                     "width_percent": 100,
                                     "padding-block-start": 0,
                                     "padding-block-end": 0
