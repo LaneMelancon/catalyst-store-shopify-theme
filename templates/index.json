@@ -734,7 +734,7 @@
         "section_height_custom": 85,
         "background_color": "{{ settings.color_palette.orange15 }}",
         "toggle_overlay": true,
-        "overlay_color": "#312a1eb5",
+        "overlay_color": "#312A1E94",
         "overlay_style": "gradient",
         "gradient_direction": "to bottom",
         "blurred_reflection": false,
@@ -1433,7 +1433,7 @@
               "settings": {
                 "thickness": 1,
                 "corner_radius": "square",
-                "divider_color": "#ede9e0",
+                "divider_color": "#EDEADF",
                 "width_percent": 100,
                 "padding-block-start": 0,
                 "padding-block-end": 0
@@ -1478,7 +1478,7 @@
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 16,
                 "background_media": "none",
-                "background_color": "#F9FAF9",
+                "background_color": "#f9faf9",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
@@ -1708,7 +1708,7 @@
                       "settings": {
                         "thickness": 1,
                         "corner_radius": "square",
-                        "divider_color": "#F1EFE8",
+                        "divider_color": "#f1efe8",
                         "width_percent": 100,
                         "padding-block-start": 0,
                         "padding-block-end": 8
@@ -1929,7 +1929,7 @@
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 16,
                 "background_media": "none",
-                "background_color": "#F9FAF9",
+                "background_color": "#f9faf9",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
@@ -2159,7 +2159,7 @@
                       "settings": {
                         "thickness": 1,
                         "corner_radius": "square",
-                        "divider_color": "#F1EFE8",
+                        "divider_color": "#f1efe8",
                         "width_percent": 100,
                         "padding-block-start": 0,
                         "padding-block-end": 8
@@ -2380,7 +2380,7 @@
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 16,
                 "background_media": "none",
-                "background_color": "#F9FAF9",
+                "background_color": "#f9faf9",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
@@ -2610,7 +2610,7 @@
                       "settings": {
                         "thickness": 1,
                         "corner_radius": "square",
-                        "divider_color": "#F1EFE8",
+                        "divider_color": "#f1efe8",
                         "width_percent": 100,
                         "padding-block-start": 0,
                         "padding-block-end": 8
@@ -2831,7 +2831,7 @@
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 16,
                 "background_media": "none",
-                "background_color": "#F9FAF9",
+                "background_color": "#f9faf9",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
@@ -3061,7 +3061,7 @@
                       "settings": {
                         "thickness": 1,
                         "corner_radius": "square",
-                        "divider_color": "#F1EFE8",
+                        "divider_color": "#f1efe8",
                         "width_percent": 100,
                         "padding-block-start": 0,
                         "padding-block-end": 8
@@ -3282,7 +3282,7 @@
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 16,
                 "background_media": "none",
-                "background_color": "#F9FAF9",
+                "background_color": "#f9faf9",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
@@ -3512,7 +3512,7 @@
                       "settings": {
                         "thickness": 1,
                         "corner_radius": "square",
-                        "divider_color": "#F1EFE8",
+                        "divider_color": "#f1efe8",
                         "width_percent": 100,
                         "padding-block-start": 0,
                         "padding-block-end": 8
@@ -3733,7 +3733,7 @@
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 16,
                 "background_media": "none",
-                "background_color": "#F9FAF9",
+                "background_color": "#f9faf9",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
@@ -3963,7 +3963,7 @@
                       "settings": {
                         "thickness": 1,
                         "corner_radius": "square",
-                        "divider_color": "#F1EFE8",
+                        "divider_color": "#f1efe8",
                         "width_percent": 100,
                         "padding-block-start": 0,
                         "padding-block-end": 8
@@ -4352,7 +4352,7 @@
               "settings": {
                 "thickness": 1,
                 "corner_radius": "square",
-                "divider_color": "#ede9e0",
+                "divider_color": "#EDEADF",
                 "width_percent": 100,
                 "padding-block-start": 0,
                 "padding-block-end": 0
