@@ -842,7 +842,7 @@
                               "type": "text",
                               "name": "Pathways",
                               "settings": {
-                                "text": "<p>Related Pathways:</p>",
+                                "text": "<p>Supplement  Pathways:</p>",
                                 "width": "fit-content",
                                 "max_width": "normal",
                                 "alignment": "left",
