@@ -2814,6 +2814,9 @@
           ]
         }
       },
+      "custom_css": [
+        "[ref=\"scroller\"]:has(.card.color-custom-AZjBHc0V0TnI5TDZWV__card_TRhkmL) {padding-inline: 16px; scroll-snap-type: x mandatory;}"
+      ],
       "name": "t:names.carousel",
       "settings": {
         "columns": 5,
