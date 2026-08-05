@@ -281,9 +281,9 @@
             "percent_size": 100,
             "pixel_size": 120,
             "custom_mobile_size": true,
-            "size_mobile": "percent",
-            "percent_size_mobile": 100,
-            "pixel_size_mobile": 120
+            "size_mobile": "pixel",
+            "percent_size_mobile": 0,
+            "pixel_size_mobile": 0
           },
           "blocks": {}
         },
@@ -406,10 +406,10 @@
                 "size": "pixel",
                 "percent_size": 100,
                 "pixel_size": 24,
-                "custom_mobile_size": true,
-                "size_mobile": "pixel",
-                "percent_size_mobile": 100,
-                "pixel_size_mobile": 24
+                "custom_mobile_size": false,
+                "size_mobile": "percent",
+                "percent_size_mobile": 41,
+                "pixel_size_mobile": 36
               },
               "blocks": {}
             },
@@ -446,7 +446,7 @@
                 "size": "pixel",
                 "percent_size": 100,
                 "pixel_size": 40,
-                "custom_mobile_size": true,
+                "custom_mobile_size": false,
                 "size_mobile": "pixel",
                 "percent_size_mobile": 100,
                 "pixel_size_mobile": 40
@@ -503,7 +503,7 @@
                     "alignment": "left",
                     "type_preset": "custom",
                     "font": "var(--font-body--family)",
-                    "font_size": "1.25rem",
+                    "font_size": "1.125rem",
                     "line_height": "loose",
                     "letter_spacing": "normal",
                     "case": "none",
@@ -558,11 +558,11 @@
               "settings": {
                 "size": "pixel",
                 "percent_size": 100,
-                "pixel_size": 24,
+                "pixel_size": 16,
                 "custom_mobile_size": true,
                 "size_mobile": "pixel",
-                "percent_size_mobile": 24,
-                "pixel_size_mobile": 24
+                "percent_size_mobile": 29,
+                "pixel_size_mobile": 16
               },
               "blocks": {}
             },
@@ -571,7 +571,7 @@
               "name": "button-group",
               "settings": {
                 "content_direction": "row",
-                "vertical_on_mobile": true,
+                "vertical_on_mobile": false,
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
@@ -642,7 +642,7 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "label": "Shop by Health Goals",
+                    "label": "Shop Health Goals",
                     "link": "#",
                     "open_in_new_tab": false,
                     "style_class": "button-unstyled",
@@ -696,8 +696,8 @@
             "pixel_size": 120,
             "custom_mobile_size": true,
             "size_mobile": "percent",
-            "percent_size_mobile": 100,
-            "pixel_size_mobile": 120
+            "percent_size_mobile": 20,
+            "pixel_size_mobile": 0
           },
           "blocks": {}
         }
@@ -717,7 +717,7 @@
         "stack_media_on_mobile": false,
         "custom_mobile_media": true,
         "media_type_1_mobile": "image",
-        "image_1_mobile": "shopify://shop_images/products-arrangement-02-portrait.jpg",
+        "image_1_mobile": "shopify://shop_images/products-arrangement-02-portrait-01.jpg",
         "media_type_2_mobile": "image",
         "link": "",
         "open_in_new_tab": false,
@@ -731,8 +731,8 @@
         "gap": 24,
         "section_width": "page-width",
         "section_height": "custom",
-        "section_height_custom": 80,
-        "background_color": "{{ settings.color_palette.color1 }}",
+        "section_height_custom": 85,
+        "background_color": "{{ settings.color_palette.orange15 }}",
         "toggle_overlay": true,
         "overlay_color": "#312a1eb5",
         "overlay_style": "gradient",
@@ -6019,6 +6019,7 @@
                 "text_bdX8Ng": {
                   "type": "text",
                   "name": "t:names.text",
+                  "disabled": true,
                   "settings": {
                     "text": "<p>Made with care and unconditionally loved by our customers, this signature bestseller exceeds all expectations.</p>",
                     "width": "100%",
@@ -6030,7 +6031,7 @@
                     "line_height": "normal",
                     "letter_spacing": "normal",
                     "case": "none",
-                    "wrap": "pretty",
+                    "wrap": "balance",
                     "text_color": "{{ settings.color_palette.neutral800 }}",
                     "background": false,
                     "background_color": "#00000026",
