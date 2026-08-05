@@ -100,44 +100,6 @@
         "content": "t:content.page_text_color_contrast_info"
       },
       {
-        "type": "header",
-        "content": "t:content.fonts",
-        "visible_if": "{{ false }}"
-      },
-      {
-        "type": "font_picker",
-        "id": "type_body_font",
-        "default": "work_sans_n4",
-        "label": "t:options.body",
-        "visible_if": "{{ false }}"
-      },
-      {
-        "type": "font_picker",
-        "id": "type_subheading_font",
-        "default": "work_sans_n5",
-        "label": "t:options.subheading",
-        "visible_if": "{{ false }}"
-      },
-      {
-        "type": "font_picker",
-        "id": "type_heading_font",
-        "default": "anonymous_pro_n4",
-        "label": "t:options.heading",
-        "visible_if": "{{ false }}"
-      },
-      {
-        "type": "font_picker",
-        "id": "type_accent_font",
-        "default": "anonymous_pro_n4",
-        "label": "t:options.accent",
-        "visible_if": "{{ false }}"
-      },
-      {
-        "type": "header",
-        "content": "t:content.text_presets",
-        "visible_if": "{{ false }}"
-      },
-      {
         "type": "paragraph",
         "content": "t:content.responsive_font_sizes",
       },
