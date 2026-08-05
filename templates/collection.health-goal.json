@@ -2415,13 +2415,12 @@
         "static-header": {
           "type": "group",
           "name": "t:names.header",
-          "disabled": true,
           "static": true,
           "settings": {
             "content_direction": "row",
             "vertical_on_mobile": false,
-            "horizontal_alignment": "space-between",
-            "vertical_alignment": "flex-end",
+            "horizontal_alignment": "center",
+            "vertical_alignment": "center",
             "align_baseline": true,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
@@ -2458,7 +2457,7 @@
               "type": "text",
               "name": "t:names.header",
               "settings": {
-                "text": "<p>Discover elevated design </p>",
+                "text": "<p>Filter by supplement pathway</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2490,7 +2489,7 @@
           "name": "Filter List",
           "static": true,
           "settings": {
-            "background_color": "",
+            "background_color": "#F9FAF9",
             "height": "fit",
             "position": "top",
             "border": "solid",
@@ -2498,8 +2497,8 @@
             "border_opacity": 0,
             "border_color": "",
             "border_radius": 100,
-            "padding-block-start": 1,
-            "padding-block-end": 1,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -2659,7 +2658,7 @@
                   "settings": {
                     "text": "<p>{{ metaobjects.supplement_pathway[\"mood-regulation\"].name.value }}</p>",
                     "width": "fit-content",
-                    "max_width": "none",
+                    "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "custom",
                     "font": "var(--font-body--family)",
@@ -2815,7 +2814,7 @@
         }
       },
       "custom_css": [
-        "[ref=\"scroller\"]:has(.card.color-custom-AZjBHc0V0TnI5TDZWV__card_TRhkmL) {padding-inline: 16px; scroll-snap-type: x mandatory;}"
+        "[ref=\"scroller\"]:has(.card.color-custom-AZjBHc0V0TnI5TDZWV__card_TRhkmL) {padding-inline: 16px; padding-block: 14px; scroll-snap-type: x mandatory;}"
       ],
       "name": "t:names.carousel",
       "settings": {
@@ -2823,7 +2822,7 @@
         "mobile_columns": "2",
         "section_width": "full-width",
         "columns_gap": 0,
-        "background_color": "#F9FAF9",
+        "background_color": "",
         "icons_style": "none",
         "icons_shape": "none",
         "border_radius_individual": false,
@@ -2832,8 +2831,8 @@
         "border_radius_top_right": 0,
         "border_radius_bottom_right": 0,
         "border_radius_bottom_left": 0,
-        "padding-block-start": 12,
-        "padding-block-end": 12
+        "padding-block-start": 24,
+        "padding-block-end": 0
       }
     },
     "main": {
