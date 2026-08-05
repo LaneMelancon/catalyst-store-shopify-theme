@@ -1986,7 +1986,7 @@
         "border_radius_top_right": 0,
         "border_radius_bottom_right": 0,
         "border_radius_bottom_left": 0,
-        "padding-block-start": 80,
+        "padding-block-start": 100,
         "padding-block-end": 80
       }
     },
@@ -2175,8 +2175,8 @@
         "padding-inline-start": 0,
         "padding-inline-end": 0,
         "background_color": "{{ settings.color_palette.background }}",
-        "padding-block-start": 60,
-        "padding-block-end": 60
+        "padding-block-start": 80,
+        "padding-block-end": 80
       }
     }
   },
