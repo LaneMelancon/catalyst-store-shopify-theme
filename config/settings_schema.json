@@ -101,7 +101,8 @@
       },
       {
         "type": "header",
-        "content": "t:content.fonts"
+        "content": "t:content.fonts",
+        "visible_if": "{{ false }}"
       },
       {
         "type": "font_picker",
@@ -133,11 +134,12 @@
       },
       {
         "type": "header",
-        "content": "t:content.text_presets"
+        "content": "t:content.text_presets",
+        "visible_if": "{{ false }}"
       },
       {
         "type": "paragraph",
-        "content": "t:content.responsive_font_sizes"
+        "content": "t:content.responsive_font_sizes",
       },
       {
         "type": "header",
