@@ -100,6 +100,10 @@
         "content": "t:content.page_text_color_contrast_info"
       },
       {
+        "type": "header",
+        "content": "t:content.text_presets",
+      },
+      {
         "type": "paragraph",
         "content": "t:content.responsive_font_sizes",
       },
