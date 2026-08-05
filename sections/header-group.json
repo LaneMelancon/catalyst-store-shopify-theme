@@ -83,7 +83,6 @@
         }
       },
       "custom_css": [
-        ".header_menu {align-items: center;}",
         ".header__column--center {margin: -12px 0px;}"
       ],
       "settings": {
