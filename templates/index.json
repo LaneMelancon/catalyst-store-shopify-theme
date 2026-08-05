@@ -280,7 +280,7 @@
             "size": "percent",
             "percent_size": 100,
             "pixel_size": 120,
-            "custom_mobile_size": false,
+            "custom_mobile_size": true,
             "size_mobile": "percent",
             "percent_size_mobile": 100,
             "pixel_size_mobile": 120
@@ -298,7 +298,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
-            "gap": 24,
+            "gap": 0,
             "width": "fill",
             "custom_width": 50,
             "width_mobile": "fit-content",
@@ -322,7 +322,7 @@
             "open_in_new_tab": false,
             "placeholder": "",
             "padding-block-start": 0,
-            "padding-block-end": 32,
+            "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -399,6 +399,20 @@
                 "text_tiTmEH"
               ]
             },
+            "spacer_ieWqKH": {
+              "type": "spacer",
+              "name": "t:names.spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 24,
+                "custom_mobile_size": true,
+                "size_mobile": "pixel",
+                "percent_size_mobile": 100,
+                "pixel_size_mobile": 24
+              },
+              "blocks": {}
+            },
             "text_bHXRaY": {
               "type": "text",
               "name": "t:names.heading",
@@ -429,13 +443,13 @@
               "type": "spacer",
               "name": "t:names.spacer",
               "settings": {
-                "size": "percent",
+                "size": "pixel",
                 "percent_size": 100,
-                "pixel_size": 120,
-                "custom_mobile_size": false,
-                "size_mobile": "percent",
+                "pixel_size": 40,
+                "custom_mobile_size": true,
+                "size_mobile": "pixel",
                 "percent_size_mobile": 100,
-                "pixel_size_mobile": 120
+                "pixel_size_mobile": 40
               },
               "blocks": {}
             },
@@ -537,6 +551,20 @@
                 "text_UfTNgz",
                 "text_PizP8i"
               ]
+            },
+            "spacer_AMDFbY": {
+              "type": "spacer",
+              "name": "t:names.spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 24,
+                "custom_mobile_size": true,
+                "size_mobile": "pixel",
+                "percent_size_mobile": 24,
+                "pixel_size_mobile": 24
+              },
+              "blocks": {}
             },
             "group_pKFHjz": {
               "type": "group",
@@ -651,9 +679,11 @@
           },
           "block_order": [
             "group_QhcxYA",
+            "spacer_ieWqKH",
             "text_bHXRaY",
             "spacer_pxbgfE",
             "group_nkRL9q",
+            "spacer_AMDFbY",
             "group_pKFHjz"
           ]
         },
@@ -664,7 +694,7 @@
             "size": "percent",
             "percent_size": 100,
             "pixel_size": 120,
-            "custom_mobile_size": false,
+            "custom_mobile_size": true,
             "size_mobile": "percent",
             "percent_size_mobile": 100,
             "pixel_size_mobile": 120
@@ -2226,7 +2256,7 @@
                       "type": "_accordion-row",
                       "settings": {
                         "heading": "{{ metaobjects.supplement_health_goal[\"brain-mood\"].name.value }}",
-                        "open_by_default": true,
+                        "open_by_default": false,
                         "icon": "none",
                         "width": 12
                       },
@@ -4057,7 +4087,7 @@
                       "type": "_accordion-row",
                       "settings": {
                         "heading": "{{ metaobjects.supplement_health_goal[\"energy-metabolism\"].name.value }}",
-                        "open_by_default": true,
+                        "open_by_default": false,
                         "icon": "none",
                         "width": 12
                       },
@@ -6301,37 +6331,10 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
-                },
-                "text_izT9nD": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p>Every product in our store is organized around the areas of health your care plan targets most.</p>",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "paragraph",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "text_color": "{{ settings.color_palette.neutral900 }}",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
-                "text_V88KYp",
-                "text_izT9nD"
+                "text_V88KYp"
               ]
             },
             "divider_PP3Wbj": {
