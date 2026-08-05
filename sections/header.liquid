@@ -976,15 +976,12 @@
     --header-padding: var(--padding-2xs);
   }
 
+  /* Lane: Removed block padding due to submenu animation flickering
   .header__columns {
     --padding-block-start: var(--header-padding);
     --padding-block-end: var(--header-padding);
-    
-    @media screen and (min-width: 750px) {
-      --padding-block-start: 0px;
-      --padding-block-end: 0px;
-    }
   }
+  */
 
   .header:not(.header--compact) .header__row--bottom {
     --header-padding: var(--padding-xs);
