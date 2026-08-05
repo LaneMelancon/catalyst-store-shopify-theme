@@ -421,7 +421,7 @@
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
-                "type_preset": "h1",
+                "type_preset": "rte",
                 "font": "var(--font-heading--family)",
                 "font_size": "3.5rem",
                 "line_height": "tight",
