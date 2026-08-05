@@ -483,7 +483,7 @@
                   "type": "text",
                   "name": "Description",
                   "settings": {
-                    "text": "<p>Every brand in our catalog is vetted by our clinical team before it ever reaches this store. Simple to access, right where your care continues.</p>",
+                    "text": "<p>Every product in our catalog is vetted by our clinical team before it ever reaches you. Simple to access, right where your care continues.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -2140,43 +2140,11 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
-                },
-                "button_3GDrbU": {
-                  "type": "button",
-                  "settings": {
-                    "label": "Shop now",
-                    "link": "shopify://collections/all",
-                    "open_in_new_tab": false,
-                    "style_class": "button",
-                    "custom_button_background": "{{ settings.color_palette.foreground }}",
-                    "custom_button_border_style": "none",
-                    "custom_button_border_width": 1,
-                    "custom_button_border_opacity": 100,
-                    "custom_button_border": "{{ settings.color_palette.background }}",
-                    "custom_button_corner_radius": 100,
-                    "custom_button_font": "",
-                    "custom_button_font_size": "",
-                    "custom_button_line_height": "",
-                    "custom_button_letter_spacing": "",
-                    "custom_button_case": "",
-                    "custom_button_text": "{{ settings.color_palette.background }}",
-                    "custom_button_padding_block_start": 16,
-                    "custom_button_padding_block_end": 16,
-                    "custom_button_padding_inline_start": 24,
-                    "custom_button_padding_inline_end": 24,
-                    "link_text_color": "",
-                    "width": "fit-content",
-                    "custom_width": 100,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 100
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
                 "text_DyXfBY",
-                "text_wrPjCB",
-                "button_3GDrbU"
+                "text_wrPjCB"
               ]
             },
             "accordion_JAxgJd": {
@@ -2184,7 +2152,7 @@
               "name": "t:names.accordion",
               "settings": {
                 "icon": "caret",
-                "dividers": true,
+                "dividers": false,
                 "divider_color": "",
                 "type_preset": "h6",
                 "background_color": "",
@@ -2203,10 +2171,10 @@
                 "accordion_row_VcXyBU": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Return policy",
+                    "heading": "Brain & Mood",
                     "open_by_default": true,
                     "icon": "none",
-                    "width": 20
+                    "width": 98
                   },
                   "blocks": {
                     "text_nawmJA": {
@@ -2396,7 +2364,7 @@
             "video_position": "cover",
             "background_image_position": "cover",
             "toggle_overlay": true,
-            "overlay_color": "#FFFDF780",
+            "overlay_color": "#fffdf780",
             "overlay_style": "gradient",
             "gradient_direction": "to bottom",
             "border": "none",
@@ -2436,7 +2404,7 @@
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "toggle_overlay": true,
-                "overlay_color": "#FFFDF7CC",
+                "overlay_color": "#fffdf7cc",
                 "overlay_style": "gradient",
                 "gradient_direction": "to bottom",
                 "border": "none",
@@ -2762,7 +2730,7 @@
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "toggle_overlay": true,
-                "overlay_color": "#FFFDF7CC",
+                "overlay_color": "#fffdf7cc",
                 "overlay_style": "gradient",
                 "gradient_direction": "to top",
                 "border": "none",
