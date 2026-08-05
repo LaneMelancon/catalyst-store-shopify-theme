@@ -82,9 +82,7 @@
           "blocks": {}
         }
       },
-      "custom_css": [
-        ".header__column--center {margin: -12px 0px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "logo_position": "left",
         "menu_position": "center",
