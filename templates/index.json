@@ -752,6 +752,77 @@
     "section_GmHD4h": {
       "type": "section",
       "blocks": {
+        "group_pGBRWp": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_YmXrx3": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2>The brands we trust</h2>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h5",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "{{ settings.color_palette.neutral800 }}",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_YmXrx3"
+          ]
+        },
         "group_QCU3Uh": {
           "type": "group",
           "name": "t:names.column",
@@ -763,7 +834,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 32,
+            "gap": 40,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -788,7 +859,7 @@
             "placeholder": "",
             "padding-block-start": 10,
             "padding-block-end": 0,
-            "padding-inline-start": 0,
+            "padding-inline-start": 40,
             "padding-inline-end": 0
           },
           "blocks": {
@@ -1328,11 +1399,12 @@
         }
       },
       "block_order": [
+        "group_pGBRWp",
         "group_QCU3Uh"
       ],
       "custom_css": [
         "div:has(> .color-custom-template--27584646218040__section_GmHD4h) {overflow: hidden;}",
-        ".color-custom-template--27584646218040__section_GmHD4h .image-block {min-width: 8rem; }"
+        ".color-custom-template--27584646218040__section_GmHD4h .image-block {min-width: 8rem;}"
       ],
       "name": "t:names.multicolumn",
       "settings": {
