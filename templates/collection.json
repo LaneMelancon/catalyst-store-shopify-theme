@@ -1146,7 +1146,7 @@
             "border_width": 1,
             "border_opacity": 100,
             "border_color": "",
-            "border_radius": 12
+            "border_radius": 14
           },
           "blocks": {
             "group_4empmd": {
@@ -1838,7 +1838,7 @@
                   "settings": {
                     "thickness": 1,
                     "corner_radius": "square",
-                    "divider_color": "#EDE9E0",
+                    "divider_color": "#ede9e0",
                     "width_percent": 100,
                     "padding-block-start": 0,
                     "padding-block-end": 0
@@ -1892,7 +1892,7 @@
                 "border_width": 1,
                 "border_opacity": 100,
                 "border_color": "",
-                "border_radius": 16
+                "border_radius": 14
               },
               "blocks": {}
             }

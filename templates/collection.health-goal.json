@@ -1141,7 +1141,7 @@
               "type": "text",
               "name": "t:names.header",
               "settings": {
-                "text": "<h2>Filter supplements by pathway</h2>",
+                "text": "<h2>Filter by supplement pathway</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1667,7 +1667,7 @@
       "name": "t:names.divider_section",
       "settings": {
         "background_color": "",
-        "divider_color": "#CFD3D0",
+        "divider_color": "#cfd3d0",
         "section_width": "full-width",
         "thickness": 1,
         "corner_radius": "square",
@@ -2135,7 +2135,7 @@
           "static": true,
           "settings": {
             "product_card_gap": 4,
-            "background_color": "#F3F4F3",
+            "background_color": "#f3f4f3",
             "border": "solid",
             "border_width": 1,
             "border_opacity": 5,
@@ -2348,7 +2348,7 @@
         "columns_gap_vertical": 16,
         "padding-inline-start": 0,
         "padding-inline-end": 0,
-        "background_color": "#F9FAF9",
+        "background_color": "#f9faf9",
         "padding-block-start": 32,
         "padding-block-end": 24
       }
