@@ -17,7 +17,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/powder-square.webp",
+            "image": "shopify://shop_images/powder-landscape.webp",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
@@ -465,9 +465,9 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<p>Everything starts with a goal</p>",
+                        "text": "<h1>Everything starts with a goal</h1>",
                         "width": "fit-content",
-                        "max_width": "normal",
+                        "max_width": "narrow",
                         "alignment": "left",
                         "type_preset": "h1",
                         "font": "var(--font-heading--family)",
@@ -1017,8 +1017,8 @@
       "name": "Hero (Secondary)",
       "settings": {
         "media_position": "right",
-        "media_width": "narrow",
-        "media_height": "60svh",
+        "media_width": "medium",
+        "media_height": "50svh",
         "section_width": "page-width",
         "extend_media": true,
         "background_color": "{{ settings.color_palette.foreground }}",
@@ -1174,7 +1174,6 @@
       "block_order": [
         "group_T9Emrg"
       ],
-      "disabled": true,
       "name": "Collection list",
       "settings": {
         "layout_type": "grid",
