@@ -35,9 +35,9 @@
             "gap": 0
           },
           "blocks": {
-            "group_CUUCnz": {
+            "group_caVNTp": {
               "type": "group",
-              "name": "breadcrumbs",
+              "name": "Breadcrumbs",
               "settings": {
                 "content_direction": "row",
                 "vertical_on_mobile": false,
@@ -46,7 +46,7 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 6,
+                "gap": 5,
                 "width": "fill",
                 "custom_width": 50,
                 "width_mobile": "fill",
@@ -70,12 +70,12 @@
                 "open_in_new_tab": false,
                 "placeholder": "",
                 "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-end": 24,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
               "blocks": {
-                "group_t8eMjH": {
+                "group_qpxGFR": {
                   "type": "group",
                   "name": "Link 1",
                   "settings": {
@@ -86,7 +86,7 @@
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "center",
-                    "gap": 6,
+                    "gap": 5,
                     "width": "fit-content",
                     "custom_width": 100,
                     "width_mobile": "fit-content",
@@ -115,48 +115,22 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_3KKWR8": {
+                    "text_cQhL69": {
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p>Home</p>",
+                        "text": "<p>Home &gt;</p>",
                         "width": "fit-content",
-                        "max_width": "narrow",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "custom",
                         "font": "var(--font-body--family)",
                         "font_size": "0.875rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "{{ settings.color_palette.green50 }}",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 2,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    },
-                    "text_mx98pH": {
-                      "type": "text",
-                      "name": "Arrow",
-                      "settings": {
-                        "text": "<p>&gt;</p>",
-                        "width": "fit-content",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-subheading--family)",
-                        "font_size": "1rem",
                         "line_height": "tight",
                         "letter_spacing": "normal",
                         "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "",
+                        "wrap": "nowrap",
+                        "text_color": "{{ settings.color_palette.green100 }}",
                         "background": false,
                         "background_color": "#00000026",
                         "corner_radius": 0,
@@ -169,11 +143,10 @@
                     }
                   },
                   "block_order": [
-                    "text_3KKWR8",
-                    "text_mx98pH"
+                    "text_cQhL69"
                   ]
                 },
-                "group_dFYBaz": {
+                "group_Lk7QNd": {
                   "type": "group",
                   "name": "Link 2",
                   "settings": {
@@ -184,7 +157,7 @@
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "center",
-                    "gap": 6,
+                    "gap": 5,
                     "width": "fit-content",
                     "custom_width": 100,
                     "width_mobile": "fit-content",
@@ -204,7 +177,7 @@
                     "border_opacity": 100,
                     "border_color": "",
                     "border_radius": 0,
-                    "link": "#",
+                    "link": "shopify://collections/all",
                     "open_in_new_tab": false,
                     "placeholder": "",
                     "padding-block-start": 0,
@@ -213,48 +186,22 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_MjNCWN": {
+                    "text_9LynFB": {
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p>Supplements</p>",
+                        "text": "<p>Supplements &gt;</p>",
                         "width": "fit-content",
-                        "max_width": "narrow",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "custom",
                         "font": "var(--font-body--family)",
                         "font_size": "0.875rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 2,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    },
-                    "text_zxpctD": {
-                      "type": "text",
-                      "name": "Arrow",
-                      "settings": {
-                        "text": "<p>&gt;</p>",
-                        "width": "fit-content",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-subheading--family)",
-                        "font_size": "1rem",
                         "line_height": "tight",
                         "letter_spacing": "normal",
                         "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "{{ settings.color_palette.green50 }}",
+                        "wrap": "nowrap",
+                        "text_color": "{{ settings.color_palette.green100 }}",
                         "background": false,
                         "background_color": "#00000026",
                         "corner_radius": 0,
@@ -267,11 +214,10 @@
                     }
                   },
                   "block_order": [
-                    "text_MjNCWN",
-                    "text_zxpctD"
+                    "text_9LynFB"
                   ]
                 },
-                "group_agycJz": {
+                "group_G8J4Bq": {
                   "type": "group",
                   "name": "Active",
                   "settings": {
@@ -282,7 +228,7 @@
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "center",
-                    "gap": 12,
+                    "gap": 5,
                     "width": "fit-content",
                     "custom_width": 100,
                     "width_mobile": "fit-content",
@@ -311,7 +257,7 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_7f4w4F": {
+                    "text_Qzazhq": {
                       "type": "text",
                       "name": "is--active",
                       "settings": {
@@ -320,9 +266,9 @@
                         "max_width": "narrow",
                         "alignment": "left",
                         "type_preset": "custom",
-                        "font": "var(--font-subheading--family)",
+                        "font": "var(--font-body--family)",
                         "font_size": "0.875rem",
-                        "line_height": "normal",
+                        "line_height": "tight",
                         "letter_spacing": "normal",
                         "case": "none",
                         "wrap": "pretty",
@@ -330,7 +276,7 @@
                         "background": false,
                         "background_color": "#00000026",
                         "corner_radius": 0,
-                        "padding-block-start": 2,
+                        "padding-block-start": 0,
                         "padding-block-end": 0,
                         "padding-inline-start": 0,
                         "padding-inline-end": 0
@@ -339,14 +285,14 @@
                     }
                   },
                   "block_order": [
-                    "text_7f4w4F"
+                    "text_Qzazhq"
                   ]
                 }
               },
               "block_order": [
-                "group_t8eMjH",
-                "group_dFYBaz",
-                "group_agycJz"
+                "group_qpxGFR",
+                "group_Lk7QNd",
+                "group_G8J4Bq"
               ]
             },
             "spacer_8QH6WL": {
@@ -856,7 +802,7 @@
             }
           },
           "block_order": [
-            "group_CUUCnz",
+            "group_caVNTp",
             "spacer_8QH6WL",
             "group_4VT6Be",
             "spacer_ARE4UF"
