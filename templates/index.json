@@ -803,7 +803,7 @@
                 "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
-                "height": "fill",
+                "height": "fit",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
@@ -1330,17 +1330,20 @@
       "block_order": [
         "group_QCU3Uh"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "div:has(> .color-custom-template--27584646218040__section_GmHD4h) {overflow: hidden;}",
+        ".color-custom-template--27584646218040__section_GmHD4h .image-block {min-width: 8rem; }"
+      ],
       "name": "t:names.multicolumn",
       "settings": {
-        "content_direction": "row",
+        "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "flex-start",
         "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
+        "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
+        "gap": 11,
         "section_width": "full-width",
         "section_height": "",
         "section_height_custom": 50,
@@ -1363,7 +1366,7 @@
         "border_radius_bottom_right": 0,
         "border_radius_bottom_left": 0,
         "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-end": 0
       }
     },
     "hero_q7ncy6": {
