@@ -278,11 +278,11 @@
           "name": "t:names.spacer",
           "settings": {
             "size": "percent",
-            "percent_size": 50,
+            "percent_size": 33,
             "pixel_size": 120,
-            "custom_mobile_size": true,
+            "custom_mobile_size": false,
             "size_mobile": "percent",
-            "percent_size_mobile": 4,
+            "percent_size_mobile": 0,
             "pixel_size_mobile": 0
           },
           "blocks": {}
@@ -297,13 +297,13 @@
             "vertical_alignment": "center",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-start",
             "gap": 0,
             "width": "fit-content",
             "custom_width": 50,
-            "width_mobile": "fit-content",
+            "width_mobile": "fill",
             "custom_width_mobile": 100,
-            "height": "fit",
+            "height": "fill",
             "custom_height": 100,
             "background_media": "none",
             "background_color": "",
@@ -351,7 +351,7 @@
                 "background_image": "{{ closest.collection.metafields.custom.secondary_image.value }}",
                 "background_image_position": "cover",
                 "toggle_overlay": true,
-                "overlay_color": "#C4976312",
+                "overlay_color": "#FFFCF0E0",
                 "overlay_style": "solid",
                 "gradient_direction": "to bottom",
                 "border": "solid",
@@ -362,10 +362,10 @@
                 "link": "",
                 "open_in_new_tab": false,
                 "placeholder": "",
-                "padding-block-start": 12,
-                "padding-block-end": 9,
-                "padding-inline-start": 15,
-                "padding-inline-end": 15
+                "padding-block-start": 8,
+                "padding-block-end": 6,
+                "padding-inline-start": 14,
+                "padding-inline-end": 14
               },
               "blocks": {
                 "text_tiTmEH": {
@@ -377,13 +377,13 @@
                     "max_width": "none",
                     "alignment": "left",
                     "type_preset": "custom",
-                    "font": "var(--font-subheading--family)",
+                    "font": "var(--font-body--family)",
                     "font_size": "0.875rem",
                     "line_height": "normal",
                     "letter_spacing": "tight",
                     "case": "none",
                     "wrap": "pretty",
-                    "text_color": "{{ settings.color_palette.orange25 }}",
+                    "text_color": "{{ settings.color_palette.neutral950 }}",
                     "background": false,
                     "background_color": "{{ settings.color_palette.neutral950 }}",
                     "corner_radius": 0,
@@ -403,13 +403,13 @@
               "type": "spacer",
               "name": "t:names.spacer",
               "settings": {
-                "size": "pixel",
-                "percent_size": 100,
+                "size": "percent",
+                "percent_size": 10,
                 "pixel_size": 24,
                 "custom_mobile_size": false,
                 "size_mobile": "percent",
-                "percent_size_mobile": 41,
-                "pixel_size_mobile": 36
+                "percent_size_mobile": 5,
+                "pixel_size_mobile": 124
               },
               "blocks": {}
             },
@@ -428,12 +428,12 @@
                 "letter_spacing": "normal",
                 "case": "none",
                 "wrap": "balance",
-                "text_color": "{{ settings.color_palette.orange25 }}",
+                "text_color": "{{ settings.color_palette.green25 }}",
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-start": 14,
+                "padding-block-end": 16,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -443,12 +443,12 @@
               "type": "spacer",
               "name": "t:names.spacer",
               "settings": {
-                "size": "pixel",
-                "percent_size": 100,
+                "size": "percent",
+                "percent_size": 66,
                 "pixel_size": 40,
-                "custom_mobile_size": true,
+                "custom_mobile_size": false,
                 "size_mobile": "percent",
-                "percent_size_mobile": 9,
+                "percent_size_mobile": 8,
                 "pixel_size_mobile": 40
               },
               "blocks": {}
@@ -488,7 +488,7 @@
                 "open_in_new_tab": false,
                 "placeholder": "",
                 "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-end": 16,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -508,7 +508,7 @@
                     "letter_spacing": "normal",
                     "case": "none",
                     "wrap": "balance",
-                    "text_color": "{{ settings.color_palette.orange25 }}",
+                    "text_color": "{{ settings.color_palette.green25 }}",
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
@@ -556,12 +556,12 @@
               "type": "spacer",
               "name": "t:names.spacer",
               "settings": {
-                "size": "pixel",
-                "percent_size": 100,
+                "size": "percent",
+                "percent_size": 12,
                 "pixel_size": 16,
                 "custom_mobile_size": false,
-                "size_mobile": "pixel",
-                "percent_size_mobile": 29,
+                "size_mobile": "percent",
+                "percent_size_mobile": 23,
                 "pixel_size_mobile": 16
               },
               "blocks": {}
@@ -580,7 +580,7 @@
                 "gap": 16,
                 "width": "fit-content",
                 "custom_width": 100,
-                "width_mobile": "fit-content",
+                "width_mobile": "fill",
                 "custom_width_mobile": 100,
                 "height": "fit",
                 "custom_height": 100,
@@ -692,12 +692,12 @@
           "name": "t:names.spacer",
           "settings": {
             "size": "percent",
-            "percent_size": 50,
+            "percent_size": 33,
             "pixel_size": 120,
-            "custom_mobile_size": true,
+            "custom_mobile_size": false,
             "size_mobile": "percent",
-            "percent_size_mobile": 100,
-            "pixel_size_mobile": 0
+            "percent_size_mobile": 10,
+            "pixel_size_mobile": 152
           },
           "blocks": {}
         }
@@ -734,7 +734,7 @@
         "section_height_custom": 85,
         "background_color": "{{ settings.color_palette.orange15 }}",
         "toggle_overlay": true,
-        "overlay_color": "#43352BA8",
+        "overlay_color": "#43352ba8",
         "overlay_style": "gradient",
         "gradient_direction": "to bottom",
         "blurred_reflection": false,
@@ -815,7 +815,7 @@
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "toggle_overlay": true,
-                "overlay_color": "#fffdf7cc",
+                "overlay_color": "#FFFDF7",
                 "overlay_style": "gradient",
                 "gradient_direction": "to bottom",
                 "border": "none",
@@ -979,17 +979,31 @@
               "settings": {
                 "size": "pixel",
                 "percent_size": 100,
-                "pixel_size": 140,
+                "pixel_size": 52,
                 "custom_mobile_size": false,
-                "size_mobile": "pixel",
+                "size_mobile": "percent",
                 "percent_size_mobile": 45,
-                "pixel_size_mobile": 172
+                "pixel_size_mobile": 0
+              },
+              "blocks": {}
+            },
+            "spacer_XyFJac": {
+              "type": "spacer",
+              "name": "Spacer (M)",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 120,
+                "custom_mobile_size": true,
+                "size_mobile": "percent",
+                "percent_size_mobile": 0,
+                "pixel_size_mobile": 0
               },
               "blocks": {}
             },
             "image_Wcbr6z": {
               "type": "image",
-              "name": "t:names.image",
+              "name": "Image (M)",
               "disabled": true,
               "settings": {
                 "image": "shopify://shop_images/supplements-832_2.webp",
@@ -999,7 +1013,7 @@
                 "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
-                "height": "fill",
+                "height": "fit",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
@@ -1014,7 +1028,7 @@
             },
             "image_9UUjAM": {
               "type": "image",
-              "name": "t:names.image",
+              "name": "Image (D)",
               "settings": {
                 "image": "shopify://shop_images/supplements-3840.webp",
                 "link": "",
@@ -1038,11 +1052,25 @@
             },
             "spacer_fXpy87": {
               "type": "spacer",
+              "name": "Spacer (M)",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 120,
+                "custom_mobile_size": true,
+                "size_mobile": "pixel",
+                "percent_size_mobile": 100,
+                "pixel_size_mobile": 0
+              },
+              "blocks": {}
+            },
+            "spacer_ULLBVb": {
+              "type": "spacer",
               "name": "t:names.spacer",
               "settings": {
                 "size": "pixel",
                 "percent_size": 100,
-                "pixel_size": 140,
+                "pixel_size": 56,
                 "custom_mobile_size": false,
                 "size_mobile": "pixel",
                 "percent_size_mobile": 100,
@@ -1053,9 +1081,11 @@
           },
           "block_order": [
             "spacer_hmUteQ",
+            "spacer_XyFJac",
             "image_Wcbr6z",
             "image_9UUjAM",
-            "spacer_fXpy87"
+            "spacer_fXpy87",
+            "spacer_ULLBVb"
           ]
         },
         "group_Pzarrh": {
@@ -1154,7 +1184,7 @@
                   },
                   "blocks": {}
                 },
-                "spacer_8egaDV": {
+                "spacer_pHUp7d": {
                   "type": "spacer",
                   "name": "t:names.spacer",
                   "settings": {
@@ -1171,7 +1201,7 @@
               },
               "block_order": [
                 "jumbo_text_KpyREM",
-                "spacer_8egaDV"
+                "spacer_pHUp7d"
               ]
             },
             "group_DgBnBT": {
@@ -1197,7 +1227,7 @@
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "toggle_overlay": true,
-                "overlay_color": "#fffdf7cc",
+                "overlay_color": "#FFFDF7",
                 "overlay_style": "gradient",
                 "gradient_direction": "to top",
                 "border": "none",
@@ -1285,27 +1315,26 @@
         "padding-block-end": 0
       }
     },
-    "carousel_Rx4ta6": {
-      "type": "carousel",
+    "section_Rwn3tg": {
+      "type": "section",
       "blocks": {
-        "static-header": {
+        "group_FcFNbH": {
           "type": "group",
-          "name": "t:names.header",
-          "static": true,
+          "name": "t:names.group",
           "settings": {
-            "content_direction": "column",
-            "vertical_on_mobile": false,
-            "horizontal_alignment": "space-between",
-            "vertical_alignment": "flex-end",
-            "align_baseline": true,
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 40,
+            "vertical_alignment_flex_direction_column": "space-between",
+            "gap": 80,
             "width": "fill",
-            "custom_width": 100,
+            "custom_width": 75,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
-            "height": "fit",
+            "height": "fill",
             "custom_height": 100,
             "background_media": "none",
             "background_color": "",
@@ -1324,12 +1353,426 @@
             "open_in_new_tab": false,
             "placeholder": "",
             "padding-block-start": 0,
-            "padding-block-end": 60,
+            "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
           "blocks": {
-            "group_6XEaQC": {
+            "group_cRDMWq": {
+              "type": "group",
+              "name": "Bento",
+              "settings": {
+                "content_direction": "row",
+                "vertical_on_mobile": false,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "flex-start",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 62,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fill",
+                "custom_height": 100,
+                "background_media": "none",
+                "background_color": "",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 4,
+                "padding-block-end": 4,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "group_i7UdNr": {
+                  "type": "group",
+                  "name": "t:names.group",
+                  "settings": {
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "flex-start",
+                    "vertical_alignment_flex_direction_column": "flex-start",
+                    "gap": 12,
+                    "width": "custom",
+                    "custom_width": 62,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fill",
+                    "custom_height": 33,
+                    "background_media": "none",
+                    "background_color": "",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_color": "",
+                    "border_radius": 0,
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "placeholder": "",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {
+                    "group_FxinBV": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "flex-start",
+                        "gap": 0,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "custom",
+                        "custom_height": 38,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_color": "",
+                        "border_radius": 0,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {
+                        "image_xx9hCn": {
+                          "type": "image",
+                          "name": "t:names.image",
+                          "settings": {
+                            "image": "shopify://shop_images/health-goal-immune-repair-02.jpg",
+                            "link": "",
+                            "image_ratio": "adapt",
+                            "width": "fill",
+                            "custom_width": 32,
+                            "width_mobile": "fill",
+                            "custom_width_mobile": 100,
+                            "height": "fill",
+                            "border": "none",
+                            "border_width": 1,
+                            "border_opacity": 100,
+                            "border_color": "",
+                            "border_radius": 14,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "image_xx9hCn"
+                      ]
+                    },
+                    "group_6C9VKh": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "flex-start",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "flex-start",
+                        "gap": 0,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "custom",
+                        "custom_height": 62,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_color": "",
+                        "border_radius": 0,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {
+                        "image_n47XUD": {
+                          "type": "image",
+                          "name": "t:names.image",
+                          "settings": {
+                            "image": "shopify://shop_images/health-goal-brain-mood-01.jpg",
+                            "link": "",
+                            "image_ratio": "adapt",
+                            "width": "fill",
+                            "custom_width": 66,
+                            "width_mobile": "fill",
+                            "custom_width_mobile": 100,
+                            "height": "fill",
+                            "border": "none",
+                            "border_width": 1,
+                            "border_opacity": 100,
+                            "border_color": "",
+                            "border_radius": 14,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "image_n47XUD"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "group_FxinBV",
+                    "group_6C9VKh"
+                  ]
+                },
+                "group_iDe3Em": {
+                  "type": "group",
+                  "name": "t:names.group",
+                  "settings": {
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "flex-start",
+                    "vertical_alignment_flex_direction_column": "flex-start",
+                    "gap": 12,
+                    "width": "custom",
+                    "custom_width": 38,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fill",
+                    "custom_height": 100,
+                    "background_media": "none",
+                    "background_color": "",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_color": "",
+                    "border_radius": 0,
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "placeholder": "",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {
+                    "group_pwhgtb": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "flex-start",
+                        "gap": 0,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "custom",
+                        "custom_height": 62,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_color": "",
+                        "border_radius": 0,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {
+                        "image_QCeTx4": {
+                          "type": "image",
+                          "name": "t:names.image",
+                          "settings": {
+                            "image": "shopify://shop_images/hand-holding-capsules-portrait.jpg",
+                            "link": "",
+                            "image_ratio": "adapt",
+                            "width": "fill",
+                            "custom_width": 100,
+                            "width_mobile": "fill",
+                            "custom_width_mobile": 100,
+                            "height": "fill",
+                            "border": "none",
+                            "border_width": 1,
+                            "border_opacity": 100,
+                            "border_color": "",
+                            "border_radius": 14,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "image_QCeTx4"
+                      ]
+                    },
+                    "group_yjFKcn": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "flex-start",
+                        "gap": 0,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fill",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_color": "",
+                        "border_radius": 0,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {
+                        "image_89feag": {
+                          "type": "image",
+                          "name": "t:names.image",
+                          "settings": {
+                            "image": "shopify://shop_images/health-goal-strength-mobility-01.jpg",
+                            "link": "",
+                            "image_ratio": "adapt",
+                            "width": "fill",
+                            "custom_width": 100,
+                            "width_mobile": "fill",
+                            "custom_width_mobile": 100,
+                            "height": "fill",
+                            "border": "none",
+                            "border_width": 1,
+                            "border_opacity": 100,
+                            "border_color": "",
+                            "border_radius": 14,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "image_89feag"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "group_pwhgtb",
+                    "group_yjFKcn"
+                  ]
+                }
+              },
+              "block_order": [
+                "group_i7UdNr",
+                "group_iDe3Em"
+              ]
+            },
+            "group_etgLWA": {
               "type": "group",
               "name": "t:names.group",
               "settings": {
@@ -1337,15 +1780,15 @@
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "flex-end",
-                "align_baseline": false,
+                "align_baseline": true,
                 "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 40,
-                "width": "fill",
-                "custom_width": 100,
+                "vertical_alignment_flex_direction_column": "space-between",
+                "gap": 60,
+                "width": "custom",
+                "custom_width": 68,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
-                "height": "fit",
+                "height": "fill",
                 "custom_height": 100,
                 "background_media": "none",
                 "background_color": "",
@@ -1369,12 +1812,12 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_dYXXCx": {
+                "text_4KhnWR": {
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
                     "text": "<h2>Targeted health goals built on focused support pathways</h2>",
-                    "width": "100%",
+                    "width": "fit-content",
                     "max_width": "narrow",
                     "alignment": "left",
                     "type_preset": "h2",
@@ -1395,12 +1838,216 @@
                   },
                   "blocks": {}
                 },
-                "text_7MT6hk": {
+                "text_E7EHHz": {
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
                     "text": "<p>Made with care and unconditionally loved by our customers, this signature bestseller exceeds all expectations.</p>",
                     "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1.25rem",
+                    "line_height": "loose",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.neutral800 }}",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_4KhnWR",
+                "text_E7EHHz"
+              ]
+            }
+          },
+          "block_order": [
+            "group_cRDMWq",
+            "group_etgLWA"
+          ]
+        },
+        "divider_LDAEQE": {
+          "type": "_divider",
+          "name": "t:names.divider",
+          "settings": {
+            "thickness": 1,
+            "corner_radius": "square",
+            "divider_color": "#edeadf",
+            "width_percent": 100,
+            "padding-block-start": 0,
+            "padding-block-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "group_FcFNbH",
+        "divider_LDAEQE"
+      ],
+      "name": "t:names.custom_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 80,
+        "section_width": "full-width",
+        "section_height": "small",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.orange15 }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius_individual": false,
+        "border_radius": 0,
+        "border_radius_top_left": 0,
+        "border_radius_top_right": 0,
+        "border_radius_bottom_right": 0,
+        "border_radius_bottom_left": 0,
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "carousel_Rx4ta6": {
+      "type": "carousel",
+      "blocks": {
+        "static-header": {
+          "type": "group",
+          "name": "t:names.header",
+          "disabled": true,
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": true,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 32,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 40,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_ecaF6A": {
+              "type": "text",
+              "name": "t:names.heading",
+              "disabled": true,
+              "settings": {
+                "text": "<h2>Targeted health goals built on focused support pathways</h2>",
+                "width": "fit-content",
+                "max_width": "narrow",
+                "alignment": "left",
+                "type_preset": "h2",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "group_6XEaQC": {
+              "type": "group",
+              "name": "t:names.group",
+              "disabled": true,
+              "settings": {
+                "content_direction": "row",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "flex-end",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 40,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fill",
+                "custom_height": 100,
+                "background_media": "none",
+                "background_color": "",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "text_7MT6hk": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>Made with care and unconditionally loved by our customers, this signature bestseller exceeds all expectations.</p>",
+                    "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "custom",
@@ -1423,27 +2070,13 @@
                 }
               },
               "block_order": [
-                "text_dYXXCx",
                 "text_7MT6hk"
               ]
-            },
-            "divider_KHkXA7": {
-              "type": "_divider",
-              "name": "t:names.divider",
-              "settings": {
-                "thickness": 1,
-                "corner_radius": "square",
-                "divider_color": "#edeadf",
-                "width_percent": 100,
-                "padding-block-start": 0,
-                "padding-block-end": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "group_6XEaQC",
-            "divider_KHkXA7"
+            "text_ecaF6A",
+            "group_6XEaQC"
           ]
         },
         "static-carousel-content": {
@@ -1478,7 +2111,7 @@
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 16,
                 "background_media": "none",
-                "background_color": "#f9faf9",
+                "background_color": "#FFFAEC",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
@@ -1486,7 +2119,7 @@
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "link": "",
+                "link": "shopify://collections/brain-mood",
                 "open_in_new_tab": false,
                 "padding-block-start": 24,
                 "padding-block-end": 24,
@@ -1541,7 +2174,7 @@
                       "settings": {
                         "image": "{{ metaobjects.supplement_health_goal[\"brain-mood\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "square",
+                        "image_ratio": "portrait",
                         "width": "custom",
                         "custom_width": 25,
                         "width_mobile": "fit-content",
@@ -1929,7 +2562,7 @@
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 16,
                 "background_media": "none",
-                "background_color": "#f9faf9",
+                "background_color": "#FFFAEC",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
@@ -1937,7 +2570,7 @@
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "link": "",
+                "link": "shopify://collections/energy-metabolism",
                 "open_in_new_tab": false,
                 "padding-block-start": 24,
                 "padding-block-end": 24,
@@ -1992,7 +2625,7 @@
                       "settings": {
                         "image": "{{ metaobjects.supplement_health_goal[\"energy-metabolism\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "square",
+                        "image_ratio": "portrait",
                         "width": "custom",
                         "custom_width": 25,
                         "width_mobile": "fit-content",
@@ -2380,7 +3013,7 @@
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 16,
                 "background_media": "none",
-                "background_color": "#f9faf9",
+                "background_color": "#FFFAEC",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
@@ -2388,7 +3021,7 @@
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "link": "",
+                "link": "shopify://collections/gut-detox",
                 "open_in_new_tab": false,
                 "padding-block-start": 24,
                 "padding-block-end": 24,
@@ -2443,7 +3076,7 @@
                       "settings": {
                         "image": "{{ metaobjects.supplement_health_goal[\"gut-detox\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "square",
+                        "image_ratio": "portrait",
                         "width": "custom",
                         "custom_width": 25,
                         "width_mobile": "fit-content",
@@ -2657,7 +3290,7 @@
                         "line_height": "normal",
                         "letter_spacing": "normal",
                         "case": "none",
-                        "wrap": "nowrap",
+                        "wrap": "balance",
                         "text_color": "{{ settings.color_palette.foreground }}",
                         "background": false,
                         "background_color": "#00000026",
@@ -2831,7 +3464,7 @@
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 16,
                 "background_media": "none",
-                "background_color": "#f9faf9",
+                "background_color": "#FFFAEC",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
@@ -2839,7 +3472,7 @@
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "link": "",
+                "link": "shopify://collections/hormones-vitality",
                 "open_in_new_tab": false,
                 "padding-block-start": 24,
                 "padding-block-end": 24,
@@ -2894,12 +3527,12 @@
                       "settings": {
                         "image": "{{ metaobjects.supplement_health_goal[\"hormones-vitality\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "square",
+                        "image_ratio": "portrait",
                         "width": "custom",
                         "custom_width": 25,
                         "width_mobile": "fit-content",
                         "custom_width_mobile": 100,
-                        "height": "fit",
+                        "height": "fill",
                         "border": "none",
                         "border_width": 1,
                         "border_opacity": 100,
@@ -3108,7 +3741,7 @@
                         "line_height": "normal",
                         "letter_spacing": "normal",
                         "case": "none",
-                        "wrap": "nowrap",
+                        "wrap": "balance",
                         "text_color": "{{ settings.color_palette.foreground }}",
                         "background": false,
                         "background_color": "#00000026",
@@ -3282,7 +3915,7 @@
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 16,
                 "background_media": "none",
-                "background_color": "#f9faf9",
+                "background_color": "#FFFAEC",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
@@ -3290,7 +3923,7 @@
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "link": "",
+                "link": "shopify://collections/immune-repair",
                 "open_in_new_tab": false,
                 "padding-block-start": 24,
                 "padding-block-end": 24,
@@ -3345,7 +3978,7 @@
                       "settings": {
                         "image": "{{ metaobjects.supplement_health_goal[\"immune-repair\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "square",
+                        "image_ratio": "portrait",
                         "width": "custom",
                         "custom_width": 25,
                         "width_mobile": "fit-content",
@@ -3733,7 +4366,7 @@
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 16,
                 "background_media": "none",
-                "background_color": "#f9faf9",
+                "background_color": "#FFFAEC",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
@@ -3741,7 +4374,7 @@
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "link": "",
+                "link": "shopify://collections/strength-mobility",
                 "open_in_new_tab": false,
                 "padding-block-start": 24,
                 "padding-block-end": 24,
@@ -3796,7 +4429,7 @@
                       "settings": {
                         "image": "{{ metaobjects.supplement_health_goal[\"strength-mobility\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "square",
+                        "image_ratio": "portrait",
                         "width": "custom",
                         "custom_width": 25,
                         "width_mobile": "fit-content",
@@ -4200,8 +4833,8 @@
         "border_radius_top_right": 0,
         "border_radius_bottom_right": 0,
         "border_radius_bottom_left": 0,
-        "padding-block-start": 0,
-        "padding-block-end": 40
+        "padding-block-start": 80,
+        "padding-block-end": 60
       }
     },
     "collection_list_WeXUrL": {
@@ -4218,7 +4851,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
-            "gap": 40,
+            "gap": 32,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -4655,7 +5288,7 @@
                               "settings": {
                                 "thickness": 1,
                                 "corner_radius": "square",
-                                "divider_color": "",
+                                "divider_color": "#F3F4F3",
                                 "width_percent": 100,
                                 "padding-block-start": 0,
                                 "padding-block-end": 0
@@ -4813,7 +5446,7 @@
                                 "label": "Shop Now",
                                 "link": "{{ closest.collection.url }}",
                                 "open_in_new_tab": false,
-                                "style_class": "button-secondary",
+                                "style_class": "button-custom",
                                 "custom_button_background": "{{ settings.color_palette.foreground }}",
                                 "custom_button_border_style": "none",
                                 "custom_button_border_width": 1,
@@ -4825,11 +5458,11 @@
                                 "custom_button_line_height": "",
                                 "custom_button_letter_spacing": "",
                                 "custom_button_case": "",
-                                "custom_button_text": "{{ settings.color_palette.background }}",
-                                "custom_button_padding_block_start": 16,
-                                "custom_button_padding_block_end": 16,
-                                "custom_button_padding_inline_start": 24,
-                                "custom_button_padding_inline_end": 24,
+                                "custom_button_text": "{{ settings.color_palette.orange15 }}",
+                                "custom_button_padding_block_start": 10,
+                                "custom_button_padding_block_end": 10,
+                                "custom_button_padding_inline_start": 16,
+                                "custom_button_padding_inline_end": 16,
                                 "link_text_color": "",
                                 "width": "fit-content",
                                 "custom_width": 100,
@@ -5108,7 +5741,7 @@
               "name": "t:names.collection_card_image",
               "static": true,
               "settings": {
-                "image_ratio": "square",
+                "image_ratio": "landscape",
                 "toggle_overlay": false,
                 "overlay_color": "{{ settings.color_palette.green800 }}",
                 "overlay_style": "solid",
@@ -5147,7 +5780,7 @@
         ],
         "layout_type": "carousel",
         "carousel_on_mobile": false,
-        "columns": 4,
+        "columns": 3,
         "mobile_columns": "2",
         "mobile_card_size": "60cqw",
         "columns_gap": 16,
@@ -5157,7 +5790,7 @@
         "icons_style": "arrow",
         "icons_shape": "circle",
         "section_width": "page-width",
-        "gap": 60,
+        "gap": 40,
         "background_color": "{{ settings.color_palette.orange15 }}",
         "border_radius_individual": false,
         "border_radius": 0,
@@ -5165,7 +5798,7 @@
         "border_radius_top_right": 0,
         "border_radius_bottom_right": 0,
         "border_radius_bottom_left": 0,
-        "padding-block-start": 40,
+        "padding-block-start": 60,
         "padding-block-end": 80
       }
     },
@@ -6355,6 +6988,7 @@
   "order": [
     "hero_iLBwPd",
     "hero_q7ncy6",
+    "section_Rwn3tg",
     "carousel_Rx4ta6",
     "collection_list_WeXUrL",
     "carousel_W7LdFW",
