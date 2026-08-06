@@ -2024,7 +2024,11 @@
         "group_geHUkm",
         "group_Pzarrh"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "/* Mobile Image */.image-block .image-block--AdkR6VzVuWndYM0hmM__image_Wcbr6z {display: flex;}",
+        "/* Desktop Image */.image-block .image-block--AM0p4V09PeVA1MXBSc__image_9UUjAM {display: none;}",
+        "/* Hide & Show Images */@media and screen and (min-width: 750px) {.image-block .image-block--AM0p4V09PeVA1MXBSc__image_9UUjAM {display: flex; } .image-block .image-block--AdkR6VzVuWndYM0hmM__image_Wcbr6z {display: none; }}"
+      ],
       "name": "Reveal",
       "settings": {
         "media_type_1": "image",
