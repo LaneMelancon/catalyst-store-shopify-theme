@@ -810,7 +810,7 @@
           "type": "custom-liquid",
           "name": "t:names.custom_liquid",
           "settings": {
-            "custom_liquid": "{% style %}\n.color-custom-template--27584646218040__section_GmHD4h {\n  overflow: hidden;\n}\n.color-custom-template--27584646218040__section_GmHD4h .group-block:has(.image-sblock) {\nd  overflow-x: scroll !important;\n}\n.color-custom-template--27584646218040__section_GmHD4h .group-block-content {\n  flex-wrap: nowrap;\n}\n.color-custom-template--27584646218040__section_GmHD4h .image-block {\n  flex: auto !important;\n  min-width: 8rem !important;\n  opacity: 0.75 !important;\n}\n{% endstyle %}"
+            "custom_liquid": "{% style %}\n.color-custom-template--27584646218040__section_GmHD4h {\n  overflow: hidden;\n}\n.color-custom-template--27584646218040__section_GmHD4h .group-block:has(.image-sblock) {\nd  overflow-x: scroll;\n}\n.color-custom-template--27584646218040__section_GmHD4h .group-block-content {\n  flex-wrap: nowrap;\ndisplay: flex;\nalign-items: center;\njustify-content: flex-start;\n}\n.color-custom-template--27584646218040__section_GmHD4h .image-block {\n  flex: auto !important;\n  min-width: 8rem !important;\n  opacity: 0.75 !important;\n}\n{% endstyle %}"
           },
           "blocks": {}
         },
