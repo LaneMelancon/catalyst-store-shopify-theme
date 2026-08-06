@@ -808,9 +808,9 @@
       "blocks": {
         "custom_liquid_X7RTxW": {
           "type": "custom-liquid",
-          "name": "t:names.custom_liquid",
+          "name": "Logos Styles",
           "settings": {
-            "custom_liquid": "{% style %}\n.color-custom-template--27584646218040__section_GmHD4h {\n  overflow: hidden;\n}\n\n.color-custom-template--27584646218040__section_GmHD4h .group-block:has(.image-block) {\noverflow-x: scroll;\n}\n\n/* Webkit browsers (Chrome, Safari, Edge) */\n.color-custom-template--27584646218040__section_GmHD4h .group-block:has(.image-block)::-webkit-scrollbar {\n  width: 10px;\n  height: 10px;\n}\n\n.color-custom-template--27584646218040__section_GmHD4h .group-block:has(.image-block)::-webkit-scrollbar-track {\n  background: #FFFDF7;\n}\n\n.color-custom-template--27584646218040__section_GmHD4h .group-block:has(.image-block)::-webkit-scrollbar-thumb {\n  background: #f3f4f3;\n  border-radius: 5px;\n}\n\n.color-custom-template--27584646218040__section_GmHD4h .group-block:has(.image-block)::-webkit-scrollbar-thumb:hover {\n  background: #cfd3d0;\n}\n\n/* Firefox */\n.color-custom-template--27584646218040__section_GmHD4h .group-block:has(.image-block) {\n  scrollbar-color: #f3f4f3 #FFFDF7;\n  scrollbar-width: thin;\n}\n\n.color-custom-template--27584646218040__section_GmHD4h .group-block-content {\n  flex-wrap: nowrap;\ndisplay: flex;\nalign-items: center;\njustify-content: flex-start;\n}\n.color-custom-template--27584646218040__section_GmHD4h .image-block {\n  flex: auto;\n  min-width: 8rem;\n  opacity: 0.70;\n}\n{% endstyle %}"
+            "custom_liquid": "{% style %}\n.color-custom-template--27584646218040__section_GmHD4h {\n  overflow: hidden;\n}\n\n.color-custom-template--27584646218040__section_GmHD4h .group-block:has(.image-block) {\noverflow-x: scroll;\n}\n\n/* Webkit browsers (Chrome, Safari, Edge) */\n.color-custom-template--27584646218040__section_GmHD4h .group-block:has(.image-block)::-webkit-scrollbar {\n  width: 10px;\n  height: 10px;\n}\n\n.color-custom-template--27584646218040__section_GmHD4h .group-block:has(.image-block)::-webkit-scrollbar-track {\n  background: #FFFDF7;\n}\n\n.color-custom-template--27584646218040__section_GmHD4h .group-block:has(.image-block)::-webkit-scrollbar-thumb {\n  background: rgba(130, 87, 13, 0.05);\n  border-radius: 5px;\n}\n\n.color-custom-template--27584646218040__section_GmHD4h .group-block:has(.image-block)::-webkit-scrollbar-thumb:hover {\n  background: rgba(130, 87, 13, 0.1);\n}\n\n/* Firefox */\n.color-custom-template--27584646218040__section_GmHD4h .group-block:has(.image-block) {\n  scrollbar-color: rgba(130, 87, 13, 0.05) #FFFDF7;\n  scrollbar-width: thin;\n}\n\n.color-custom-template--27584646218040__section_GmHD4h .group-block-content {\n  flex-wrap: nowrap;\ndisplay: flex;\nalign-items: center;\njustify-content: flex-start;\n}\n.color-custom-template--27584646218040__section_GmHD4h .image-block {\n  flex: auto;\n  min-width: 8rem;\n  opacity: 0.70;\n}\n{% endstyle %}"
           },
           "blocks": {}
         },
@@ -1504,7 +1504,7 @@
       "blocks": {
         "custom_liquid_8bjiMq": {
           "type": "custom-liquid",
-          "name": "t:names.custom_liquid",
+          "name": "Reveal Image Styles",
           "settings": {
             "custom_liquid": "{% style %}\n/* Mobile Image */\n.image-block--AdkR6VzVuWndYM0hmM__image_Wcbr6z.image-block--AdkR6VzVuWndYM0hmM__image_Wcbr6z {\n  display: flex !important;\n}\n\n/* Desktop Image */\n.image-block--AM0p4V09PeVA1MXBSc__image_9UUjAM.image-block--AM0p4V09PeVA1MXBSc__image_9UUjAM {\n  display: none !important;\n}\n\n/* Hide & Show Images */\n@media (min-width: 750px) {\n  .image-block--AM0p4V09PeVA1MXBSc__image_9UUjAM.image-block--AM0p4V09PeVA1MXBSc__image_9UUjAM {\n    display: flex !important;\n  }\n  .image-block--AdkR6VzVuWndYM0hmM__image_Wcbr6z.image-block--AdkR6VzVuWndYM0hmM__image_Wcbr6z {\n    display: none !important;\n  }\n}\n{% endstyle %}"
           },
