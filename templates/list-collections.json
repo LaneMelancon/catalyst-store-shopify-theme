@@ -261,7 +261,7 @@
                       "type": "text",
                       "name": "is--active",
                       "settings": {
-                        "text": "<p>All Health Goals</p>",
+                        "text": "<p>View All</p>",
                         "width": "fit-content",
                         "max_width": "narrow",
                         "alignment": "left",
