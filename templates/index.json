@@ -9728,6 +9728,9 @@
           ]
         }
       },
+      "custom_css": [
+        ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.25);}"
+      ],
       "name": "t:names.carousel",
       "settings": {
         "columns": 4,
