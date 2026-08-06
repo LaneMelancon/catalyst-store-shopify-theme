@@ -2025,9 +2025,9 @@
         "group_Pzarrh"
       ],
       "custom_css": [
-        "/* Mobile Image */.image-block--AdkR6VzVuWndYM0hmM__image_Wcbr6z {display: flex;}",
-        "/* Desktop Image */.image-block--AM0p4V09PeVA1MXBSc__image_9UUjAM {display: none;}",
-        "/* Hide & Show Images */@media (min-width: 750px) {.image-block--AM0p4V09PeVA1MXBSc__image_9UUjAM {display: flex; } .image-block--AdkR6VzVuWndYM0hmM__image_Wcbr6z {display: none; }}"
+        "/* Mobile Image */.image-block--AdkR6VzVuWndYM0hmM__image_Wcbr6z {display: flex !important;}",
+        " /* Desktop Image */.image-block--AM0p4V09PeVA1MXBSc__image_9UUjAM {display: none !important;}",
+        " /* Hide & Show Images */@media (min-width: 750px) {.image-block--AM0p4V09PeVA1MXBSc__image_9UUjAM {display: flex !important; } .image-block--AdkR6VzVuWndYM0hmM__image_Wcbr6z {display: none !important; }}"
       ],
       "name": "Reveal",
       "settings": {
