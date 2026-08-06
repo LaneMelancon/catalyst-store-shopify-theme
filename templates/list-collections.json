@@ -434,7 +434,7 @@
                           "type": "text",
                           "name": "t:names.text",
                           "settings": {
-                            "text": "<p>View All Health Goals</p>",
+                            "text": "<p>All Health Goals</p>",
                             "width": "fit-content",
                             "max_width": "none",
                             "alignment": "left",
@@ -465,7 +465,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<h1>{{ closest.collection.title }}</h1>",
+                        "text": "<p>Everything starts with a goal</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -591,7 +591,7 @@
                           "type": "text",
                           "name": "Description",
                           "settings": {
-                            "text": "{{ closest.collection.description }}",
+                            "text": "<p>Choose a goal below and explore the clinician-recommended formulas behind it.</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -1018,7 +1018,7 @@
       "settings": {
         "media_position": "right",
         "media_width": "narrow",
-        "media_height": "auto",
+        "media_height": "60svh",
         "section_width": "page-width",
         "extend_media": true,
         "background_color": "{{ settings.color_palette.foreground }}",
