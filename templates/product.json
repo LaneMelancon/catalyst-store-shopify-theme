@@ -1172,6 +1172,7 @@
                         "group_LJmWML": {
                           "type": "group",
                           "name": "t:names.group",
+                          "disabled": true,
                           "settings": {
                             "content_direction": "column",
                             "vertical_on_mobile": true,
@@ -2061,7 +2062,7 @@
             "border_color": "",
             "border_radius": 12,
             "padding-block-start": 12,
-            "padding-block-end": 14,
+            "padding-block-end": 16,
             "padding-inline-start": 12,
             "padding-inline-end": 12
           },
