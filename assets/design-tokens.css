@@ -222,8 +222,8 @@ elevation values.
   --text-md: 1.125rem;
   --text-lg: 1.25rem;
 
-  --leading-h1: 1.1;
-  --leading-h2: 1.15;
+  --leading-h1: 1.2;
+  --leading-h2: 1.22;
   --leading-h3: 1.25;
   --leading-h4: 1.3;
   --leading-h5: 1.4;
@@ -295,7 +295,6 @@ elevation values.
   /* SPACING                         */
   /* ─────────────────────────────── */
   /* Lane: Remapped spacing tokens on July 7, 2026 */
-
   /* –– Base Spacing Increment (0.0625rem | 1px) –– */
   --space-base: 0.0625rem;
 
@@ -310,7 +309,6 @@ elevation values.
   --space-6: calc(var(--space-base) * 6);
   --space-8: calc(var(--space-base) * 8);
   --space-10: calc(var(--space-base) * 10);
-
   /* ––– Standard Spacing ––– */
   /* 0.75rem, 0.875rem, 1rem, 1.125rem, 1.25rem 1.5rem */
   --space-12: calc(var(--space-base) * 12);
@@ -319,7 +317,6 @@ elevation values.
   --space-18: calc(var(--space-base) * 18);
   --space-20: calc(var(--space-base) * 20);
   --space-24: calc(var(--space-base) * 24);
-
   /* ––– Layout Spacing ––– */
   /* 1.75rem, 2rem, 2.5rem, 3rem, 3.5rem, 4rem, 4.5rem, 5rem, 6rem, 8rem, 10rem */
   --space-28: calc(var(--space-base) * 28);

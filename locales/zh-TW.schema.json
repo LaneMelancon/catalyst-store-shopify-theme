@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "names": {
     "404": "404",
@@ -223,6 +232,7 @@
     "image_opacity": "圖片不透明度",
     "image_position": "圖片位置",
     "image_ratio": "圖片長寬比",
+    "individual_corners": "個別圓角",
     "label": "標籤",
     "line_height": "行高",
     "link": "連結",

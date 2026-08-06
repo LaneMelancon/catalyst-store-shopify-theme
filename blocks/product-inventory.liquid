@@ -86,15 +86,21 @@
   .product-inventory__status {
     display: flex;
     align-items: center;
-    font-size: var(--font-paragraph--size);
+    gap: var(--space-6);
+    font-size: .75rem;
+    font-weight: var(--font-subheading--weight);
+    line-height: 1;
+    text-transform: uppercase;
+    /* font-size: var(--font-paragraph--size);
     line-height: var(--font-paragraph--line-height);
-    gap: var(--padding-xs);
+    gap: var(--padding-xs); */
   }
 
   .product-inventory__icon,
   .product-inventory__icon svg {
-    width: var(--icon-size-sm);
-    height: var(--icon-size-sm);
+    width: 1.25em;
+    height: 1.25em;
+    margin-block-end: 1.125px;
   }
 
   .product-inventory__icon-low {

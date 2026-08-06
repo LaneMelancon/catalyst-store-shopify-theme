@@ -1,0 +1,27 @@
+{%- doc -%}
+  Renders a scoped style block that rounds a section's `.section` and
+  `.section-background` layers to match, and clips content to the rounded box.
+  Emits nothing when the resolved radius is blank (i.e. all corners are 0).
+
+  @param {object} settings - The section settings object
+  @param {string} section_id - The section's unique id (section.id)
+
+  @example
+  {% render 'section-corner-radius', settings: section.settings, section_id: section.id %}
+{%- enddoc -%}
+{%- capture section_radius -%}
+  {%- render 'border-radius-style', settings: settings -%}
+{%- endcapture -%}
+{%- assign section_radius = section_radius | strip -%}
+{%- if section_radius != blank -%}
+  {% style %}
+    #shopify-section-{{ section_id }} .section,
+    #shopify-section-{{ section_id }} .section-background {
+      border-radius: {{ section_radius }};
+    }
+
+    #shopify-section-{{ section_id }} .section {
+      overflow: clip;
+    }
+  {% endstyle %}
+{%- endif -%}

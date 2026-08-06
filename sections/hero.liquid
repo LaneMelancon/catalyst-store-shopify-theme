@@ -463,6 +463,9 @@
     --hero-border-style: {{ section.settings.border }};
     --hero-border-width: {{ section.settings.border_width }}px;
     --hero-border-opacity: {{ section.settings.border_opacity }}%;
+    {% capture hero_border_radius %}{% render 'border-radius-style', settings: section.settings %}{% endcapture %}
+    {% assign hero_border_radius = hero_border_radius | strip %}
+    --hero-border-radius: {% if hero_border_radius != blank %}{{ hero_border_radius }}{% else %}0px{% endif %};
     --blur-opacity: {{ section.settings.reflection_opacity | divided_by: 100.0 }};
     {% if section.settings.section_height == 'custom' %}
       --hero-min-height: {{ section.settings.section_height_custom }}svh;
@@ -558,6 +561,7 @@
   .hero {
     position: relative;
     min-height: calc(var(--hero-min-height) - var(--hero-height-offset));
+    border-radius: var(--hero-border-radius, 0);
   }
 
   .hero[data-shopify-visual-preview] {
@@ -570,6 +574,7 @@
     position: relative;
     overflow: hidden;
     border: var(--hero-border-width) var(--hero-border-style) rgb(var(--color-border-rgb) / var(--hero-border-opacity));
+    border-radius: var(--hero-border-radius, 0);
     min-height: inherit;
     align-items: var(--vertical-alignment-mobile);
     justify-content: var(--horizontal-alignment);
@@ -630,7 +635,7 @@
     object-position: center center;
     overflow: hidden;
     position: relative;
-    z-index: var(--layer-base);
+    z-index: var(--layer-lowest); /* Lane: Attempting to descrease default media z-index to help with potential bleed into transparent sibling sections */
   }
 
   /* Mobile/Desktop media visibility */
@@ -1220,6 +1225,67 @@
       "unit": "%",
       "default": 75,
       "visible_if": "{{ section.settings.blurred_reflection and section.settings.media_type_1 != 'video' or section.settings.media_type_2 != 'video' }}"
+    },
+    {
+      "type": "checkbox",
+      "id": "border_radius_individual",
+      "label": "t:settings.individual_corners",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "t:settings.border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.border_radius_individual == false }}"
+    },
+    {
+      "type": "range",
+      "id": "border_radius_top_left",
+      "label": "t:options.top_left",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.border_radius_individual }}"
+    },
+    {
+      "type": "range",
+      "id": "border_radius_top_right",
+      "label": "t:options.top_right",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.border_radius_individual }}"
+    },
+    {
+      "type": "range",
+      "id": "border_radius_bottom_right",
+      "label": "t:options.bottom_right",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.border_radius_individual }}"
+    },
+    {
+      "type": "range",
+      "id": "border_radius_bottom_left",
+      "label": "t:options.bottom_left",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.border_radius_individual }}"
     },
     {
       "type": "header",

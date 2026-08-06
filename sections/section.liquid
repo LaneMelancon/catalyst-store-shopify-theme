@@ -403,6 +403,12 @@
       "visible_if": "{{ section.settings.border != 'none' }}"
     },
     {
+      "type": "checkbox",
+      "id": "border_radius_individual",
+      "label": "t:settings.individual_corners",
+      "default": false
+    },
+    {
       "type": "range",
       "id": "border_radius",
       "label": "t:settings.border_radius",
@@ -410,7 +416,52 @@
       "max": 100,
       "step": 1,
       "unit": "px",
-      "default": 0
+      "default": 0,
+      "visible_if": "{{ section.settings.border_radius_individual == false }}"
+    },
+    {
+      "type": "range",
+      "id": "border_radius_top_left",
+      "label": "t:options.top_left",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.border_radius_individual }}"
+    },
+    {
+      "type": "range",
+      "id": "border_radius_top_right",
+      "label": "t:options.top_right",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.border_radius_individual }}"
+    },
+    {
+      "type": "range",
+      "id": "border_radius_bottom_right",
+      "label": "t:options.bottom_right",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.border_radius_individual }}"
+    },
+    {
+      "type": "range",
+      "id": "border_radius_bottom_left",
+      "label": "t:options.bottom_left",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.border_radius_individual }}"
     },
     {
       "type": "header",

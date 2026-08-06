@@ -2,13 +2,12 @@
   Renders border override CSS
 {%- endcomment -%}
 
-{% liquid
-
-%}
+{% capture border_radius %}{% render 'border-radius-style', settings: settings %}{% endcapture %}
+{% assign border_radius = border_radius | strip %}
 --border-width: {{ settings.border_width }}px; --border-style: {{ settings.border }}; --border-color:
 {% if settings.border_color != blank -%}
   rgb({{ settings.border_color.rgba }})
 {%- else -%}
   rgb(var(--color-border-rgb) / {{ settings.border_opacity | divided_by: 100.0 }})
 {%- endif -%}
-; --border-radius: {{ settings.border_radius }}px; {% if settings.border_radius > 0 %} overflow: hidden; {% endif %}
+; --border-radius: {% if border_radius != blank %}{{ border_radius }}{% else %}0px{% endif %}; {% if border_radius != blank %} overflow: hidden; {% endif %}
