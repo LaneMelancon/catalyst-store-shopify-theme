@@ -756,7 +756,7 @@
           "type": "custom-liquid",
           "name": "t:names.custom_liquid",
           "settings": {
-            "custom_liquid": "{% style %}\ndiv:has(> .color-custom-template--27584646218040__section_GmHD4h) {\n  overflow: hidden;\n}\n.color-custom-template--27584646218040__section_GmHD4h .group-block {\n  overflow-x: scroll;\n  display: flex;\n  justify-content: center;\n}\n.color-custom-template--27584646218040__section_GmHD4h .image-block {\n  min-width: 8rem;\n}\n\n.color-custom-template--27584646218040__section_GmHD4h .group-block-content {\n  align-items: center;\n  width: fit-content;\n  margin: 0 auto;\n  animation: scrollLogosBidirectional linear;\n  animation-timeline: scroll(root);\n  animation-range: 0% 100%;\n}\n\n@keyframes scrollLogosBidirectional {\n  0% {\n    transform: translateX(0);\n  }\n  50% {\n    transform: translateX(3rem);\n  }\n  100% {\n    transform: translateX(0);\n  }\n}\n{% endstyle %}"
+            "custom_liquid": "{% style %}\ndiv:has(> .color-custom-template--27584646218040__section_GmHD4h) {\n  overflow: hidden;\n\n}\n.color-custom-template--27584646218040__section_GmHD4h .group-block {\n  overflow-x: scroll;\ndisplay: flex;\n  justify-content: center;\n}\n.color-custom-template--27584646218040__section_GmHD4h .image-block {\n  min-width: 8rem;\n}\n\n.color-custom-template--27584646218040__section_GmHD4h .group-block-content {\n  align-items: center;\n  width: fit-content;\n  margin: 0 auto;\n  animation: scrollLogosBidirectional linear;\n  animation-timeline: scroll(root);\n  animation-range: 0% 100%;\n}\n\n@keyframes scrollLogosBidirectional {\n  0% {\n    transform: translateX(0);\n  }\n  50% {\n    transform: translateX(50%);\n  }\n  100% {\n    transform: translateX(0);\n  }\n}\n{% endstyle %}"
           },
           "blocks": {}
         },
@@ -994,7 +994,6 @@
             "image_pU6kVT": {
               "type": "image",
               "name": "t:names.image",
-              "disabled": true,
               "settings": {
                 "image": "{{ metaobjects.supplement_vendor[\"compass-laboratory\"].logo_dark.value }}",
                 "link": "",
@@ -1019,7 +1018,6 @@
             "image_QJPdm4": {
               "type": "image",
               "name": "t:names.image",
-              "disabled": true,
               "settings": {
                 "image": "{{ metaobjects.supplement_vendor[\"dr-wongs-essentials\"].logo_dark.value }}",
                 "link": "",
@@ -1140,7 +1138,6 @@
             "image_PNX74g": {
               "type": "image",
               "name": "t:names.image",
-              "disabled": true,
               "settings": {
                 "image": "{{ metaobjects.supplement_vendor[\"n-1-o-1-nitric-oxide\"].logo_dark.value }}",
                 "link": "",
@@ -1213,7 +1210,6 @@
             "image_9pmMHD": {
               "type": "image",
               "name": "t:names.image",
-              "disabled": true,
               "settings": {
                 "image": "{{ metaobjects.supplement_vendor.nutraneeds.logo_dark.value }}",
                 "link": "",
@@ -1334,7 +1330,6 @@
             "image_yUzMBG": {
               "type": "image",
               "name": "t:names.image",
-              "disabled": true,
               "settings": {
                 "image": "{{ metaobjects.supplement_vendor[\"ver-vita\"].logo_dark.value }}",
                 "link": "",
