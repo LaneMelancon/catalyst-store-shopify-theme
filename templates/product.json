@@ -290,7 +290,7 @@
         "section_height": "",
         "section_height_custom": 50,
         "background_media": "none",
-        "background_color": "{{ settings.color_palette.orange15 }}",
+        "background_color": "{{ settings.color_palette.green700 }}",
         "video_position": "cover",
         "background_image_position": "cover",
         "toggle_overlay": false,
