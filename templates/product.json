@@ -856,7 +856,7 @@
                             "height": "fit",
                             "custom_height": 100,
                             "background_media": "none",
-                            "background_color": "{{ settings.color_palette.green100 }}",
+                            "background_color": "{{ settings.color_palette.green50 }}",
                             "video_position": "cover",
                             "background_image_position": "cover",
                             "toggle_overlay": false,
@@ -936,10 +936,10 @@
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
-                        "type_preset": "rte",
+                        "type_preset": "custom",
                         "font": "var(--font-primary--family)",
                         "font_size": "1rem",
-                        "line_height": "normal",
+                        "line_height": "loose",
                         "letter_spacing": "normal",
                         "case": "none",
                         "wrap": "pretty",
@@ -1037,8 +1037,8 @@
                         "placeholder": "",
                         "padding-block-start": 0,
                         "padding-block-end": 0,
-                        "padding-inline-start": 16,
-                        "padding-inline-end": 16
+                        "padding-inline-start": 12,
+                        "padding-inline-end": 12
                       },
                       "blocks": {
                         "group_Lqj87t": {
@@ -1086,8 +1086,8 @@
                               "settings": {
                                 "show_sale_price_first": true,
                                 "show_installments": false,
-                                "show_tax_info": false,
-                                "type_preset": "custom",
+                                "show_tax_info": true,
+                                "type_preset": "h3",
                                 "width": "fit-content",
                                 "alignment": "left",
                                 "font": "var(--font-body--family)",
@@ -1869,7 +1869,7 @@
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
-                        "type_preset": "rte",
+                        "type_preset": "paragraph",
                         "font": "var(--font-primary--family)",
                         "font_size": "1rem",
                         "line_height": "normal",
@@ -1908,7 +1908,7 @@
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
-                        "type_preset": "rte",
+                        "type_preset": "paragraph",
                         "font": "var(--font-primary--family)",
                         "font_size": "1rem",
                         "line_height": "normal",
@@ -2062,7 +2062,7 @@
             "border_color": "",
             "border_radius": 12,
             "padding-block-start": 12,
-            "padding-block-end": 16,
+            "padding-block-end": 20,
             "padding-inline-start": 12,
             "padding-inline-end": 12
           },
@@ -2095,7 +2095,7 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 8,
+                "gap": 10,
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
@@ -2119,8 +2119,8 @@
                 "open_in_new_tab": false,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
-                "padding-inline-start": 12,
-                "padding-inline-end": 12
+                "padding-inline-start": 8,
+                "padding-inline-end": 8
               },
               "blocks": {
                 "product_card_group_iJJmLq": {
@@ -2283,6 +2283,7 @@
                     "product_card_group_3tUGVW": {
                       "type": "_product-card-group",
                       "name": "Button",
+                      "disabled": true,
                       "settings": {
                         "content_direction": "column",
                         "vertical_on_mobile": true,
@@ -2382,7 +2383,7 @@
         "layout_type": "carousel",
         "carousel_on_mobile": false,
         "max_products": 10,
-        "columns": 4,
+        "columns": 5,
         "mobile_columns": "2",
         "columns_gap": 16,
         "rows_gap": 24,
