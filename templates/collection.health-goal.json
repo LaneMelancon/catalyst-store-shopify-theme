@@ -358,10 +358,10 @@
                 "size": "percent",
                 "percent_size": 30,
                 "pixel_size": 120,
-                "custom_mobile_size": false,
-                "size_mobile": "percent",
+                "custom_mobile_size": true,
+                "size_mobile": "pixel",
                 "percent_size_mobile": 100,
-                "pixel_size_mobile": 120
+                "pixel_size_mobile": 0
               },
               "blocks": {}
             },
@@ -379,7 +379,7 @@
                 "gap": 16,
                 "width": "fit-content",
                 "custom_width": 70,
-                "width_mobile": "fill",
+                "width_mobile": "custom",
                 "custom_width_mobile": 100,
                 "height": "fill",
                 "custom_height": 60,
@@ -577,7 +577,7 @@
                     "gap": 12,
                     "width": "fit-content",
                     "custom_width": 50,
-                    "width_mobile": "fit-content",
+                    "width_mobile": "custom",
                     "custom_width_mobile": 100,
                     "height": "fill",
                     "custom_height": 33,
@@ -702,7 +702,7 @@
                         "gap": 10,
                         "width": "custom",
                         "custom_width": 75,
-                        "width_mobile": "fit-content",
+                        "width_mobile": "custom",
                         "custom_width_mobile": 100,
                         "height": "fit",
                         "custom_height": 100,
@@ -1051,10 +1051,10 @@
                 "size": "percent",
                 "percent_size": 10,
                 "pixel_size": 120,
-                "custom_mobile_size": false,
-                "size_mobile": "percent",
-                "percent_size_mobile": 100,
-                "pixel_size_mobile": 120
+                "custom_mobile_size": true,
+                "size_mobile": "pixel",
+                "percent_size_mobile": 0,
+                "pixel_size_mobile": 0
               },
               "blocks": {}
             }
@@ -1625,7 +1625,7 @@
       ],
       "custom_css": [
         "/* Sort Label */.facets__summary {padding: 0 0.5rem 0 0; font-size: 14px; line-height: 1.1; border-right: 1px solid rgba(14, 36, 21, 0.25); color: #e6e9e7;}",
-        "/* Layout Options */fieldset.column-options {flex-wrap: nowrap;}"
+        " /* Layout Options */fieldset.column-options {flex-wrap: nowrap;}"
       ],
       "name": "Pathway Filter (Desktop)",
       "settings": {
@@ -2333,8 +2333,8 @@
         }
       },
       "custom_css": [
-        "/* .facets-block-wrapper {display: none;} *//* Sort Label */.facets__summary {line-height: 1.1;}",
-        "/* Layout Options */fieldset.column-options {flex-wrap: nowrap;}"
+        "/* .facets-block-wrapper {display: none;} */ /* Sort Label */.facets__summary {line-height: 1.1;}",
+        " /* Layout Options */fieldset.column-options {flex-wrap: nowrap;}"
       ],
       "settings": {
         "layout_type": "grid",
