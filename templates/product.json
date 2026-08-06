@@ -2008,7 +2008,7 @@
               "type": "text",
               "name": "Heading",
               "settings": {
-                "text": "<h2>Shop related products</h2>",
+                "text": "<h2>Related products</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2443,7 +2443,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Shop related health goals</h2>",
+                "text": "<h2>Related health goals</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -3255,7 +3255,7 @@
         ".resource-list__carousel > [ref=\"slideshowContainer\"] {background-color: transparent;}",
         ".resource-list__slide {z-index: 2;}"
       ],
-      "name": "Shop Health Goals",
+      "name": "Related Health Goals",
       "settings": {
         "collection_list": "{{ product.collections }}",
         "layout_type": "carousel",
