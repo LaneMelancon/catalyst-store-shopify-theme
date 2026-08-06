@@ -1456,7 +1456,6 @@
       ],
       "custom_css": [
         ".color-custom-template--27584646218040__section_GmHD4h {overflow: hidden;}",
-        ".color-custom-template--27584646218040__section_GmHD4h > .group-block:nth-of-type(2) {overflow-x: scroll;}",
         ".color-custom-template--27584646218040__section_GmHD4h .group-block-content {flex-wrap: nowrap;}",
         ".color-custom-template--27584646218040__section_GmHD4h .image-block {flex: auto !important; min-width: 8rem !important; opacity: 0.75 !important;}"
       ],
