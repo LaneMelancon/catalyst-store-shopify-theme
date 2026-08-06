@@ -97,6 +97,7 @@
                 "image_peUjkA": {
                   "type": "image",
                   "name": "t:names.image",
+                  "disabled": true,
                   "settings": {
                     "image": "shopify://shop_images/NeuroSolution_Footer_Text_584fd0d6-bea2-492d-839f-7c933f0f5014.png",
                     "link": "",
@@ -166,49 +167,8 @@
                 "menu_7X74Qi": {
                   "type": "menu",
                   "settings": {
-                    "menu": "footer",
-                    "heading": "Shop",
-                    "menu_spacing": 12,
-                    "show_as_accordion": false,
-                    "accordion_icon": "caret",
-                    "accordion_dividers": false,
-                    "background_color": "{{ settings.color_palette.foreground }}",
-                    "text_color": "",
-                    "heading_preset": "h3",
-                    "link_preset": "paragraph",
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "menu_LV4zFN": {
-                  "type": "menu",
-                  "settings": {
-                    "menu": "",
-                    "heading": "Help",
-                    "menu_spacing": 12,
-                    "show_as_accordion": false,
-                    "accordion_icon": "caret",
-                    "accordion_dividers": false,
-                    "background_color": "",
-                    "text_color": "",
-                    "heading_preset": "h3",
-                    "link_preset": "paragraph",
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "menu_wJDtyC": {
-                  "type": "menu",
-                  "name": "t:names.menu",
-                  "settings": {
-                    "menu": "",
-                    "heading": "About",
+                    "menu": "menu",
+                    "heading": "Explore",
                     "menu_spacing": 12,
                     "show_as_accordion": false,
                     "accordion_icon": "caret",
@@ -266,8 +226,8 @@
                     "text_pUpBYD": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Stay Connected</p>",
-                        "width": "100%",
+                        "text": "<p>Follow us</p>",
+                        "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
                         "type_preset": "h3",
@@ -318,8 +278,6 @@
               },
               "block_order": [
                 "menu_7X74Qi",
-                "menu_LV4zFN",
-                "menu_wJDtyC",
                 "group_nbg3NN"
               ]
             }
@@ -333,12 +291,14 @@
       "block_order": [
         "group_BUCwcb"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".footer-content {background-color: transparent;}"
+      ],
       "name": "Footer",
       "settings": {
         "section_width": "page-width",
         "gap": 12,
-        "background_color": "{{ settings.color_palette.foreground }}",
+        "background_color": "",
         "padding-block-start": 80,
         "padding-block-end": 32
       }
@@ -374,9 +334,9 @@
       "settings": {
         "section_width": "page-width",
         "gap": 24,
-        "background_color": "{{ settings.color_palette.foreground }}",
+        "background_color": "",
         "divider_thickness": 1,
-        "divider_color": "{{ settings.color_palette.neutral900 }}",
+        "divider_color": "#F3F4F3",
         "padding-block-start": 32,
         "padding-block-end": 32
       }
