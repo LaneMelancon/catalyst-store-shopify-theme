@@ -261,7 +261,7 @@
                       "type": "text",
                       "name": "is--active",
                       "settings": {
-                        "text": "<p>View All</p>",
+                        "text": "<p>All Goals</p>",
                         "width": "fit-content",
                         "max_width": "narrow",
                         "alignment": "left",
@@ -1761,7 +1761,7 @@
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
                         "vertical_alignment_flex_direction_column": "center",
-                        "gap": 3,
+                        "gap": 2,
                         "width": "fit-content",
                         "custom_width": 100,
                         "width_mobile": "fit-content",
