@@ -462,6 +462,7 @@
         "disclosures_3Uh8eA": {
           "type": "disclosures",
           "name": "t:names.disclosures",
+          "disabled": true,
           "settings": {
             "heading": "Disclosures",
             "heading_preset": "h5",
@@ -1990,10 +1991,37 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {}
+                    },
+                    "text_ACKDqX": {
+                      "type": "text",
+                      "name": "t:names.text",
+                      "settings": {
+                        "text": "<p><strong>Disclaimer:</strong> These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p><p><strong>Caution:</strong> Consult with your healthcare practitioner before using this product, especially if you are pregnant, nursing, under 18 years of age, taking medications, or managing a medical condition.</p><p><strong>Safety & Storage:</strong> Keep out of reach of children. Do not use if the safety seal is broken or missing. Store in a cool, dry place out of direct sunlight.</p>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "custom",
+                        "font": "var(--font-body--family)",
+                        "font_size": "0.875rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "text_color": "{{ settings.color_palette.neutral800 }}",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 10,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
                     }
                   },
                   "block_order": [
-                    "text_73AdmT"
+                    "text_73AdmT",
+                    "text_ACKDqX"
                   ]
                 },
                 "accordion_row_AiFPRD": {
@@ -2034,11 +2062,51 @@
                   "block_order": [
                     "text_j9hARJ"
                   ]
+                },
+                "accordion_row_miP8Cg": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Supplement Facts",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_fQgkqt": {
+                      "type": "text",
+                      "settings": {
+                        "text": "{{ closest.product.metafields.custom.supplement_ingredients | metafield_tag }}",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "paragraph",
+                        "font": "var(--font-primary--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "text_color": "",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_fQgkqt"
+                  ]
                 }
               },
               "block_order": [
                 "accordion_row_7zrYNX",
-                "accordion_row_AiFPRD"
+                "accordion_row_AiFPRD",
+                "accordion_row_miP8Cg"
               ]
             }
           },
