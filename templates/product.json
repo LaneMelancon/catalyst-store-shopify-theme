@@ -1943,7 +1943,7 @@
               "settings": {
                 "icon": "caret",
                 "dividers": true,
-                "divider_color": "#f3f0e5",
+                "divider_color": "#EAE7DA",
                 "type_preset": "h3",
                 "background_color": "rgba(0,0,0,0)",
                 "text_color": "",
@@ -2067,39 +2067,22 @@
                   "type": "_accordion-row",
                   "settings": {
                     "heading": "Supplement Facts",
-                    "open_by_default": false,
+                    "open_by_default": true,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_fQgkqt": {
-                      "type": "text",
+                    "custom_liquid_FP7cKC": {
+                      "type": "custom-liquid",
+                      "name": "t:names.custom_liquid",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.supplement_ingredients | metafield_tag }}",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "paragraph",
-                        "font": "var(--font-primary--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
+                        "custom_liquid": "{% style %}\n.supplement-facts {\n    --color-neutral-900: #273a2d;\n    --color-neutral-800: #3e5044;\n    --color-neutral-300: #b6bdb8;\n\n    font-size: 14px;\n    color: var(--color-neutral-800);\n    width: 100%;\n    max-width: 720px;\npadding-top: 8px;\n  }\n\n  .supplement-facts p {\n    margin: 0 0 2px 0;\n    line-height: 1.4;\n  }\n\n  .supplement-facts table {\n    width: 100%;\n    border-collapse: collapse;\n    table-layout: fixed;\n    margin: 10px 0;\n    color: inherit;\n  }\n\n  /* Column Widths */\n  .supplement-facts th:nth-child(1) {\n    width: 50%;\n  }\n  .supplement-facts th:nth-child(2) {\n    width: 15%;\n  }\n  .supplement-facts th:nth-child(3) {\n    width: 35%;\n  }\n\n  /* Table Headers */\n  .supplement-facts thead tr {\n    border-top: 2px solid var(--color-neutral-900);\n    border-bottom: 2px solid var(--color-neutral-900);\n  }\n\n  .supplement-facts th {\n    padding: 8px 2px;\n    text-align: left;\n  }\n\n  /* Table Body Rows */\n  .supplement-facts tbody tr {\n    border-bottom: 1px solid var(--color-neutral-300);\n  }\n\n  .supplement-facts tbody tr:last-child {\n    border-bottom: 2px solid var(--color-neutral-900);\n  }\n\n  /* Table Cells (General) */\n  .supplement-facts td {\n    padding: 8px 4px;\n    vertical-align: top;\n  }\n\n  .supplement-facts tbody tr:first-child > td {\n    padding-top: 14px;\n  }\n\n  .supplement-facts tbody tr:last-child > td {\n    padding-bottom: 14px;\n  }\n\n  /* Shared and Specific Alignment / Wrapping */\n  .supplement-facts th:last-child,\n  .supplement-facts td:last-child {\n    text-align: right;\n  }\n\n  .supplement-facts th:last-child,\n  .supplement-facts td:nth-child(2) {\n    white-space: nowrap;\n  }\n\n  .supplement-facts td:first-child {\n    white-space: normal;\n    text-wrap: balance;\n  }\n\n  .footnotes {\n    font-size: 12px;\n    opacity: 0.8;\n  }\n{% endstyle %}\n<div class=\"supplement-facts\">\n  <p>Serving Size: {servingSize}</p>\n  <p>Servings Per Container: {servingTotal}</p>\n  <table>\n    <thead>\n      <tr>\n        <th>Amount Per Serving</th>\n        <th></th>\n        <th>% Daily Value*</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>Ingredient 1</td>\n        <td>0 IU</td>\n        <td>0%</td>\n      </tr>\n      <tr>\n        <td>Ingredient 2</td>\n        <td>0 mg</td>\n        <td>0%</td>\n      </tr>\n      <tr>\n        <td>Ingredient 3</td>\n        <td>0 mcg</td>\n        <td>**</td>\n      </tr>\n    </tbody>\n  </table>\n  <div class=\"footnotes\">\n    <p>* The % Daily Values are based on a 2000 calorie diet.</p>\n    <p>** Daily Value Not Established</p>\n  </div>\n</div>"
                       },
                       "blocks": {}
                     }
                   },
                   "block_order": [
-                    "text_fQgkqt"
+                    "custom_liquid_FP7cKC"
                   ]
                 }
               },
