@@ -1973,7 +1973,7 @@
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
-                        "type_preset": "paragraph",
+                        "type_preset": "rte",
                         "font": "var(--font-primary--family)",
                         "font_size": "1rem",
                         "line_height": "normal",
