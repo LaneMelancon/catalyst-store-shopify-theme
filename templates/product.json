@@ -46,8 +46,8 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 24,
-            "padding-block-end": 16,
+            "padding-block-start": 8,
+            "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -435,7 +435,7 @@
             "aspect_ratio": "1",
             "constrain_to_viewport": true,
             "media_fit": "contain",
-            "media_radius": 20,
+            "media_radius": 24,
             "extend_media": false,
             "zoom": false,
             "video_loop": false,
@@ -451,8 +451,8 @@
           "type": "_product-details",
           "static": true,
           "settings": {
-            "width": "fill",
-            "custom_width": 82,
+            "width": "custom",
+            "custom_width": 80,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
             "height": "fill",
@@ -1901,66 +1901,252 @@
                   "type": "_accordion-row",
                   "settings": {
                     "heading": "Details",
-                    "open_by_default": true,
+                    "open_by_default": false,
                     "icon": "none",
                     "width": 12
                   },
                   "blocks": {
-                    "text_73AdmT": {
-                      "type": "text",
+                    "group_r8ExHh": {
+                      "type": "group",
+                      "name": "t:names.group",
                       "settings": {
-                        "text": "<ul><li>Quatrefolic® increases plasma folate more effectively than folic acid without masking B12 deficiency</li><li>Methylcobalamin is the neurologically active, directly bioavailable form of B12</li><li>Quick-dissolve format enhances buccal absorption for faster onset</li><li>Essential for MTHFR variant carriers and patients with methylation insufficiency</li></ul><h5>Why We Recommends This</h5><p>MTHFR variants affect up to 40% of the population and are disproportionately represented in neurological patient populations. 5-MTHF Plus B12 ensures efficient methylation pathway support even in patients with impaired folate conversion — foundational for neurotransmitter synthesis and neurological repair.</p><h5>How to Use</h5><p>Allow 1–2 tablets to dissolve under the tongue or in the mouth as directed. Cherry-flavored for patient compliance. Can be taken with or without food.</p>",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-primary--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "{{ settings.color_palette.foreground }}",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 12,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_color": "",
+                        "border_radius": 0,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 8,
+                        "padding-block-end": 8,
                         "padding-inline-start": 0,
                         "padding-inline-end": 0
                       },
-                      "blocks": {}
-                    },
-                    "text_ACKDqX": {
-                      "type": "text",
-                      "name": "t:names.text",
-                      "settings": {
-                        "text": "<h6>Safety & Storage</h6><p>Keep out of reach of children. Do not use if the safety seal is broken or missing. Store in a cool, dry place out of direct sunlight.</p><h6>Disclaimer</h6><p>Consult with your healthcare practitioner before using this product, especially if you are pregnant, nursing, under 18 years of age, taking medications, or managing a medical condition.</p>",
-                        "width": "fit-content",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "0.875rem",
-                        "line_height": "tight",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
+                      "blocks": {
+                        "text_EabfJH": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p> </p>{{ closest.product.metafields.custom.product_details | metafield_tag }}",
+                            "width": "100%",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-primary--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "text_color": "{{ settings.color_palette.neutral950 }}",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        },
+                        "group_QdKmm4": {
+                          "type": "group",
+                          "name": "t:names.group",
+                          "settings": {
+                            "content_direction": "column",
+                            "vertical_on_mobile": true,
+                            "horizontal_alignment": "flex-start",
+                            "vertical_alignment": "center",
+                            "align_baseline": false,
+                            "horizontal_alignment_flex_direction_column": "flex-start",
+                            "vertical_alignment_flex_direction_column": "center",
+                            "gap": 8,
+                            "width": "fill",
+                            "custom_width": 100,
+                            "width_mobile": "fill",
+                            "custom_width_mobile": 100,
+                            "height": "fit",
+                            "custom_height": 100,
+                            "background_media": "none",
+                            "background_color": "#FAF7EB",
+                            "video_position": "cover",
+                            "background_image_position": "cover",
+                            "toggle_overlay": false,
+                            "overlay_color": "#00000026",
+                            "overlay_style": "solid",
+                            "gradient_direction": "to top",
+                            "border": "solid",
+                            "border_width": 1,
+                            "border_opacity": 10,
+                            "border_color": "",
+                            "border_radius": 14,
+                            "link": "",
+                            "open_in_new_tab": false,
+                            "placeholder": "",
+                            "padding-block-start": 0,
+                            "padding-block-end": 20,
+                            "padding-inline-start": 24,
+                            "padding-inline-end": 24
+                          },
+                          "blocks": {
+                            "spacer_z93ixC": {
+                              "type": "spacer",
+                              "name": "t:names.spacer",
+                              "settings": {
+                                "size": "pixel",
+                                "percent_size": 100,
+                                "pixel_size": 16,
+                                "custom_mobile_size": false,
+                                "size_mobile": "percent",
+                                "percent_size_mobile": 100,
+                                "pixel_size_mobile": 24
+                              },
+                              "blocks": {}
+                            },
+                            "text_F4j8Fi": {
+                              "type": "text",
+                              "name": "t:names.heading",
+                              "settings": {
+                                "text": "<h5>Product Disclaimers</h5>",
+                                "width": "fit-content",
+                                "max_width": "normal",
+                                "alignment": "left",
+                                "type_preset": "rte",
+                                "font": "var(--font-body--family)",
+                                "font_size": "1rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "text_color": "{{ settings.color_palette.neutral950 }}",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                              },
+                              "blocks": {}
+                            },
+                            "text_imEEAL": {
+                              "type": "text",
+                              "name": "t:names.text",
+                              "settings": {
+                                "text": "<p>These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>",
+                                "width": "fit-content",
+                                "max_width": "none",
+                                "alignment": "left",
+                                "type_preset": "custom",
+                                "font": "var(--font-body--family)",
+                                "font_size": "0.875rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "balance",
+                                "text_color": "{{ settings.color_palette.neutral900 }}",
+                                "background": false,
+                                "background_color": "#FAF7EB",
+                                "corner_radius": 14,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                              },
+                              "blocks": {}
+                            },
+                            "text_HnBdEX": {
+                              "type": "text",
+                              "name": "t:names.text",
+                              "settings": {
+                                "text": "<p>Keep out of reach of children. Do not use if the safety seal is broken or missing. Store in a cool, dry place out of direct sunlight.</p>",
+                                "width": "fit-content",
+                                "max_width": "none",
+                                "alignment": "left",
+                                "type_preset": "custom",
+                                "font": "var(--font-body--family)",
+                                "font_size": "0.875rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "balance",
+                                "text_color": "{{ settings.color_palette.neutral900 }}",
+                                "background": false,
+                                "background_color": "#FAF7EB",
+                                "corner_radius": 14,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                              },
+                              "blocks": {}
+                            },
+                            "text_EDVXVd": {
+                              "type": "text",
+                              "name": "t:names.text",
+                              "settings": {
+                                "text": "<p>Consult with your healthcare practitioner before using this product, especially if you are pregnant, nursing, under 18 years of age, taking medications, or managing a medical condition.</p>",
+                                "width": "fit-content",
+                                "max_width": "none",
+                                "alignment": "left",
+                                "type_preset": "custom",
+                                "font": "var(--font-body--family)",
+                                "font_size": "0.875rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "balance",
+                                "text_color": "{{ settings.color_palette.neutral900 }}",
+                                "background": false,
+                                "background_color": "#FAF7EB",
+                                "corner_radius": 14,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                              },
+                              "blocks": {}
+                            }
+                          },
+                          "block_order": [
+                            "spacer_z93ixC",
+                            "text_F4j8Fi",
+                            "text_imEEAL",
+                            "text_HnBdEX",
+                            "text_EDVXVd"
+                          ]
+                        }
                       },
-                      "blocks": {}
+                      "block_order": [
+                        "text_EabfJH",
+                        "group_QdKmm4"
+                      ]
                     }
                   },
                   "block_order": [
-                    "text_73AdmT",
-                    "text_ACKDqX"
+                    "group_r8ExHh"
                   ]
                 },
                 "accordion_row_AiFPRD": {
@@ -2015,7 +2201,7 @@
                       "type": "custom-liquid",
                       "name": "Supplement Facts Table",
                       "settings": {
-                        "custom_liquid": "{% style %}\n.supplement-facts {\n    --color-neutral-900: #273a2d;\n    --color-neutral-800: #3e5044;\n    --color-neutral-300: #b6bdb8;\n\n    font-size: 14px;\n    color: var(--color-neutral-800);\n    width: 100%;\n    max-width: 720px;\n    padding-top: 8px;\n  }\n\n  .supplement-facts p {\n    margin: 0 0 4px 0;\n    line-height: 1.5;\n    letter-spacing: -0.5px;\n    text-wrap: pretty;\n  }\n\n  .supplement-facts table {\n    width: 100%;\n    border-collapse: collapse;\n    table-layout: fixed;\n    margin: 10px 0;\n    color: inherit;\n  }\n\n  /* Column Widths */\n  .supplement-facts th:nth-child(1) {\n    width: 50%;\n  }\n  .supplement-facts th:nth-child(2) {\n    width: 15%;\n  }\n  .supplement-facts th:nth-child(3) {\n    width: 35%;\n  }\n\n  /* Table Headers */\n  .supplement-facts thead tr {\n    border-top: 2px solid var(--color-neutral-600);\n    border-bottom: 2px solid var(--color-neutral-600);\n  }\n\n  .supplement-facts th {\n    padding: 8px 2px;\n    text-align: left;\n    font-weight: 500;\n  }\n\n  /* Table Body Rows */\n  .supplement-facts tbody tr {\n    border-bottom: 1px solid var(--color-neutral-200);\n  }\n\n  .supplement-facts tbody tr:last-child {\n    border-bottom: 2px solid var(--color-neutral-600);\n  }\n\n  /* Table Cells (General) */\n  .supplement-facts td {\n    padding: 8px 4px;\n    vertical-align: top;\n  }\n\n  .supplement-facts tbody tr:first-child > td {\n    padding-top: 14px;\n  }\n\n  .supplement-facts tbody tr:last-child > td {\n    padding-bottom: 12px;\n  }\n\n  /* Shared and Specific Alignment / Wrapping */\n  .supplement-facts th:last-child,\n  .supplement-facts td:last-child {\n    text-align: right;\n  }\n\n  .supplement-facts th:last-child,\n  .supplement-facts td:nth-child(2) {\n    white-space: nowrap;\n  }\n\n  .supplement-facts td:first-child {\n    white-space: normal;\n    text-wrap: balance;\n  }\n\n  .footnotes > p {\n    opacity: 0.8;\n    margin-bottom: 1px;\n    font-size: 12px;\n    line-height: 1.4;\n  }\n{% endstyle %}\n\n<div class=\"supplement-facts\">\n  <p>Serving Size: {servingSize}</p>\n      <p>Total Servings: {servingTotal}</p>\n  <table>\n    <thead>\n      <tr>\n        <th>Amount Per Serving</th>\n        <th></th>\n        <th>% Daily Value*</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>Ingredient 1</td>\n        <td>0 IU</td>\n        <td>0%</td>\n      </tr>\n      <tr>\n        <td>Ingredient 2</td>\n        <td>0 mg</td>\n        <td>0%</td>\n      </tr>\n      <tr>\n        <td>Ingredient 3</td>\n        <td>0 mcg</td>\n        <td>**</td>\n      </tr>\n    </tbody>\n  </table>\n  <div class=\"footnotes\">\n    <p>* The % Daily Values are based on a 2000 calorie diet.</p>\n    <p>** Daily Value Not Established</p>\n  </div>\n</div>"
+                        "custom_liquid": "{% style %}\n.supplement-facts {\n    --color-neutral-900: #273a2d;\n    --color-neutral-800: #3e5044;\n    --color-neutral-300: #b6bdb8;\n\n    font-size: 14px;\n    color: var(--color-neutral-800);\n    width: 100%;\n    max-width: 720px;\n    padding-top: 8px;\n  }\n\n  .supplement-facts p {\n    margin: 0 0 4px 0;\n    line-height: 1.5;\n    letter-spacing: -0.5px;\n    text-wrap: pretty;\n  }\n\n  .supplement-facts table {\n    width: 100%;\n    border-collapse: collapse;\n    table-layout: fixed;\n    margin: 10px 0;\n    color: inherit;\n  }\n\n  /* Column Widths */\n  .supplement-facts th:nth-child(1) {\n    width: 50%;\n  }\n  .supplement-facts th:nth-child(2) {\n    width: 15%;\n  }\n  .supplement-facts th:nth-child(3) {\n    width: 35%;\n  }\n\n  /* Table Headers */\n  .supplement-facts thead tr {\n    border-top: 2px solid var(--color-neutral-600);\n    border-bottom: 2px solid var(--color-neutral-600);\n  }\n\n  .supplement-facts th {\n    padding: 8px 2px;\n    text-align: left;\n    font-weight: 500;\n  }\n\n  /* Table Body Rows */\n  .supplement-facts tbody tr {\n    border-bottom: 1px solid var(--color-neutral-200);\n  }\n\n  .supplement-facts tbody tr:last-child {\n    border-bottom: 2px solid var(--color-neutral-600);\n  }\n\n  /* Table Cells (General) */\n  .supplement-facts td {\n    padding: 8px 4px;\n    vertical-align: top;\n  }\n\n  .supplement-facts tbody tr:first-child > td {\n    padding-top: 14px;\n  }\n\n  .supplement-facts tbody tr:last-child > td {\n    padding-bottom: 12px;\n  }\n\n  /* Shared and Specific Alignment / Wrapping */\n  .supplement-facts th:last-child,\n  .supplement-facts td:last-child {\n    text-align: right;\n  }\n\n  .supplement-facts th:last-child,\n  .supplement-facts td:nth-child(2) {\n    white-space: nowrap;\n  }\n\n  .supplement-facts td:first-child {\n    white-space: normal;\n    text-wrap: balance;\n  }\n\n  .footnotes > p {\n    opacity: 0.8;\n    margin-bottom: 1px;\n    font-size: 12px;\n    line-height: 1.4;\n  }\n{% endstyle %}\n\n{% if product.metafields.custom.supplement_facts != blank %}\n  {{ product.metafields.custom.supplement_facts.value }}\n{% endif %}"
                       },
                       "blocks": {}
                     }
@@ -2030,51 +2216,24 @@
                 "accordion_row_AiFPRD",
                 "accordion_row_miP8Cg"
               ]
-            },
-            "text_DGwUKk": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "text": "<p>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "custom",
-                "font": "var(--font-body--family)",
-                "font_size": "0.875rem",
-                "line_height": "tight",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "text_color": "{{ settings.color_palette.neutral800 }}",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "group_YwK9cf",
             "divider_p8pPW6",
-            "accordion_rLQjqe",
-            "text_DGwUKk"
+            "accordion_rLQjqe"
           ]
         }
       },
       "settings": {
         "content_width": "content-center-aligned",
         "desktop_media_position": "left",
-        "equal_columns": false,
+        "equal_columns": true,
         "limit_details_width": false,
-        "gap": 32,
+        "gap": 24,
         "enable_sticky_add_to_cart": true,
         "background_color": "{{ settings.color_palette.orange15 }}",
-        "padding-block-start": 0,
+        "padding-block-start": 24,
         "padding-block-end": 0
       }
     },
