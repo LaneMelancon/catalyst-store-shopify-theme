@@ -2212,7 +2212,7 @@
                     "background_media": "none",
                     "background_color": "",
                     "video_position": "cover",
-                    "background_image": "{{ metaobjects.supplement_health_goal[\"brain-mood\"].secondary_image.value }}",
+                    "background_image": "{{ metaobjects.health_goal[\"brain-mood\"].secondary_image.value }}",
                     "background_image_position": "cover",
                     "toggle_overlay": false,
                     "overlay_color": "#00000026",
@@ -2236,7 +2236,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "{{ metaobjects.supplement_health_goal[\"brain-mood\"].secondary_image.value }}",
+                        "image": "{{ metaobjects.health_goal[\"brain-mood\"].secondary_image.value }}",
                         "link": "",
                         "image_ratio": "portrait",
                         "width": "fill",
@@ -2305,7 +2305,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<h3>{{ metaobjects.supplement_health_goal[\"brain-mood\"].name.value }}</h3>",
+                        "text": "<h3>{{ metaobjects.health_goal[\"brain-mood\"].name.value }}</h3>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -2330,7 +2330,7 @@
                     "text_8feXYc": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>{{ metaobjects.supplement_health_goal[\"brain-mood\"].description | metafield_tag }}</p>",
+                        "text": "<p>{{ metaobjects.health_goal[\"brain-mood\"].description | metafield_tag }}</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "left",
@@ -2435,7 +2435,7 @@
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
-                            "text": "<p>{{ metaobjects.supplement_health_goal[\"brain-mood\"].related_pathways | metafield_text: field: 'name' }}</p>",
+                            "text": "<p>{{ metaobjects.health_goal[\"brain-mood\"].related_pathways | metafield_text: field: 'name' }}</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -2502,7 +2502,7 @@
                               "type": "button",
                               "name": "t:names.button",
                               "settings": {
-                                "label": "Shop {{ metaobjects.supplement_health_goal[\"brain-mood\"].name.value }}",
+                                "label": "Shop {{ metaobjects.health_goal[\"brain-mood\"].name.value }}",
                                 "link": "",
                                 "open_in_new_tab": false,
                                 "style_class": "button-unstyled",
@@ -2664,7 +2664,7 @@
                     "background_media": "none",
                     "background_color": "",
                     "video_position": "cover",
-                    "background_image": "{{ metaobjects.supplement_health_goal[\"brain-mood\"].secondary_image.value }}",
+                    "background_image": "{{ metaobjects.health_goal[\"brain-mood\"].secondary_image.value }}",
                     "background_image_position": "cover",
                     "toggle_overlay": false,
                     "overlay_color": "#00000026",
@@ -2688,7 +2688,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "{{ metaobjects.supplement_health_goal[\"energy-metabolism\"].secondary_image.value }}",
+                        "image": "{{ metaobjects.health_goal[\"energy-metabolism\"].secondary_image.value }}",
                         "link": "",
                         "image_ratio": "portrait",
                         "width": "fill",
@@ -2757,7 +2757,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<h3>{{ metaobjects.supplement_health_goal[\"energy-metabolism\"].name.value }}</h3>",
+                        "text": "<h3>{{ metaobjects.health_goal[\"energy-metabolism\"].name.value }}</h3>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -2782,7 +2782,7 @@
                     "text_6knQjQ": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>{{ metaobjects.supplement_health_goal[\"energy-metabolism\"].description | metafield_tag }}</p>",
+                        "text": "<p>{{ metaobjects.health_goal[\"energy-metabolism\"].description | metafield_tag }}</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "left",
@@ -2887,7 +2887,7 @@
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
-                            "text": "<p>{{ metaobjects.supplement_health_goal[\"energy-metabolism\"].related_pathways | metafield_text: field: 'name' }}</p>",
+                            "text": "<p>{{ metaobjects.health_goal[\"energy-metabolism\"].related_pathways | metafield_text: field: 'name' }}</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -2954,7 +2954,7 @@
                               "type": "button",
                               "name": "t:names.button",
                               "settings": {
-                                "label": "Shop {{ metaobjects.supplement_health_goal[\"brain-mood\"].name.value }}",
+                                "label": "Shop {{ metaobjects.health_goal[\"brain-mood\"].name.value }}",
                                 "link": "",
                                 "open_in_new_tab": false,
                                 "style_class": "button-unstyled",
@@ -3116,7 +3116,7 @@
                     "background_media": "none",
                     "background_color": "",
                     "video_position": "cover",
-                    "background_image": "{{ metaobjects.supplement_health_goal[\"brain-mood\"].secondary_image.value }}",
+                    "background_image": "{{ metaobjects.health_goal[\"brain-mood\"].secondary_image.value }}",
                     "background_image_position": "cover",
                     "toggle_overlay": false,
                     "overlay_color": "#00000026",
@@ -3140,7 +3140,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "{{ metaobjects.supplement_health_goal[\"gut-detox\"].secondary_image.value }}",
+                        "image": "{{ metaobjects.health_goal[\"gut-detox\"].secondary_image.value }}",
                         "link": "",
                         "image_ratio": "portrait",
                         "width": "fill",
@@ -3209,7 +3209,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<h3>{{ metaobjects.supplement_health_goal[\"gut-detox\"].name.value }}</h3>",
+                        "text": "<h3>{{ metaobjects.health_goal[\"gut-detox\"].name.value }}</h3>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -3234,7 +3234,7 @@
                     "text_qx8QbJ": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>{{ metaobjects.supplement_health_goal[\"gut-detox\"].description | metafield_tag }}</p>",
+                        "text": "<p>{{ metaobjects.health_goal[\"gut-detox\"].description | metafield_tag }}</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "left",
@@ -3339,7 +3339,7 @@
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
-                            "text": "<p>{{ metaobjects.supplement_health_goal[\"gut-detox\"].related_pathways | metafield_text: field: 'name' }}</p>",
+                            "text": "<p>{{ metaobjects.health_goal[\"gut-detox\"].related_pathways | metafield_text: field: 'name' }}</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -3406,7 +3406,7 @@
                               "type": "button",
                               "name": "t:names.button",
                               "settings": {
-                                "label": "Shop {{ metaobjects.supplement_health_goal[\"brain-mood\"].name.value }}",
+                                "label": "Shop {{ metaobjects.health_goal[\"brain-mood\"].name.value }}",
                                 "link": "",
                                 "open_in_new_tab": false,
                                 "style_class": "button-unstyled",
@@ -3568,7 +3568,7 @@
                     "background_media": "none",
                     "background_color": "",
                     "video_position": "cover",
-                    "background_image": "{{ metaobjects.supplement_health_goal[\"brain-mood\"].secondary_image.value }}",
+                    "background_image": "{{ metaobjects.health_goal[\"brain-mood\"].secondary_image.value }}",
                     "background_image_position": "cover",
                     "toggle_overlay": false,
                     "overlay_color": "#00000026",
@@ -3592,7 +3592,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "{{ metaobjects.supplement_health_goal[\"hormones-vitality\"].secondary_image.value }}",
+                        "image": "{{ metaobjects.health_goal[\"hormones-vitality\"].secondary_image.value }}",
                         "link": "",
                         "image_ratio": "portrait",
                         "width": "fill",
@@ -3661,7 +3661,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<h3>{{ metaobjects.supplement_health_goal[\"hormones-vitality\"].name.value }}</h3>",
+                        "text": "<h3>{{ metaobjects.health_goal[\"hormones-vitality\"].name.value }}</h3>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -3686,7 +3686,7 @@
                     "text_gRxUCm": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>{{ metaobjects.supplement_health_goal[\"hormones-vitality\"].description | metafield_tag }}</p>",
+                        "text": "<p>{{ metaobjects.health_goal[\"hormones-vitality\"].description | metafield_tag }}</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "left",
@@ -3791,7 +3791,7 @@
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
-                            "text": "<p>{{ metaobjects.supplement_health_goal[\"hormones-vitality\"].related_pathways | metafield_text: field: 'name' }}</p>",
+                            "text": "<p>{{ metaobjects.health_goal[\"hormones-vitality\"].related_pathways | metafield_text: field: 'name' }}</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -3858,7 +3858,7 @@
                               "type": "button",
                               "name": "t:names.button",
                               "settings": {
-                                "label": "Shop {{ metaobjects.supplement_health_goal[\"brain-mood\"].name.value }}",
+                                "label": "Shop {{ metaobjects.health_goal[\"brain-mood\"].name.value }}",
                                 "link": "",
                                 "open_in_new_tab": false,
                                 "style_class": "button-unstyled",
@@ -4020,7 +4020,7 @@
                     "background_media": "none",
                     "background_color": "",
                     "video_position": "cover",
-                    "background_image": "{{ metaobjects.supplement_health_goal[\"brain-mood\"].secondary_image.value }}",
+                    "background_image": "{{ metaobjects.health_goal[\"brain-mood\"].secondary_image.value }}",
                     "background_image_position": "cover",
                     "toggle_overlay": false,
                     "overlay_color": "#00000026",
@@ -4044,7 +4044,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "{{ metaobjects.supplement_health_goal[\"immune-repair\"].secondary_image.value }}",
+                        "image": "{{ metaobjects.health_goal[\"immune-repair\"].secondary_image.value }}",
                         "link": "",
                         "image_ratio": "portrait",
                         "width": "fill",
@@ -4113,7 +4113,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<h3>{{ metaobjects.supplement_health_goal[\"immune-repair\"].name.value }}</h3>",
+                        "text": "<h3>{{ metaobjects.health_goal[\"immune-repair\"].name.value }}</h3>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -4138,7 +4138,7 @@
                     "text_DaTNLP": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>{{ metaobjects.supplement_health_goal[\"immune-repair\"].description | metafield_tag }}</p>",
+                        "text": "<p>{{ metaobjects.health_goal[\"immune-repair\"].description | metafield_tag }}</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "left",
@@ -4243,7 +4243,7 @@
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
-                            "text": "<p>{{ metaobjects.supplement_health_goal[\"immune-repair\"].related_pathways | metafield_text: field: 'name' }}</p>",
+                            "text": "<p>{{ metaobjects.health_goal[\"immune-repair\"].related_pathways | metafield_text: field: 'name' }}</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -4310,7 +4310,7 @@
                               "type": "button",
                               "name": "t:names.button",
                               "settings": {
-                                "label": "Shop {{ metaobjects.supplement_health_goal[\"brain-mood\"].name.value }}",
+                                "label": "Shop {{ metaobjects.health_goal[\"brain-mood\"].name.value }}",
                                 "link": "",
                                 "open_in_new_tab": false,
                                 "style_class": "button-unstyled",
@@ -4472,7 +4472,7 @@
                     "background_media": "none",
                     "background_color": "",
                     "video_position": "cover",
-                    "background_image": "{{ metaobjects.supplement_health_goal[\"brain-mood\"].secondary_image.value }}",
+                    "background_image": "{{ metaobjects.health_goal[\"brain-mood\"].secondary_image.value }}",
                     "background_image_position": "cover",
                     "toggle_overlay": false,
                     "overlay_color": "#00000026",
@@ -4496,7 +4496,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "{{ metaobjects.supplement_health_goal[\"strength-mobility\"].secondary_image.value }}",
+                        "image": "{{ metaobjects.health_goal[\"strength-mobility\"].secondary_image.value }}",
                         "link": "",
                         "image_ratio": "portrait",
                         "width": "fill",
@@ -4565,7 +4565,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<h3>{{ metaobjects.supplement_health_goal[\"strength-mobility\"].name.value }}</h3>",
+                        "text": "<h3>{{ metaobjects.health_goal[\"strength-mobility\"].name.value }}</h3>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -4590,7 +4590,7 @@
                     "text_k7tzd6": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>{{ metaobjects.supplement_health_goal[\"strength-mobility\"].description | metafield_tag }}</p>",
+                        "text": "<p>{{ metaobjects.health_goal[\"strength-mobility\"].description | metafield_tag }}</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "left",
@@ -4695,7 +4695,7 @@
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
-                            "text": "<p>{{ metaobjects.supplement_health_goal[\"strength-mobility\"].related_pathways | metafield_text: field: 'name' }}</p>",
+                            "text": "<p>{{ metaobjects.health_goal[\"strength-mobility\"].related_pathways | metafield_text: field: 'name' }}</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -4762,7 +4762,7 @@
                               "type": "button",
                               "name": "t:names.button",
                               "settings": {
-                                "label": "Shop {{ metaobjects.supplement_health_goal[\"brain-mood\"].name.value }}",
+                                "label": "Shop {{ metaobjects.health_goal[\"brain-mood\"].name.value }}",
                                 "link": "",
                                 "open_in_new_tab": false,
                                 "style_class": "button-unstyled",
@@ -9628,7 +9628,7 @@
                                   "type": "text",
                                   "name": "t:names.text",
                                   "settings": {
-                                    "text": "<p>{{ closest.collection.metafields.custom.ref_pathways | metafield_text: field: 'name' }}</p>",
+                                    "text": "<p>{{ closest.collection.metafields.custom.pathway | metafield_text: field: 'name' }}</p>",
                                     "width": "fit-content",
                                     "max_width": "normal",
                                     "alignment": "left",

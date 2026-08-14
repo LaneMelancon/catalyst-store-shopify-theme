@@ -1949,7 +1949,7 @@
                         "text_EabfJH": {
                           "type": "text",
                           "settings": {
-                            "text": "<p> </p>{{ closest.product.metafields.custom.product_details | metafield_tag }}",
+                            "text": "<p> </p>{{ closest.product.metafields.custom.details | metafield_tag }}",
                             "width": "100%",
                             "max_width": "normal",
                             "alignment": "left",
@@ -2161,7 +2161,7 @@
                     "text_j9hARJ": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.supplement_ingredients | metafield_tag }}",
+                        "text": "{{ closest.product.metafields.custom.ingredients | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -3174,7 +3174,7 @@
                                   "type": "text",
                                   "name": "t:names.text",
                                   "settings": {
-                                    "text": "<p>{{ closest.collection.metafields.custom.ref_pathways | metafield_text: field: 'name' }}</p>",
+                                    "text": "<p>{{ closest.collection.metafields.custom.pathway | metafield_text: field: 'name' }}</p>",
                                     "width": "fit-content",
                                     "max_width": "normal",
                                     "alignment": "left",

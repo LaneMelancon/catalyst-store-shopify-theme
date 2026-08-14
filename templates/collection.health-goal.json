@@ -916,7 +916,7 @@
                               "type": "text",
                               "name": "Pathways",
                               "settings": {
-                                "text": "<p>{{ closest.collection.metafields.custom.ref_pathways | metafield_text: field: 'name' }}</p>",
+                                "text": "<p>{{ closest.collection.metafields.custom.pathway | metafield_text: field: 'name' }}</p>",
                                 "width": "fit-content",
                                 "max_width": "narrow",
                                 "alignment": "left",
@@ -1411,7 +1411,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p>{{ metaobjects.supplement_pathway[\"cognitive-function\"].name.value }}</p>",
+                        "text": "<p>{{ metaobjects.pathway[\"cognitive-function\"].name.value }}</p>",
                         "width": "fit-content",
                         "max_width": "none",
                         "alignment": "left",
@@ -1482,7 +1482,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p>{{ metaobjects.supplement_pathway[\"mood-regulation\"].name.value }}</p>",
+                        "text": "<p>{{ metaobjects.pathway[\"mood-regulation\"].name.value }}</p>",
                         "width": "fit-content",
                         "max_width": "none",
                         "alignment": "left",
@@ -1553,7 +1553,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p>{{ metaobjects.supplement_pathway[\"sleep-regulation\"].name.value }}</p>",
+                        "text": "<p>{{ metaobjects.pathway[\"sleep-regulation\"].name.value }}</p>",
                         "width": "fit-content",
                         "max_width": "none",
                         "alignment": "left",
@@ -1624,7 +1624,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p>{{ metaobjects.supplement_pathway[\"stress-response\"].name.value }}</p>",
+                        "text": "<p>{{ metaobjects.pathway[\"stress-response\"].name.value }}</p>",
                         "width": "fit-content",
                         "max_width": "none",
                         "alignment": "left",
@@ -1912,7 +1912,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>{{ metaobjects.supplement_pathway[\"cognitive-function\"].name.value }}</p>",
+                    "text": "<p>{{ metaobjects.pathway[\"cognitive-function\"].name.value }}</p>",
                     "width": "fit-content",
                     "max_width": "none",
                     "alignment": "left",
@@ -1972,7 +1972,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>{{ metaobjects.supplement_pathway[\"mood-regulation\"].name.value }}</p>",
+                    "text": "<p>{{ metaobjects.pathway[\"mood-regulation\"].name.value }}</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -2032,7 +2032,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>{{ metaobjects.supplement_pathway[\"sleep-regulation\"].name.value }}</p>",
+                    "text": "<p>{{ metaobjects.pathway[\"sleep-regulation\"].name.value }}</p>",
                     "width": "fit-content",
                     "max_width": "none",
                     "alignment": "left",
@@ -2092,7 +2092,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>{{ metaobjects.supplement_pathway[\"stress-response\"].name.value }}</p>",
+                    "text": "<p>{{ metaobjects.pathway[\"stress-response\"].name.value }}</p>",
                     "width": "fit-content",
                     "max_width": "none",
                     "alignment": "left",

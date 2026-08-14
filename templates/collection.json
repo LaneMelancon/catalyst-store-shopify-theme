@@ -1691,7 +1691,7 @@
                                       "type": "text",
                                       "name": "t:names.text",
                                       "settings": {
-                                        "text": "<p>{{ closest.collection.metafields.custom.ref_pathways | metafield_text: field: 'name' }}</p>",
+                                        "text": "<p>{{ closest.collection.metafields.custom.pathway | metafield_text: field: 'name' }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
