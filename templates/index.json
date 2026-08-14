@@ -853,7 +853,7 @@
               "type": "custom-liquid",
               "name": "t:names.custom_liquid",
               "settings": {
-                "custom_liquid": "{% liquid\n  assign selector = \".color-custom-template--27678122279224__carousel_Rx4ta6\"\n%}\n\n{% style %}\n  {{ selector }} div:has(> .carousel-content [ref=\"scroller\"]) {\n    border: 1px solid red;\n    height: 400px;\n    padding: 8px 0;\n  }\n\n  {{ selector }} .carousel-content {\n    border: 1px solid purple;\n    padding: 8px 0;\n  }\n\n{{ selector }} .carousel-content > [ref=\"slideshowContainer\"] {\n  border: 1px solid lime;\n  padding: 8px 0;\n}\n\n  {{ selector }} .carousel-content [ref=\"scroller\"] {\n    height: 200px;\n    border: 1px solid blue;\n    padding: 8px 0;\n  }\n\n  /* Slider Card */\n  {{ selector }} .carousel-content [ref=\"scroller\"] > div.card {\n    border: 1px solid green;\n    height: 100px;\n  }\n{% endstyle %}"
+                "custom_liquid": "{% liquid\n  assign selector = \".color-custom-template--27678122279224__carousel_Rx4ta6\"\n%}\n\n{% style %}\n/* Component Wrapper (div) */\n  {{ selector }} div:has(> .carousel-content [ref=\"scroller\"]) {\n\n  }\n\n/* Slideshow Component */\n  {{ selector }} .carousel-content {\n\n  }\n\n/* Slideshow Container */\n{{ selector }} .carousel-content > [ref=\"slideshowContainer\"] {\n}\n\n/* Arrows (wrapper) */\n{{ selector }} .carousel-content > [ref=\"slideshowContainer\"] > * {\n}\n\n/* Slideshow Scroller */\n  {{ selector }} .carousel-content [ref=\"scroller\"] {\n  }\n\n/* Slider Card */\n  {{ selector }} .carousel-content [ref=\"scroller\"] > div.card {\n\n  }\n{% endstyle %}"
               },
               "blocks": {}
             },
