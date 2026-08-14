@@ -853,7 +853,7 @@
               "type": "custom-liquid",
               "name": "t:names.custom_liquid",
               "settings": {
-                "custom_liquid": "{% liquid\n  assign selector = \".color-custom-template--27678122279224__carousel_Rx4ta6\"\n%}\n\n{% style %}\n/* Component Wrapper (div) */\n{{ selector }} :has(> .carousel-content) {\n\n  }\n\n/* Slideshow Component */\n{{ selector }} .carousel-content {\n\n  }\n\n/* Slideshow Container */\n{{ selector }} .carousel-content > [ref=\"slideshowContainer\"] {\n}\n\n/* Arrows (wrapper) */\n{{ selector }} :has(> .slideshow-control) {\n}\n\n/* Slideshow Scroller */\n{{ selector }} [ref=\"scroller\"] {\n  }\n\n/* Slider Card */\n{{ selector }} [ref=\"scroller\"] > .card {\n\n  }\n\n/* Card Pathway Blocks */\n{{ selector }} [ref=\"scroller\"] .card__content .group-block:last-child .group-block-content {\n  max-width: 30rem;\n}\n\n{% endstyle %}"
+                "custom_liquid": "{%- comment -%}\n{% liquid\n  assign selector = \".color-custom-template--27678122279224__carousel_Rx4ta6\"\n%}\n\n{% style %}\n/* Component Wrapper (div) */\n{{ selector }} :has(> .carousel-content) {\n\n  }\n\n/* Slideshow Component */\n{{ selector }} .carousel-content {\n\n  }\n\n/* Slideshow Container */\n{{ selector }} .carousel-content > [ref=\"slideshowContainer\"] {\n}\n\n/* Arrows (wrapper) */\n{{ selector }} :has(> .slideshow-control) {\n}\n\n/* Slideshow Scroller */\n{{ selector }} [ref=\"scroller\"] {\n  max-width: 1920px;\noverflow: visible;\ndisplay: flex;\n\n  }\n\n/* Slider Card */\n{{ selector }} [ref=\"scroller\"] > .card {\n  width: calc(100vw/3);\nmin-width: 750px;\n  }\n\n/* Card Pathway Blocks */\n{{ selector }} [ref=\"scroller\"] .card__content .group-block:last-child .group-block-content {\n}\n\n{% endstyle %}\n{%- endcomment -%}"
               },
               "blocks": {}
             },
@@ -4177,9 +4177,9 @@
       ],
       "name": "t:names.carousel",
       "settings": {
-        "columns": 1,
+        "columns": 2,
         "mobile_columns": "1",
-        "section_width": "full-width",
+        "section_width": "page-width",
         "columns_gap": 16,
         "background_color": "{{ settings.color_palette.orange15 }}",
         "icons_style": "arrow",
