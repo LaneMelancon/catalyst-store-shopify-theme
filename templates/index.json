@@ -997,8 +997,8 @@
                 "open_in_new_tab": false,
                 "padding-block-start": 18,
                 "padding-block-end": 18,
-                "padding-inline-start": 22,
-                "padding-inline-end": 22
+                "padding-inline-start": 18,
+                "padding-inline-end": 18
               },
               "blocks": {
                 "group_nbPGz7": {
@@ -1114,6 +1114,7 @@
                     "spacer_zxBHyF": {
                       "type": "spacer",
                       "name": "t:names.spacer",
+                      "disabled": true,
                       "settings": {
                         "size": "percent",
                         "percent_size": 100,
@@ -1474,6 +1475,7 @@
                     "spacer_3h4tar": {
                       "type": "spacer",
                       "name": "t:names.spacer",
+                      "disabled": true,
                       "settings": {
                         "size": "percent",
                         "percent_size": 100,
@@ -1525,8 +1527,8 @@
                 "open_in_new_tab": false,
                 "padding-block-start": 18,
                 "padding-block-end": 18,
-                "padding-inline-start": 22,
-                "padding-inline-end": 22
+                "padding-inline-start": 18,
+                "padding-inline-end": 18
               },
               "blocks": {
                 "group_k8MwDw": {
@@ -1642,6 +1644,7 @@
                     "spacer_F4m8yE": {
                       "type": "spacer",
                       "name": "t:names.spacer",
+                      "disabled": true,
                       "settings": {
                         "size": "percent",
                         "percent_size": 100,
@@ -2002,6 +2005,7 @@
                     "spacer_BdeUCC": {
                       "type": "spacer",
                       "name": "t:names.spacer",
+                      "disabled": true,
                       "settings": {
                         "size": "percent",
                         "percent_size": 100,
@@ -2053,8 +2057,8 @@
                 "open_in_new_tab": false,
                 "padding-block-start": 18,
                 "padding-block-end": 18,
-                "padding-inline-start": 22,
-                "padding-inline-end": 22
+                "padding-inline-start": 18,
+                "padding-inline-end": 18
               },
               "blocks": {
                 "group_aBr7Km": {
@@ -2170,6 +2174,7 @@
                     "spacer_4GiwLq": {
                       "type": "spacer",
                       "name": "t:names.spacer",
+                      "disabled": true,
                       "settings": {
                         "size": "percent",
                         "percent_size": 100,
@@ -2530,6 +2535,7 @@
                     "spacer_hUhKxf": {
                       "type": "spacer",
                       "name": "t:names.spacer",
+                      "disabled": true,
                       "settings": {
                         "size": "percent",
                         "percent_size": 100,
@@ -2581,8 +2587,8 @@
                 "open_in_new_tab": false,
                 "padding-block-start": 18,
                 "padding-block-end": 18,
-                "padding-inline-start": 22,
-                "padding-inline-end": 22
+                "padding-inline-start": 18,
+                "padding-inline-end": 18
               },
               "blocks": {
                 "group_GVNgT4": {
@@ -2698,6 +2704,7 @@
                     "spacer_fNzTwL": {
                       "type": "spacer",
                       "name": "t:names.spacer",
+                      "disabled": true,
                       "settings": {
                         "size": "percent",
                         "percent_size": 100,
@@ -3058,6 +3065,7 @@
                     "spacer_dPWNNy": {
                       "type": "spacer",
                       "name": "t:names.spacer",
+                      "disabled": true,
                       "settings": {
                         "size": "percent",
                         "percent_size": 100,
@@ -3109,8 +3117,8 @@
                 "open_in_new_tab": false,
                 "padding-block-start": 18,
                 "padding-block-end": 18,
-                "padding-inline-start": 22,
-                "padding-inline-end": 22
+                "padding-inline-start": 18,
+                "padding-inline-end": 18
               },
               "blocks": {
                 "group_feHqhA": {
@@ -3226,6 +3234,7 @@
                     "spacer_bVztVD": {
                       "type": "spacer",
                       "name": "t:names.spacer",
+                      "disabled": true,
                       "settings": {
                         "size": "percent",
                         "percent_size": 100,
@@ -3586,6 +3595,7 @@
                     "spacer_8Wg9dB": {
                       "type": "spacer",
                       "name": "t:names.spacer",
+                      "disabled": true,
                       "settings": {
                         "size": "percent",
                         "percent_size": 100,
@@ -3637,8 +3647,8 @@
                 "open_in_new_tab": false,
                 "padding-block-start": 18,
                 "padding-block-end": 18,
-                "padding-inline-start": 22,
-                "padding-inline-end": 22
+                "padding-inline-start": 18,
+                "padding-inline-end": 18
               },
               "blocks": {
                 "group_h33T8C": {
@@ -3754,6 +3764,7 @@
                     "spacer_ctN3pq": {
                       "type": "spacer",
                       "name": "t:names.spacer",
+                      "disabled": true,
                       "settings": {
                         "size": "percent",
                         "percent_size": 100,
@@ -4114,6 +4125,7 @@
                     "spacer_c676BC": {
                       "type": "spacer",
                       "name": "t:names.spacer",
+                      "disabled": true,
                       "settings": {
                         "size": "percent",
                         "percent_size": 100,
