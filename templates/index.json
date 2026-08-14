@@ -811,13 +811,12 @@
         "static-header": {
           "type": "group",
           "name": "t:names.header",
-          "disabled": true,
           "static": true,
           "settings": {
             "content_direction": "row",
             "vertical_on_mobile": false,
-            "horizontal_alignment": "space-between",
-            "vertical_alignment": "flex-end",
+            "horizontal_alignment": "center",
+            "vertical_alignment": "flex-start",
             "align_baseline": true,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
@@ -853,9 +852,8 @@
             "text_ecaF6A": {
               "type": "text",
               "name": "t:names.heading",
-              "disabled": true,
               "settings": {
-                "text": "<h2>Targeted health goals built on focused support pathways</h2>",
+                "text": "<h2>Supplement health goals & pathways</h2>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
@@ -985,20 +983,20 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 24,
+                "gap": 22,
                 "background_media": "none",
-                "background_color": "#fffaec",
+                "background_color": "",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
+                "toggle_overlay": true,
+                "overlay_color": "#BB7BAD06",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
                 "link": "shopify://collections/brain-mood",
                 "open_in_new_tab": false,
-                "padding-block-start": 22,
-                "padding-block-end": 22,
+                "padding-block-start": 18,
+                "padding-block-end": 18,
                 "padding-inline-start": 22,
                 "padding-inline-end": 22
               },
@@ -1016,11 +1014,11 @@
                     "vertical_alignment_flex_direction_column": "center",
                     "gap": 24,
                     "width": "custom",
-                    "custom_width": 33,
+                    "custom_width": 25,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "custom",
-                    "custom_height": 100,
+                    "height": "fill",
+                    "custom_height": 37,
                     "background_media": "none",
                     "background_color": "",
                     "video_position": "cover",
@@ -1083,13 +1081,13 @@
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "center",
+                    "vertical_alignment_flex_direction_column": "flex-start",
                     "gap": 8,
                     "width": "custom",
-                    "custom_width": 66,
+                    "custom_width": 75,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "fit",
+                    "height": "fill",
                     "custom_height": 100,
                     "background_media": "none",
                     "background_color": "",
@@ -1113,74 +1111,37 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_GDfJUz": {
-                      "type": "text",
-                      "name": "t:names.heading",
+                    "spacer_zxBHyF": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
                       "settings": {
-                        "text": "<h3>{{ metaobjects.health_goal[\"brain-mood\"].name.value }}</h3>",
-                        "width": "fit-content",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": false,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 100,
+                        "pixel_size_mobile": 120
                       },
                       "blocks": {}
                     },
-                    "text_8feXYc": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>{{ metaobjects.health_goal[\"brain-mood\"].description | metafield_tag }}</p>",
-                        "width": "100%",
-                        "max_width": "narrow",
-                        "alignment": "left",
-                        "type_preset": "paragraph",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "{{ settings.color_palette.neutral900 }}",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 4,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    },
-                    "group_6PAc4q": {
+                    "group_giUchr": {
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
                         "content_direction": "column",
                         "vertical_on_mobile": true,
                         "horizontal_alignment": "flex-start",
-                        "vertical_alignment": "flex-start",
+                        "vertical_alignment": "center",
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "flex-start",
-                        "gap": 6,
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 4,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
                         "custom_width_mobile": 100,
-                        "height": "fit",
+                        "height": "fill",
                         "custom_height": 100,
                         "background_media": "none",
                         "background_color": "",
@@ -1204,19 +1165,117 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
-                        "divider_VwfxHm": {
-                          "type": "_divider",
-                          "name": "t:names.divider",
+                        "text_LGa6jK": {
+                          "type": "text",
+                          "name": "t:names.heading",
                           "settings": {
-                            "thickness": 1,
-                            "corner_radius": "square",
-                            "divider_color": "#f1efe8",
-                            "width_percent": 100,
+                            "text": "<h3>{{ metaobjects.health_goal[\"brain-mood\"].name.value }}</h3>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "text_color": "",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
                             "padding-block-start": 0,
-                            "padding-block-end": 10
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
                           },
                           "blocks": {}
                         },
+                        "text_F7r9qX": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p>{{ metaobjects.health_goal[\"brain-mood\"].description | metafield_tag }}</p>",
+                            "width": "100%",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "paragraph",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 4,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_LGa6jK",
+                        "text_F7r9qX"
+                      ]
+                    },
+                    "divider_VHkxgM": {
+                      "type": "_divider",
+                      "name": "t:names.divider",
+                      "disabled": true,
+                      "settings": {
+                        "thickness": 1,
+                        "corner_radius": "square",
+                        "divider_color": "#f1efe8",
+                        "width_percent": 100,
+                        "padding-block-start": 0,
+                        "padding-block-end": 10
+                      },
+                      "blocks": {}
+                    },
+                    "group_6PAc4q": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "flex-start",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "flex-start",
+                        "gap": 3,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": true,
+                        "overlay_color": "#BB7BAD08",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "solid",
+                        "border_width": 1,
+                        "border_opacity": 3,
+                        "border_color": "",
+                        "border_radius": 6,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 9,
+                        "padding-block-end": 5,
+                        "padding-inline-start": 12,
+                        "padding-inline-end": 10
+                      },
+                      "blocks": {
                         "text_Xyhzn3": {
                           "type": "text",
                           "name": "Pathways",
@@ -1232,7 +1291,7 @@
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "balance",
-                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "text_color": "#4E4B4D",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -1254,11 +1313,11 @@
                             "type_preset": "custom",
                             "font": "var(--font-body--family)",
                             "font_size": "0.875rem",
-                            "line_height": "loose",
+                            "line_height": "normal",
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "balance",
-                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "text_color": "#4E4B4D",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -1407,17 +1466,32 @@
                         }
                       },
                       "block_order": [
-                        "divider_VwfxHm",
                         "text_Xyhzn3",
                         "text_NTadnG",
                         "group_Vq66fD"
                       ]
+                    },
+                    "spacer_3h4tar": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": false,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 100,
+                        "pixel_size_mobile": 120
+                      },
+                      "blocks": {}
                     }
                   },
                   "block_order": [
-                    "text_GDfJUz",
-                    "text_8feXYc",
-                    "group_6PAc4q"
+                    "spacer_zxBHyF",
+                    "group_giUchr",
+                    "divider_VHkxgM",
+                    "group_6PAc4q",
+                    "spacer_3h4tar"
                   ]
                 }
               },
@@ -1426,7 +1500,7 @@
                 "group_PWwrhV"
               ]
             },
-            "card_JqGgNP": {
+            "card_N4Mjah": {
               "type": "_card",
               "name": "t:names.card",
               "settings": {
@@ -1437,25 +1511,25 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 24,
+                "gap": 22,
                 "background_media": "none",
-                "background_color": "#fffaec",
+                "background_color": "",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
+                "toggle_overlay": true,
+                "overlay_color": "#F2E67C12",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "link": "shopify://collections/brain-mood",
+                "link": "shopify://collections/energy-metabolism",
                 "open_in_new_tab": false,
-                "padding-block-start": 22,
-                "padding-block-end": 22,
+                "padding-block-start": 18,
+                "padding-block-end": 18,
                 "padding-inline-start": 22,
                 "padding-inline-end": 22
               },
               "blocks": {
-                "group_D4T7WP": {
+                "group_k8MwDw": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -1468,11 +1542,11 @@
                     "vertical_alignment_flex_direction_column": "center",
                     "gap": 24,
                     "width": "custom",
-                    "custom_width": 33,
+                    "custom_width": 25,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "custom",
-                    "custom_height": 100,
+                    "height": "fill",
+                    "custom_height": 37,
                     "background_media": "none",
                     "background_color": "",
                     "video_position": "cover",
@@ -1496,7 +1570,7 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "image_EceygR": {
+                    "image_PAnLML": {
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
@@ -1507,7 +1581,7 @@
                         "custom_width": 25,
                         "width_mobile": "fill",
                         "custom_width_mobile": 100,
-                        "height": "fit",
+                        "height": "fill",
                         "border": "none",
                         "border_width": 1,
                         "border_opacity": 100,
@@ -1522,10 +1596,10 @@
                     }
                   },
                   "block_order": [
-                    "image_EceygR"
+                    "image_PAnLML"
                   ]
                 },
-                "group_brQQUg": {
+                "group_bXwcgj": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -1535,13 +1609,13 @@
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "center",
+                    "vertical_alignment_flex_direction_column": "flex-start",
                     "gap": 8,
                     "width": "custom",
-                    "custom_width": 66,
+                    "custom_width": 75,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "fit",
+                    "height": "fill",
                     "custom_height": 100,
                     "background_media": "none",
                     "background_color": "",
@@ -1565,74 +1639,37 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_GhJYQi": {
-                      "type": "text",
-                      "name": "t:names.heading",
+                    "spacer_F4m8yE": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
                       "settings": {
-                        "text": "<h3>{{ metaobjects.health_goal[\"energy-metabolism\"].name.value }}</h3>",
-                        "width": "fit-content",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": false,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 100,
+                        "pixel_size_mobile": 120
                       },
                       "blocks": {}
                     },
-                    "text_6knQjQ": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>{{ metaobjects.health_goal[\"energy-metabolism\"].description | metafield_tag }}</p>",
-                        "width": "100%",
-                        "max_width": "narrow",
-                        "alignment": "left",
-                        "type_preset": "paragraph",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "{{ settings.color_palette.neutral900 }}",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 4,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    },
-                    "group_JKczya": {
+                    "group_Xpp7x9": {
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
                         "content_direction": "column",
                         "vertical_on_mobile": true,
                         "horizontal_alignment": "flex-start",
-                        "vertical_alignment": "flex-start",
+                        "vertical_alignment": "center",
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "flex-start",
-                        "gap": 6,
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 4,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
                         "custom_width_mobile": 100,
-                        "height": "fit",
+                        "height": "fill",
                         "custom_height": 100,
                         "background_media": "none",
                         "background_color": "",
@@ -1656,20 +1693,118 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
-                        "divider_xhkr4P": {
-                          "type": "_divider",
-                          "name": "t:names.divider",
+                        "text_KxrL9B": {
+                          "type": "text",
+                          "name": "t:names.heading",
                           "settings": {
-                            "thickness": 1,
-                            "corner_radius": "square",
-                            "divider_color": "#f1efe8",
-                            "width_percent": 100,
+                            "text": "<h3>{{ metaobjects.health_goal[\"energy-metabolism\"].name.value }}</h3>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "text_color": "",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
                             "padding-block-start": 0,
-                            "padding-block-end": 10
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
                           },
                           "blocks": {}
                         },
-                        "text_UidUd8": {
+                        "text_dEXA6B": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p>{{ metaobjects.health_goal[\"energy-metabolism\"].description | metafield_tag }}</p>",
+                            "width": "100%",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "paragraph",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 4,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_KxrL9B",
+                        "text_dEXA6B"
+                      ]
+                    },
+                    "divider_gbhVqz": {
+                      "type": "_divider",
+                      "name": "t:names.divider",
+                      "disabled": true,
+                      "settings": {
+                        "thickness": 1,
+                        "corner_radius": "square",
+                        "divider_color": "#f1efe8",
+                        "width_percent": 100,
+                        "padding-block-start": 0,
+                        "padding-block-end": 10
+                      },
+                      "blocks": {}
+                    },
+                    "group_U9PikB": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "flex-start",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "flex-start",
+                        "gap": 3,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": true,
+                        "overlay_color": "#F2E67C12",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "solid",
+                        "border_width": 1,
+                        "border_opacity": 3,
+                        "border_color": "",
+                        "border_radius": 6,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 9,
+                        "padding-block-end": 5,
+                        "padding-inline-start": 10,
+                        "padding-inline-end": 10
+                      },
+                      "blocks": {
+                        "text_HQdkbx": {
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
@@ -1684,7 +1819,7 @@
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "balance",
-                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "text_color": "#4E4B4D",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -1695,7 +1830,7 @@
                           },
                           "blocks": {}
                         },
-                        "text_MgmfWC": {
+                        "text_bneHAi": {
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
@@ -1706,11 +1841,11 @@
                             "type_preset": "custom",
                             "font": "var(--font-body--family)",
                             "font_size": "0.875rem",
-                            "line_height": "loose",
+                            "line_height": "normal",
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "balance",
-                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "text_color": "#4E4B4D",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -1721,7 +1856,7 @@
                           },
                           "blocks": {}
                         },
-                        "group_W8TaJQ": {
+                        "group_AAgTGK": {
                           "type": "group",
                           "name": "button_link",
                           "disabled": true,
@@ -1762,7 +1897,7 @@
                             "padding-inline-end": 0
                           },
                           "blocks": {
-                            "button_RHAhLk": {
+                            "button_j7Q4Dt": {
                               "type": "button",
                               "name": "t:names.button",
                               "settings": {
@@ -1794,7 +1929,7 @@
                               },
                               "blocks": {}
                             },
-                            "group_cFf3iP": {
+                            "group_EzQVHr": {
                               "type": "group",
                               "name": "button_icon-wrap",
                               "settings": {
@@ -1834,7 +1969,7 @@
                                 "padding-inline-end": 0
                               },
                               "blocks": {
-                                "icon_RL3cYM": {
+                                "icon_bVxRaB": {
                                   "type": "icon",
                                   "name": "t:names.icon",
                                   "settings": {
@@ -1848,37 +1983,52 @@
                                 }
                               },
                               "block_order": [
-                                "icon_RL3cYM"
+                                "icon_bVxRaB"
                               ]
                             }
                           },
                           "block_order": [
-                            "button_RHAhLk",
-                            "group_cFf3iP"
+                            "button_j7Q4Dt",
+                            "group_EzQVHr"
                           ]
                         }
                       },
                       "block_order": [
-                        "divider_xhkr4P",
-                        "text_UidUd8",
-                        "text_MgmfWC",
-                        "group_W8TaJQ"
+                        "text_HQdkbx",
+                        "text_bneHAi",
+                        "group_AAgTGK"
                       ]
+                    },
+                    "spacer_BdeUCC": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": false,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 100,
+                        "pixel_size_mobile": 120
+                      },
+                      "blocks": {}
                     }
                   },
                   "block_order": [
-                    "text_GhJYQi",
-                    "text_6knQjQ",
-                    "group_JKczya"
+                    "spacer_F4m8yE",
+                    "group_Xpp7x9",
+                    "divider_gbhVqz",
+                    "group_U9PikB",
+                    "spacer_BdeUCC"
                   ]
                 }
               },
               "block_order": [
-                "group_D4T7WP",
-                "group_brQQUg"
+                "group_k8MwDw",
+                "group_bXwcgj"
               ]
             },
-            "card_7jKJTD": {
+            "card_UPqJrH": {
               "type": "_card",
               "name": "t:names.card",
               "settings": {
@@ -1889,25 +2039,25 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 24,
+                "gap": 22,
                 "background_media": "none",
-                "background_color": "#fffaec",
+                "background_color": "",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
+                "toggle_overlay": true,
+                "overlay_color": "#508F7E0A",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "link": "shopify://collections/brain-mood",
+                "link": "shopify://collections/gut-detox",
                 "open_in_new_tab": false,
-                "padding-block-start": 22,
-                "padding-block-end": 22,
+                "padding-block-start": 18,
+                "padding-block-end": 18,
                 "padding-inline-start": 22,
                 "padding-inline-end": 22
               },
               "blocks": {
-                "group_jffJMT": {
+                "group_aBr7Km": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -1920,11 +2070,11 @@
                     "vertical_alignment_flex_direction_column": "center",
                     "gap": 24,
                     "width": "custom",
-                    "custom_width": 33,
+                    "custom_width": 25,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "custom",
-                    "custom_height": 100,
+                    "height": "fill",
+                    "custom_height": 37,
                     "background_media": "none",
                     "background_color": "",
                     "video_position": "cover",
@@ -1948,7 +2098,7 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "image_FBW8W4": {
+                    "image_3a9fEE": {
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
@@ -1974,10 +2124,10 @@
                     }
                   },
                   "block_order": [
-                    "image_FBW8W4"
+                    "image_3a9fEE"
                   ]
                 },
-                "group_JDdcef": {
+                "group_X7YXPU": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -1987,13 +2137,13 @@
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "center",
+                    "vertical_alignment_flex_direction_column": "flex-start",
                     "gap": 8,
                     "width": "custom",
-                    "custom_width": 66,
+                    "custom_width": 75,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "fit",
+                    "height": "fill",
                     "custom_height": 100,
                     "background_media": "none",
                     "background_color": "",
@@ -2017,74 +2167,37 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_MQCRYM": {
-                      "type": "text",
-                      "name": "t:names.heading",
+                    "spacer_4GiwLq": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
                       "settings": {
-                        "text": "<h3>{{ metaobjects.health_goal[\"gut-detox\"].name.value }}</h3>",
-                        "width": "fit-content",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": false,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 100,
+                        "pixel_size_mobile": 120
                       },
                       "blocks": {}
                     },
-                    "text_qx8QbJ": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>{{ metaobjects.health_goal[\"gut-detox\"].description | metafield_tag }}</p>",
-                        "width": "100%",
-                        "max_width": "narrow",
-                        "alignment": "left",
-                        "type_preset": "paragraph",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "{{ settings.color_palette.neutral900 }}",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 4,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    },
-                    "group_YLRUBa": {
+                    "group_zTrCWC": {
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
                         "content_direction": "column",
                         "vertical_on_mobile": true,
                         "horizontal_alignment": "flex-start",
-                        "vertical_alignment": "flex-start",
+                        "vertical_alignment": "center",
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "flex-start",
-                        "gap": 6,
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 4,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
                         "custom_width_mobile": 100,
-                        "height": "fit",
+                        "height": "fill",
                         "custom_height": 100,
                         "background_media": "none",
                         "background_color": "",
@@ -2108,20 +2221,118 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
-                        "divider_Kgggi9": {
-                          "type": "_divider",
-                          "name": "t:names.divider",
+                        "text_Vjkcbb": {
+                          "type": "text",
+                          "name": "t:names.heading",
                           "settings": {
-                            "thickness": 1,
-                            "corner_radius": "square",
-                            "divider_color": "#f1efe8",
-                            "width_percent": 100,
+                            "text": "<h3>{{ metaobjects.health_goal[\"gut-detox\"].name.value }}</h3>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "text_color": "",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
                             "padding-block-start": 0,
-                            "padding-block-end": 10
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
                           },
                           "blocks": {}
                         },
-                        "text_3tAENR": {
+                        "text_yC6Tmp": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p>{{ metaobjects.health_goal[\"gut-detox\"].description | metafield_tag }}</p>",
+                            "width": "100%",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "paragraph",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 4,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_Vjkcbb",
+                        "text_yC6Tmp"
+                      ]
+                    },
+                    "divider_TkXtiX": {
+                      "type": "_divider",
+                      "name": "t:names.divider",
+                      "disabled": true,
+                      "settings": {
+                        "thickness": 1,
+                        "corner_radius": "square",
+                        "divider_color": "#f1efe8",
+                        "width_percent": 100,
+                        "padding-block-start": 0,
+                        "padding-block-end": 10
+                      },
+                      "blocks": {}
+                    },
+                    "group_g68QBf": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "flex-start",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "flex-start",
+                        "gap": 3,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": true,
+                        "overlay_color": "#508F7E0F",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "solid",
+                        "border_width": 1,
+                        "border_opacity": 3,
+                        "border_color": "",
+                        "border_radius": 6,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 9,
+                        "padding-block-end": 5,
+                        "padding-inline-start": 12,
+                        "padding-inline-end": 10
+                      },
+                      "blocks": {
+                        "text_i3jcfm": {
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
@@ -2136,7 +2347,7 @@
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "balance",
-                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "text_color": "#4E4B4D",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -2147,7 +2358,7 @@
                           },
                           "blocks": {}
                         },
-                        "text_tNnxAg": {
+                        "text_hn79Ux": {
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
@@ -2158,11 +2369,11 @@
                             "type_preset": "custom",
                             "font": "var(--font-body--family)",
                             "font_size": "0.875rem",
-                            "line_height": "loose",
+                            "line_height": "normal",
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "balance",
-                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "text_color": "#4E4B4D",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -2173,7 +2384,7 @@
                           },
                           "blocks": {}
                         },
-                        "group_FAcdWq": {
+                        "group_ppWyfF": {
                           "type": "group",
                           "name": "button_link",
                           "disabled": true,
@@ -2214,7 +2425,7 @@
                             "padding-inline-end": 0
                           },
                           "blocks": {
-                            "button_9HdbMd": {
+                            "button_Lkxfpy": {
                               "type": "button",
                               "name": "t:names.button",
                               "settings": {
@@ -2246,7 +2457,7 @@
                               },
                               "blocks": {}
                             },
-                            "group_6qyLWF": {
+                            "group_GDpYFi": {
                               "type": "group",
                               "name": "button_icon-wrap",
                               "settings": {
@@ -2286,7 +2497,7 @@
                                 "padding-inline-end": 0
                               },
                               "blocks": {
-                                "icon_Kijzma": {
+                                "icon_yRcFQE": {
                                   "type": "icon",
                                   "name": "t:names.icon",
                                   "settings": {
@@ -2300,37 +2511,52 @@
                                 }
                               },
                               "block_order": [
-                                "icon_Kijzma"
+                                "icon_yRcFQE"
                               ]
                             }
                           },
                           "block_order": [
-                            "button_9HdbMd",
-                            "group_6qyLWF"
+                            "button_Lkxfpy",
+                            "group_GDpYFi"
                           ]
                         }
                       },
                       "block_order": [
-                        "divider_Kgggi9",
-                        "text_3tAENR",
-                        "text_tNnxAg",
-                        "group_FAcdWq"
+                        "text_i3jcfm",
+                        "text_hn79Ux",
+                        "group_ppWyfF"
                       ]
+                    },
+                    "spacer_hUhKxf": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": false,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 100,
+                        "pixel_size_mobile": 120
+                      },
+                      "blocks": {}
                     }
                   },
                   "block_order": [
-                    "text_MQCRYM",
-                    "text_qx8QbJ",
-                    "group_YLRUBa"
+                    "spacer_4GiwLq",
+                    "group_zTrCWC",
+                    "divider_TkXtiX",
+                    "group_g68QBf",
+                    "spacer_hUhKxf"
                   ]
                 }
               },
               "block_order": [
-                "group_jffJMT",
-                "group_JDdcef"
+                "group_aBr7Km",
+                "group_X7YXPU"
               ]
             },
-            "card_EYgBbJ": {
+            "card_T7Dhde": {
               "type": "_card",
               "name": "t:names.card",
               "settings": {
@@ -2341,25 +2567,25 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 24,
+                "gap": 22,
                 "background_media": "none",
-                "background_color": "#fffaec",
+                "background_color": "",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
+                "toggle_overlay": true,
+                "overlay_color": "#E5A87A0F",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "link": "shopify://collections/brain-mood",
+                "link": "shopify://collections/hormones-vitality",
                 "open_in_new_tab": false,
-                "padding-block-start": 22,
-                "padding-block-end": 22,
+                "padding-block-start": 18,
+                "padding-block-end": 18,
                 "padding-inline-start": 22,
                 "padding-inline-end": 22
               },
               "blocks": {
-                "group_bYf6q7": {
+                "group_GVNgT4": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -2372,11 +2598,11 @@
                     "vertical_alignment_flex_direction_column": "center",
                     "gap": 24,
                     "width": "custom",
-                    "custom_width": 33,
+                    "custom_width": 25,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "custom",
-                    "custom_height": 100,
+                    "height": "fill",
+                    "custom_height": 37,
                     "background_media": "none",
                     "background_color": "",
                     "video_position": "cover",
@@ -2400,7 +2626,7 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "image_QBqdCA": {
+                    "image_L4FF8N": {
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
@@ -2426,10 +2652,10 @@
                     }
                   },
                   "block_order": [
-                    "image_QBqdCA"
+                    "image_L4FF8N"
                   ]
                 },
-                "group_K9ayDz": {
+                "group_9ALBdk": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -2439,13 +2665,13 @@
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "center",
+                    "vertical_alignment_flex_direction_column": "flex-start",
                     "gap": 8,
                     "width": "custom",
-                    "custom_width": 66,
+                    "custom_width": 75,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "fit",
+                    "height": "fill",
                     "custom_height": 100,
                     "background_media": "none",
                     "background_color": "",
@@ -2469,74 +2695,37 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_GjUXLE": {
-                      "type": "text",
-                      "name": "t:names.heading",
+                    "spacer_fNzTwL": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
                       "settings": {
-                        "text": "<h3>{{ metaobjects.health_goal[\"hormones-vitality\"].name.value }}</h3>",
-                        "width": "fit-content",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": false,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 100,
+                        "pixel_size_mobile": 120
                       },
                       "blocks": {}
                     },
-                    "text_gRxUCm": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>{{ metaobjects.health_goal[\"hormones-vitality\"].description | metafield_tag }}</p>",
-                        "width": "100%",
-                        "max_width": "narrow",
-                        "alignment": "left",
-                        "type_preset": "paragraph",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "{{ settings.color_palette.neutral900 }}",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 4,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    },
-                    "group_QC3zg9": {
+                    "group_mqTQ3N": {
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
                         "content_direction": "column",
                         "vertical_on_mobile": true,
                         "horizontal_alignment": "flex-start",
-                        "vertical_alignment": "flex-start",
+                        "vertical_alignment": "center",
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "flex-start",
-                        "gap": 6,
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 4,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
                         "custom_width_mobile": 100,
-                        "height": "fit",
+                        "height": "fill",
                         "custom_height": 100,
                         "background_media": "none",
                         "background_color": "",
@@ -2560,20 +2749,118 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
-                        "divider_awLcPa": {
-                          "type": "_divider",
-                          "name": "t:names.divider",
+                        "text_HCdC8d": {
+                          "type": "text",
+                          "name": "t:names.heading",
                           "settings": {
-                            "thickness": 1,
-                            "corner_radius": "square",
-                            "divider_color": "#f1efe8",
-                            "width_percent": 100,
+                            "text": "<p>{{ metaobjects.health_goal[\"hormones-vitality\"].name.value }}</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "text_color": "",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
                             "padding-block-start": 0,
-                            "padding-block-end": 10
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
                           },
                           "blocks": {}
                         },
-                        "text_wzJfAr": {
+                        "text_eiYr36": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p>{{ metaobjects.health_goal[\"hormones-vitality\"].description | metafield_tag }}</p>",
+                            "width": "100%",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "paragraph",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 4,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_HCdC8d",
+                        "text_eiYr36"
+                      ]
+                    },
+                    "divider_tztTAg": {
+                      "type": "_divider",
+                      "name": "t:names.divider",
+                      "disabled": true,
+                      "settings": {
+                        "thickness": 1,
+                        "corner_radius": "square",
+                        "divider_color": "#f1efe8",
+                        "width_percent": 100,
+                        "padding-block-start": 0,
+                        "padding-block-end": 10
+                      },
+                      "blocks": {}
+                    },
+                    "group_JzmePT": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "flex-start",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "flex-start",
+                        "gap": 3,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": true,
+                        "overlay_color": "#E5A87A0F",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "solid",
+                        "border_width": 1,
+                        "border_opacity": 3,
+                        "border_color": "",
+                        "border_radius": 6,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 9,
+                        "padding-block-end": 5,
+                        "padding-inline-start": 10,
+                        "padding-inline-end": 10
+                      },
+                      "blocks": {
+                        "text_wjNtmU": {
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
@@ -2588,7 +2875,7 @@
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "balance",
-                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "text_color": "#4E4B4D",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -2599,7 +2886,7 @@
                           },
                           "blocks": {}
                         },
-                        "text_aeK4UD": {
+                        "text_K6bepg": {
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
@@ -2610,11 +2897,11 @@
                             "type_preset": "custom",
                             "font": "var(--font-body--family)",
                             "font_size": "0.875rem",
-                            "line_height": "loose",
+                            "line_height": "normal",
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "balance",
-                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "text_color": "#4E4B4D",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -2625,7 +2912,7 @@
                           },
                           "blocks": {}
                         },
-                        "group_9kmb8y": {
+                        "group_g6J3aw": {
                           "type": "group",
                           "name": "button_link",
                           "disabled": true,
@@ -2666,7 +2953,7 @@
                             "padding-inline-end": 0
                           },
                           "blocks": {
-                            "button_wmMfBa": {
+                            "button_KarhL8": {
                               "type": "button",
                               "name": "t:names.button",
                               "settings": {
@@ -2698,7 +2985,7 @@
                               },
                               "blocks": {}
                             },
-                            "group_yQj7Yc": {
+                            "group_cw8JBH": {
                               "type": "group",
                               "name": "button_icon-wrap",
                               "settings": {
@@ -2738,7 +3025,7 @@
                                 "padding-inline-end": 0
                               },
                               "blocks": {
-                                "icon_GTdhtn": {
+                                "icon_9fgkmg": {
                                   "type": "icon",
                                   "name": "t:names.icon",
                                   "settings": {
@@ -2752,37 +3039,52 @@
                                 }
                               },
                               "block_order": [
-                                "icon_GTdhtn"
+                                "icon_9fgkmg"
                               ]
                             }
                           },
                           "block_order": [
-                            "button_wmMfBa",
-                            "group_yQj7Yc"
+                            "button_KarhL8",
+                            "group_cw8JBH"
                           ]
                         }
                       },
                       "block_order": [
-                        "divider_awLcPa",
-                        "text_wzJfAr",
-                        "text_aeK4UD",
-                        "group_9kmb8y"
+                        "text_wjNtmU",
+                        "text_K6bepg",
+                        "group_g6J3aw"
                       ]
+                    },
+                    "spacer_dPWNNy": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": false,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 100,
+                        "pixel_size_mobile": 120
+                      },
+                      "blocks": {}
                     }
                   },
                   "block_order": [
-                    "text_GjUXLE",
-                    "text_gRxUCm",
-                    "group_QC3zg9"
+                    "spacer_fNzTwL",
+                    "group_mqTQ3N",
+                    "divider_tztTAg",
+                    "group_JzmePT",
+                    "spacer_dPWNNy"
                   ]
                 }
               },
               "block_order": [
-                "group_bYf6q7",
-                "group_K9ayDz"
+                "group_GVNgT4",
+                "group_9ALBdk"
               ]
             },
-            "card_cV9r7g": {
+            "card_Rck4pb": {
               "type": "_card",
               "name": "t:names.card",
               "settings": {
@@ -2793,25 +3095,25 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 24,
+                "gap": 22,
                 "background_media": "none",
-                "background_color": "#fffaec",
+                "background_color": "",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
+                "toggle_overlay": true,
+                "overlay_color": "#36A3DA08",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "link": "shopify://collections/brain-mood",
+                "link": "shopify://collections/immune-repair",
                 "open_in_new_tab": false,
-                "padding-block-start": 22,
-                "padding-block-end": 22,
+                "padding-block-start": 18,
+                "padding-block-end": 18,
                 "padding-inline-start": 22,
                 "padding-inline-end": 22
               },
               "blocks": {
-                "group_GDg6Vr": {
+                "group_feHqhA": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -2824,11 +3126,11 @@
                     "vertical_alignment_flex_direction_column": "center",
                     "gap": 24,
                     "width": "custom",
-                    "custom_width": 33,
+                    "custom_width": 25,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "custom",
-                    "custom_height": 100,
+                    "height": "fill",
+                    "custom_height": 37,
                     "background_media": "none",
                     "background_color": "",
                     "video_position": "cover",
@@ -2852,7 +3154,7 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "image_Kixtd4": {
+                    "image_YmBjCr": {
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
@@ -2878,10 +3180,10 @@
                     }
                   },
                   "block_order": [
-                    "image_Kixtd4"
+                    "image_YmBjCr"
                   ]
                 },
-                "group_NRFcYP": {
+                "group_hV3gcM": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -2891,13 +3193,13 @@
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "center",
+                    "vertical_alignment_flex_direction_column": "flex-start",
                     "gap": 8,
                     "width": "custom",
-                    "custom_width": 66,
+                    "custom_width": 75,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "fit",
+                    "height": "fill",
                     "custom_height": 100,
                     "background_media": "none",
                     "background_color": "",
@@ -2921,74 +3223,37 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_tnzkYT": {
-                      "type": "text",
-                      "name": "t:names.heading",
+                    "spacer_bVztVD": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
                       "settings": {
-                        "text": "<h3>{{ metaobjects.health_goal[\"immune-repair\"].name.value }}</h3>",
-                        "width": "fit-content",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": false,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 100,
+                        "pixel_size_mobile": 120
                       },
                       "blocks": {}
                     },
-                    "text_DaTNLP": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>{{ metaobjects.health_goal[\"immune-repair\"].description | metafield_tag }}</p>",
-                        "width": "100%",
-                        "max_width": "narrow",
-                        "alignment": "left",
-                        "type_preset": "paragraph",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "{{ settings.color_palette.neutral900 }}",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 4,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    },
-                    "group_zX7yjt": {
+                    "group_Wp9ibX": {
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
                         "content_direction": "column",
                         "vertical_on_mobile": true,
                         "horizontal_alignment": "flex-start",
-                        "vertical_alignment": "flex-start",
+                        "vertical_alignment": "center",
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "flex-start",
-                        "gap": 6,
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 4,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
                         "custom_width_mobile": 100,
-                        "height": "fit",
+                        "height": "fill",
                         "custom_height": 100,
                         "background_media": "none",
                         "background_color": "",
@@ -3012,20 +3277,118 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
-                        "divider_jWn7bY": {
-                          "type": "_divider",
-                          "name": "t:names.divider",
+                        "text_dfxr4K": {
+                          "type": "text",
+                          "name": "t:names.heading",
                           "settings": {
-                            "thickness": 1,
-                            "corner_radius": "square",
-                            "divider_color": "#f1efe8",
-                            "width_percent": 100,
+                            "text": "<p>{{ metaobjects.health_goal[\"immune-repair\"].name.value }}</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "text_color": "",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
                             "padding-block-start": 0,
-                            "padding-block-end": 10
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
                           },
                           "blocks": {}
                         },
-                        "text_zkB8r8": {
+                        "text_7CCH6G": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p>{{ metaobjects.health_goal[\"immune-repair\"].description | metafield_tag }}</p>",
+                            "width": "100%",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "paragraph",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 4,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_dfxr4K",
+                        "text_7CCH6G"
+                      ]
+                    },
+                    "divider_AnKBw8": {
+                      "type": "_divider",
+                      "name": "t:names.divider",
+                      "disabled": true,
+                      "settings": {
+                        "thickness": 1,
+                        "corner_radius": "square",
+                        "divider_color": "#f1efe8",
+                        "width_percent": 100,
+                        "padding-block-start": 0,
+                        "padding-block-end": 10
+                      },
+                      "blocks": {}
+                    },
+                    "group_pCFgxd": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "flex-start",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "flex-start",
+                        "gap": 3,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": true,
+                        "overlay_color": "#36A3DA0A",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "solid",
+                        "border_width": 1,
+                        "border_opacity": 3,
+                        "border_color": "",
+                        "border_radius": 6,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 9,
+                        "padding-block-end": 5,
+                        "padding-inline-start": 10,
+                        "padding-inline-end": 10
+                      },
+                      "blocks": {
+                        "text_abCtFN": {
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
@@ -3040,7 +3403,7 @@
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "balance",
-                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "text_color": "#4E4B4D",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -3051,7 +3414,7 @@
                           },
                           "blocks": {}
                         },
-                        "text_finDJn": {
+                        "text_PWfi9y": {
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
@@ -3062,11 +3425,11 @@
                             "type_preset": "custom",
                             "font": "var(--font-body--family)",
                             "font_size": "0.875rem",
-                            "line_height": "loose",
+                            "line_height": "normal",
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "balance",
-                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "text_color": "#4E4B4D",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -3077,7 +3440,7 @@
                           },
                           "blocks": {}
                         },
-                        "group_ttLhBe": {
+                        "group_NajQQn": {
                           "type": "group",
                           "name": "button_link",
                           "disabled": true,
@@ -3118,7 +3481,7 @@
                             "padding-inline-end": 0
                           },
                           "blocks": {
-                            "button_gfrxFj": {
+                            "button_DDtdXY": {
                               "type": "button",
                               "name": "t:names.button",
                               "settings": {
@@ -3150,7 +3513,7 @@
                               },
                               "blocks": {}
                             },
-                            "group_cFitzV": {
+                            "group_wxTnad": {
                               "type": "group",
                               "name": "button_icon-wrap",
                               "settings": {
@@ -3190,7 +3553,7 @@
                                 "padding-inline-end": 0
                               },
                               "blocks": {
-                                "icon_raQyBx": {
+                                "icon_yyR6cH": {
                                   "type": "icon",
                                   "name": "t:names.icon",
                                   "settings": {
@@ -3204,37 +3567,52 @@
                                 }
                               },
                               "block_order": [
-                                "icon_raQyBx"
+                                "icon_yyR6cH"
                               ]
                             }
                           },
                           "block_order": [
-                            "button_gfrxFj",
-                            "group_cFitzV"
+                            "button_DDtdXY",
+                            "group_wxTnad"
                           ]
                         }
                       },
                       "block_order": [
-                        "divider_jWn7bY",
-                        "text_zkB8r8",
-                        "text_finDJn",
-                        "group_ttLhBe"
+                        "text_abCtFN",
+                        "text_PWfi9y",
+                        "group_NajQQn"
                       ]
+                    },
+                    "spacer_8Wg9dB": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": false,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 100,
+                        "pixel_size_mobile": 120
+                      },
+                      "blocks": {}
                     }
                   },
                   "block_order": [
-                    "text_tnzkYT",
-                    "text_DaTNLP",
-                    "group_zX7yjt"
+                    "spacer_bVztVD",
+                    "group_Wp9ibX",
+                    "divider_AnKBw8",
+                    "group_pCFgxd",
+                    "spacer_8Wg9dB"
                   ]
                 }
               },
               "block_order": [
-                "group_GDg6Vr",
-                "group_NRFcYP"
+                "group_feHqhA",
+                "group_hV3gcM"
               ]
             },
-            "card_4diPPX": {
+            "card_kJ8gVM": {
               "type": "_card",
               "name": "t:names.card",
               "settings": {
@@ -3245,25 +3623,25 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 24,
+                "gap": 22,
                 "background_media": "none",
-                "background_color": "#fffaec",
+                "background_color": "",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "aspect_ratio": "adapt",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
+                "toggle_overlay": true,
+                "overlay_color": "#E792090A",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "link": "shopify://collections/brain-mood",
+                "link": "shopify://collections/strength-mobility",
                 "open_in_new_tab": false,
-                "padding-block-start": 22,
-                "padding-block-end": 22,
+                "padding-block-start": 18,
+                "padding-block-end": 18,
                 "padding-inline-start": 22,
                 "padding-inline-end": 22
               },
               "blocks": {
-                "group_eExbD6": {
+                "group_h33T8C": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -3276,11 +3654,11 @@
                     "vertical_alignment_flex_direction_column": "center",
                     "gap": 24,
                     "width": "custom",
-                    "custom_width": 33,
+                    "custom_width": 25,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "custom",
-                    "custom_height": 100,
+                    "height": "fill",
+                    "custom_height": 37,
                     "background_media": "none",
                     "background_color": "",
                     "video_position": "cover",
@@ -3304,7 +3682,7 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "image_Jpi8eQ": {
+                    "image_R6rgMx": {
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
@@ -3330,10 +3708,10 @@
                     }
                   },
                   "block_order": [
-                    "image_Jpi8eQ"
+                    "image_R6rgMx"
                   ]
                 },
-                "group_GbRVca": {
+                "group_VUeqHw": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -3343,13 +3721,13 @@
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "center",
+                    "vertical_alignment_flex_direction_column": "flex-start",
                     "gap": 8,
                     "width": "custom",
-                    "custom_width": 66,
+                    "custom_width": 75,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "fit",
+                    "height": "fill",
                     "custom_height": 100,
                     "background_media": "none",
                     "background_color": "",
@@ -3373,74 +3751,37 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_F4nE9g": {
-                      "type": "text",
-                      "name": "t:names.heading",
+                    "spacer_ctN3pq": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
                       "settings": {
-                        "text": "<h3>{{ metaobjects.health_goal[\"strength-mobility\"].name.value }}</h3>",
-                        "width": "fit-content",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": false,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 100,
+                        "pixel_size_mobile": 120
                       },
                       "blocks": {}
                     },
-                    "text_k7tzd6": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>{{ metaobjects.health_goal[\"strength-mobility\"].description | metafield_tag }}</p>",
-                        "width": "100%",
-                        "max_width": "narrow",
-                        "alignment": "left",
-                        "type_preset": "paragraph",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "{{ settings.color_palette.neutral900 }}",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 4,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    },
-                    "group_6UmY4j": {
+                    "group_TyFAQW": {
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
                         "content_direction": "column",
                         "vertical_on_mobile": true,
                         "horizontal_alignment": "flex-start",
-                        "vertical_alignment": "flex-start",
+                        "vertical_alignment": "center",
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "flex-start",
-                        "gap": 6,
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 4,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
                         "custom_width_mobile": 100,
-                        "height": "fit",
+                        "height": "fill",
                         "custom_height": 100,
                         "background_media": "none",
                         "background_color": "",
@@ -3464,20 +3805,118 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
-                        "divider_iVM3C9": {
-                          "type": "_divider",
-                          "name": "t:names.divider",
+                        "text_tRcgUw": {
+                          "type": "text",
+                          "name": "t:names.heading",
                           "settings": {
-                            "thickness": 1,
-                            "corner_radius": "square",
-                            "divider_color": "#f1efe8",
-                            "width_percent": 100,
+                            "text": "<p>{{ metaobjects.health_goal[\"strength-mobility\"].name.value }}</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "text_color": "",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
                             "padding-block-start": 0,
-                            "padding-block-end": 10
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
                           },
                           "blocks": {}
                         },
-                        "text_9Uymja": {
+                        "text_Q89ie7": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p>{{ metaobjects.health_goal[\"strength-mobility\"].description | metafield_tag }}</p>",
+                            "width": "100%",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "paragraph",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 4,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_tRcgUw",
+                        "text_Q89ie7"
+                      ]
+                    },
+                    "divider_3aHQrM": {
+                      "type": "_divider",
+                      "name": "t:names.divider",
+                      "disabled": true,
+                      "settings": {
+                        "thickness": 1,
+                        "corner_radius": "square",
+                        "divider_color": "#f1efe8",
+                        "width_percent": 100,
+                        "padding-block-start": 0,
+                        "padding-block-end": 10
+                      },
+                      "blocks": {}
+                    },
+                    "group_68i4FP": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "flex-start",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "flex-start",
+                        "gap": 3,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": true,
+                        "overlay_color": "#E792090D",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "solid",
+                        "border_width": 1,
+                        "border_opacity": 3,
+                        "border_color": "",
+                        "border_radius": 6,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 9,
+                        "padding-block-end": 5,
+                        "padding-inline-start": 12,
+                        "padding-inline-end": 10
+                      },
+                      "blocks": {
+                        "text_e8yVeN": {
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
@@ -3492,7 +3931,7 @@
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "balance",
-                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "text_color": "#4E4B4D",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -3503,7 +3942,7 @@
                           },
                           "blocks": {}
                         },
-                        "text_p3DT4h": {
+                        "text_hJjkVf": {
                           "type": "text",
                           "name": "Pathways",
                           "settings": {
@@ -3514,11 +3953,11 @@
                             "type_preset": "custom",
                             "font": "var(--font-body--family)",
                             "font_size": "0.875rem",
-                            "line_height": "loose",
+                            "line_height": "normal",
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "balance",
-                            "text_color": "{{ settings.color_palette.neutral800 }}",
+                            "text_color": "#4E4B4D",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -3529,7 +3968,7 @@
                           },
                           "blocks": {}
                         },
-                        "group_jhMPnx": {
+                        "group_hH8CHN": {
                           "type": "group",
                           "name": "button_link",
                           "disabled": true,
@@ -3570,7 +4009,7 @@
                             "padding-inline-end": 0
                           },
                           "blocks": {
-                            "button_rWtNXE": {
+                            "button_y6pzXw": {
                               "type": "button",
                               "name": "t:names.button",
                               "settings": {
@@ -3602,7 +4041,7 @@
                               },
                               "blocks": {}
                             },
-                            "group_RxqXUn": {
+                            "group_b6N6Hb": {
                               "type": "group",
                               "name": "button_icon-wrap",
                               "settings": {
@@ -3642,7 +4081,7 @@
                                 "padding-inline-end": 0
                               },
                               "blocks": {
-                                "icon_R6RBTc": {
+                                "icon_dQzPC4": {
                                   "type": "icon",
                                   "name": "t:names.icon",
                                   "settings": {
@@ -3656,44 +4095,59 @@
                                 }
                               },
                               "block_order": [
-                                "icon_R6RBTc"
+                                "icon_dQzPC4"
                               ]
                             }
                           },
                           "block_order": [
-                            "button_rWtNXE",
-                            "group_RxqXUn"
+                            "button_y6pzXw",
+                            "group_b6N6Hb"
                           ]
                         }
                       },
                       "block_order": [
-                        "divider_iVM3C9",
-                        "text_9Uymja",
-                        "text_p3DT4h",
-                        "group_jhMPnx"
+                        "text_e8yVeN",
+                        "text_hJjkVf",
+                        "group_hH8CHN"
                       ]
+                    },
+                    "spacer_c676BC": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": false,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 100,
+                        "pixel_size_mobile": 120
+                      },
+                      "blocks": {}
                     }
                   },
                   "block_order": [
-                    "text_F4nE9g",
-                    "text_k7tzd6",
-                    "group_6UmY4j"
+                    "spacer_ctN3pq",
+                    "group_TyFAQW",
+                    "divider_3aHQrM",
+                    "group_68i4FP",
+                    "spacer_c676BC"
                   ]
                 }
               },
               "block_order": [
-                "group_eExbD6",
-                "group_GbRVca"
+                "group_h33T8C",
+                "group_VUeqHw"
               ]
             }
           },
           "block_order": [
             "card_gqBPzm",
-            "card_JqGgNP",
-            "card_7jKJTD",
-            "card_EYgBbJ",
-            "card_cV9r7g",
-            "card_4diPPX"
+            "card_N4Mjah",
+            "card_UPqJrH",
+            "card_T7Dhde",
+            "card_Rck4pb",
+            "card_kJ8gVM"
           ]
         }
       },
@@ -3715,7 +4169,7 @@
         "border_radius_top_right": 0,
         "border_radius_bottom_right": 0,
         "border_radius_bottom_left": 0,
-        "padding-block-start": 80,
+        "padding-block-start": 100,
         "padding-block-end": 80
       }
     },
@@ -4088,7 +4542,7 @@
             "video_position": "cover",
             "background_image_position": "cover",
             "toggle_overlay": false,
-            "overlay_color": "#FFFDF745",
+            "overlay_color": "#fffdf745",
             "overlay_style": "gradient",
             "gradient_direction": "to top",
             "border": "none",
