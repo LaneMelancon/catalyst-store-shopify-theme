@@ -4179,7 +4179,7 @@
       "settings": {
         "columns": 1,
         "mobile_columns": "1",
-        "section_width": "page-width",
+        "section_width": "full-width",
         "columns_gap": 16,
         "background_color": "{{ settings.color_palette.orange15 }}",
         "icons_style": "arrow",
