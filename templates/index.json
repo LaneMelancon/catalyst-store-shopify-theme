@@ -4102,7 +4102,7 @@
       },
       "custom_css": [
         ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.25);}",
-        "@media (max-width: 749px) {[ref=\"scroller\"] {gap: 12px; margin-right: 0; } [ref=\"scroller\"] .card {width: 100%; }}"
+        "@media (max-width: 749px) {[ref=\"scroller\"] {gap: 12px; margin-right: 0; } [ref=\"scroller\"] .card {width: 100%; } .card .card__inner > .group-block .group-block-content > div.image-block:has(> img.image-block__image) {width: 100%; height: clamp(12rem, 75vw, 20rem); }}"
       ],
       "name": "t:names.carousel",
       "settings": {
