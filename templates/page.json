@@ -690,7 +690,7 @@
                     "accordion_row_FjqbyP": {
                       "type": "_accordion-row",
                       "settings": {
-                        "heading": "{{ metaobjects.supplement_health_goal[\"brain-mood\"].name.value }}",
+                        "heading": "{{ metaobjects.health_goal[\"brain-mood\"].name.value }}",
                         "open_by_default": true,
                         "icon": "none",
                         "width": 12
@@ -780,7 +780,7 @@
                                   "type": "image",
                                   "name": "t:names.image",
                                   "settings": {
-                                    "image": "{{ metaobjects.supplement_health_goal[\"brain-mood\"].secondary_image.value }}",
+                                    "image": "{{ metaobjects.health_goal[\"brain-mood\"].secondary_image.value }}",
                                     "link": "",
                                     "image_ratio": "adapt",
                                     "width": "custom",
@@ -803,7 +803,7 @@
                                 "text_Ct3ctd": {
                                   "type": "text",
                                   "settings": {
-                                    "text": "<p>{{ metaobjects.supplement_health_goal[\"brain-mood\"].description | metafield_tag }}</p>",
+                                    "text": "<p>{{ metaobjects.health_goal[\"brain-mood\"].description | metafield_tag }}</p>",
                                     "width": "100%",
                                     "max_width": "narrow",
                                     "alignment": "left",
@@ -941,7 +941,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"cognitive-function\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"cognitive-function\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -1025,7 +1025,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"mood-regulation\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"mood-regulation\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -1156,7 +1156,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"sleep-regulation\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"sleep-regulation\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -1240,7 +1240,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"stress-response\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"stress-response\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -1291,7 +1291,7 @@
                     "accordion_row_YEVJGx": {
                       "type": "_accordion-row",
                       "settings": {
-                        "heading": "{{ metaobjects.supplement_health_goal[\"gut-detox\"].name.value }}",
+                        "heading": "{{ metaobjects.health_goal[\"gut-detox\"].name.value }}",
                         "open_by_default": false,
                         "icon": "none",
                         "width": 12
@@ -1381,7 +1381,7 @@
                                   "type": "image",
                                   "name": "t:names.image",
                                   "settings": {
-                                    "image": "{{ metaobjects.supplement_health_goal[\"gut-detox\"].secondary_image.value }}",
+                                    "image": "{{ metaobjects.health_goal[\"gut-detox\"].secondary_image.value }}",
                                     "link": "",
                                     "image_ratio": "adapt",
                                     "width": "custom",
@@ -1404,7 +1404,7 @@
                                 "text_4bKhKq": {
                                   "type": "text",
                                   "settings": {
-                                    "text": "<p>{{ metaobjects.supplement_health_goal[\"gut-detox\"].description | metafield_tag }}</p>",
+                                    "text": "<p>{{ metaobjects.health_goal[\"gut-detox\"].description | metafield_tag }}</p>",
                                     "width": "100%",
                                     "max_width": "narrow",
                                     "alignment": "left",
@@ -1542,7 +1542,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"digestive-function\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"digestive-function\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -1626,7 +1626,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"liver-function\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"liver-function\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -1757,7 +1757,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"urinary-health\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"urinary-health\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -1892,7 +1892,7 @@
                     "accordion_row_xQrcB9": {
                       "type": "_accordion-row",
                       "settings": {
-                        "heading": "{{ metaobjects.supplement_health_goal[\"immune-repair\"].name.value }}",
+                        "heading": "{{ metaobjects.health_goal[\"immune-repair\"].name.value }}",
                         "open_by_default": false,
                         "icon": "none",
                         "width": 12
@@ -1982,7 +1982,7 @@
                                   "type": "image",
                                   "name": "t:names.image",
                                   "settings": {
-                                    "image": "{{ metaobjects.supplement_health_goal[\"immune-repair\"].secondary_image.value }}",
+                                    "image": "{{ metaobjects.health_goal[\"immune-repair\"].secondary_image.value }}",
                                     "link": "",
                                     "image_ratio": "adapt",
                                     "width": "custom",
@@ -2005,7 +2005,7 @@
                                 "text_cpddGL": {
                                   "type": "text",
                                   "settings": {
-                                    "text": "<p>{{ metaobjects.supplement_health_goal[\"immune-repair\"].description | metafield_tag }}</p>",
+                                    "text": "<p>{{ metaobjects.health_goal[\"immune-repair\"].description | metafield_tag }}</p>",
                                     "width": "100%",
                                     "max_width": "narrow",
                                     "alignment": "left",
@@ -2143,7 +2143,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"cellular-repair\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"cellular-repair\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -2227,7 +2227,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"immune-function\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"immune-function\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -2358,7 +2358,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"mitochondrial-function\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"mitochondrial-function\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -2521,7 +2521,7 @@
                     "accordion_row_cGHWmg": {
                       "type": "_accordion-row",
                       "settings": {
-                        "heading": "{{ metaobjects.supplement_health_goal[\"energy-metabolism\"].name.value }}",
+                        "heading": "{{ metaobjects.health_goal[\"energy-metabolism\"].name.value }}",
                         "open_by_default": true,
                         "icon": "none",
                         "width": 12
@@ -2611,7 +2611,7 @@
                                   "type": "image",
                                   "name": "t:names.image",
                                   "settings": {
-                                    "image": "{{ metaobjects.supplement_health_goal[\"energy-metabolism\"].secondary_image.value }}",
+                                    "image": "{{ metaobjects.health_goal[\"energy-metabolism\"].secondary_image.value }}",
                                     "link": "",
                                     "image_ratio": "adapt",
                                     "width": "custom",
@@ -2634,7 +2634,7 @@
                                 "text_ViFx3K": {
                                   "type": "text",
                                   "settings": {
-                                    "text": "<p>{{ metaobjects.supplement_health_goal[\"energy-metabolism\"].description | metafield_tag }}</p>",
+                                    "text": "<p>{{ metaobjects.health_goal[\"energy-metabolism\"].description | metafield_tag }}</p>",
                                     "width": "100%",
                                     "max_width": "narrow",
                                     "alignment": "left",
@@ -2772,7 +2772,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"appetite-regulation\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"appetite-regulation\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -2856,7 +2856,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"glycemic-regulation\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"glycemic-regulation\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -2987,7 +2987,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"metabolic-function\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"metabolic-function\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -3071,7 +3071,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"protein-synthesis\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"protein-synthesis\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -3122,7 +3122,7 @@
                     "accordion_row_KHf9Xb": {
                       "type": "_accordion-row",
                       "settings": {
-                        "heading": "{{ metaobjects.supplement_health_goal[\"hormones-vitality\"].name.value }}",
+                        "heading": "{{ metaobjects.health_goal[\"hormones-vitality\"].name.value }}",
                         "open_by_default": false,
                         "icon": "none",
                         "width": 12
@@ -3212,7 +3212,7 @@
                                   "type": "image",
                                   "name": "t:names.image",
                                   "settings": {
-                                    "image": "{{ metaobjects.supplement_health_goal[\"hormones-vitality\"].secondary_image.value }}",
+                                    "image": "{{ metaobjects.health_goal[\"hormones-vitality\"].secondary_image.value }}",
                                     "link": "",
                                     "image_ratio": "adapt",
                                     "width": "custom",
@@ -3235,7 +3235,7 @@
                                 "text_94HWAr": {
                                   "type": "text",
                                   "settings": {
-                                    "text": "<p>{{ metaobjects.supplement_health_goal[\"hormones-vitality\"].description | metafield_tag }}</p>",
+                                    "text": "<p>{{ metaobjects.health_goal[\"hormones-vitality\"].description | metafield_tag }}</p>",
                                     "width": "100%",
                                     "max_width": "narrow",
                                     "alignment": "left",
@@ -3373,7 +3373,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"endocrine-regulation\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"endocrine-regulation\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -3457,7 +3457,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"female-hormone-balance\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"female-hormone-balance\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -3588,7 +3588,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"male-hormone-balance\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"male-hormone-balance\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -3723,7 +3723,7 @@
                     "accordion_row_fDwecT": {
                       "type": "_accordion-row",
                       "settings": {
-                        "heading": "{{ metaobjects.supplement_health_goal[\"energy-metabolism\"].name.value }}{{ metaobjects.supplement_health_goal[\"strength-mobility\"].name.value }}",
+                        "heading": "{{ metaobjects.health_goal[\"energy-metabolism\"].name.value }}{{ metaobjects.health_goal[\"strength-mobility\"].name.value }}",
                         "open_by_default": false,
                         "icon": "none",
                         "width": 12
@@ -3813,7 +3813,7 @@
                                   "type": "image",
                                   "name": "t:names.image",
                                   "settings": {
-                                    "image": "{{ metaobjects.supplement_health_goal[\"strength-mobility\"].secondary_image.value }}",
+                                    "image": "{{ metaobjects.health_goal[\"strength-mobility\"].secondary_image.value }}",
                                     "link": "",
                                     "image_ratio": "adapt",
                                     "width": "custom",
@@ -3836,7 +3836,7 @@
                                 "text_aGUtRY": {
                                   "type": "text",
                                   "settings": {
-                                    "text": "<p>{{ metaobjects.supplement_health_goal[\"strength-mobility\"].description | metafield_tag }}</p>",
+                                    "text": "<p>{{ metaobjects.health_goal[\"strength-mobility\"].description | metafield_tag }}</p>",
                                     "width": "100%",
                                     "max_width": "narrow",
                                     "alignment": "left",
@@ -3974,7 +3974,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"cardiovascular-health\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"cardiovascular-health\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -4058,7 +4058,7 @@
                                       "type": "text",
                                       "name": "Pathways",
                                       "settings": {
-                                        "text": "<p>{{ metaobjects.supplement_pathway[\"musculoskeletal-health\"].name.value }}</p>",
+                                        "text": "<p>{{ metaobjects.pathway[\"musculoskeletal-health\"].name.value }}</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -4305,7 +4305,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"apex-energetics\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"apex-energetics\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4329,7 +4329,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"auro-wellness\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"auro-wellness\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4353,7 +4353,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"biocidin-botanicals\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"biocidin-botanicals\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4377,7 +4377,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"body-bio\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"body-bio\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4401,7 +4401,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"cell-core-biosciences\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"cell-core-biosciences\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4425,7 +4425,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"compass-laboratory\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"compass-laboratory\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4450,7 +4450,7 @@
               "name": "t:names.image",
               "disabled": true,
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"dr-wongs-essentials\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"dr-wongs-essentials\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4474,7 +4474,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"energ-ybits\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"energ-ybits\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4498,7 +4498,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"fatty-15\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"fatty-15\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4522,7 +4522,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"integrative-peptides\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"integrative-peptides\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4546,7 +4546,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"ion-intelligence-of-nature\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"ion-intelligence-of-nature\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4571,7 +4571,7 @@
               "name": "t:names.image",
               "disabled": true,
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"n-1-o-1-nitric-oxide\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"n-1-o-1-nitric-oxide\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4596,7 +4596,7 @@
               "name": "t:names.image",
               "disabled": true,
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"neo-myalo-new-mind\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"neo-myalo-new-mind\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4620,7 +4620,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"nu-medica\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"nu-medica\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4644,7 +4644,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor.nutraneeds.logo_dark.value }}",
+                "image": "{{ metaobjects.vendor.nutraneeds.logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4668,7 +4668,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"qualia-life-sciences\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"qualia-life-sciences\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4692,7 +4692,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"standard-process\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"standard-process\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4716,7 +4716,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor.stemregen.logo_dark.value }}",
+                "image": "{{ metaobjects.vendor.stemregen.logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4740,7 +4740,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"val-asta\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"val-asta\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -4764,7 +4764,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "{{ metaobjects.supplement_vendor[\"ver-vita\"].logo_dark.value }}",
+                "image": "{{ metaobjects.vendor[\"ver-vita\"].logo_dark.value }}",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",

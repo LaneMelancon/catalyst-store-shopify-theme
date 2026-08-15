@@ -2,7 +2,7 @@
 
 **Project:** NeuroSolution ATX Supplement Store **Maintained By:** Lane Melancon — Onn Grid, LLC **Last Updated:** 2026-07-15
 
-This file documents everything that needs to be considered, reconciled, or built when applying the design system to the Shopify theme (`nsatx-store-shopify-theme`). Use it as the source of truth for planning and performing the full implementation.
+This file documents everything that needs to be considered, reconciled, or built when applying the design system to the Shopify theme (`catalyst-store-shopify-theme`). Use it as the source of truth for planning and performing the full implementation.
 
 ---
 
