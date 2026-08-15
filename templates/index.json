@@ -853,7 +853,7 @@
               "type": "custom-liquid",
               "name": "t:names.custom_liquid",
               "settings": {
-                "custom_liquid": "{% assign selector = \".color-custom-template--27678122279224__carousel_Rx4ta6\" %}\n\n{% style %}\n/* Component Wrapper (div) */\n{{ selector }} :has(> .carousel-content) {\n\n}\n\n/* Slideshow Component */\n{{ selector }} .carousel-content {\n\n}\n\n/* Slideshow Container */\n{{ selector }} .carousel-content > [ref=\"slideshowContainer\"] {\n}\n\n/* Slideshow Scroller */\n{{ selector }} [ref=\"scroller\"] {\n  gap: 12px;\n  margin-right: 0;\n}\n\n/* Slider Card */\n{{ selector }} [ref=\"scroller\"] > .card {\n  width: 100%;\n}\n\n/* Card Pathway Blocks */\n{{ selector }} [ref=\"scroller\"] .card__content .group-block:last-child .group-block-content {\n}\n\n/* Card Image Blocks */\n{{ selector }} [ref=\"scroller\"] .card .card__inner > .group-block .group-block-content > div.image-block:has(> img.image-block__image) {\n  width: 100%;\n  height: clamp(12rem, 75vw, 18rem);\n}\n\n/* Arrows (wrapper) */\n{{ selector }} :has(> .slideshow-control) {\n}\n\n/* Arrow Circles */\n{{ selector }} .slideshow-control--shape-circle {\n  background-color: var(--color-neutral-025);\n  border: 1px solid rgba(0, 0, 0, 0.05);\n}\n\n/* Arrow SVG */\n{{ selector }} .slideshow-control--shape-circle .svg-wrapper {\n  color: var(--color-neutral-800);\n}\n\n@media (min-width: 750px) {\n  {{ selector }} [ref=\"scroller\"] {\n    gap: 16px;\n    margin-right: 0;\n  }\n    {{ selector }}[ref=\"scroller\"] .card {\n  }\n  {{ selector }} [ref=\"scroller\"] .card .card__inner > .group-block .group-block-content > div.image-block:has(> img.image-block__image) {\n    aspect-ratio: 4 / 5;\n  }\n}\n{% endstyle %}"
+                "custom_liquid": "{% assign selector = \".color-custom-template--27678122279224__carousel_Rx4ta6\" %}\n\n{% style %}\n/* Component Wrapper (div) */\n{{ selector }} :has(> .carousel-content) {\n}\n\n/* Slideshow Component */\n{{ selector }} .carousel-content {\n\n}\n\n/* Slideshow Container */\n{{ selector }} .carousel-content > [ref=\"slideshowContainer\"] {\n}\n\n/* Slideshow Scroller */\n{{ selector }} [ref=\"scroller\"] {\n}\n\n/* Slider Card */\n{{ selector }} [ref=\"scroller\"] > .card {\n}\n\n/* Card Pathway Blocks */\n{{ selector }} [ref=\"scroller\"] .card__content .group-block:last-child .group-block-content {\n}\n\n/* Card Image Blocks */\n{{ selector }} [ref=\"scroller\"] .card .card__inner .group-block .group-block-content div:has(img) {\nheight: 100%;\n}\n\n/* Arrows (wrapper) */\n{{ selector }} :has(> .slideshow-control) {\n}\n\n/* Arrow Circles */\n{{ selector }} .slideshow-control--shape-circle {\n  background-color: var(--color-neutral-025);\n  border: 1px solid rgba(0, 0, 0, 0.05);\n}\n\n/* Arrow SVG */\n{{ selector }} .slideshow-control--shape-circle .svg-wrapper {\n  color: var(--color-neutral-800);\n}\n\n@media (max-width: 749px) {\n  {{ selector }} [ref=\"scroller\"] {\n }\n}\n\n@media (max-width: 749px) {\n{{ selector }} [ref=\"scroller\"] .card {\n \n }\n}\n\n@media (max-width: 749px) {\n{{ selector }} [ref=\"scroller\"] .card .card__inner > .group-block .group-block-content > div.image-block:has(> img.image-block__image) {\n\n }\n}\n{% endstyle %}"
               },
               "blocks": {}
             },
@@ -949,13 +949,13 @@
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "center",
                     "gap": 24,
-                    "width": "custom",
+                    "width": "fill",
                     "custom_width": 25,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "fill",
-                    "custom_height": 37,
-                    "background_media": "none",
+                    "height": "custom",
+                    "custom_height": 100,
+                    "background_media": "image",
                     "background_color": "",
                     "video_position": "cover",
                     "background_image": "{{ metaobjects.health_goal[\"brain-mood\"].secondary_image.value }}",
@@ -977,35 +977,7 @@
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
-                  "blocks": {
-                    "image_LXVTW7": {
-                      "type": "image",
-                      "name": "t:names.image",
-                      "settings": {
-                        "image": "{{ metaobjects.health_goal[\"brain-mood\"].secondary_image.value }}",
-                        "link": "",
-                        "image_ratio": "portrait",
-                        "width": "fill",
-                        "custom_width": 25,
-                        "width_mobile": "fill",
-                        "custom_width_mobile": 100,
-                        "height": "fill",
-                        "border": "none",
-                        "border_width": 1,
-                        "border_opacity": 100,
-                        "border_color": "",
-                        "border_radius": 10,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "image_LXVTW7"
-                  ]
+                  "blocks": {}
                 },
                 "group_PWwrhV": {
                   "type": "group",
@@ -1479,7 +1451,7 @@
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "center",
                     "gap": 24,
-                    "width": "custom",
+                    "width": "fill",
                     "custom_width": 25,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
@@ -1514,7 +1486,7 @@
                       "settings": {
                         "image": "{{ metaobjects.health_goal[\"energy-metabolism\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "portrait",
+                        "image_ratio": "adapt",
                         "width": "fill",
                         "custom_width": 25,
                         "width_mobile": "fill",
@@ -2009,12 +1981,12 @@
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "center",
                     "gap": 24,
-                    "width": "custom",
+                    "width": "fill",
                     "custom_width": 25,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
                     "height": "fill",
-                    "custom_height": 37,
+                    "custom_height": 100,
                     "background_media": "none",
                     "background_color": "",
                     "video_position": "cover",
@@ -2044,7 +2016,7 @@
                       "settings": {
                         "image": "{{ metaobjects.health_goal[\"gut-detox\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "portrait",
+                        "image_ratio": "adapt",
                         "width": "fill",
                         "custom_width": 25,
                         "width_mobile": "fill",
@@ -2539,7 +2511,7 @@
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "center",
                     "gap": 24,
-                    "width": "custom",
+                    "width": "fill",
                     "custom_width": 25,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
@@ -2574,7 +2546,7 @@
                       "settings": {
                         "image": "{{ metaobjects.health_goal[\"hormones-vitality\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "portrait",
+                        "image_ratio": "adapt",
                         "width": "fill",
                         "custom_width": 25,
                         "width_mobile": "fill",
@@ -3069,7 +3041,7 @@
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "center",
                     "gap": 24,
-                    "width": "custom",
+                    "width": "fill",
                     "custom_width": 25,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
@@ -3104,7 +3076,7 @@
                       "settings": {
                         "image": "{{ metaobjects.health_goal[\"immune-repair\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "portrait",
+                        "image_ratio": "adapt",
                         "width": "fill",
                         "custom_width": 25,
                         "width_mobile": "fill",
@@ -3599,7 +3571,7 @@
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "center",
                     "gap": 24,
-                    "width": "custom",
+                    "width": "fill",
                     "custom_width": 25,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
@@ -3634,7 +3606,7 @@
                       "settings": {
                         "image": "{{ metaobjects.health_goal[\"strength-mobility\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "portrait",
+                        "image_ratio": "adapt",
                         "width": "fill",
                         "custom_width": 25,
                         "width_mobile": "fill",
