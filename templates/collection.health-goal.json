@@ -1707,7 +1707,7 @@
         "border_radius_bottom_right": 0,
         "border_radius_bottom_left": 0,
         "padding-block-start": 80,
-        "padding-block-end": 32
+        "padding-block-end": 40
       }
     },
     "divider_pUUtU8": {
@@ -1715,7 +1715,7 @@
       "name": "t:names.divider_section",
       "settings": {
         "background_color": "",
-        "divider_color": "#D9DEDA",
+        "divider_color": "#d9deda",
         "section_width": "full-width",
         "thickness": 1,
         "corner_radius": "square",
@@ -2387,13 +2387,13 @@
       "settings": {
         "layout_type": "grid",
         "product_card_size": "large",
-        "mobile_product_card_size": "small",
+        "mobile_product_card_size": "large",
         "enable_infinite_scroll": true,
         "products_per_page": 24,
         "product_grid_width": "centered",
         "full_width_on_mobile": false,
         "columns_gap_horizontal": 16,
-        "columns_gap_vertical": 16,
+        "columns_gap_vertical": 24,
         "padding-inline-start": 0,
         "padding-inline-end": 0,
         "background_color": "#f9faf9",
