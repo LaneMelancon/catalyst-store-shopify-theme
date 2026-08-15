@@ -1715,7 +1715,7 @@
       "name": "t:names.divider_section",
       "settings": {
         "background_color": "",
-        "divider_color": "#cfd3d0",
+        "divider_color": "#D9DEDA",
         "section_width": "full-width",
         "thickness": 1,
         "corner_radius": "square",
