@@ -4192,7 +4192,7 @@
         "border_radius_bottom_right": 0,
         "border_radius_bottom_left": 0,
         "padding-block-start": 100,
-        "padding-block-end": 80
+        "padding-block-end": 40
       }
     },
     "hero_q7ncy6": {
@@ -9416,7 +9416,7 @@
         "border_radius_bottom_right": 0,
         "border_radius_bottom_left": 0,
         "padding-block-start": 60,
-        "padding-block-end": 80
+        "padding-block-end": 100
       }
     },
     "section_3NVWje": {
