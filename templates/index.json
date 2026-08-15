@@ -853,7 +853,7 @@
               "type": "custom-liquid",
               "name": "t:names.custom_liquid",
               "settings": {
-                "custom_liquid": "{%- comment -%}\n{% liquid\n  assign selector = \".color-custom-template--27678122279224__carousel_Rx4ta6\"\n%}\n\n{% style %}\n/* Component Wrapper (div) */\n{{ selector }} :has(> .carousel-content) {\n\n  }\n\n/* Slideshow Component */\n{{ selector }} .carousel-content {\n\n  }\n\n/* Slideshow Container */\n{{ selector }} .carousel-content > [ref=\"slideshowContainer\"] {\n}\n\n/* Arrows (wrapper) */\n{{ selector }} :has(> .slideshow-control) {\n}\n\n/* Slideshow Scroller */\n{{ selector }} [ref=\"scroller\"] {\n  max-width: 1920px;\noverflow: visible;\ndisplay: flex;\n\n  }\n\n/* Slider Card */\n{{ selector }} [ref=\"scroller\"] > .card {\n  width: calc(100vw/3);\nmin-width: 750px;\n  }\n\n/* Card Pathway Blocks */\n{{ selector }} [ref=\"scroller\"] .card__content .group-block:last-child .group-block-content {\n}\n\n{% endstyle %}\n{%- endcomment -%}"
+                "custom_liquid": "{%- comment -%}\n{% liquid\n  assign selector = \".color-custom-template--27678122279224__carousel_Rx4ta6\"\n%}\n\n{% style %}\n/* Component Wrapper (div) */\n{{ selector }} :has(> .carousel-content) {\n\n  }\n\n/* Slideshow Component */\n{{ selector }} .carousel-content {\n\n  }\n\n/* Slideshow Container */\n{{ selector }} .carousel-content > [ref=\"slideshowContainer\"] {\n}\n\n/* Arrows (wrapper) */\n{{ selector }} :has(> .slideshow-control) {\n}\n\n/* Slideshow Scroller */\n{{ selector }} [ref=\"scroller\"] {\n}\n\n/* Slider Card */\n{{ selector }} [ref=\"scroller\"] > .card {\n  width: calc(100vw/3);\nmin-width: 750px;\n  }\n\n/* Card Pathway Blocks */\n{{ selector }} [ref=\"scroller\"] .card__content .group-block:last-child .group-block-content {\n}\n\n{% endstyle %}\n{%- endcomment -%}"
               },
               "blocks": {}
             },
@@ -4173,7 +4173,8 @@
         }
       },
       "custom_css": [
-        ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.25);}"
+        ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.25);}",
+        "@media (max-width: 749px) {[ref=\"scroller\"] {gap: 12px; margin-right: 0; } [ref=\"scroller\"] .card {width: 100%; }}"
       ],
       "name": "t:names.carousel",
       "settings": {
