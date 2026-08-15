@@ -853,7 +853,7 @@
               "type": "custom-liquid",
               "name": "t:names.custom_liquid",
               "settings": {
-                "custom_liquid": "{% assign selector = \".color-custom-template--27678122279224__carousel_Rx4ta6\" %}\n\n{% style %}\n/* Component Wrapper (div) */\n{{ selector }} :has(> .carousel-content) {\n}\n\n/* Slideshow Component */\n{{ selector }} .carousel-content {\n\n}\n\n/* Slideshow Container */\n{{ selector }} .carousel-content > [ref=\"slideshowContainer\"] {\n}\n\n/* Slideshow Scroller */\n{{ selector }} [ref=\"scroller\"] {\n}\n\n/* Slider Card */\n{{ selector }} [ref=\"scroller\"] > .card {\n}\n\n/* Card Pathway Blocks */\n{{ selector }} [ref=\"scroller\"] .card__content .group-block:last-child .group-block-content {\n}\n\n/* Card Image Blocks */\n{{ selector }} [ref=\"scroller\"] .card .card__inner .group-block .group-block-content div:has(img) {\nheight: 100%;\n}\n\n/* Arrows (wrapper) */\n{{ selector }} :has(> .slideshow-control) {\n}\n\n/* Arrow Circles */\n{{ selector }} .slideshow-control--shape-circle {\n  background-color: var(--color-neutral-025);\n  border: 1px solid rgba(0, 0, 0, 0.05);\n}\n\n/* Arrow SVG */\n{{ selector }} .slideshow-control--shape-circle .svg-wrapper {\n  color: var(--color-neutral-800);\n}\n\n@media (max-width: 749px) {\n{{ selector }} .carousel-content > [ref=\"slideshowContainer\"] {\ndisplay: flex;\nflex-direction: column-reverse;\nalign-items: center;\n\n}\n\n  {{ selector }} [ref=\"scroller\"] {\nmargin: 0px;\npadding: 0px 14px 12px 14px;\ngap: 8px;\n }\n}\n\n@media (max-width: 749px) {\n{{ selector }} [ref=\"scroller\"] .card {\nwidth: 100%;\nheight: auto;\nalign-self: auto;\n }\n}\n\n@media (max-width: 749px) {\n{{ selector }} [ref=\"scroller\"] .card .card__inner .group-block .group-block-content div:has(img) {\naspect-ratio: 1;\nheight: clamp(12rem , 75vw, 15rem);\n}\n\n{{ selector }} :has(> .slideshow-control) {\nflex-direction: row;\nposition: relative;\nflex-wrap: wrap;\nflex-direction: row;\ngap: 16px;\n}\n\n{{ selector }} slideshow-control, slideshow-control--previous, slideshow-control--next, .slideshow-control--style-chevron {\nanimation: none !important;\nopacity: 1 !important;\n}\n\n\n}\n{% endstyle %}"
+                "custom_liquid": "{% assign selector = \".color-custom-template--27678122279224__carousel_Rx4ta6\" %}\n\n{% style %}\n/* Component Wrapper (div) */\n{{ selector }} :has(> .carousel-content) {\n}\n\n/* Slideshow Component */\n{{ selector }} .carousel-content {\n\n}\n\n/* Slideshow Container */\n{{ selector }} .carousel-content > [ref=\"slideshowContainer\"] {\n}\n\n/* Slideshow Scroller */\n{{ selector }} [ref=\"scroller\"] {\npadding-inline: 40px;\n}\n\n/* Slider Card */\n{{ selector }} [ref=\"scroller\"] > .card {\nmax-width: 800px;\n}\n\n/* Card Pathway Blocks */\n{{ selector }} [ref=\"scroller\"] .card__content .group-block:last-child .group-block-content {\n}\n\n/* Card Image Blocks */\n{{ selector }} [ref=\"scroller\"] .card .card__inner .group-block .group-block-content div:has(img) {\naspect-ratio: 1 / 1;\n}\n\n/* Arrows (wrapper) */\n{{ selector }} :has(> .slideshow-control) {\n}\n\n/* Arrow Circles */\n{{ selector }} .slideshow-control--shape-circle {\n  background-color: var(--color-neutral-025);\n  border: 1px solid rgba(0, 0, 0, 0.05);\n}\n\n/* Arrow SVG */\n{{ selector }} .slideshow-control--shape-circle .svg-wrapper {\n  color: var(--color-neutral-800);\n}\n\n@media (max-width: 749px) {\n{{ selector }} .carousel-content > [ref=\"slideshowContainer\"] {\ndisplay: flex;\nflex-direction: column-reverse;\nalign-items: center;\n\n}\n\n  {{ selector }} [ref=\"scroller\"] {\nmargin: 0px;\npadding: 0px 14px 12px 14px;\ngap: 8px;\n }\n}\n\n@media (max-width: 749px) {\n{{ selector }} [ref=\"scroller\"] .card {\nwidth: 100%;\nheight: auto;\nalign-self: auto;\n }\n}\n\n@media (max-width: 749px) {\n{{ selector }} [ref=\"scroller\"] .card .card__inner .group-block .group-block-content div:has(img) {\naspect-ratio: 1;\nheight: clamp(12rem , 75vw, 15rem);\n}\n\n{{ selector }} :has(> .slideshow-control) {\nflex-direction: row;\nposition: relative;\nflex-wrap: wrap;\nflex-direction: row;\ngap: 16px;\n}\n\n{{ selector }} slideshow-control, slideshow-control--previous, slideshow-control--next, .slideshow-control--style-chevron {\nanimation: none !important;\nopacity: 1 !important;\n}\n\n\n}\n{% endstyle %}"
               },
               "blocks": {}
             },
@@ -984,7 +984,7 @@
                       "settings": {
                         "image": "{{ metaobjects.health_goal[\"brain-mood\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "portrait",
+                        "image_ratio": "square",
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
@@ -1514,7 +1514,7 @@
                       "settings": {
                         "image": "{{ metaobjects.health_goal[\"energy-metabolism\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "portrait",
+                        "image_ratio": "square",
                         "width": "fill",
                         "custom_width": 25,
                         "width_mobile": "fill",
@@ -2044,7 +2044,7 @@
                       "settings": {
                         "image": "{{ metaobjects.health_goal[\"gut-detox\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "portrait",
+                        "image_ratio": "square",
                         "width": "fill",
                         "custom_width": 25,
                         "width_mobile": "fill",
@@ -2574,7 +2574,7 @@
                       "settings": {
                         "image": "{{ metaobjects.health_goal[\"hormones-vitality\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "portrait",
+                        "image_ratio": "square",
                         "width": "fill",
                         "custom_width": 25,
                         "width_mobile": "fill",
@@ -3104,7 +3104,7 @@
                       "settings": {
                         "image": "{{ metaobjects.health_goal[\"immune-repair\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "portrait",
+                        "image_ratio": "square",
                         "width": "fill",
                         "custom_width": 25,
                         "width_mobile": "fill",
@@ -3634,7 +3634,7 @@
                       "settings": {
                         "image": "{{ metaobjects.health_goal[\"strength-mobility\"].secondary_image.value }}",
                         "link": "",
-                        "image_ratio": "portrait",
+                        "image_ratio": "square",
                         "width": "fill",
                         "custom_width": 25,
                         "width_mobile": "fill",
@@ -4102,7 +4102,7 @@
       "custom_css": [],
       "name": "t:names.carousel",
       "settings": {
-        "columns": 2,
+        "columns": 1,
         "mobile_columns": "1",
         "section_width": "page-width",
         "columns_gap": 16,
