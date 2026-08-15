@@ -813,14 +813,14 @@
           "name": "t:names.header",
           "static": true,
           "settings": {
-            "content_direction": "row",
+            "content_direction": "column",
             "vertical_on_mobile": false,
             "horizontal_alignment": "center",
             "vertical_alignment": "flex-start",
             "align_baseline": true,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "center",
-            "gap": 32,
+            "gap": 0,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -852,9 +852,8 @@
             "custom_liquid_cpQrDB": {
               "type": "custom-liquid",
               "name": "t:names.custom_liquid",
-              "disabled": true,
               "settings": {
-                "custom_liquid": "{%- comment -%}\n{% liquid\n  assign selector = \".color-custom-template--27678122279224__carousel_Rx4ta6\"\n%}\n\n{% style %}\n/* Component Wrapper (div) */\n{{ selector }} :has(> .carousel-content) {\n\n  }\n\n/* Slideshow Component */\n{{ selector }} .carousel-content {\n\n  }\n\n/* Slideshow Container */\n{{ selector }} .carousel-content > [ref=\"slideshowContainer\"] {\n}\n\n/* Arrows (wrapper) */\n{{ selector }} :has(> .slideshow-control) {\n}\n\n/* Slideshow Scroller */\n{{ selector }} [ref=\"scroller\"] {\n}\n\n/* Slider Card */\n{{ selector }} [ref=\"scroller\"] > .card {\n  width: calc(100vw/3);\nmin-width: 750px;\n  }\n\n/* Card Pathway Blocks */\n{{ selector }} [ref=\"scroller\"] .card__content .group-block:last-child .group-block-content {\n}\n\n{% endstyle %}\n{%- endcomment -%}"
+                "custom_liquid": "{% assign selector = \".color-custom-template--27678122279224__carousel_Rx4ta6\" %}\n\n{% style %}\n/* Component Wrapper (div) */\n{{ selector }} :has(> .carousel-content) {\n\n}\n\n/* Slideshow Component */\n{{ selector }} .carousel-content {\n\n}\n\n/* Slideshow Container */\n{{ selector }} .carousel-content > [ref=\"slideshowContainer\"] {\n}\n\n/* Slideshow Scroller */\n{{ selector }} [ref=\"scroller\"] {\n  gap: 12px;\n  margin-right: 0;\n}\n\n/* Slider Card */\n{{ selector }} [ref=\"scroller\"] > .card {\n  width: 100%;\n}\n\n/* Card Pathway Blocks */\n{{ selector }} [ref=\"scroller\"] .card__content .group-block:last-child .group-block-content {\n}\n\n/* Card Image Blocks */\n{{ selector }} [ref=\"scroller\"] .card .card__inner > .group-block .group-block-content > div.image-block:has(> img.image-block__image) {\n  width: 100%;\n  height: clamp(12rem, 75vw, 18rem);\n}\n\n/* Arrows (wrapper) */\n{{ selector }} :has(> .slideshow-control) {\n}\n\n/* Arrow Circles */\n{{ selector }} .slideshow-control--shape-circle {\n  background-color: var(--color-neutral-025);\n  border: 1px solid rgba(0, 0, 0, 0.05);\n}\n\n/* Arrow SVG */\n{{ selector }} .slideshow-control--shape-circle .svg-wrapper {\n  color: var(--color-neutral-800);\n}\n\n@media (min-width: 750px) {\n  {{ selector }} [ref=\"scroller\"] {\n    gap: 16px;\n    margin-right: 0;\n  }\n    {{ selector }}[ref=\"scroller\"] .card {\n  }\n  {{ selector }} [ref=\"scroller\"] .card .card__inner > .group-block .group-block-content > div.image-block:has(> img.image-block__image) {\n    aspect-ratio: 4 / 5;\n  }\n}\n{% endstyle %}"
               },
               "blocks": {}
             },
@@ -4100,10 +4099,7 @@
           ]
         }
       },
-      "custom_css": [
-        ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.25);}",
-        "@media (max-width: 749px) {[ref=\"scroller\"] {gap: 12px; margin-right: 0; } [ref=\"scroller\"] .card {width: 100%; } .card .card__inner > .group-block .group-block-content > div.image-block:has(> img.image-block__image) {width: 100%; height: clamp(12rem, 75vw, 20rem); }}"
-      ],
+      "custom_css": [],
       "name": "t:names.carousel",
       "settings": {
         "columns": 2,
@@ -4111,7 +4107,7 @@
         "section_width": "page-width",
         "columns_gap": 16,
         "background_color": "{{ settings.color_palette.orange15 }}",
-        "icons_style": "arrow",
+        "icons_style": "chevron",
         "icons_shape": "circle",
         "border_radius_individual": false,
         "border_radius": 0,
