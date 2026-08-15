@@ -394,7 +394,7 @@
         "section_height": "",
         "section_height_custom": 50,
         "background_media": "none",
-        "background_color": "{{ settings.color_palette.orange15 }}",
+        "background_color": "{{ settings.color_palette.background }}",
         "video_position": "cover",
         "background_image_position": "cover",
         "toggle_overlay": false,
@@ -1024,7 +1024,7 @@
                     "height": "fit",
                     "custom_height": 100,
                     "background_media": "none",
-                    "background_color": "#faf7eb",
+                    "background_color": "#FAF7EB",
                     "video_position": "cover",
                     "background_image_position": "cover",
                     "toggle_overlay": false,
@@ -1476,7 +1476,7 @@
                           "static": true,
                           "settings": {
                             "input_style": "custom",
-                            "input_background_color": "#faf7eb",
+                            "input_background_color": "{{ settings.color_palette.orange25 }}",
                             "input_text_color": "{{ settings.color_palette.foreground }}",
                             "input_border_color": "#86918a",
                             "border_width": 1,
@@ -2232,9 +2232,9 @@
         "limit_details_width": false,
         "gap": 24,
         "enable_sticky_add_to_cart": true,
-        "background_color": "{{ settings.color_palette.orange15 }}",
+        "background_color": "{{ settings.color_palette.background }}",
         "padding-block-start": 24,
-        "padding-block-end": 0
+        "padding-block-end": 80
       }
     },
     "product_recommendations_K9JdVa": {
@@ -2331,7 +2331,7 @@
           "static": true,
           "settings": {
             "product_card_gap": 8,
-            "background_color": "#f3f4f3",
+            "background_color": "#F9F9F9",
             "border": "solid",
             "border_width": 1,
             "border_opacity": 5,
