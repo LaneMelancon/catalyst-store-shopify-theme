@@ -844,6 +844,7 @@
       "custom_css": [
         ".hero.color-custom-template--27584646218040__hero_iLBwPd .group-block {max-height: 30rem;}",
         ".hero h1 {content-visibility: hidden;}",
+        "jumbo-text {line-height: 1.22;}",
         "jumbo-text:first-of-type {display: none;}",
         "jumbo-text:last-of-type {display: block;}",
         "@media (min-width: 750px) {jumbo-text:first-of-type {display: block; } jumbo-text:last-of-type {display: none; }}"
