@@ -467,31 +467,83 @@
               },
               "blocks": {}
             },
-            "text_bHXRaY": {
-              "type": "text",
-              "name": "t:names.heading",
+            "group_bzJAN4": {
+              "type": "group",
+              "name": "Heading (Desktop)",
               "settings": {
-                "text": "<h1>Clinician recommended supplements, ready to order</h1>",
-                "width": "fit-content",
-                "max_width": "narrow",
-                "alignment": "left",
-                "type_preset": "custom",
-                "font": "var(--font-heading--family)",
-                "font_size": "3.5rem",
-                "line_height": "tight",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "balance",
-                "text_color": "{{ settings.color_palette.orange15 }}",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 14,
-                "padding-block-end": 16,
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "custom",
+                "custom_width": 90,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "background_media": "none",
+                "background_color": "",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 8,
+                "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {}
+              "blocks": {
+                "jumbo_text_XQXQL6": {
+                  "type": "jumbo-text",
+                  "name": "t:names.jumbo_text",
+                  "settings": {
+                    "text": "Clinician recommended\nsupplements, ready to order",
+                    "font": "heading",
+                    "alignment": "left",
+                    "line_height": "1",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "text_effect": "none",
+                    "animation_repeat": false,
+                    "text_color": "{{ settings.color_palette.background }}"
+                  },
+                  "blocks": {}
+                },
+                "jumbo_text_YYMP7T": {
+                  "type": "jumbo-text",
+                  "name": "t:names.jumbo_text",
+                  "settings": {
+                    "text": "Clinician\nrecommended\nsupplements,\nready to order",
+                    "font": "heading",
+                    "alignment": "left",
+                    "line_height": "1",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "text_effect": "none",
+                    "animation_repeat": false,
+                    "text_color": "{{ settings.color_palette.background }}"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "jumbo_text_XQXQL6",
+                "jumbo_text_YYMP7T"
+              ]
             },
             "spacer_pxbgfE": {
               "type": "spacer",
@@ -734,7 +786,7 @@
           "block_order": [
             "group_QhcxYA",
             "spacer_ieWqKH",
-            "text_bHXRaY",
+            "group_bzJAN4",
             "spacer_pxbgfE",
             "group_nkRL9q",
             "spacer_AMDFbY",
@@ -9268,7 +9320,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "group_w399PV": {
+            "group_F6W3n3": {
               "type": "group",
               "name": "Bento",
               "settings": {
@@ -9284,7 +9336,7 @@
                 "custom_width": 38,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
-                "height": "fill",
+                "height": "fit",
                 "custom_height": 100,
                 "background_media": "none",
                 "background_color": "",
@@ -9308,7 +9360,7 @@
                 "padding-inline-end": 2
               },
               "blocks": {
-                "group_mwjd3c": {
+                "group_mH9yz4": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -9348,7 +9400,7 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "group_YKg8xK": {
+                    "group_eaDpzc": {
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
@@ -9388,11 +9440,11 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
-                        "image_UbfHie": {
+                        "image_hPED7e": {
                           "type": "image",
                           "name": "t:names.image",
                           "settings": {
-                            "image": "shopify://shop_images/pill-leaf-square.webp",
+                            "image": "shopify://shop_images/nsatx-clinic-therapy-01-landscape.webp",
                             "link": "",
                             "image_ratio": "landscape",
                             "width": "fill",
@@ -9414,10 +9466,10 @@
                         }
                       },
                       "block_order": [
-                        "image_UbfHie"
+                        "image_hPED7e"
                       ]
                     },
-                    "group_xqDKkP": {
+                    "group_p7mkCf": {
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
@@ -9457,11 +9509,11 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
-                        "image_BqYdpU": {
+                        "image_jiAFmg": {
                           "type": "image",
                           "name": "t:names.image",
                           "settings": {
-                            "image": "shopify://shop_images/powder-square.webp",
+                            "image": "shopify://shop_images/nsatx-clinic-therapy-02-square.webp",
                             "link": "",
                             "image_ratio": "adapt",
                             "width": "fill",
@@ -9483,16 +9535,16 @@
                         }
                       },
                       "block_order": [
-                        "image_BqYdpU"
+                        "image_jiAFmg"
                       ]
                     }
                   },
                   "block_order": [
-                    "group_YKg8xK",
-                    "group_xqDKkP"
+                    "group_eaDpzc",
+                    "group_p7mkCf"
                   ]
                 },
-                "group_inYHU9": {
+                "group_jQDteY": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -9532,7 +9584,7 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "group_nDe76E": {
+                    "group_D3JztF": {
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
@@ -9572,11 +9624,11 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
-                        "image_tkCHE4": {
+                        "image_37TgVP": {
                           "type": "image",
                           "name": "t:names.image",
                           "settings": {
-                            "image": "shopify://shop_images/hand-holding-capsules-portrait.jpg",
+                            "image": "shopify://shop_images/nsatx-clinic-therapy-03-portrait.webp",
                             "link": "",
                             "image_ratio": "portrait",
                             "width": "fill",
@@ -9598,10 +9650,10 @@
                         }
                       },
                       "block_order": [
-                        "image_tkCHE4"
+                        "image_37TgVP"
                       ]
                     },
-                    "group_YzHWCh": {
+                    "group_dRxhVX": {
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
@@ -9641,11 +9693,11 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
-                        "image_cafErX": {
+                        "image_NkEwEz": {
                           "type": "image",
                           "name": "t:names.image",
                           "settings": {
-                            "image": "shopify://shop_images/softgel-portrait.webp",
+                            "image": "shopify://shop_images/nsatx-clinic-therapy-04-square.webp",
                             "link": "",
                             "image_ratio": "square",
                             "width": "fill",
@@ -9667,19 +9719,19 @@
                         }
                       },
                       "block_order": [
-                        "image_cafErX"
+                        "image_NkEwEz"
                       ]
                     }
                   },
                   "block_order": [
-                    "group_nDe76E",
-                    "group_YzHWCh"
+                    "group_D3JztF",
+                    "group_dRxhVX"
                   ]
                 }
               },
               "block_order": [
-                "group_mwjd3c",
-                "group_inYHU9"
+                "group_mH9yz4",
+                "group_jQDteY"
               ]
             },
             "group_MYX7hT": {
@@ -10197,7 +10249,7 @@
             }
           },
           "block_order": [
-            "group_w399PV",
+            "group_F6W3n3",
             "group_MYX7hT"
           ]
         },
