@@ -5391,6 +5391,9 @@
         "group_FcFNbH",
         "spacer_RnX8j8"
       ],
+      "custom_css": [
+        "div > jumbo-text {max-width: 800px;}"
+      ],
       "name": "2 Col Bento",
       "settings": {
         "content_direction": "column",
@@ -9351,9 +9354,424 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "group_CV87ze": {
+              "type": "group",
+              "name": "Bento",
+              "settings": {
+                "content_direction": "row",
+                "vertical_on_mobile": false,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "flex-start",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 10,
+                "width": "custom",
+                "custom_width": 38,
+                "width_mobile": "custom",
+                "custom_width_mobile": 100,
+                "height": "fill",
+                "custom_height": 100,
+                "background_media": "none",
+                "background_color": "",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 3,
+                "padding-block-end": 2,
+                "padding-inline-start": 4,
+                "padding-inline-end": 2
+              },
+              "blocks": {
+                "group_yTUWwq": {
+                  "type": "group",
+                  "name": "t:names.group",
+                  "settings": {
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "flex-start",
+                    "vertical_alignment_flex_direction_column": "flex-start",
+                    "gap": 10,
+                    "width": "fill",
+                    "custom_width": 62,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fill",
+                    "custom_height": 100,
+                    "background_media": "none",
+                    "background_color": "",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_color": "",
+                    "border_radius": 0,
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "placeholder": "",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {
+                    "group_CmAmTq": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "flex-start",
+                        "gap": 0,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "custom",
+                        "custom_height": 38,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_color": "",
+                        "border_radius": 0,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {
+                        "image_PYNhxH": {
+                          "type": "image",
+                          "name": "t:names.image",
+                          "settings": {
+                            "image": "shopify://shop_images/nsatx-clinic-therapy-01-landscape.webp",
+                            "link": "",
+                            "image_ratio": "landscape",
+                            "width": "fill",
+                            "custom_width": 32,
+                            "width_mobile": "fill",
+                            "custom_width_mobile": 100,
+                            "height": "fill",
+                            "border": "none",
+                            "border_width": 1,
+                            "border_opacity": 100,
+                            "border_color": "",
+                            "border_radius": 14,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "image_PYNhxH"
+                      ]
+                    },
+                    "group_fmPekq": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "flex-start",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "flex-start",
+                        "gap": 0,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "custom",
+                        "custom_height": 62,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_color": "",
+                        "border_radius": 0,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {
+                        "image_ymnqUy": {
+                          "type": "image",
+                          "name": "t:names.image",
+                          "settings": {
+                            "image": "shopify://shop_images/nsatx-clinic-therapy-02-square.webp",
+                            "link": "",
+                            "image_ratio": "adapt",
+                            "width": "fill",
+                            "custom_width": 66,
+                            "width_mobile": "fill",
+                            "custom_width_mobile": 100,
+                            "height": "fill",
+                            "border": "none",
+                            "border_width": 1,
+                            "border_opacity": 100,
+                            "border_color": "",
+                            "border_radius": 14,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "image_ymnqUy"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "group_CmAmTq",
+                    "group_fmPekq"
+                  ]
+                },
+                "group_dTG89d": {
+                  "type": "group",
+                  "name": "t:names.group",
+                  "settings": {
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "flex-start",
+                    "vertical_alignment_flex_direction_column": "flex-start",
+                    "gap": 10,
+                    "width": "custom",
+                    "custom_width": 38,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 90,
+                    "height": "fill",
+                    "custom_height": 100,
+                    "background_media": "none",
+                    "background_color": "",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_color": "",
+                    "border_radius": 0,
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "placeholder": "",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {
+                    "group_wdXRTt": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "flex-start",
+                        "gap": 0,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "custom",
+                        "custom_height": 62,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_color": "",
+                        "border_radius": 0,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {
+                        "image_QRGXpm": {
+                          "type": "image",
+                          "name": "t:names.image",
+                          "settings": {
+                            "image": "shopify://shop_images/nsatx-clinic-therapy-03-portrait.webp",
+                            "link": "",
+                            "image_ratio": "portrait",
+                            "width": "fill",
+                            "custom_width": 100,
+                            "width_mobile": "fill",
+                            "custom_width_mobile": 100,
+                            "height": "fill",
+                            "border": "none",
+                            "border_width": 1,
+                            "border_opacity": 100,
+                            "border_color": "",
+                            "border_radius": 14,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "image_QRGXpm"
+                      ]
+                    },
+                    "group_QhHh7r": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "flex-start",
+                        "gap": 0,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "custom",
+                        "custom_height": 38,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_color": "",
+                        "border_radius": 0,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {
+                        "image_famEj3": {
+                          "type": "image",
+                          "name": "t:names.image",
+                          "settings": {
+                            "image": "shopify://shop_images/nsatx-clinic-therapy-04-square.webp",
+                            "link": "",
+                            "image_ratio": "square",
+                            "width": "fill",
+                            "custom_width": 100,
+                            "width_mobile": "fill",
+                            "custom_width_mobile": 100,
+                            "height": "fill",
+                            "border": "none",
+                            "border_width": 1,
+                            "border_opacity": 100,
+                            "border_color": "",
+                            "border_radius": 14,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "image_famEj3"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "group_wdXRTt",
+                    "group_QhHh7r"
+                  ]
+                }
+              },
+              "block_order": [
+                "group_yTUWwq",
+                "group_dTG89d"
+              ]
+            },
             "group_F6W3n3": {
               "type": "group",
               "name": "Bento",
+              "disabled": true,
               "settings": {
                 "content_direction": "row",
                 "vertical_on_mobile": false,
@@ -9403,7 +9821,7 @@
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "flex-start",
                     "gap": 10,
-                    "width": "fill",
+                    "width": "custom",
                     "custom_width": 62,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
@@ -9701,7 +10119,7 @@
                         "width_mobile": "fill",
                         "custom_width_mobile": 100,
                         "height": "custom",
-                        "custom_height": 38,
+                        "custom_height": 39,
                         "background_media": "none",
                         "background_color": "",
                         "video_position": "cover",
@@ -9969,9 +10387,9 @@
                       "type": "spacer",
                       "name": "t:names.spacer",
                       "settings": {
-                        "size": "percent",
+                        "size": "pixel",
                         "percent_size": 10,
-                        "pixel_size": 120,
+                        "pixel_size": 16,
                         "custom_mobile_size": false,
                         "size_mobile": "percent",
                         "percent_size_mobile": 100,
@@ -10089,9 +10507,9 @@
                       "type": "spacer",
                       "name": "t:names.spacer",
                       "settings": {
-                        "size": "percent",
+                        "size": "pixel",
                         "percent_size": 10,
-                        "pixel_size": 120,
+                        "pixel_size": 16,
                         "custom_mobile_size": false,
                         "size_mobile": "percent",
                         "percent_size_mobile": 100,
@@ -10280,6 +10698,7 @@
             }
           },
           "block_order": [
+            "group_CV87ze",
             "group_F6W3n3",
             "group_MYX7hT"
           ]
@@ -10302,6 +10721,9 @@
       "block_order": [
         "group_FQWgVF",
         "spacer_3JJmxk"
+      ],
+      "custom_css": [
+        "div > jumbo-text {max-width: 600px;}"
       ],
       "name": "2 Col Bento",
       "settings": {
