@@ -502,7 +502,7 @@
                 "open_in_new_tab": false,
                 "placeholder": "",
                 "padding-block-start": 8,
-                "padding-block-end": 0,
+                "padding-block-end": 16,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -5478,7 +5478,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Recommended products</h2>",
+                "text": "<h2>Shop the top products</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -10391,7 +10391,7 @@
                         "size": "pixel",
                         "percent_size": 10,
                         "pixel_size": 16,
-                        "custom_mobile_size": false,
+                        "custom_mobile_size": true,
                         "size_mobile": "percent",
                         "percent_size_mobile": 100,
                         "pixel_size_mobile": 120
@@ -10511,7 +10511,7 @@
                         "size": "pixel",
                         "percent_size": 10,
                         "pixel_size": 16,
-                        "custom_mobile_size": false,
+                        "custom_mobile_size": true,
                         "size_mobile": "percent",
                         "percent_size_mobile": 100,
                         "pixel_size_mobile": 120
