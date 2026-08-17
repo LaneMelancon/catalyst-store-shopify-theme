@@ -507,6 +507,32 @@
                 "padding-inline-end": 0
               },
               "blocks": {
+                "text_cQpcXN": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "settings": {
+                    "text": "<h1>Clinician recommended<br/>supplements, ready to order</h1>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "text_color": "{{ settings.color_palette.background }}",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
                 "jumbo_text_XQXQL6": {
                   "type": "jumbo-text",
                   "name": "t:names.jumbo_text",
@@ -517,8 +543,8 @@
                     "line_height": "1",
                     "letter_spacing": "normal",
                     "case": "none",
-                    "text_effect": "none",
-                    "animation_repeat": false,
+                    "text_effect": "reveal",
+                    "animation_repeat": true,
                     "text_color": "{{ settings.color_palette.background }}"
                   },
                   "blocks": {}
@@ -533,14 +559,15 @@
                     "line_height": "1",
                     "letter_spacing": "normal",
                     "case": "none",
-                    "text_effect": "none",
-                    "animation_repeat": false,
+                    "text_effect": "reveal",
+                    "animation_repeat": true,
                     "text_color": "{{ settings.color_palette.background }}"
                   },
                   "blocks": {}
                 }
               },
               "block_order": [
+                "text_cQpcXN",
                 "jumbo_text_XQXQL6",
                 "jumbo_text_YYMP7T"
               ]
@@ -815,7 +842,11 @@
         "spacer_gUMiMN"
       ],
       "custom_css": [
-        ".hero.color-custom-template--27584646218040__hero_iLBwPd .group-block {max-height: 30rem;}"
+        ".hero.color-custom-template--27584646218040__hero_iLBwPd .group-block {max-height: 30rem;}",
+        ".hero h1 {}",
+        "jumbo-text:first-of-type {display: none;}",
+        "jumbo-text:last-of-type {display: block;}",
+        "@media (min-width: 750px) {jumbo-text:first-of-type {display: block; } jumbo-text:last-of-type {display: none; }}"
       ],
       "name": "Hero (Full)",
       "settings": {
