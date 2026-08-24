@@ -8460,11 +8460,11 @@
                               "type": "text",
                               "name": "t:names.heading",
                               "settings": {
-                                "text": "<h2>Shop Now</h2>",
+                                "text": "<p>Shop Now</p>",
                                 "width": "fit-content",
                                 "max_width": "normal",
                                 "alignment": "left",
-                                "type_preset": "custom",
+                                "type_preset": "rte",
                                 "font": "var(--font-body--family)",
                                 "font_size": "1rem",
                                 "line_height": "normal",
@@ -8490,7 +8490,7 @@
                                 "width": 24,
                                 "link": "",
                                 "open_in_new_tab": false,
-                                "icon_color": "{{ settings.color_palette.green800 }}"
+                                "icon_color": ""
                               },
                               "blocks": {}
                             }
