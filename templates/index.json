@@ -357,7 +357,7 @@
                 "border": "solid",
                 "border_width": 1,
                 "border_opacity": 100,
-                "border_color": "#8a8075",
+                "border_color": "#9D9387",
                 "border_radius": 100,
                 "link": "",
                 "open_in_new_tab": false,
@@ -436,7 +436,7 @@
                     "letter_spacing": "normal",
                     "case": "none",
                     "wrap": "pretty",
-                    "text_color": "{{ settings.color_palette.green25 }}",
+                    "text_color": "{{ settings.color_palette.background }}",
                     "background": false,
                     "background_color": "{{ settings.color_palette.neutral950 }}",
                     "corner_radius": 0,
@@ -545,7 +545,7 @@
                     "case": "none",
                     "text_effect": "reveal",
                     "animation_repeat": true,
-                    "text_color": "{{ settings.color_palette.background }}"
+                    "text_color": "{{ settings.color_palette.orange15 }}"
                   },
                   "blocks": {}
                 },
@@ -641,7 +641,7 @@
                     "letter_spacing": "normal",
                     "case": "none",
                     "wrap": "balance",
-                    "text_color": "{{ settings.color_palette.background }}",
+                    "text_color": "{{ settings.color_palette.orange25 }}",
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
