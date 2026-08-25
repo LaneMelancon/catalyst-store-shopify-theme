@@ -504,7 +504,7 @@
                 "padding-block-start": 8,
                 "padding-block-end": 16,
                 "padding-inline-start": 0,
-                "padding-inline-end": 0
+                "padding-inline-end": 8
               },
               "blocks": {
                 "text_cQpcXN": {
@@ -4186,7 +4186,7 @@
       "name": "t:names.carousel",
       "settings": {
         "columns": 1,
-        "mobile_columns": "1",
+        "mobile_columns": "2",
         "section_width": "page-width",
         "columns_gap": 16,
         "background_color": "{{ settings.color_palette.orange15 }}",
