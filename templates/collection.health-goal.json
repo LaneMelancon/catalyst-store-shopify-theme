@@ -791,7 +791,7 @@
                             "width": "custom",
                             "custom_width": 40,
                             "width_mobile": "fill",
-                            "custom_width_mobile": 27,
+                            "custom_width_mobile": 100,
                             "height": "fill",
                             "custom_height": 100,
                             "background_media": "image",
@@ -1128,8 +1128,8 @@
         "border_radius": 0,
         "border_radius_top_left": 0,
         "border_radius_top_right": 0,
-        "border_radius_bottom_right": 32,
-        "border_radius_bottom_left": 32,
+        "border_radius_bottom_right": 24,
+        "border_radius_bottom_left": 24,
         "padding-block-start": 0,
         "padding-block-end": 0
       }
