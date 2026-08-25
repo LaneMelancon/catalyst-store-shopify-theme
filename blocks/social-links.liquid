@@ -11,7 +11,7 @@
     {% endstyle %}
   {% endif %}
   {% liquid
-    assign social_links = 'facebook_url,instagram_url,youtube_url,tiktok_url,twitter_url,threads_url,linkedin_url,bluesky_url,snapchat_url,pinterest_url,tumblr_url,vimeo_url,custom_url' | split: ','
+    assign social_links = 'facebook_url,instagram_url,tiktok_url,twitter_url,threads_url,linkedin_url,bluesky_url,snapchat_url,pinterest_url,tumblr_url,youtube_url,vimeo_url,custom_url' | split: ','
   %}
 
   {% for link_key in social_links %}
@@ -26,8 +26,6 @@
             assign platform = 'facebook'
           when 'instagram_url'
             assign platform = 'instagram'
-          when 'youtube_url'
-            assign platform = 'youtube'
           when 'tiktok_url'
             assign platform = 'tiktok'
           when 'twitter_url'
@@ -44,6 +42,8 @@
             assign platform = 'pinterest'
           when 'tumblr_url'
             assign platform = 'tumblr'
+          when 'youtube_url'
+            assign platform = 'youtube'
           when 'vimeo_url'
             assign platform = 'vimeo'
           when 'custom_url'
@@ -198,11 +198,6 @@
     },
     {
       "type": "url",
-      "id": "youtube_url",
-      "label": "t:options.youtube"
-    },
-    {
-      "type": "url",
       "id": "tiktok_url",
       "label": "t:options.tiktok"
     },
@@ -240,6 +235,11 @@
       "type": "url",
       "id": "tumblr_url",
       "label": "t:options.tumblr"
+    },
+    {
+      "type": "url",
+      "id": "youtube_url",
+      "label": "t:options.youtube"
     },
     {
       "type": "url",
