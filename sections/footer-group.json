@@ -221,7 +221,7 @@
                         "letter_spacing": "normal",
                         "case": "none",
                         "wrap": "pretty",
-                        "text_color": "#A4A4A4",
+                        "text_color": "#a4a4a4",
                         "background": false,
                         "background_color": "#00000026",
                         "corner_radius": 0,
@@ -626,7 +626,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/NeuroSolution_Footer_Text_584fd0d6-bea2-492d-839f-7c933f0f5014.png",
+                    "image": "shopify://shop_images/ns-logo-blend-neutral-900.png",
                     "link": "",
                     "image_ratio": "adapt",
                     "width": "fill",
