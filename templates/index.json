@@ -479,7 +479,7 @@
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 12,
-                "width": "custom",
+                "width": "fill",
                 "custom_width": 90,
                 "width_mobile": "fill",
                 "custom_width_mobile": 80,
@@ -843,10 +843,10 @@
       ],
       "custom_css": [
         ".hero h1 {content-visibility: hidden;}",
-        "jumbo-text {line-height: 1.22;}",
+        "jumbo-text {line-height: 1.22; max-width: 990px;}",
         "jumbo-text:first-of-type {display: none;}",
-        "jumbo-text:last-of-type {display: block; max-width: 500px;}",
-        "@media (min-width: 750px) {.hero__content-wrapper > div.group-block {max-height: 30rem; } jumbo-text:first-of-type {display: block; max-width: none; } jumbo-text:last-of-type {display: none; }}"
+        "jumbo-text:last-of-type {display: block; max-width: 395px;}",
+        "@media (min-width: 750px) {.hero__content-wrapper > div.group-block {max-height: 30rem; } jumbo-text:first-of-type {display: block; } jumbo-text:last-of-type {display: none; }}"
       ],
       "name": "Hero (Full)",
       "settings": {
