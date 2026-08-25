@@ -576,7 +576,6 @@
                                 "icon_color": "",
                                 "facebook_url": "https://www.facebook.com/neurosolutionatx",
                                 "instagram_url": "https://www.instagram.com/bcrawforddc",
-                                "youtube_url": "https://www.youtube.com/@DrBrandonCrawford",
                                 "tiktok_url": "https://www.tiktok.com/@dr.brandoncrawford",
                                 "twitter_url": "https://x.com",
                                 "threads_url": "",
@@ -585,6 +584,7 @@
                                 "snapchat_url": "",
                                 "pinterest_url": "",
                                 "tumblr_url": "",
+                                "youtube_url": "https://www.youtube.com/@DrBrandonCrawford",
                                 "vimeo_url": "",
                                 "custom_url": ""
                               },
@@ -1070,7 +1070,9 @@
       "block_order": [
         "group_BUCwcb"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "div:has(> div.footer-content) {--page-margin: 16px !important;}"
+      ],
       "name": "Footer",
       "settings": {
         "section_width": "page-width",
