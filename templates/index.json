@@ -843,9 +843,9 @@
       ],
       "custom_css": [
         ".hero h1 {content-visibility: hidden;}",
-        "jumbo-text {line-height: 1.22; max-width: 990px;}",
+        "jumbo-text {line-height: 1.25; max-width: 990px;}",
         "jumbo-text:first-of-type {display: none;}",
-        "jumbo-text:last-of-type {display: block; max-width: 395px;}",
+        "jumbo-text:last-of-type {display: block; max-width: 395px; line-height: 1.125;}",
         "@media (min-width: 750px) {.hero__content-wrapper > div.group-block {max-height: 30rem; } jumbo-text:first-of-type {display: block; } jumbo-text:last-of-type {display: none; }}"
       ],
       "name": "Hero (Full)",
@@ -8534,7 +8534,7 @@
       },
       "custom_css": [
         ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.25);}",
-        "@media screen and (max-width: 750px) {div.card {min-width: 95%; }}",
+        "@media screen and (max-width: 749px) {div.card {min-width: 95%; }}",
         "div.card:last-of-type {align-self: stretch; height: auto !important;}"
       ],
       "name": "Shop Carousel (Recs)",
@@ -9140,7 +9140,7 @@
                   "name": "t:names.group",
                   "settings": {
                     "content_direction": "row",
-                    "vertical_on_mobile": true,
+                    "vertical_on_mobile": false,
                     "horizontal_alignment": "space-between",
                     "vertical_alignment": "center",
                     "align_baseline": false,
@@ -9275,7 +9275,7 @@
       "custom_css": [
         ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.25);}",
         ".resource-list__carousel > [ref=\"slideshowContainer\"] {background-color: transparent;}",
-        "@media (max-width: 750px) {.resource-list__slide {z-index: 2; min-width: 95%; }}"
+        "@media (max-width: 749px) {.resource-list__slide {z-index: 2; min-width: 95%; }}"
       ],
       "name": "Shop Carousel (HGs)",
       "settings": {

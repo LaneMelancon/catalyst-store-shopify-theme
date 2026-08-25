@@ -250,7 +250,7 @@
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "center",
-                    "gap": 16,
+                    "gap": 24,
                     "width": "fill",
                     "custom_width": 100,
                     "width_mobile": "fill",
@@ -475,7 +475,7 @@
                         "horizontal_alignment_flex_direction_column": "flex-end",
                         "vertical_alignment_flex_direction_column": "center",
                         "gap": 8,
-                        "width": "fill",
+                        "width": "fit-content",
                         "custom_width": 80,
                         "width_mobile": "fit-content",
                         "custom_width_mobile": 100,
@@ -1073,7 +1073,7 @@
       "custom_css": [
         "div:has(> div.footer-content) {--page-margin: 16px !important;}",
         "div:has(> div > div > .email-signup-block) {flex-direction: column;}",
-        "@media screen and (min-width: 990px) {div:has(> div > div > .email-signup-block) {flex-direction: row; } div:has(> div > .email-signup-block) {max-width: 400px; } div:has(> div > .email-signup-block) + div {max-width: 800px; }}"
+        "@media screen and (min-width: 990px) {div:has(> div > div > .email-signup-block) {flex-direction: row; } div:has(> div > .email-signup-block) {max-width: 400px; } div:has(> div > .email-signup-block) + div {max-width: 800px; white-space: nowrap; }}"
       ],
       "name": "Footer",
       "settings": {
