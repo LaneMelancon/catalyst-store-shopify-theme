@@ -482,7 +482,7 @@
                 "width": "custom",
                 "custom_width": 90,
                 "width_mobile": "fill",
-                "custom_width_mobile": 100,
+                "custom_width_mobile": 80,
                 "height": "fit",
                 "custom_height": 100,
                 "background_media": "none",
@@ -842,12 +842,11 @@
         "spacer_gUMiMN"
       ],
       "custom_css": [
-        ".hero.color-custom-template--27584646218040__hero_iLBwPd .group-block {max-height: 30rem;}",
         ".hero h1 {content-visibility: hidden;}",
         "jumbo-text {line-height: 1.22;}",
         "jumbo-text:first-of-type {display: none;}",
-        "jumbo-text:last-of-type {display: block;}",
-        "@media (min-width: 750px) {jumbo-text:first-of-type {display: block; } jumbo-text:last-of-type {display: none; }}"
+        "jumbo-text:last-of-type {display: block; max-width: 500px;}",
+        "@media (min-width: 750px) {.hero__content-wrapper > div.group-block {max-height: 30rem; } jumbo-text:first-of-type {display: block; max-width: none; } jumbo-text:last-of-type {display: none; }}"
       ],
       "name": "Hero (Full)",
       "settings": {
@@ -8535,7 +8534,7 @@
       },
       "custom_css": [
         ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.25);}",
-        "@media screen and (max-width: 749px) {div.card {min-width: 95%; }}",
+        "@media screen and (max-width: 750px) {div.card {min-width: 95%; }}",
         "div.card:last-of-type {align-self: stretch; height: auto !important;}"
       ],
       "name": "Shop Carousel (Recs)",
