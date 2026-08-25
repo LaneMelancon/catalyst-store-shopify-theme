@@ -1072,7 +1072,7 @@
       ],
       "custom_css": [
         "div:has(> div.footer-content) {--page-margin: 16px !important;}",
-        "div.group-block div:has(> .email-signup-block) {max-width: 400px;}",
+        "div:has(> div > .email-signup-block) {max-width: 400px;}",
         "div:has(.email-signup-block) + div {max-width: 600px;}"
       ],
       "name": "Footer",
