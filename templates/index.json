@@ -873,7 +873,7 @@
         "section_height_custom": 85,
         "background_color": "{{ settings.color_palette.orange15 }}",
         "toggle_overlay": true,
-        "overlay_color": "#43352b7d",
+        "overlay_color": "#281E18B0",
         "overlay_style": "gradient",
         "gradient_direction": "to bottom",
         "blurred_reflection": false,
