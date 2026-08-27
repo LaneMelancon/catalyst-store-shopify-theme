@@ -1095,7 +1095,7 @@
         "group_BUCwcb"
       ],
       "custom_css": [
-        "@media screen and(max-width: 749px) {.spacing-style {--spacing-scale: var(--spacing-scale-sm); }}"
+        "@media screen and(max-width: 749px) {.spacing-style {--spacing-scale: var(--spacing-scale-sm) !important; }}"
       ],
       "name": "Footer",
       "settings": {
