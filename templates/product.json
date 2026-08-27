@@ -1024,7 +1024,7 @@
                     "height": "fit",
                     "custom_height": 100,
                     "background_media": "none",
-                    "background_color": "#FAF7EB",
+                    "background_color": "#faf7eb",
                     "video_position": "cover",
                     "background_image_position": "cover",
                     "toggle_overlay": false,
@@ -3429,23 +3429,7 @@
                             "padding-inline-start": 0,
                             "padding-inline-end": 0
                           },
-                          "blocks": {
-                            "icon_F7y6hK": {
-                              "type": "icon",
-                              "name": "t:names.icon",
-                              "settings": {
-                                "icon": "arrow",
-                                "width": 20,
-                                "link": "",
-                                "open_in_new_tab": false,
-                                "icon_color": "{{ settings.color_palette.green200 }}"
-                              },
-                              "blocks": {}
-                            }
-                          },
-                          "block_order": [
-                            "icon_F7y6hK"
-                          ]
+                          "blocks": {}
                         }
                       },
                       "block_order": [
