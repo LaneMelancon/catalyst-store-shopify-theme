@@ -25,7 +25,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 60,
+            "gap": 48,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -54,6 +54,14 @@
             "padding-inline-end": 40
           },
           "blocks": {
+            "custom_liquid_9yTC3g": {
+              "type": "custom-liquid",
+              "name": "Styles",
+              "settings": {
+                "custom_liquid": "<style>\n.footer-content div:has(> div.footer-content) {\n  --page-margin: 16px !important;\n}\n.footer-content div:has(> div > div > .email-signup-block) {\n  flex-direction: column;\n}\n@media screen and (min-width: 990px) {\n  .footer-content div:has(> div > div > .email-signup-block) {\n    flex-direction: row;\n  }\n  .footer-content div:has(> div > .email-signup-block) {\n    max-width: 400px;\n  }\n  .footer-content div:has(> div > .email-signup-block) + div {\n    max-width: 800px;\n    white-space: nowrap;\n  }\n}\n\n.footer-content\n  .image-block:nth-last-child(1 of .image-block)\n  ~ div\n  > div:last-child {\n  font-size: 14px;\n}\n</style>"
+              },
+              "blocks": {}
+            },
             "group_zVfxCM": {
               "type": "group",
               "name": "Top",
@@ -149,7 +157,7 @@
                         "letter_spacing": "normal",
                         "case": "none",
                         "wrap": "pretty",
-                        "text_color": "{{ settings.color_palette.green100 }}",
+                        "text_color": "{{ settings.color_palette.green200 }}",
                         "background": false,
                         "background_color": "#00000026",
                         "corner_radius": 0,
@@ -334,7 +342,7 @@
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "pretty",
-                            "text_color": "{{ settings.color_palette.green100 }}",
+                            "text_color": "{{ settings.color_palette.green200 }}",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -426,7 +434,7 @@
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "pretty",
-                            "text_color": "{{ settings.color_palette.green100 }}",
+                            "text_color": "{{ settings.color_palette.green200 }}",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -558,7 +566,7 @@
                                 "letter_spacing": "normal",
                                 "case": "none",
                                 "wrap": "pretty",
-                                "text_color": "{{ settings.color_palette.green100 }}",
+                                "text_color": "{{ settings.color_palette.green200 }}",
                                 "background": false,
                                 "background_color": "#00000026",
                                 "corner_radius": 0,
@@ -638,7 +646,7 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 40,
+                "gap": 32,
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
@@ -698,7 +706,7 @@
                     "content_direction": "row",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "space-between",
-                    "vertical_alignment": "flex-end",
+                    "vertical_alignment": "flex-start",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "center",
@@ -742,7 +750,7 @@
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
                         "vertical_alignment_flex_direction_column": "center",
-                        "gap": 6,
+                        "gap": 8,
                         "width": "custom",
                         "custom_width": 75,
                         "width_mobile": "fill",
@@ -1045,7 +1053,7 @@
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "pretty",
-                            "text_color": "{{ settings.color_palette.orange25 }}",
+                            "text_color": "{{ settings.color_palette.green100 }}",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -1076,6 +1084,7 @@
             }
           },
           "block_order": [
+            "custom_liquid_9yTC3g",
             "group_zVfxCM",
             "divider_D9iFqG",
             "group_a6zjhN"
@@ -1086,9 +1095,7 @@
         "group_BUCwcb"
       ],
       "custom_css": [
-        "div:has(> div.footer-content) {--page-margin: 16px !important;}",
-        "div:has(> div > div > .email-signup-block) {flex-direction: column;}",
-        "@media screen and (min-width: 990px) {div:has(> div > div > .email-signup-block) {flex-direction: row; } div:has(> div > .email-signup-block) {max-width: 400px; } div:has(> div > .email-signup-block) + div {max-width: 800px; white-space: nowrap; }}"
+        "@media screen and(max-width: 749px) {.spacing-style {--spacing-scale: var(--spacing-scale-sm); }}"
       ],
       "name": "Footer",
       "settings": {
