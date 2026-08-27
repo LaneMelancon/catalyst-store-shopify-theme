@@ -595,7 +595,7 @@
         "gap": 0,
         "section_width": "page-width",
         "section_height": "custom",
-        "section_height_custom": 90,
+        "section_height_custom": 80,
         "background_color": "{{ settings.color_palette.orange15 }}",
         "toggle_overlay": false,
         "overlay_color": "#281e1833",
@@ -652,7 +652,7 @@
             "open_in_new_tab": false,
             "placeholder": "",
             "padding-block-start": 0,
-            "padding-block-end": 32,
+            "padding-block-end": 24,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -2834,7 +2834,7 @@
         "border_radius_top_right": 0,
         "border_radius_bottom_right": 0,
         "border_radius_bottom_left": 0,
-        "padding-block-start": 100,
+        "padding-block-start": 90,
         "padding-block-end": 20
       }
     },
