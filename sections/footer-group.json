@@ -58,7 +58,7 @@
               "type": "custom-liquid",
               "name": "Styles",
               "settings": {
-                "custom_liquid": "<style id=\"customFooterStyles\">\ndiv:has(> #customFooterStyles) {\ncontent-visibility: hidden;\n}\n\n.footer-content div:has(> div.footer-content) {\n  --page-margin: 16px !important;\n}\n.footer-content div:has(> div > div > .email-signup-block) {\n  flex-direction: column;\n}\n@media screen and (min-width: 990px) {\n  .footer-content div:has(> div > div > .email-signup-block) {\n    flex-direction: row;\n  }\n  .footer-content div:has(> div > .email-signup-block) {\n    max-width: 400px;\n  }\n  .footer-content div:has(> div > .email-signup-block) + div {\n    max-width: 800px;\n    white-space: nowrap;\n  }\n}\n\n.footer-content\n  .image-block:nth-last-child(1 of .image-block)\n  ~ div\n  > div:last-child {\n  font-size: 14px;\n}\n</style>"
+                "custom_liquid": "<style id=\"customFooterStyles\">\ndiv:has(> style#customFooterStyles) {\n  display: contents;\n}\n\n.footer-content div:has(> div.footer-content) {\n  --page-margin: 16px !important;\n}\n.footer-content div:has(> div > div > .email-signup-block) {\n  flex-direction: column;\n}\n@media screen and (min-width: 990px) {\n  .footer-content div:has(> div > div > .email-signup-block) {\n    flex-direction: row;\n  }\n  .footer-content div:has(> div > .email-signup-block) {\n    max-width: 400px;\n  }\n  .footer-content div:has(> div > .email-signup-block) + div {\n    max-width: 800px;\n    white-space: nowrap;\n  }\n}\n\n.footer-content\n  .image-block:nth-last-child(1 of .image-block)\n  ~ div\n  > div:last-child {\n  font-size: 14px;\n}\n</style>"
               },
               "blocks": {}
             },
