@@ -598,7 +598,7 @@
         "jumbo-text {max-width: 835px; line-height: 1.25;}",
         "jumbo-text:first-of-type {display: none;}",
         "jumbo-text:last-of-type {display: block; max-width: 320px; line-height: 1.125;}",
-        "@media (min-width: 750px) {.hero {--hero-min-height: 80svh !important; } .hero__content-wrapper > div.group-block {max-height: 30rem; } jumbo-text:first-of-type {display: block; } jumbo-text:last-of-type {display: none; }}"
+        "@media (min-width: 750px) {.hero {--hero-min-height: 80svh !important; } .hero__content-wrapper > div.group-block {max-height: 28rem; } jumbo-text:first-of-type {display: block; } jumbo-text:last-of-type {display: none; }}"
       ],
       "name": "Hero (Full)",
       "settings": {
