@@ -21,7 +21,7 @@
             "pixel_size": 120,
             "custom_mobile_size": true,
             "size_mobile": "percent",
-            "percent_size_mobile": 10,
+            "percent_size_mobile": 20,
             "pixel_size_mobile": 20
           },
           "blocks": {}
@@ -555,7 +555,7 @@
             "pixel_size": 120,
             "custom_mobile_size": true,
             "size_mobile": "percent",
-            "percent_size_mobile": 90,
+            "percent_size_mobile": 80,
             "pixel_size_mobile": 152
           },
           "blocks": {}
