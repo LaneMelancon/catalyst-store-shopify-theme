@@ -245,7 +245,7 @@
                     "vertical_alignment_flex_direction_column": "center",
                     "gap": 12,
                     "width": "custom",
-                    "custom_width": 90,
+                    "custom_width": 85,
                     "width_mobile": "fill",
                     "custom_width_mobile": 80,
                     "height": "fit",
@@ -568,7 +568,7 @@
       ],
       "custom_css": [
         ".hero h1 {content-visibility: hidden;}",
-        "jumbo-text {line-height: 1.25; max-width: 990px;}",
+        "jumbo-text {max-width: 975px; line-height: 1.25;}",
         "jumbo-text:first-of-type {display: none;}",
         "jumbo-text:last-of-type {display: block; max-width: 320px; line-height: 1.125;}",
         "@media (min-width: 750px) {.hero {--hero-min-height: 80svh !important; } .hero__content-wrapper > div.group-block {max-height: 30rem; } jumbo-text:first-of-type {display: block; } jumbo-text:last-of-type {display: none; }}"
@@ -4007,25 +4007,10 @@
             "group_cRDMWq",
             "group_etgLWA"
           ]
-        },
-        "spacer_RnX8j8": {
-          "type": "spacer",
-          "name": "t:names.spacer",
-          "settings": {
-            "size": "percent",
-            "percent_size": 100,
-            "pixel_size": 120,
-            "custom_mobile_size": false,
-            "size_mobile": "percent",
-            "percent_size_mobile": 100,
-            "pixel_size_mobile": 120
-          },
-          "blocks": {}
         }
       },
       "block_order": [
-        "group_FcFNbH",
-        "spacer_RnX8j8"
+        "group_FcFNbH"
       ],
       "custom_css": [
         "div > jumbo-text {max-width: 800px;}"
@@ -4062,7 +4047,7 @@
         "border_radius_bottom_right": 0,
         "border_radius_bottom_left": 0,
         "padding-block-start": 0,
-        "padding-block-end": 0
+        "padding-block-end": 60
       }
     },
     "carousel_W7LdFW": {
@@ -8963,7 +8948,7 @@
         "border_radius_bottom_right": 0,
         "border_radius_bottom_left": 0,
         "padding-block-start": 0,
-        "padding-block-end": 0
+        "padding-block-end": 40
       }
     }
   },
