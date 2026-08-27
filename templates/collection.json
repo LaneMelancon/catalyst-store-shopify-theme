@@ -1470,6 +1470,7 @@
       "custom_css": [
         ".slideshow-control--shape-circle {background-color: var(--color-secondary-button-background); border: 1px solid rgba(255, 255, 255, 0.25);}",
         ".resource-list__carousel > [ref=\"slideshowContainer\"] {background-color: transparent;}",
+        ".popup-link__inner div:has(> img) {overflow: hidden; max-height: 25svh; display: flex; align-items: center; border-radius: 14px; margin-bottom: 24px;}",
         "@media (max-width: 749px) {.resource-list__slide {z-index: 2; min-width: 95%; }}"
       ],
       "name": "Shop Health Goals",
