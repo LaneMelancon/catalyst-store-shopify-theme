@@ -404,7 +404,7 @@
               "name": "t:names.spacer",
               "settings": {
                 "size": "percent",
-                "percent_size": 15,
+                "percent_size": 30,
                 "pixel_size": 120,
                 "custom_mobile_size": true,
                 "size_mobile": "pixel",
@@ -423,7 +423,7 @@
                 "vertical_alignment": "center",
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "space-between",
                 "gap": 0,
                 "width": "fit-content",
                 "custom_width": 70,
@@ -496,6 +496,7 @@
                     "group_BLp4bd": {
                       "type": "group",
                       "name": "Eyebrow",
+                      "disabled": true,
                       "settings": {
                         "content_direction": "column",
                         "vertical_on_mobile": true,
@@ -598,6 +599,20 @@
                   ]
                 },
                 "spacer_JaBgkP": {
+                  "type": "spacer",
+                  "name": "t:names.spacer",
+                  "settings": {
+                    "size": "pixel",
+                    "percent_size": 100,
+                    "pixel_size": 24,
+                    "custom_mobile_size": true,
+                    "size_mobile": "percent",
+                    "percent_size_mobile": 0,
+                    "pixel_size_mobile": 120
+                  },
+                  "blocks": {}
+                },
+                "spacer_HW8Jfr": {
                   "type": "spacer",
                   "name": "t:names.spacer",
                   "settings": {
@@ -901,6 +916,7 @@
               "block_order": [
                 "group_KCbeTK",
                 "spacer_JaBgkP",
+                "spacer_HW8Jfr",
                 "group_FEwBc9"
               ]
             },
@@ -909,7 +925,7 @@
               "name": "t:names.spacer",
               "settings": {
                 "size": "percent",
-                "percent_size": 10,
+                "percent_size": 5,
                 "pixel_size": 120,
                 "custom_mobile_size": true,
                 "size_mobile": "pixel",
@@ -1483,6 +1499,7 @@
         "group_8DcKHb",
         "group_mxExFf"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "Pathway Filters (Desktop)",
       "settings": {
@@ -1521,6 +1538,7 @@
     },
     "divider_pUUtU8": {
       "type": "divider",
+      "disabled": true,
       "name": "t:names.divider_section",
       "settings": {
         "background_color": "",

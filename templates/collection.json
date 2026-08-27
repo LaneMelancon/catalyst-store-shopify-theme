@@ -619,6 +619,20 @@
                   "type": "spacer",
                   "name": "t:names.spacer",
                   "settings": {
+                    "size": "pixel",
+                    "percent_size": 100,
+                    "pixel_size": 24,
+                    "custom_mobile_size": true,
+                    "size_mobile": "percent",
+                    "percent_size_mobile": 0,
+                    "pixel_size_mobile": 120
+                  },
+                  "blocks": {}
+                },
+                "spacer_XfhJce": {
+                  "type": "spacer",
+                  "name": "t:names.spacer",
+                  "settings": {
                     "size": "percent",
                     "percent_size": 100,
                     "pixel_size": 152,
@@ -704,6 +718,7 @@
               "block_order": [
                 "group_BYjgWh",
                 "spacer_H7MBxT",
+                "spacer_XfhJce",
                 "group_aPygBq"
               ]
             },
@@ -712,7 +727,7 @@
               "name": "t:names.spacer",
               "settings": {
                 "size": "percent",
-                "percent_size": 12,
+                "percent_size": 10,
                 "pixel_size": 120,
                 "custom_mobile_size": false,
                 "size_mobile": "pixel",

@@ -423,7 +423,7 @@
                 "vertical_alignment": "center",
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "space-between",
                 "gap": 0,
                 "width": "fit-content",
                 "custom_width": 70,
@@ -601,12 +601,26 @@
                   "type": "spacer",
                   "name": "t:names.spacer",
                   "settings": {
+                    "size": "pixel",
+                    "percent_size": 100,
+                    "pixel_size": 24,
+                    "custom_mobile_size": true,
+                    "size_mobile": "percent",
+                    "percent_size_mobile": 0,
+                    "pixel_size_mobile": 120
+                  },
+                  "blocks": {}
+                },
+                "spacer_E6CQdJ": {
+                  "type": "spacer",
+                  "name": "t:names.spacer",
+                  "settings": {
                     "size": "percent",
                     "percent_size": 100,
                     "pixel_size": 152,
                     "custom_mobile_size": true,
                     "size_mobile": "percent",
-                    "percent_size_mobile": 60,
+                    "percent_size_mobile": 0,
                     "pixel_size_mobile": 120
                   },
                   "blocks": {}
@@ -686,6 +700,7 @@
               "block_order": [
                 "group_Dn7ndP",
                 "spacer_tU6bVJ",
+                "spacer_E6CQdJ",
                 "group_nGHmLP"
               ]
             },
@@ -694,7 +709,7 @@
               "name": "t:names.spacer",
               "settings": {
                 "size": "percent",
-                "percent_size": 12,
+                "percent_size": 10,
                 "pixel_size": 120,
                 "custom_mobile_size": true,
                 "size_mobile": "pixel",
