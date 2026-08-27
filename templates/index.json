@@ -272,6 +272,32 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
+                    "text_YnNFQD": {
+                      "type": "text",
+                      "name": "t:names.text",
+                      "settings": {
+                        "text": "",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "h1",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "text_color": "",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
                     "text_cQpcXN": {
                       "type": "text",
                       "name": "Heading (Hidden)",
@@ -332,6 +358,7 @@
                     }
                   },
                   "block_order": [
+                    "text_YnNFQD",
                     "text_cQpcXN",
                     "jumbo_text_XQXQL6",
                     "jumbo_text_YYMP7T"
@@ -568,7 +595,7 @@
       ],
       "custom_css": [
         ".hero h1 {content-visibility: hidden;}",
-        "jumbo-text {max-width: 975px; line-height: 1.25;}",
+        "jumbo-text {max-width: 835px; line-height: 1.25;}",
         "jumbo-text:first-of-type {display: none;}",
         "jumbo-text:last-of-type {display: block; max-width: 320px; line-height: 1.125;}",
         "@media (min-width: 750px) {.hero {--hero-min-height: 80svh !important; } .hero__content-wrapper > div.group-block {max-height: 30rem; } jumbo-text:first-of-type {display: block; } jumbo-text:last-of-type {display: none; }}"
