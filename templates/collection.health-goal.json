@@ -424,7 +424,7 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 12,
+                "gap": 0,
                 "width": "fit-content",
                 "custom_width": 70,
                 "width_mobile": "custom",
@@ -448,7 +448,7 @@
                 "open_in_new_tab": false,
                 "placeholder": "",
                 "padding-block-start": 12,
-                "padding-block-end": 12,
+                "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -464,7 +464,7 @@
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "center",
-                    "gap": 24,
+                    "gap": 20,
                     "width": "fit-content",
                     "custom_width": 50,
                     "width_mobile": "fit-content",
@@ -488,7 +488,7 @@
                     "open_in_new_tab": false,
                     "placeholder": "",
                     "padding-block-start": 0,
-                    "padding-block-end": 0,
+                    "padding-block-end": 24,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
@@ -606,7 +606,7 @@
                     "pixel_size": 152,
                     "custom_mobile_size": true,
                     "size_mobile": "percent",
-                    "percent_size_mobile": 60,
+                    "percent_size_mobile": 0,
                     "pixel_size_mobile": 120
                   },
                   "blocks": {}
@@ -622,7 +622,7 @@
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "flex-end",
-                    "gap": 12,
+                    "gap": 24,
                     "width": "fit-content",
                     "custom_width": 50,
                     "width_mobile": "custom",
@@ -677,20 +677,6 @@
                       },
                       "blocks": {}
                     },
-                    "spacer_PtRA46": {
-                      "type": "spacer",
-                      "name": "t:names.spacer",
-                      "settings": {
-                        "size": "percent",
-                        "percent_size": 60,
-                        "pixel_size": 32,
-                        "custom_mobile_size": false,
-                        "size_mobile": "percent",
-                        "percent_size_mobile": 100,
-                        "pixel_size_mobile": 120
-                      },
-                      "blocks": {}
-                    },
                     "group_QpFiiJ": {
                       "type": "group",
                       "name": "Pathways Card",
@@ -733,7 +719,7 @@
                       "blocks": {
                         "group_LVTW6w": {
                           "type": "group",
-                          "name": "Card Image",
+                          "name": "Image",
                           "settings": {
                             "content_direction": "column",
                             "vertical_on_mobile": true,
@@ -803,7 +789,7 @@
                         },
                         "group_376yHT": {
                           "type": "group",
-                          "name": "Card Text",
+                          "name": "Text",
                           "settings": {
                             "content_direction": "column",
                             "vertical_on_mobile": true,
@@ -904,124 +890,11 @@
                         "group_LVTW6w",
                         "group_376yHT"
                       ]
-                    },
-                    "group_4mNFRy": {
-                      "type": "group",
-                      "name": "Button Group",
-                      "disabled": true,
-                      "settings": {
-                        "content_direction": "row",
-                        "vertical_on_mobile": true,
-                        "horizontal_alignment": "flex-start",
-                        "vertical_alignment": "center",
-                        "align_baseline": false,
-                        "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "center",
-                        "gap": 16,
-                        "width": "fit-content",
-                        "custom_width": 100,
-                        "width_mobile": "fit-content",
-                        "custom_width_mobile": 100,
-                        "height": "fit",
-                        "custom_height": 100,
-                        "background_media": "none",
-                        "background_color": "",
-                        "video_position": "cover",
-                        "background_image_position": "cover",
-                        "toggle_overlay": false,
-                        "overlay_color": "#00000026",
-                        "overlay_style": "solid",
-                        "gradient_direction": "to top",
-                        "border": "none",
-                        "border_width": 1,
-                        "border_opacity": 100,
-                        "border_color": "",
-                        "border_radius": 0,
-                        "link": "",
-                        "open_in_new_tab": false,
-                        "placeholder": "",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {
-                        "button_HWhJnj": {
-                          "type": "button",
-                          "name": "t:names.button",
-                          "settings": {
-                            "label": "Shop Now",
-                            "link": "#",
-                            "open_in_new_tab": false,
-                            "style_class": "button",
-                            "custom_button_background": "{{ settings.color_palette.foreground }}",
-                            "custom_button_border_style": "none",
-                            "custom_button_border_width": 1,
-                            "custom_button_border_opacity": 100,
-                            "custom_button_border": "{{ settings.color_palette.background }}",
-                            "custom_button_corner_radius": 100,
-                            "custom_button_font": "",
-                            "custom_button_font_size": "",
-                            "custom_button_line_height": "",
-                            "custom_button_letter_spacing": "",
-                            "custom_button_case": "",
-                            "custom_button_text": "{{ settings.color_palette.background }}",
-                            "custom_button_padding_block_start": 16,
-                            "custom_button_padding_block_end": 16,
-                            "custom_button_padding_inline_start": 24,
-                            "custom_button_padding_inline_end": 24,
-                            "link_text_color": "",
-                            "width": "fit-content",
-                            "custom_width": 100,
-                            "width_mobile": "fit-content",
-                            "custom_width_mobile": 100
-                          },
-                          "blocks": {}
-                        },
-                        "button_yztgyK": {
-                          "type": "button",
-                          "name": "t:names.button",
-                          "settings": {
-                            "label": "Sign In",
-                            "link": "#",
-                            "open_in_new_tab": false,
-                            "style_class": "button-unstyled",
-                            "custom_button_background": "#0a1b10",
-                            "custom_button_border_style": "solid",
-                            "custom_button_border_width": 1,
-                            "custom_button_border_opacity": 30,
-                            "custom_button_border": "{{ settings.color_palette.neutral800 }}",
-                            "custom_button_corner_radius": 100,
-                            "custom_button_font": "",
-                            "custom_button_font_size": "",
-                            "custom_button_line_height": "",
-                            "custom_button_letter_spacing": "",
-                            "custom_button_case": "",
-                            "custom_button_text": "{{ settings.color_palette.color1 }}",
-                            "custom_button_padding_block_start": 16,
-                            "custom_button_padding_block_end": 16,
-                            "custom_button_padding_inline_start": 24,
-                            "custom_button_padding_inline_end": 24,
-                            "link_text_color": "{{ settings.color_palette.background }}",
-                            "width": "fit-content",
-                            "custom_width": 100,
-                            "width_mobile": "fit-content",
-                            "custom_width_mobile": 100
-                          },
-                          "blocks": {}
-                        }
-                      },
-                      "block_order": [
-                        "button_HWhJnj",
-                        "button_yztgyK"
-                      ]
                     }
                   },
                   "block_order": [
                     "text_WFbzJ8",
-                    "spacer_PtRA46",
-                    "group_QpFiiJ",
-                    "group_4mNFRy"
+                    "group_QpFiiJ"
                   ]
                 }
               },
@@ -1078,9 +951,9 @@
       "blocks": {
         "custom_liquid_KJBdmn": {
           "type": "custom-liquid",
-          "name": "pathway-filter-styles",
+          "name": "Styles",
           "settings": {
-            "custom_liquid": "{% style %}\n/* Results Count */\n.text-block--AaVhzNmxudmQwbk4yL__text_PJErWn {\n\n}\n\n/* Collection Filter */\n.color-custom-color-custom-AVzZycTM5bFd3YllsT__group_i99WcV:has( > div.group-block-content) {\noutline: 1px solid red;\n}\n\n/* Filter List */\ndiv:has( > [class*=\"color-custom-AVzZycTM5bFd3YllsT__group_i99WcV\"]) {\n}\n\n/* Filter Pill (Global) */\n.color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF, .color-custom-AbkFnM2IreFlaaklXV__group_YmxMMB, .color-custom-AUmxmaHVFZGc1S1g1V__group_eBNYF9, .color-custom-AYUN2U0tmeWhFcDIzQ__group_dA4aiL {\nwhite-space: nowrap;\n}\n\n/* Filter Pill | Active */\n.color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E {\n}\n\n/* Sort & Layout component styles are in the settings custom CSS area */\n{% endstyle %}"
+            "custom_liquid": "{% style %}\n/* Collection Filter */\n.color-custom-color-custom-AVzZycTM5bFd3YllsT__group_i99WcV:has( > div.group-block-content) {\noutline: 1px solid red;\n}\n\n/* Filter List */\ndiv:has( > [class*=\"color-custom-AVzZycTM5bFd3YllsT__group_i99WcV\"]) {\n}\n\n/* Filter Pill (Global) */\n.color-custom-ASXhrZnh4UmJ4a05Tc__group_m4BpXF, .color-custom-AbkFnM2IreFlaaklXV__group_YmxMMB, .color-custom-AUmxmaHVFZGc1S1g1V__group_eBNYF9, .color-custom-AYUN2U0tmeWhFcDIzQ__group_dA4aiL {\nwhite-space: nowrap;\n}\n\n/* Filter Pill (Active) */\n.color-custom-AbG40b000UGxoZ3ZrU__group_AQgd9E {\n}\n{% endstyle %}"
           },
           "blocks": {}
         },
@@ -1126,7 +999,7 @@
           "blocks": {
             "text_D4LMfG": {
               "type": "text",
-              "name": "t:names.header",
+              "name": "Heading",
               "settings": {
                 "text": "<h2>Filter by supplement pathway</h2>",
                 "width": "fit-content",
@@ -1610,11 +1483,8 @@
         "group_8DcKHb",
         "group_mxExFf"
       ],
-      "custom_css": [
-        "/* Sort Label */.facets__summary {padding: 0 0.5rem 0 0; font-size: 14px; line-height: 1.1; border-right: 1px solid rgba(14, 36, 21, 0.25); color: #e6e9e7;}",
-        " /* Layout Options */fieldset.column-options {flex-wrap: nowrap;}"
-      ],
-      "name": "Pathway Filter (Desktop)",
+      "custom_css": [],
+      "name": "Pathway Filters (Desktop)",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -1710,13 +1580,13 @@
           "blocks": {
             "text_hDqGnA": {
               "type": "text",
-              "name": "t:names.header",
+              "name": "Heading",
               "settings": {
-                "text": "<p>Filter supplements by pathway</p>",
+                "text": "<h2>Filter supplements by pathway</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "h3",
+                "type_preset": "h2",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -2072,7 +1942,7 @@
       "custom_css": [
         "[ref=\"scroller\"]:has(.card.color-custom-AZjBHc0V0TnI5TDZWV__card_TRhkmL) {padding-inline: 16px; padding-block: 14px; scroll-snap-type: x mandatory;}"
       ],
-      "name": "Pathway Filter (Mobile)",
+      "name": "Pathway Filters (Mobile)",
       "settings": {
         "columns": 5,
         "mobile_columns": "2",
@@ -2096,6 +1966,7 @@
       "blocks": {
         "filters": {
           "type": "filters",
+          "name": "Filter & Sort",
           "static": true,
           "settings": {
             "enable_filtering": true,
@@ -2219,7 +2090,7 @@
                 },
                 "product_title_xCtL8F": {
                   "type": "product-title",
-                  "name": "t:names.product_title",
+                  "name": "Product Title",
                   "settings": {
                     "width": "fit-content",
                     "max_width": "normal",
@@ -2279,7 +2150,7 @@
         }
       },
       "custom_css": [
-        "/* .facets-block-wrapper {display: none;} */ /* Sort Label */.facets__summary {line-height: 1.1;}",
+        "/* Sort Label */.facets__summary {font-size: 14px; line-height: 1.1; color: #e6e9e7;}",
         " /* Layout Options */fieldset.column-options {flex-wrap: nowrap;}"
       ],
       "name": "Products",
