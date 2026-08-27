@@ -571,7 +571,7 @@
         "jumbo-text {line-height: 1.25; max-width: 990px;}",
         "jumbo-text:first-of-type {display: none;}",
         "jumbo-text:last-of-type {display: block; max-width: 395px; line-height: 1.125;}",
-        "@media (min-width: 750px) {.hero__content-wrapper > div.group-block {max-height: 30rem; } jumbo-text:first-of-type {display: block; } jumbo-text:last-of-type {display: none; }}"
+        "@media (min-width: 750px) {.hero {--hero-min-height: 80svh !important; } .hero__content-wrapper > div.group-block {max-height: 30rem; } jumbo-text:first-of-type {display: block; } jumbo-text:last-of-type {display: none; }}"
       ],
       "name": "Hero (Full)",
       "settings": {
@@ -595,7 +595,7 @@
         "gap": 0,
         "section_width": "page-width",
         "section_height": "custom",
-        "section_height_custom": 80,
+        "section_height_custom": 90,
         "background_color": "{{ settings.color_palette.orange15 }}",
         "toggle_overlay": false,
         "overlay_color": "#281e1833",
