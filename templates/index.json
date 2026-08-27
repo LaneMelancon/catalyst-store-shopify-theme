@@ -4040,7 +4040,7 @@
         "group_FcFNbH"
       ],
       "custom_css": [
-        "div > jumbo-text {max-width: 725px;}"
+        "div > jumbo-text {max-width: 650px;}"
       ],
       "name": "2 Col Bento",
       "settings": {
