@@ -7423,7 +7423,7 @@
       ],
       "name": "Shop Recommended",
       "settings": {
-        "columns": 5,
+        "columns": 4,
         "mobile_columns": "1",
         "section_width": "page-width",
         "columns_gap": 16,
