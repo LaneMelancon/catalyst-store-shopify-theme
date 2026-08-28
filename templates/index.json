@@ -8136,7 +8136,7 @@
               "name": "t:names.collection_card_image",
               "static": true,
               "settings": {
-                "image_ratio": "square",
+                "image_ratio": "landscape",
                 "toggle_overlay": false,
                 "overlay_color": "{{ settings.color_palette.green800 }}",
                 "overlay_style": "solid",
@@ -8176,7 +8176,7 @@
         ],
         "layout_type": "carousel",
         "carousel_on_mobile": false,
-        "columns": 4,
+        "columns": 2,
         "mobile_columns": "2",
         "mobile_card_size": "60cqw",
         "columns_gap": 18,
