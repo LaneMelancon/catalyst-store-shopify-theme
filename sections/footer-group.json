@@ -58,9 +58,80 @@
               "type": "custom-liquid",
               "name": "Styles",
               "settings": {
-                "custom_liquid": "{% assign custFooterTop = \"footer div:has(> div > div > .email-signup-block)\" %}\n{% assign custFooterTopEmail = \"footer div:has(> div > .email-signup-block)\" %}\n{% assign custFooterTopLinks = \"footer div:has(> div > .email-signup-block) + div\" %}\n\n{% assign custFooterBottomLinks = \"footer .footer-content .image-block:nth-last-child(1 of .image-block) ~ div > div:last-child\" %}\n\n<style id=\"custFooterStyles\">\nfooter div:has(> style#custFooterStyles) {\n  display: contents;\n}\n\nfooter .section {\n  --page-margin: 16px !important;\n  --page-width: calc(var(--page-content-width) + (var(--page-margin) * 2));\n  max-width: var(--page-width);\nmargin-inline: auto;\n}\n\n{{ custFooterTop }} {\n  flex-direction: column;\n}\n\n{{ custFooterBottomLinks }} {\n  font-size: 14px;\n}\n\n/* Tablet, Desktop & Up */\n@media (min-width: 990px) {\n  {{ custFooterTop }} {\n    flex-direction: row;\n  }\n\n  {{ custFooterTopEmail }} {\n    max-width: 400px;\n  }\n\n  {{ custFooterTopLinks }} {\n    max-width: 800px;\n    white-space: nowrap;\n  }\n}\n\n/* Mobile & Down */\n@media (max-width: 749px) {\n  footer .spacing-style {\n    --spacing-scale: var(--spacing-scale-sm) !important;\n  }\n}\n</style>"
+                "custom_liquid": "{% assign custFooterTop = \"footer div:has(> div > div > .email-signup-block)\" %}\n{% assign custFooterTopEmail = \"footer div:has(> div > .email-signup-block)\" %}\n{% assign custFooterTopLinks = \"footer div:has(> div > .email-signup-block) + div\" %}\n\n{% assign custFooterBottomLinks = \"footer .footer-content .image-block:nth-last-child(1 of .image-block) ~ div > div:last-child\" %}\n\n<style id=\"custFooterStyles\">\nfooter div:has(> style#custFooterStyles) {\n  display: contents;\n}\n\nfooter .section {\n  --page-margin: 16px !important;\n  --page-width: calc(var(--page-content-width) + (var(--page-margin) * 2));\n  max-width: var(--page-width);\nmargin-inline: auto;\n}\n\n{{ custFooterTop }} {\n  flex-direction: column;\n}\n\n{{ custFooterTopLinks }} .menu__item {\n  font-size: 14px;  \n}\n\n{{ custFooterBottomLinks }} {\n  font-size: 14px;\n}\n\n/* Tablet, Desktop & Up */\n@media (min-width: 990px) {\n  {{ custFooterTop }} {\n    flex-direction: row;\n  }\n\n  {{ custFooterTopEmail }} {\n    max-width: 28rem;\n  }\n\n  {{ custFooterTopLinks }} {\n    max-width: 50rem;\n    white-space: nowrap;\n  }\n}\n\n/* Mobile & Down */\n@media (max-width: 749px) {\n  footer .spacing-style {\n    --spacing-scale: var(--spacing-scale-sm) !important;\n  }\n}\n</style>"
               },
               "blocks": {}
+            },
+            "group_Q6Nr6D": {
+              "type": "group",
+              "name": "Disclaimer",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "background_media": "none",
+                "background_color": "",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "text_9eEPRC": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>*These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease.</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "text_color": "",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_9eEPRC"
+              ]
             },
             "group_zVfxCM": {
               "type": "group",
@@ -1042,7 +1113,7 @@
                           "type": "text",
                           "name": "t:names.text",
                           "settings": {
-                            "text": "<p>© 2026 Catalyst Store</p>",
+                            "text": "<p>© 2026 Catalyst Store | All Rights Reserved</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -1085,6 +1156,7 @@
           },
           "block_order": [
             "custom_liquid_9yTC3g",
+            "group_Q6Nr6D",
             "group_zVfxCM",
             "divider_D9iFqG",
             "group_a6zjhN"
