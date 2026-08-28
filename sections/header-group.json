@@ -63,7 +63,7 @@
           "settings": {
             "menu": "menu",
             "background_color": "{{ settings.color_palette.orange15 }}",
-            "text_color": "{{ settings.color_palette.foreground }}",
+            "text_color": "",
             "type_font_primary_size": "0.875rem",
             "menu_font_style": "inverse",
             "type_font_primary_link": "body",
