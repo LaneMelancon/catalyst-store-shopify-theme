@@ -239,6 +239,14 @@
       assign absolute_font_size_min = 10
 
       comment
+        Independent fluid minimums for h1-h3 (in px), bypassing the shared
+        neighbor-derived calculation below. Leave blank to fall back to it.
+      endcomment
+      assign fluid_min_override_h1 = 36
+      assign fluid_min_override_h2 = 30
+      assign fluid_min_override_h3 = 18
+
+      comment
         Build an array of font sizes and sort it
       endcomment
       assign font_size_values = ''
@@ -269,14 +277,25 @@
         assign font_size_string = '[font_size_value]' | replace: '[font_size_value]', font_size_value
         assign index = font_size_values | find_index: font_size_string
 
-        if font_size_value >= fluid_size_cutoff
+        assign fluid_min_override = blank
+        if font_size == 'h1'
+          assign fluid_min_override = fluid_min_override_h1
+        elsif font_size == 'h2'
+          assign fluid_min_override = fluid_min_override_h2
+        elsif font_size == 'h3'
+          assign fluid_min_override = fluid_min_override_h3
+        endif
+
+        if fluid_min_override != blank or font_size_value >= fluid_size_cutoff
 
           comment
             Calculate the minimum size for each font size
           endcomment
           assign fluid_font_size_min = font_size_value
 
-          if index == 0
+          if fluid_min_override != blank
+            assign fluid_font_size_min = fluid_min_override
+          elsif index == 0
             assign fluid_font_size_min = absolute_font_size_min
           else
             assign next_font_size_index = index | minus: 1
