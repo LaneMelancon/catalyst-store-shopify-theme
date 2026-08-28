@@ -842,7 +842,7 @@
                 "divider_color": "#edeadf",
                 "width_percent": 100,
                 "padding-block-start": 24,
-                "padding-block-end": 40
+                "padding-block-end": 32
               },
               "blocks": {}
             }
@@ -1510,7 +1510,7 @@
         "icons_style": "arrow",
         "icons_shape": "circle",
         "section_width": "page-width",
-        "gap": 12,
+        "gap": 0,
         "background_color": "{{ settings.color_palette.orange15 }}",
         "border_radius_individual": false,
         "border_radius": 0,
@@ -1555,7 +1555,7 @@
           "static": true,
           "settings": {
             "product_card_gap": 10,
-            "background_color": "#f3f4f3",
+            "background_color": "#F9FAF9",
             "border": "solid",
             "border_width": 1,
             "border_opacity": 5,
