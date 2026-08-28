@@ -688,7 +688,7 @@
               "type": "custom-liquid",
               "name": "Custom Liquid (Prod)",
               "settings": {
-                "custom_liquid": "{% assign prodSelector = \".color-custom-template--27679723422008__carousel_Rx4ta6\" %}\n{% assign devSelector = \".color-custom-template--27678122279224__carousel_Rx4ta6\" %}\n{% style %}\n/* Component Wrapper (div) */\n{{ prodSelector }} :has(> .carousel-content) {\n}\n/* Slideshow Component */\n{{ prodSelector }} .carousel-content {\n}\n/* Slideshow Container */\n{{ prodSelector }} .carousel-content > [ref=\"slideshowContainer\"] {\n}\n/* Slideshow Scroller */\n{{ prodSelector }} [ref=\"scroller\"] {\n}\n/* Slider Card */\n{{ prodSelector }} [ref=\"scroller\"] > .card {\nmax-width: 800px;\n}\n/* Card Pathway Blocks */\n{{ prodSelector }} [ref=\"scroller\"] .card__content .group-block:last-child .group-block-content {\n}\n/* Card Image Blocks */\n{{ prodSelector }} [ref=\"scroller\"] .card .card__inner .group-block .group-block-content div:has(img) {\naspect-ratio: 1 / 1;\n}\n/* Arrows (wrapper) */\n{{ prodSelector }} :has(> .slideshow-control) {\n}\n/* Arrow Circles */\n{{ prodSelector }} .slideshow-control--shape-circle {\n  background-color: var(--color-secondary-button-background);\n  border: 1px solid rgba(255, 255, 255, 0.25);\n}\n\n@media (max-width: 749px) {\n{{ prodSelector }} .carousel-content > [ref=\"slideshowContainer\"] {\ndisplay: flex;\nflex-direction: column-reverse;\nalign-items: center;\n}\n  {{ prodSelector }} [ref=\"scroller\"] {\nmargin: 0px;\npadding: 0px 14px 12px 14px;\ngap: 8px;\n }\n}\n@media (max-width: 749px) {\n{{ prodSelector }} [ref=\"scroller\"] .card {\nwidth: 100%;\nheight: auto;\nalign-self: auto;\n }\n}\n@media (max-width: 749px) {\n{{ prodSelector }} [ref=\"scroller\"] .card .card__inner .group-block .group-block-content div:has(img) {\naspect-ratio: 1;\nheight: clamp(12rem , 75vw, 15rem);\n}\n{{ prodSelector }} :has(> .slideshow-control) {\nflex-direction: row;\nposition: relative;\nflex-wrap: wrap;\nflex-direction: row;\ngap: 16px;\n}\n{{ prodSelector }} slideshow-control, slideshow-control--previous, slideshow-control--next, .slideshow-control--style-chevron {\nanimation: none !important;\nopacity: 1 !important;\n}\n}\n{% endstyle %}"
+                "custom_liquid": "{% assign prodSelector = \".color-custom-template--27679723422008__carousel_Rx4ta6\" %}\n{% assign devSelector = \".color-custom-template--27678122279224__carousel_Rx4ta6\" %}\n\n{% style %}\n/* Component Wrapper (div) */\n{{ prodSelector }} :has(> .carousel-content) {\n}\n\n/* Slideshow Container */\n{{ prodSelector }} .carousel-content > [ref=\"slideshowContainer\"] {\n  display: flex;\n  flex-direction: column-reverse;\n  align-items: center;\n}\n\n/* Slideshow Scroller */\n{{ prodSelector }} [ref=\"scroller\"] {\n}\n\n/* Slider Card */\n{{ prodSelector }} [ref=\"scroller\"] > .card {\nmax-width: 800px;\n}\n\n/* Card Image Blocks */\n{{ prodSelector }} [ref=\"scroller\"] .card .card__inner .group-block .group-block-content div:has(img) {\naspect-ratio: 1 / 1;\n}\n\n/* Card Pathway Blocks */\n{{ prodSelector }} [ref=\"scroller\"] .card__content .group-block:last-child .group-block-content {\n}\n\n/* Arrows (wrapper) */\n{{ prodSelector }} :has(> .slideshow-control) {\n  flex-direction: row;\n  position: relative;\n  flex-wrap: wrap;\n  flex-direction: row;\n  gap: 16px;\n}\n\n/* Arrow Circles */\n{{ prodSelector }} .slideshow-control--shape-circle {\n  background-color: var(--color-secondary-button-background);\n  border: 1px solid rgba(255, 255, 255, 0.25);\n}\n\n{{ prodSelector }} slideshow-control, slideshow-control--previous, slideshow-control--next, .slideshow-control--style-chevron {\n  animation: none !important;\n  opacity: 1 !important;\n}\n\n/* --- Mobile Styles --- */\n@media (max-width: 749px) {\n/* Slideshow Scroller */\n{{ prodSelector }} [ref=\"scroller\"] {\n  margin: 0px;\n  padding: 0px 14px 12px 14px;\n  gap: 8px;\n}\n\n/* Slider Card */\n{{ prodSelector }} [ref=\"scroller\"] .card {\n  width: 100%;\n  height: auto;\n  align-self: auto;\n}\n\n/* Card Image Blocks */\n{{ prodSelector }} [ref=\"scroller\"] .card .card__inner .group-block .group-block-content div:has(img) {\n  aspect-ratio: 1;\n  height: clamp(12rem , 75vw, 15rem);\n}\n}\n{% endstyle %}"
               },
               "blocks": {}
             },
@@ -696,7 +696,7 @@
               "type": "custom-liquid",
               "name": "Custom Liquid (Dev)",
               "settings": {
-                "custom_liquid": "{% assign prodSelector = \".color-custom-template--27679723422008__carousel_Rx4ta6\" %}\n{% assign devSelector = \".color-custom-template--27678122279224__carousel_Rx4ta6\" %}\n{% style %}\n/* Component Wrapper (div) */\n{{ devSelector }} :has(> .carousel-content) {\n}\n/* Slideshow Component */\n{{ devSelector }} .carousel-content {\n}\n/* Slideshow Container */\n{{ devSelector }} .carousel-content > [ref=\"slideshowContainer\"] {\n}\n/* Slideshow Scroller */\n{{ devSelector }} [ref=\"scroller\"] {\n}\n/* Slider Card */\n{{ devSelector }} [ref=\"scroller\"] > .card {\nmax-width: 800px;\n}\n/* Card Pathway Blocks */\n{{ devSelector }} [ref=\"scroller\"] .card__content .group-block:last-child .group-block-content {\n}\n/* Card Image Blocks */\n{{ devSelector }} [ref=\"scroller\"] .card .card__inner .group-block .group-block-content div:has(img) {\naspect-ratio: 1 / 1;\n}\n/* Arrows (wrapper) */\n{{ devSelector }} :has(> .slideshow-control) {\n}\n/* Arrow Circles */\n{{ devSelector }} .slideshow-control--shape-circle {\n  background-color: var(--color-secondary-button-background);\n  border: 1px solid rgba(255, 255, 255, 0.25);\n}\n\n@media (max-width: 749px) {\n{{ devSelector }} .carousel-content > [ref=\"slideshowContainer\"] {\ndisplay: flex;\nflex-direction: column-reverse;\nalign-items: center;\n}\n  {{ devSelector }} [ref=\"scroller\"] {\nmargin: 0px;\npadding: 0px 14px 12px 14px;\ngap: 8px;\n }\n}\n@media (max-width: 749px) {\n{{ devSelector }} [ref=\"scroller\"] .card {\nwidth: 100%;\nheight: auto;\nalign-self: auto;\n }\n}\n@media (max-width: 749px) {\n{{ devSelector }} [ref=\"scroller\"] .card .card__inner .group-block .group-block-content div:has(img) {\naspect-ratio: 1;\nheight: clamp(12rem , 75vw, 15rem);\n}\n{{ devSelector }} :has(> .slideshow-control) {\nflex-direction: row;\nposition: relative;\nflex-wrap: wrap;\nflex-direction: row;\ngap: 16px;\n}\n{{ devSelector }} slideshow-control, slideshow-control--previous, slideshow-control--next, .slideshow-control--style-chevron {\nanimation: none !important;\nopacity: 1 !important;\n}\n}\n{% endstyle %}"
+                "custom_liquid": "{% assign prodSelector = \".color-custom-template--27679723422008__carousel_Rx4ta6\" %}\n{% assign devSelector = \".color-custom-template--27678122279224__carousel_Rx4ta6\" %}\n\n{% style %}\n/* Component Wrapper (div) */\n{{ devSelector }} :has(> .carousel-content) {\n}\n\n/* Slideshow Container */\n{{ devSelector }} .carousel-content > [ref=\"slideshowContainer\"] {\n  display: flex;\n  flex-direction: column-reverse;\n  align-items: center;\n}\n\n/* Slideshow Scroller */\n{{ devSelector }} [ref=\"scroller\"] {\n}\n\n/* Slider Card */\n{{ devSelector }} [ref=\"scroller\"] > .card {\nmax-width: 800px;\n}\n\n/* Card Image Blocks */\n{{ devSelector }} [ref=\"scroller\"] .card .card__inner .group-block .group-block-content div:has(img) {\naspect-ratio: 1 / 1;\n}\n\n/* Card Pathway Blocks */\n{{ devSelector }} [ref=\"scroller\"] .card__content .group-block:last-child .group-block-content {\n}\n\n/* Arrows (wrapper) */\n{{ devSelector }} :has(> .slideshow-control) {\n  flex-direction: row;\n  position: relative;\n  flex-wrap: wrap;\n  flex-direction: row;\n  gap: 16px;\n}\n\n/* Arrow Circles */\n{{ devSelector }} .slideshow-control--shape-circle {\n  background-color: var(--color-secondary-button-background);\n  border: 1px solid rgba(255, 255, 255, 0.25);\n}\n\n{{ devSelector }} slideshow-control, slideshow-control--previous, slideshow-control--next, .slideshow-control--style-chevron {\n  animation: none !important;\n  opacity: 1 !important;\n}\n\n/* --- Mobile Styles --- */\n@media (max-width: 749px) {\n/* Slideshow Scroller */\n{{ devSelector }} [ref=\"scroller\"] {\n  margin: 0px;\n  padding: 0px 14px 12px 14px;\n  gap: 8px;\n}\n\n/* Slider Card */\n{{ devSelector }} [ref=\"scroller\"] .card {\n  width: 100%;\n  height: auto;\n  align-self: auto;\n}\n\n/* Card Image Blocks */\n{{ devSelector }} [ref=\"scroller\"] .card .card__inner .group-block .group-block-content div:has(img) {\n  aspect-ratio: 1;\n  height: clamp(12rem , 75vw, 15rem);\n}\n}\n{% endstyle %}"
               },
               "blocks": {}
             },
@@ -739,7 +739,7 @@
           "static": true,
           "settings": {
             "background_color": "",
-            "height": "fit",
+            "height": "fill",
             "position": "top",
             "border": "solid",
             "border_width": 1,
@@ -781,7 +781,7 @@
                 "padding-inline-end": 18
               },
               "blocks": {
-                "group_nbPGz7": {
+                "group_kgkfAR": {
                   "type": "group",
                   "name": "Image Wrapper",
                   "settings": {
@@ -797,8 +797,8 @@
                     "custom_width": 25,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "custom",
-                    "custom_height": 100,
+                    "height": "fill",
+                    "custom_height": 37,
                     "background_media": "none",
                     "background_color": "",
                     "video_position": "cover",
@@ -822,18 +822,18 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "image_TfVWPd": {
+                    "image_PqFQrL": {
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/health-goal-brain-mood-02.jpg",
+                        "image": "{{ metaobjects.health_goal[\"brain-mood\"].secondary_image.value }}",
                         "link": "",
                         "image_ratio": "square",
                         "width": "fill",
-                        "custom_width": 100,
+                        "custom_width": 25,
                         "width_mobile": "fill",
                         "custom_width_mobile": 100,
-                        "height": "fit",
+                        "height": "fill",
                         "border": "none",
                         "border_width": 1,
                         "border_opacity": 100,
@@ -848,7 +848,7 @@
                     }
                   },
                   "block_order": [
-                    "image_TfVWPd"
+                    "image_PqFQrL"
                   ]
                 },
                 "group_PWwrhV": {
@@ -861,8 +861,8 @@
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "flex-start",
-                    "gap": 8,
+                    "vertical_alignment_flex_direction_column": "space-between",
+                    "gap": 0,
                     "width": "custom",
                     "custom_width": 75,
                     "width_mobile": "fill",
@@ -891,6 +891,20 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
+                    "spacer_LWmUkB": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": true,
+                        "size_mobile": "pixel",
+                        "percent_size_mobile": 0,
+                        "pixel_size_mobile": 0
+                      },
+                      "blocks": {}
+                    },
                     "group_giUchr": {
                       "type": "group",
                       "name": "Header",
@@ -901,13 +915,13 @@
                         "vertical_alignment": "center",
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "center",
+                        "vertical_alignment_flex_direction_column": "flex-start",
                         "gap": 4,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
                         "custom_width_mobile": 100,
-                        "height": "fill",
+                        "height": "fit",
                         "custom_height": 100,
                         "background_media": "none",
                         "background_color": "",
@@ -939,7 +953,7 @@
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
-                            "type_preset": "rte",
+                            "type_preset": "h4",
                             "font": "var(--font-body--family)",
                             "font_size": "1rem",
                             "line_height": "normal",
@@ -988,6 +1002,20 @@
                         "text_LGa6jK",
                         "text_F7r9qX"
                       ]
+                    },
+                    "spacer_CYED99": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": true,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 0,
+                        "pixel_size_mobile": 0
+                      },
+                      "blocks": {}
                     },
                     "group_6PAc4q": {
                       "type": "group",
@@ -1089,13 +1117,15 @@
                     }
                   },
                   "block_order": [
+                    "spacer_LWmUkB",
                     "group_giUchr",
+                    "spacer_CYED99",
                     "group_6PAc4q"
                   ]
                 }
               },
               "block_order": [
-                "group_nbPGz7",
+                "group_kgkfAR",
                 "group_PWwrhV"
               ]
             },
@@ -1208,8 +1238,8 @@
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "flex-start",
-                    "gap": 8,
+                    "vertical_alignment_flex_direction_column": "space-between",
+                    "gap": 0,
                     "width": "custom",
                     "custom_width": 75,
                     "width_mobile": "fill",
@@ -1238,6 +1268,20 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
+                    "spacer_TB3dwx": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": true,
+                        "size_mobile": "pixel",
+                        "percent_size_mobile": 0,
+                        "pixel_size_mobile": 0
+                      },
+                      "blocks": {}
+                    },
                     "group_Xpp7x9": {
                       "type": "group",
                       "name": "Header",
@@ -1248,13 +1292,13 @@
                         "vertical_alignment": "center",
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "center",
+                        "vertical_alignment_flex_direction_column": "flex-start",
                         "gap": 4,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
                         "custom_width_mobile": 100,
-                        "height": "fill",
+                        "height": "fit",
                         "custom_height": 100,
                         "background_media": "none",
                         "background_color": "",
@@ -1286,7 +1330,7 @@
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
-                            "type_preset": "rte",
+                            "type_preset": "h4",
                             "font": "var(--font-body--family)",
                             "font_size": "1rem",
                             "line_height": "normal",
@@ -1335,6 +1379,20 @@
                         "text_KxrL9B",
                         "text_dEXA6B"
                       ]
+                    },
+                    "spacer_bCH6fU": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": true,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 0,
+                        "pixel_size_mobile": 0
+                      },
+                      "blocks": {}
                     },
                     "group_U9PikB": {
                       "type": "group",
@@ -1436,7 +1494,9 @@
                     }
                   },
                   "block_order": [
+                    "spacer_TB3dwx",
                     "group_Xpp7x9",
+                    "spacer_bCH6fU",
                     "group_U9PikB"
                   ]
                 }
@@ -1555,8 +1615,8 @@
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "flex-start",
-                    "gap": 8,
+                    "vertical_alignment_flex_direction_column": "space-between",
+                    "gap": 0,
                     "width": "custom",
                     "custom_width": 75,
                     "width_mobile": "fill",
@@ -1585,6 +1645,20 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
+                    "spacer_ni3kVa": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": true,
+                        "size_mobile": "pixel",
+                        "percent_size_mobile": 0,
+                        "pixel_size_mobile": 0
+                      },
+                      "blocks": {}
+                    },
                     "group_zTrCWC": {
                       "type": "group",
                       "name": "Header",
@@ -1595,13 +1669,13 @@
                         "vertical_alignment": "center",
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "center",
+                        "vertical_alignment_flex_direction_column": "flex-start",
                         "gap": 4,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
                         "custom_width_mobile": 100,
-                        "height": "fill",
+                        "height": "fit",
                         "custom_height": 100,
                         "background_media": "none",
                         "background_color": "",
@@ -1633,7 +1707,7 @@
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
-                            "type_preset": "rte",
+                            "type_preset": "h4",
                             "font": "var(--font-body--family)",
                             "font_size": "1rem",
                             "line_height": "normal",
@@ -1682,6 +1756,20 @@
                         "text_Vjkcbb",
                         "text_yC6Tmp"
                       ]
+                    },
+                    "spacer_EArcRF": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": true,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 0,
+                        "pixel_size_mobile": 0
+                      },
+                      "blocks": {}
                     },
                     "group_g68QBf": {
                       "type": "group",
@@ -1783,7 +1871,9 @@
                     }
                   },
                   "block_order": [
+                    "spacer_ni3kVa",
                     "group_zTrCWC",
+                    "spacer_EArcRF",
                     "group_g68QBf"
                   ]
                 }
@@ -1902,8 +1992,8 @@
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "flex-start",
-                    "gap": 8,
+                    "vertical_alignment_flex_direction_column": "space-between",
+                    "gap": 0,
                     "width": "custom",
                     "custom_width": 75,
                     "width_mobile": "fill",
@@ -1932,6 +2022,20 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
+                    "spacer_JABJr3": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": true,
+                        "size_mobile": "pixel",
+                        "percent_size_mobile": 0,
+                        "pixel_size_mobile": 0
+                      },
+                      "blocks": {}
+                    },
                     "group_mqTQ3N": {
                       "type": "group",
                       "name": "Header",
@@ -1942,13 +2046,13 @@
                         "vertical_alignment": "center",
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "center",
+                        "vertical_alignment_flex_direction_column": "flex-start",
                         "gap": 4,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
                         "custom_width_mobile": 100,
-                        "height": "fill",
+                        "height": "fit",
                         "custom_height": 100,
                         "background_media": "none",
                         "background_color": "",
@@ -1976,11 +2080,11 @@
                           "type": "text",
                           "name": "t:names.heading",
                           "settings": {
-                            "text": "<p>{{ metaobjects.health_goal[\"hormones-vitality\"].name.value }}</p>",
+                            "text": "<h3>{{ metaobjects.health_goal[\"hormones-vitality\"].name.value }}</h3>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
-                            "type_preset": "rte",
+                            "type_preset": "h4",
                             "font": "var(--font-body--family)",
                             "font_size": "1rem",
                             "line_height": "normal",
@@ -2029,6 +2133,20 @@
                         "text_HCdC8d",
                         "text_eiYr36"
                       ]
+                    },
+                    "spacer_mgzj4U": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": true,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 0,
+                        "pixel_size_mobile": 0
+                      },
+                      "blocks": {}
                     },
                     "group_JzmePT": {
                       "type": "group",
@@ -2130,7 +2248,9 @@
                     }
                   },
                   "block_order": [
+                    "spacer_JABJr3",
                     "group_mqTQ3N",
+                    "spacer_mgzj4U",
                     "group_JzmePT"
                   ]
                 }
@@ -2249,8 +2369,8 @@
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "flex-start",
-                    "gap": 8,
+                    "vertical_alignment_flex_direction_column": "space-between",
+                    "gap": 0,
                     "width": "custom",
                     "custom_width": 75,
                     "width_mobile": "fill",
@@ -2279,6 +2399,20 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
+                    "spacer_3tEQD9": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": true,
+                        "size_mobile": "pixel",
+                        "percent_size_mobile": 0,
+                        "pixel_size_mobile": 0
+                      },
+                      "blocks": {}
+                    },
                     "group_Wp9ibX": {
                       "type": "group",
                       "name": "Header",
@@ -2289,13 +2423,13 @@
                         "vertical_alignment": "center",
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "center",
+                        "vertical_alignment_flex_direction_column": "flex-start",
                         "gap": 4,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
                         "custom_width_mobile": 100,
-                        "height": "fill",
+                        "height": "fit",
                         "custom_height": 100,
                         "background_media": "none",
                         "background_color": "",
@@ -2323,11 +2457,11 @@
                           "type": "text",
                           "name": "t:names.heading",
                           "settings": {
-                            "text": "<p>{{ metaobjects.health_goal[\"immune-repair\"].name.value }}</p>",
+                            "text": "<h3>{{ metaobjects.health_goal[\"immune-repair\"].name.value }}</h3>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
-                            "type_preset": "rte",
+                            "type_preset": "h4",
                             "font": "var(--font-body--family)",
                             "font_size": "1rem",
                             "line_height": "normal",
@@ -2376,6 +2510,20 @@
                         "text_dfxr4K",
                         "text_7CCH6G"
                       ]
+                    },
+                    "spacer_bKRpxQ": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": true,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 0,
+                        "pixel_size_mobile": 0
+                      },
+                      "blocks": {}
                     },
                     "group_pCFgxd": {
                       "type": "group",
@@ -2477,7 +2625,9 @@
                     }
                   },
                   "block_order": [
+                    "spacer_3tEQD9",
                     "group_Wp9ibX",
+                    "spacer_bKRpxQ",
                     "group_pCFgxd"
                   ]
                 }
@@ -2596,8 +2746,8 @@
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "flex-start",
-                    "gap": 8,
+                    "vertical_alignment_flex_direction_column": "space-between",
+                    "gap": 0,
                     "width": "custom",
                     "custom_width": 75,
                     "width_mobile": "fill",
@@ -2626,6 +2776,20 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
+                    "spacer_jjdqHa": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": true,
+                        "size_mobile": "pixel",
+                        "percent_size_mobile": 0,
+                        "pixel_size_mobile": 0
+                      },
+                      "blocks": {}
+                    },
                     "group_TyFAQW": {
                       "type": "group",
                       "name": "Header",
@@ -2636,13 +2800,13 @@
                         "vertical_alignment": "center",
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "center",
+                        "vertical_alignment_flex_direction_column": "flex-start",
                         "gap": 4,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
                         "custom_width_mobile": 100,
-                        "height": "fill",
+                        "height": "fit",
                         "custom_height": 100,
                         "background_media": "none",
                         "background_color": "",
@@ -2670,11 +2834,11 @@
                           "type": "text",
                           "name": "t:names.heading",
                           "settings": {
-                            "text": "<p>{{ metaobjects.health_goal[\"strength-mobility\"].name.value }}</p>",
+                            "text": "<h3>{{ metaobjects.health_goal[\"strength-mobility\"].name.value }}</h3>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
-                            "type_preset": "rte",
+                            "type_preset": "h4",
                             "font": "var(--font-body--family)",
                             "font_size": "1rem",
                             "line_height": "normal",
@@ -2723,6 +2887,20 @@
                         "text_tRcgUw",
                         "text_Q89ie7"
                       ]
+                    },
+                    "spacer_GTcBJk": {
+                      "type": "spacer",
+                      "name": "t:names.spacer",
+                      "settings": {
+                        "size": "percent",
+                        "percent_size": 100,
+                        "pixel_size": 120,
+                        "custom_mobile_size": true,
+                        "size_mobile": "percent",
+                        "percent_size_mobile": 0,
+                        "pixel_size_mobile": 0
+                      },
+                      "blocks": {}
                     },
                     "group_68i4FP": {
                       "type": "group",
@@ -2824,7 +3002,9 @@
                     }
                   },
                   "block_order": [
+                    "spacer_jjdqHa",
                     "group_TyFAQW",
+                    "spacer_GTcBJk",
                     "group_68i4FP"
                   ]
                 }
@@ -3907,7 +4087,7 @@
                 "align_baseline": true,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "space-between",
-                "gap": 16,
+                "gap": 0,
                 "width": "custom",
                 "custom_width": 62,
                 "width_mobile": "fill",
@@ -3936,6 +4116,20 @@
                 "padding-inline-end": 16
               },
               "blocks": {
+                "spacer_WpY6nz": {
+                  "type": "spacer",
+                  "name": "t:names.spacer",
+                  "settings": {
+                    "size": "percent",
+                    "percent_size": 60,
+                    "pixel_size": 120,
+                    "custom_mobile_size": false,
+                    "size_mobile": "percent",
+                    "percent_size_mobile": 100,
+                    "pixel_size_mobile": 120
+                  },
+                  "blocks": {}
+                },
                 "group_deCcc7": {
                   "type": "group",
                   "name": "Heading",
@@ -3947,12 +4141,12 @@
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "flex-end",
-                    "gap": 12,
+                    "gap": 0,
                     "width": "custom",
-                    "custom_width": 96,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "custom",
+                    "custom_width": 90,
+                    "width_mobile": "custom",
+                    "custom_width_mobile": 90,
+                    "height": "fit",
                     "custom_height": 62,
                     "background_media": "none",
                     "background_color": "",
@@ -3970,7 +4164,7 @@
                     "link": "",
                     "open_in_new_tab": false,
                     "placeholder": "",
-                    "padding-block-start": 16,
+                    "padding-block-start": 0,
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
@@ -3997,6 +4191,20 @@
                     "jumbo_text_jfYHtR"
                   ]
                 },
+                "spacer_kkrANN": {
+                  "type": "spacer",
+                  "name": "t:names.spacer",
+                  "settings": {
+                    "size": "percent",
+                    "percent_size": 40,
+                    "pixel_size": 120,
+                    "custom_mobile_size": true,
+                    "size_mobile": "percent",
+                    "percent_size_mobile": 0,
+                    "pixel_size_mobile": 20
+                  },
+                  "blocks": {}
+                },
                 "text_myBFU6": {
                   "type": "text",
                   "name": "Paragraph",
@@ -4016,17 +4224,34 @@
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
-                    "padding-block-start": 0,
+                    "padding-block-start": 16,
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
                   "blocks": {}
+                },
+                "spacer_jJNKQN": {
+                  "type": "spacer",
+                  "name": "t:names.spacer",
+                  "settings": {
+                    "size": "pixel",
+                    "percent_size": 10,
+                    "pixel_size": 32,
+                    "custom_mobile_size": true,
+                    "size_mobile": "pixel",
+                    "percent_size_mobile": 0,
+                    "pixel_size_mobile": 0
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
+                "spacer_WpY6nz",
                 "group_deCcc7",
-                "text_myBFU6"
+                "spacer_kkrANN",
+                "text_myBFU6",
+                "spacer_jJNKQN"
               ]
             }
           },
@@ -4034,10 +4259,25 @@
             "group_cRDMWq",
             "group_etgLWA"
           ]
+        },
+        "spacer_WP7eKR": {
+          "type": "spacer",
+          "name": "t:names.spacer",
+          "settings": {
+            "size": "pixel",
+            "percent_size": 100,
+            "pixel_size": 60,
+            "custom_mobile_size": true,
+            "size_mobile": "percent",
+            "percent_size_mobile": 0,
+            "pixel_size_mobile": 120
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "group_FcFNbH"
+        "group_FcFNbH",
+        "spacer_WP7eKR"
       ],
       "custom_css": [
         "div > jumbo-text {max-width: 625px;}"
@@ -4051,9 +4291,9 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 80,
+        "gap": 0,
         "section_width": "full-width",
-        "section_height": "",
+        "section_height": "small",
         "section_height_custom": 100,
         "background_media": "none",
         "background_color": "{{ settings.color_palette.orange15 }}",
@@ -4074,7 +4314,7 @@
         "border_radius_bottom_right": 0,
         "border_radius_bottom_left": 0,
         "padding-block-start": 0,
-        "padding-block-end": 60
+        "padding-block-end": 0
       }
     },
     "carousel_W7LdFW": {
@@ -4156,7 +4396,7 @@
                 "divider_color": "#edeadf",
                 "width_percent": 100,
                 "padding-block-start": 24,
-                "padding-block-end": 40
+                "padding-block-end": 24
               },
               "blocks": {}
             }
@@ -7282,7 +7522,7 @@
                 "divider_color": "#edeadf",
                 "width_percent": 100,
                 "padding-block-start": 24,
-                "padding-block-end": 40
+                "padding-block-end": 24
               },
               "blocks": {}
             }
@@ -8430,7 +8670,7 @@
                 "align_baseline": true,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "space-between",
-                "gap": 16,
+                "gap": 0,
                 "width": "fill",
                 "custom_width": 62,
                 "width_mobile": "fill",
@@ -8459,6 +8699,20 @@
                 "padding-inline-end": 16
               },
               "blocks": {
+                "spacer_9h74tp": {
+                  "type": "spacer",
+                  "name": "t:names.spacer",
+                  "settings": {
+                    "size": "percent",
+                    "percent_size": 60,
+                    "pixel_size": 120,
+                    "custom_mobile_size": false,
+                    "size_mobile": "percent",
+                    "percent_size_mobile": 100,
+                    "pixel_size_mobile": 120
+                  },
+                  "blocks": {}
+                },
                 "group_tH3CDt": {
                   "type": "group",
                   "name": "Heading",
@@ -8472,11 +8726,11 @@
                     "vertical_alignment_flex_direction_column": "center",
                     "gap": 0,
                     "width": "custom",
-                    "custom_width": 96,
+                    "custom_width": 90,
                     "width_mobile": "custom",
                     "custom_width_mobile": 75,
                     "height": "fill",
-                    "custom_height": 62,
+                    "custom_height": 50,
                     "background_media": "none",
                     "background_color": "",
                     "video_position": "cover",
@@ -8499,20 +8753,6 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "spacer_hmiinf": {
-                      "type": "spacer",
-                      "name": "t:names.spacer",
-                      "settings": {
-                        "size": "percent",
-                        "percent_size": 40,
-                        "pixel_size": 120,
-                        "custom_mobile_size": false,
-                        "size_mobile": "percent",
-                        "percent_size_mobile": 100,
-                        "pixel_size_mobile": 120
-                      },
-                      "blocks": {}
-                    },
                     "group_TLPTfW": {
                       "type": "group",
                       "name": "Top",
@@ -8624,7 +8864,7 @@
                       "name": "t:names.spacer",
                       "settings": {
                         "size": "percent",
-                        "percent_size": 5,
+                        "percent_size": 25,
                         "pixel_size": 16,
                         "custom_mobile_size": true,
                         "size_mobile": "percent",
@@ -8744,7 +8984,7 @@
                       "name": "t:names.spacer",
                       "settings": {
                         "size": "percent",
-                        "percent_size": 5,
+                        "percent_size": 25,
                         "pixel_size": 16,
                         "custom_mobile_size": true,
                         "size_mobile": "percent",
@@ -8858,37 +9098,35 @@
                       "block_order": [
                         "group_bFWLdj"
                       ]
-                    },
-                    "spacer_eNxFQq": {
-                      "type": "spacer",
-                      "name": "t:names.spacer",
-                      "settings": {
-                        "size": "percent",
-                        "percent_size": 40,
-                        "pixel_size": 120,
-                        "custom_mobile_size": false,
-                        "size_mobile": "percent",
-                        "percent_size_mobile": 100,
-                        "pixel_size_mobile": 120
-                      },
-                      "blocks": {}
                     }
                   },
                   "block_order": [
-                    "spacer_hmiinf",
                     "group_TLPTfW",
                     "spacer_jKmq8a",
                     "group_NareBf",
                     "spacer_9jLikm",
-                    "group_h6R7H4",
-                    "spacer_eNxFQq"
+                    "group_h6R7H4"
                   ]
+                },
+                "spacer_pqHtpb": {
+                  "type": "spacer",
+                  "name": "t:names.spacer",
+                  "settings": {
+                    "size": "percent",
+                    "percent_size": 50,
+                    "pixel_size": 120,
+                    "custom_mobile_size": false,
+                    "size_mobile": "percent",
+                    "percent_size_mobile": 100,
+                    "pixel_size_mobile": 120
+                  },
+                  "blocks": {}
                 },
                 "text_kUEeMi": {
                   "type": "text",
                   "name": "Paragraph",
                   "settings": {
-                    "text": "<p>Every supplement in this catalog has been clinician-recommended and used by real patients as part of their care. Whether you're restocking or exploring options, you're not starting from scratch. </p>",
+                    "text": "<p>Every supplement in our catalog has been clinician-recommended and used by real patients as part of their care. Whether you're restocking or exploring options, you're not starting from scratch. </p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -8903,17 +9141,34 @@
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
-                    "padding-block-start": 0,
+                    "padding-block-start": 16,
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
                   "blocks": {}
+                },
+                "spacer_qmWjdk": {
+                  "type": "spacer",
+                  "name": "t:names.spacer",
+                  "settings": {
+                    "size": "pixel",
+                    "percent_size": 10,
+                    "pixel_size": 32,
+                    "custom_mobile_size": true,
+                    "size_mobile": "percent",
+                    "percent_size_mobile": 0,
+                    "pixel_size_mobile": 120
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
+                "spacer_9h74tp",
                 "group_tH3CDt",
-                "text_kUEeMi"
+                "spacer_pqHtpb",
+                "text_kUEeMi",
+                "spacer_qmWjdk"
               ]
             }
           },
@@ -8921,25 +9176,10 @@
             "group_CV87ze",
             "group_MYX7hT"
           ]
-        },
-        "spacer_3JJmxk": {
-          "type": "spacer",
-          "name": "t:names.spacer",
-          "settings": {
-            "size": "percent",
-            "percent_size": 0,
-            "pixel_size": 120,
-            "custom_mobile_size": false,
-            "size_mobile": "percent",
-            "percent_size_mobile": 100,
-            "pixel_size_mobile": 120
-          },
-          "blocks": {}
         }
       },
       "block_order": [
-        "group_FQWgVF",
-        "spacer_3JJmxk"
+        "group_FQWgVF"
       ],
       "custom_css": [
         "div > jumbo-text {max-width: 600px;}"
@@ -8953,9 +9193,9 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "flex-start",
-        "gap": 80,
+        "gap": 0,
         "section_width": "full-width",
-        "section_height": "",
+        "section_height": "small",
         "section_height_custom": 50,
         "background_media": "none",
         "background_color": "{{ settings.color_palette.orange15 }}",
@@ -8976,7 +9216,7 @@
         "border_radius_bottom_right": 0,
         "border_radius_bottom_left": 0,
         "padding-block-start": 0,
-        "padding-block-end": 40
+        "padding-block-end": 80
       }
     }
   },
