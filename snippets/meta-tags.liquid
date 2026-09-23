@@ -17,6 +17,16 @@
   name="theme-color"
   content=""
 >
+{% comment %}
+  Keeps the store out of search engine indexes while still allowing crawling,
+  so shared links keep rendering and link-preview bots can still read the
+  Open Graph/Twitter tags below. See templates/robots.txt.liquid for why this
+  isn't handled via robots.txt.
+{% endcomment %}
+<meta
+  name="robots"
+  content="noindex, follow"
+>
 
 {%- liquid
   assign og_title = page_title | default: shop.name

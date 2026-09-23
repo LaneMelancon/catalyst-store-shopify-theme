@@ -1,0 +1,21 @@
+{% comment %}
+  Passthrough of Shopify's dynamic default crawl rules (robots.default_groups),
+  kept in version control as a customization point for crawler-specific rules.
+
+  robots.txt only controls crawling, not search-engine indexing — a page can
+  still be indexed if discovered through an external link even when crawling
+  is blocked here. To keep pages out of search results, this theme sets a
+  sitewide `noindex` meta tag in snippets/meta-tags.liquid instead. Crawling
+  stays open so link previews and future SEO tooling keep working.
+{% endcomment %}
+{%- for group in robots.default_groups -%}
+  {{- group.user_agent }}
+
+  {%- for rule in group.rules -%}
+    {{ rule }}
+  {%- endfor -%}
+
+  {%- if group.sitemap != blank -%}
+    {{ group.sitemap }}
+  {%- endif -%}
+{% endfor -%}
