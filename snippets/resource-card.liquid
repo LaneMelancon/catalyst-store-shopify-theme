@@ -153,7 +153,6 @@
     <p class="resource-card__title{% if style == 'overlay' %} h5{%else %} paragraph{% endif %}">
       {{- resource.title -}}
     </p>
-
     {% if resource_type == 'product' %}
       {% render 'price', product_resource: resource, show_unit_price: true %}
     {% elsif resource_type == 'collection' and single_thumbnail_collection == false %}
@@ -204,7 +203,8 @@
     gap: var(--padding-3xs);
 
     .price {
-      font-weight: 500;
+      font-weight: 400;
+      font-size: 14px;
     }
 
     .volume-pricing-note {

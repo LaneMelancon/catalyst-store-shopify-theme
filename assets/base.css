@@ -3362,7 +3362,7 @@ fly-to-cart.fly-to-cart--sticky {
   }
 
   @media screen and (min-width: 990px) {
-    --facets-vertical-col-width: 5;
+    --facets-vertical-col-width: 4;
   }
 }
 

@@ -43,9 +43,9 @@
             "width": "custom",
             "custom_width": 40,
             "input_style": "custom",
-            "input_background_color": "#fafafa",
+            "input_background_color": "{{ settings.color_palette.background }}",
             "input_text_color": "{{ settings.color_palette.foreground }}",
-            "input_border_color": "#e6e9e7",
+            "input_border_color": "#e8edea",
             "border_width": 1,
             "border_radius": 50
           },
@@ -66,8 +66,8 @@
       "type": "divider",
       "name": "t:names.divider_section",
       "settings": {
-        "background_color": "#f9faf9",
-        "divider_color": "#e6e9e7",
+        "background_color": "",
+        "divider_color": "#f5f2e8",
         "section_width": "full-width",
         "thickness": 1,
         "corner_radius": "square",
@@ -109,11 +109,11 @@
           "name": "Product Card",
           "static": true,
           "settings": {
-            "product_card_gap": 10,
-            "background_color": "#f3f4f3",
+            "product_card_gap": 0,
+            "background_color": "#f9faf9",
             "border": "solid",
             "border_width": 1,
-            "border_opacity": 8,
+            "border_opacity": 6,
             "border_color": "",
             "border_radius": 14,
             "padding-block-start": 12,
@@ -150,7 +150,7 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 6,
+                "gap": 3,
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
@@ -174,8 +174,8 @@
                 "open_in_new_tab": false,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
-                "padding-inline-start": 8,
-                "padding-inline-end": 8
+                "padding-inline-start": 6,
+                "padding-inline-end": 6
               },
               "blocks": {
                 "text_NjAHEB": {
@@ -188,7 +188,7 @@
                     "alignment": "left",
                     "type_preset": "custom",
                     "font": "var(--font-body--family)",
-                    "font_size": "0.875rem",
+                    "font_size": "0.75rem",
                     "line_height": "normal",
                     "letter_spacing": "normal",
                     "case": "none",
@@ -211,7 +211,7 @@
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "h3",
+                    "type_preset": "paragraph",
                     "font": "var(--font-heading--family)",
                     "font_size": "1.125rem",
                     "line_height": "normal",
@@ -235,11 +235,11 @@
                     "show_sale_price_first": true,
                     "show_installments": false,
                     "show_tax_info": false,
-                    "type_preset": "",
+                    "type_preset": "custom",
                     "width": "fit-content",
                     "alignment": "center",
                     "font": "var(--font-body--family)",
-                    "font_size": "1rem",
+                    "font_size": "0.875rem",
                     "line_height": "normal",
                     "letter_spacing": "normal",
                     "case": "none",
@@ -417,14 +417,14 @@
       },
       "custom_css": [
         "/* Sort Label */.facets__summary {font-size: 14px; line-height: 1.1; color: #e6e9e7;}",
-        "/* Layout Options */fieldset.column-options {flex-wrap: nowrap;}"
+        " /* Layout Options */fieldset.column-options {flex-wrap: nowrap;}"
       ],
       "name": "Search Results",
       "settings": {
         "layout_type": "grid",
-        "product_card_size": "large",
+        "product_card_size": "medium",
         "mobile_product_card_size": "small",
-        "enable_infinite_scroll": true,
+        "enable_infinite_scroll": false,
         "products_per_page": 24,
         "product_grid_width": "centered",
         "full_width_on_mobile": true,
@@ -432,7 +432,7 @@
         "columns_gap_vertical": 16,
         "padding-inline-start": 0,
         "padding-inline-end": 0,
-        "background_color": "#f9faf9",
+        "background_color": "{{ settings.color_palette.background }}",
         "padding-block-start": 40,
         "padding-block-end": 40
       }

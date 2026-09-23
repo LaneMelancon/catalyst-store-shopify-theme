@@ -96,7 +96,7 @@
                 "link": "",
                 "open_in_new_tab": false,
                 "placeholder": "",
-                "padding-block-start": 0,
+                "padding-block-start": 2,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -113,7 +113,7 @@
                     "type_preset": "custom",
                     "font": "var(--font-body--family)",
                     "font_size": "0.75rem",
-                    "line_height": "normal",
+                    "line_height": "tight",
                     "letter_spacing": "normal",
                     "case": "none",
                     "wrap": "pretty",
@@ -268,7 +268,7 @@
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "pretty",
-                            "text_color": "{{ settings.color_palette.green100 }}",
+                            "text_color": "{{ settings.color_palette.green200 }}",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -292,7 +292,7 @@
                             "input_style": "custom",
                             "border_width": 1,
                             "border_radius": 100,
-                            "input_background_color": "{{ settings.color_palette.green25 }}",
+                            "input_background_color": "{{ settings.color_palette.orange15 }}",
                             "input_text_color": "{{ settings.color_palette.foreground }}",
                             "input_border_color": "",
                             "input_type_preset": "",
@@ -332,7 +332,7 @@
                             "text": "<p>By subscribing you agree to our <a href=\"/policies/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">Privacy Policy</a>.</p>",
                             "width": "100%",
                             "max_width": "normal",
-                            "alignment": "left",
+                            "alignment": "center",
                             "type_preset": "custom",
                             "font": "var(--font-body--family)",
                             "font_size": "0.75rem",
@@ -409,7 +409,7 @@
                             "align_baseline": false,
                             "horizontal_alignment_flex_direction_column": "flex-start",
                             "vertical_alignment_flex_direction_column": "center",
-                            "gap": 8,
+                            "gap": 6,
                             "width": "fill",
                             "custom_width": 80,
                             "width_mobile": "fit-content",
@@ -458,7 +458,7 @@
                                 "background_color": "#00000026",
                                 "corner_radius": 0,
                                 "padding-block-start": 0,
-                                "padding-block-end": 0,
+                                "padding-block-end": 2,
                                 "padding-inline-start": 0,
                                 "padding-inline-end": 0
                               },
@@ -483,11 +483,20 @@
                                 "padding-inline-end": 0
                               },
                               "blocks": {}
+                            },
+                            "custom_liquid_XxgQ4g": {
+                              "type": "custom-liquid",
+                              "name": "t:names.custom_liquid",
+                              "settings": {
+                                "custom_liquid": "{% if customer %}\n<nav class=\"details-content\" aria-label=\"Profile\">\n<ul class=\"list-unstyled\">\n<li class=\"menu__item\">\n<a href=\"/account\">My Profile</a>\n</li>\n</ul>\n</nav>\n{% else %}\n<nav class=\"details-content\" aria-label=\"Login\">\n<ul class=\"list-unstyled\">\n<li class=\"menu__item\">\n<a href=\"/account/login\">Login</a>\n</li>\n</ul>\n</nav>\n{% endif %}"
+                              },
+                              "blocks": {}
                             }
                           },
                           "block_order": [
                             "text_7feGeM",
-                            "menu_88qtzX"
+                            "menu_88qtzX",
+                            "custom_liquid_XxgQ4g"
                           ]
                         },
                         "group_EbK8rt": {
@@ -501,7 +510,7 @@
                             "align_baseline": false,
                             "horizontal_alignment_flex_direction_column": "flex-start",
                             "vertical_alignment_flex_direction_column": "center",
-                            "gap": 8,
+                            "gap": 6,
                             "width": "fill",
                             "custom_width": 100,
                             "width_mobile": "fit-content",
@@ -550,7 +559,7 @@
                                 "background_color": "#00000026",
                                 "corner_radius": 0,
                                 "padding-block-start": 0,
-                                "padding-block-end": 0,
+                                "padding-block-end": 2,
                                 "padding-inline-start": 0,
                                 "padding-inline-end": 0
                               },
@@ -1066,7 +1075,7 @@
                                   "type": "menu",
                                   "name": "t:names.menu",
                                   "settings": {
-                                    "menu": "footer-terms-conditions",
+                                    "menu": "footer-terms-service",
                                     "heading": "",
                                     "menu_spacing": 0,
                                     "show_as_accordion": false,
@@ -1217,7 +1226,7 @@
         "section_width": "page-width",
         "gap": 12,
         "background_color": "{{ settings.color_palette.orange15 }}",
-        "padding-block-start": 0,
+        "padding-block-start": 32,
         "padding-block-end": 24
       }
     }

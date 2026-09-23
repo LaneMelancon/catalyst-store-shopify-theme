@@ -19,7 +19,7 @@
             "text": "<h1>{{ closest.page.title }}</h1>",
             "width": "100%",
             "max_width": "normal",
-            "alignment": "left",
+            "alignment": "center",
             "type_preset": "h2",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
@@ -38,24 +38,69 @@
           },
           "blocks": {}
         },
-        "page-content": {
-          "type": "page-content",
+        "contact_form_8rcHgz": {
+          "type": "contact-form",
           "settings": {
-            "text_color": ""
+            "width": "custom",
+            "custom_width": 100,
+            "width_mobile": "custom",
+            "custom_width_mobile": 100,
+            "background_color": "",
+            "input_style": "custom",
+            "input_background_color": "{{ settings.color_palette.background }}",
+            "input_text_color": "{{ settings.color_palette.foreground }}",
+            "input_border_color": "#E8EDEA",
+            "border_width": 1,
+            "border_radius": 8,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "submit-button": {
+              "type": "contact-form-submit-button",
+              "static": true,
+              "settings": {
+                "label": "Submit",
+                "style_class": "button",
+                "custom_button_background": "{{ settings.color_palette.foreground }}",
+                "custom_button_border_style": "none",
+                "custom_button_border_width": 1,
+                "custom_button_border_opacity": 100,
+                "custom_button_border": "{{ settings.color_palette.background }}",
+                "custom_button_corner_radius": 100,
+                "custom_button_font": "",
+                "custom_button_font_size": "",
+                "custom_button_line_height": "",
+                "custom_button_letter_spacing": "",
+                "custom_button_case": "",
+                "custom_button_text": "{{ settings.color_palette.background }}",
+                "custom_button_padding_block_start": 16,
+                "custom_button_padding_block_end": 16,
+                "custom_button_padding_inline_start": 24,
+                "custom_button_padding_inline_end": 24,
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": []
         }
       },
       "block_order": [
         "heading",
-        "page-content"
+        "contact_form_8rcHgz"
       ],
       "settings": {
         "content_direction": "column",
         "gap": 32,
-        "background_color": "{{ settings.color_palette.background }}",
-        "padding-block-start": 40,
-        "padding-block-end": 80
+        "background_color": "{{ settings.color_palette.orange15 }}",
+        "padding-block-start": 100,
+        "padding-block-end": 60
       }
     }
   },

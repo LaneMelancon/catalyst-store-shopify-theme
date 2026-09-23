@@ -597,7 +597,7 @@
   .predictive-search-results__wrapper-products {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-block-end: var(--padding-sm);
+    padding-block-end: var(--padding-md); 
     gap: var(--gap-md);
     transition: height var(--animation-speed-medium) var(--animation-easing);
 
@@ -607,10 +607,10 @@
   }
 
   .predictive-search-results__wrapper-products:last-child {
-    padding-block-end: var(--padding-lg);
+    padding-block-end: var(--padding-md);
 
     @media screen and (min-width: 750px) {
-      padding-block-end: var(--padding-sm);
+      padding-block-end: var(--padding-lg);
     }
   }
 
