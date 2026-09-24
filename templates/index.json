@@ -598,7 +598,7 @@
         "gap": 0,
         "section_width": "page-width",
         "section_height": "custom",
-        "section_height_custom": 98,
+        "section_height_custom": 100,
         "background_color": "{{ settings.color_palette.orange15 }}",
         "toggle_overlay": false,
         "overlay_color": "#281e1833",
@@ -3146,7 +3146,7 @@
                 "width": "custom",
                 "custom_width": 85,
                 "width_mobile": "custom",
-                "custom_width_mobile": 90,
+                "custom_width_mobile": 95,
                 "height": "fit",
                 "custom_height": 100,
                 "background_media": "none",
@@ -3422,7 +3422,7 @@
                 "width": "custom",
                 "custom_width": 65,
                 "width_mobile": "custom",
-                "custom_width_mobile": 80,
+                "custom_width_mobile": 82,
                 "height": "fit",
                 "custom_height": 100,
                 "background_media": "none",
@@ -8728,7 +8728,7 @@
                                 "case": "none",
                                 "text_effect": "reveal",
                                 "animation_repeat": true,
-                                "text_color": "{{ settings.color_palette.green800 }}"
+                                "text_color": "{{ settings.color_palette.foreground }}"
                               },
                               "blocks": {}
                             }
@@ -8848,7 +8848,7 @@
                                 "case": "none",
                                 "text_effect": "reveal",
                                 "animation_repeat": true,
-                                "text_color": "{{ settings.color_palette.neutral900 }}"
+                                "text_color": "{{ settings.color_palette.foreground }}"
                               },
                               "blocks": {}
                             }
@@ -9009,7 +9009,7 @@
                   "type": "text",
                   "name": "Paragraph",
                   "settings": {
-                    "text": "<p>Every supplement in our catalog has been clinician-recommended and used by real patients as part of their care. Whether you're restocking or exploring options, you're not starting from scratch. </p>",
+                    "text": "<p>Every supplement in our catalog has been clinician-recommended and used by real patients as part of their care. Whether you're restocking or exploring options, you're not starting from scratch.&nbsp;</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
