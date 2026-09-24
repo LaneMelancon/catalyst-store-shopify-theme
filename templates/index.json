@@ -22,7 +22,7 @@
             "custom_mobile_size": true,
             "size_mobile": "percent",
             "percent_size_mobile": 20,
-            "pixel_size_mobile": 20
+            "pixel_size_mobile": 96
           },
           "blocks": {}
         },
@@ -100,7 +100,7 @@
                 "link": "",
                 "open_in_new_tab": false,
                 "placeholder": "",
-                "padding-block-start": 0,
+                "padding-block-start": 16,
                 "padding-block-end": 16,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -584,7 +584,7 @@
         "stack_media_on_mobile": false,
         "custom_mobile_media": true,
         "media_type_1_mobile": "image",
-        "image_1_mobile": "shopify://shop_images/products-arrangement-02-portrait-01-short-02.webp",
+        "image_1_mobile": "shopify://shop_images/products-arrangement-02-portrait-01-short-03.webp",
         "media_type_2_mobile": "image",
         "link": "",
         "open_in_new_tab": false,
@@ -598,7 +598,7 @@
         "gap": 0,
         "section_width": "page-width",
         "section_height": "custom",
-        "section_height_custom": 90,
+        "section_height_custom": 95,
         "background_color": "{{ settings.color_palette.orange15 }}",
         "toggle_overlay": false,
         "overlay_color": "#281e1833",
@@ -613,7 +613,7 @@
         "border_radius_bottom_right": 32,
         "border_radius_bottom_left": 32,
         "padding-block-start": 24,
-        "padding-block-end": 16
+        "padding-block-end": 24
       }
     },
     "carousel_Rx4ta6": {
@@ -3146,7 +3146,7 @@
                 "width": "custom",
                 "custom_width": 85,
                 "width_mobile": "custom",
-                "custom_width_mobile": 90,
+                "custom_width_mobile": 95,
                 "height": "fit",
                 "custom_height": 100,
                 "background_media": "none",
@@ -3422,7 +3422,7 @@
                 "width": "custom",
                 "custom_width": 65,
                 "width_mobile": "custom",
-                "custom_width_mobile": 80,
+                "custom_width_mobile": 82,
                 "height": "fit",
                 "custom_height": 100,
                 "background_media": "none",
@@ -8728,7 +8728,7 @@
                                 "case": "none",
                                 "text_effect": "reveal",
                                 "animation_repeat": true,
-                                "text_color": "{{ settings.color_palette.green800 }}"
+                                "text_color": "{{ settings.color_palette.foreground }}"
                               },
                               "blocks": {}
                             }
@@ -8848,7 +8848,7 @@
                                 "case": "none",
                                 "text_effect": "reveal",
                                 "animation_repeat": true,
-                                "text_color": "{{ settings.color_palette.neutral900 }}"
+                                "text_color": "{{ settings.color_palette.foreground }}"
                               },
                               "blocks": {}
                             }
@@ -9009,7 +9009,7 @@
                   "type": "text",
                   "name": "Paragraph",
                   "settings": {
-                    "text": "<p>Every supplement in our catalog has been clinician-recommended and used by real patients as part of their care. Whether you're restocking or exploring options, you're not starting from scratch. </p>",
+                    "text": "<p>Every supplement in our catalog has been clinician-recommended and used by real patients as part of their care. Whether you're restocking or exploring options, you're not starting from scratch.&nbsp;</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
